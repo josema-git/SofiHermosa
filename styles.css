@@ -1,41 +1,207 @@
+/* Configuración general de la página */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+    color: #333;
 }
 
+/* Estilo para la cabecera */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
     text-align: center;
 }
 
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Margen global */
 main {
-    padding: 20px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+/* Títulos secundarios */
+h2 {
+    font-size: 1.8em;
+    color: #0056b3;
+    margin-bottom: 25px;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
+/* Sección de preguntas y casos clínicos */
+#quiz, #clinical-cases {
+    background-color: #f7f9fb;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Preguntas */
+.question {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+/* Opciones de respuesta */
+.answers label {
+    display: block;
+    margin-bottom: 15px; /* Espaciado mayor entre opciones */
+    padding: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 10px; /* Borde redondeado */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse por encima */
+.answers label:hover {
+    background-color: #e0f2f1; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border: 1px solid #00796b; /* Borde más visible */
+}
+
+/* Diseño de botón */
 button {
     display: block;
     margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    padding: 12px 35px;
+    background-color: #28a745;
+    color: white;
     border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo de los resultados */
+.results {
+    margin-top: 25px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+/* Efecto de sombra suave en las cajas */
+.case, .question {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Resaltado de explicación */
+.explanation {
+    font-size: 1.1em;
+    color: #888;
+    margin-top: 10px;
+}
+
+
+/* Estilos generales que ya tienes */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+    color: #333;
+}
+
+/* Estilo para la cabecera */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 40px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Nueva sección de lista de exámenes */
+#exam-list {
+    text-align: center;
+}
+
+#exam-list h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+#exam-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#exam-list li {
+    margin: 15px 0;
+}
+
+#exam-list a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#exam-list a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
