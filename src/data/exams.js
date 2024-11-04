@@ -396,10 +396,10 @@ export const exams = {
   },
 
   CDK: {
-  id: "InsuficienciaRenalCronica",
-  title: "Examen de Insuficiencia Renal Crónica",
-  description: "Cuestionario sobre Insuficiencia Renal Crónica - Seleccione la INCORRECTA",
-  questions: [
+    id: "InsuficienciaRenalCronica",
+    title: "Examen de Insuficiencia Renal Crónica",
+    description: "Cuestionario sobre Insuficiencia Renal Crónica",
+    questions: [
       {
         question:
           "¿Cuánto tiempo debe transcurrir para considerar una enfermedad renal como crónica?",
@@ -857,9 +857,9 @@ export const exams = {
   },
 
   Fisiopatologia2: {
-    id: "Fisiopatologia 2",
-    title: "Examen de Fisiopatologia 2",
-    description: "Cuestionario de Fisiopatologia 2",
+    id: "InsuficienciaRenalAguda",
+    title: "Examen de Insuficiencia Renal aguda",
+    description: "Cuestionario sobre Insuficiencia Renal aguda",
     questions: [
       {
         question: "Sobre los criterios diagnósticos de enfermedad renal crónica, señale la INCORRECTA:",
