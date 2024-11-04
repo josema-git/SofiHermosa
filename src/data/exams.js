@@ -395,11 +395,11 @@ export const exams = {
     ],
   },
 
-  Fisiopatologia1: {
-    id: "Fisiopatologia 1",
-    title: "Examen de Fisiopatologia 1",
-    description: "Cuestionario de Fisiopatologia 1",
-    questions: [
+  CDK: {
+  id: "InsuficienciaRenalCronica",
+  title: "Examen de Insuficiencia Renal Crónica",
+  description: "Cuestionario sobre Insuficiencia Renal Crónica - Seleccione la INCORRECTA",
+  questions: [
       {
         question:
           "¿Cuánto tiempo debe transcurrir para considerar una enfermedad renal como crónica?",
@@ -410,8 +410,6 @@ export const exams = {
           d: "Más de 6 meses",
         },
         correctAnswer: "c",
-        explanation:
-          "La enfermedad renal crónica se define como aquella que dura más de 3 meses.",
       },
       {
         question: "¿Qué periodo de tiempo define a la injuria renal aguda?",
@@ -422,8 +420,6 @@ export const exams = {
           d: "Entre 3 y 6 meses",
         },
         correctAnswer: "a",
-        explanation:
-          "La injuria renal aguda se define como una pérdida súbita de función renal en ≤7 días.",
       },
       {
         question: "¿Qué periodo define a la enfermedad renal aguda?",
@@ -434,8 +430,6 @@ export const exams = {
           d: "Entre 3 y 6 meses",
         },
         correctAnswer: "b",
-        explanation:
-          "La enfermedad renal aguda se define como aquella que dura entre 7 días y 3 meses.",
       },
       {
         question:
@@ -447,8 +441,6 @@ export const exams = {
           d: "Su baja variabilidad",
         },
         correctAnswer: "b",
-        explanation:
-          "La creatinina depende de la masa muscular, lo que afecta su interpretación en diferentes poblaciones.",
       },
       {
         question:
@@ -460,8 +452,6 @@ export const exams = {
           d: "NGAL",
         },
         correctAnswer: "c",
-        explanation:
-          "La inulina es considerada el marcador ideal porque solo se filtra, sin secreción tubular.",
       },
       {
         question:
@@ -473,8 +463,6 @@ export const exams = {
           d: "No tiene limitaciones en diabéticos",
         },
         correctAnswer: "a",
-        explanation:
-          "Los cuerpos cetónicos actúan como cromógenos que pueden simular creatinina elevada falsamente.",
       },
       {
         question:
@@ -486,8 +474,6 @@ export const exams = {
           d: "No requiere ajuste por raza",
         },
         correctAnswer: "b",
-        explanation:
-          "La Cistatina C no depende de edad, sexo ni masa muscular, a diferencia de la creatinina.",
       },
       {
         question: "¿Cuál es una limitación del volumen urinario como marcador?",
@@ -498,8 +484,6 @@ export const exams = {
           d: "Es poco específico",
         },
         correctAnswer: "b",
-        explanation:
-          "Es difícil cuantificar el volumen urinario en pacientes sin sonda o sin conteo estricto.",
       },
       {
         question:
@@ -511,8 +495,6 @@ export const exams = {
           d: "≥0.5 mg/dL",
         },
         correctAnswer: "b",
-        explanation:
-          "Un aumento ≥0.3 mg/dL en 48 horas define AKI según criterios KDIGO.",
       },
       {
         question: "¿Qué volumen urinario define oliguria en AKI?",
@@ -523,8 +505,6 @@ export const exams = {
           d: "Menos de 0.6 ml/kg/h por 6 horas",
         },
         correctAnswer: "c",
-        explanation:
-          "Oliguria se define como volumen urinario menor a 0.5 ml/kg/h por 6 horas.",
       },
       {
         question: "¿Qué caracteriza el estadio 1 de AKI?",
@@ -535,8 +515,6 @@ export const exams = {
           d: "Aumento de 4 mg/dL o más",
         },
         correctAnswer: "b",
-        explanation:
-          "El estadio 1 se caracteriza por aumento de 0.3 mg/dL o 1.5-1.9 veces la basal.",
       },
       {
         question: "¿Qué define el estadio 2 de AKI?",
@@ -547,8 +525,6 @@ export const exams = {
           d: "Aumento de 0.3 mg/dL en 48h",
         },
         correctAnswer: "a",
-        explanation:
-          "El estadio 2 se caracteriza por un aumento de 2 a 2.9 veces la creatinina basal.",
       },
       {
         question: "¿Qué caracteriza el estadio 3 de AKI?",
@@ -559,8 +535,6 @@ export const exams = {
           d: "Inicio de diálisis solamente",
         },
         correctAnswer: "c",
-        explanation:
-          "El estadio 3 se caracteriza por aumento ≥3 veces la basal o creatinina ≥4mg/dL.",
       },
       {
         question: "En la AKI prerrenal, ¿qué valor tiene típicamente la FeNa?",
@@ -571,8 +545,6 @@ export const exams = {
           d: "Mayor a 3%",
         },
         correctAnswer: "b",
-        explanation:
-          "En la AKI prerrenal oligúrica, la FeNa es típicamente menor a 1%.",
       },
       {
         question:
@@ -584,8 +556,6 @@ export const exams = {
           d: "Piroptosis",
         },
         correctAnswer: "b",
-        explanation:
-          "En la NTA, el principal fenómeno de muerte celular es la apoptosis, no la necrosis.",
       },
       {
         question:
@@ -597,8 +567,6 @@ export const exams = {
           d: "Túbulo colector",
         },
         correctAnswer: "c",
-        explanation:
-          "El segmento S3 y el asa gruesa son más susceptibles por su alta demanda de ATP y menor vascularización.",
       },
       {
         question: "¿Qué caracteriza a la fase de mantenimiento de la NTA?",
@@ -609,7 +577,6 @@ export const exams = {
           d: "Variable según la causa",
         },
         correctAnswer: "b",
-        explanation: "La fase de mantenimiento típicamente dura 1-2 semanas.",
       },
       {
         question: "¿Qué ocurre con las microvellosidades en AKI prerrenal?",
@@ -620,8 +587,6 @@ export const exams = {
           d: "Aumentan en número",
         },
         correctAnswer: "c",
-        explanation:
-          "Las microvellosidades se pierden de forma reversible por déficit de ATP.",
       },
       {
         question: "¿Qué caracteriza a la AKI poliúrica en diabetes?",
@@ -632,8 +597,6 @@ export const exams = {
           d: "Osmolaridad urinaria >450",
         },
         correctAnswer: "a",
-        explanation:
-          "La AKI poliúrica diabética se caracteriza por Na urinario >20 mEq/L.",
       },
       {
         question: "¿Qué mecanismo NO está involucrado en la AKI por COVID-19?",
@@ -644,8 +607,6 @@ export const exams = {
           d: "Shock hipovolémico",
         },
         correctAnswer: "c",
-        explanation:
-          "La glomerulonefritis membranosa no es un mecanismo típico de AKI por COVID-19.",
       },
       {
         question: "¿Qué factor determina el pronóstico en AKI estadio 1?",
@@ -656,8 +617,6 @@ export const exams = {
           d: "Nivel de creatinina basal",
         },
         correctAnswer: "c",
-        explanation:
-          "El tiempo hasta el inicio del tratamiento determina la recuperación completa en estadio 1.",
       },
       {
         question: "¿Qué proceso ocurre en el 'back leakage'?",
@@ -668,8 +627,6 @@ export const exams = {
           d: "Aumento de presión tubular",
         },
         correctAnswer: "b",
-        explanation:
-          "El back leakage es el reflujo de moléculas ya filtradas de vuelta a la sangre.",
       },
       {
         question: "¿Qué caracteriza a la fase de reparación de NTA?",
@@ -680,8 +637,6 @@ export const exams = {
           d: "Máxima lesión tubular",
         },
         correctAnswer: "c",
-        explanation:
-          "La fase de reparación se caracteriza por el descenso de la creatinina.",
       },
       {
         question: "¿Qué tiempo de seguimiento se recomienda post-AKI?",
@@ -692,8 +647,6 @@ export const exams = {
           d: "6 meses",
         },
         correctAnswer: "c",
-        explanation:
-          "Se recomienda seguimiento a los 3 meses por riesgo de complicaciones.",
       },
       {
         question: "¿Qué caracteriza a la AKI postrrenal?",
@@ -704,8 +657,6 @@ export const exams = {
           d: "Apoptosis celular",
         },
         correctAnswer: "c",
-        explanation:
-          "La AKI postrrenal se caracteriza por flujo retrógrado debido a obstrucción.",
       },
       {
         question: "¿Qué determina la reversibilidad en AKI prerrenal?",
@@ -716,8 +667,6 @@ export const exams = {
           d: "El nivel de creatinina",
         },
         correctAnswer: "b",
-        explanation:
-          "La duración de la hipoperfusión determina si progresa a NTA o es reversible.",
       },
       {
         question:
@@ -729,8 +678,6 @@ export const exams = {
           d: "Transferrina",
         },
         correctAnswer: "b",
-        explanation:
-          "La proteína de Tamm-Horsfall contribuye a la obstrucción tubular en NTA.",
       },
       {
         question: "¿Qué factor NO influye en los niveles de Cistatina C?",
@@ -741,8 +688,6 @@ export const exams = {
           d: "Disfunción tiroidea",
         },
         correctAnswer: "b",
-        explanation:
-          "La masa muscular no afecta los niveles de Cistatina C, a diferencia de la creatinina.",
       },
       {
         question:
@@ -754,8 +699,6 @@ export const exams = {
           d: "Necesidad segura de diálisis",
         },
         correctAnswer: "b",
-        explanation:
-          "El estadio 2 puede tener recuperación variable, algunos quedan con AKD o ERC.",
       },
       {
         question:
@@ -767,8 +710,6 @@ export const exams = {
           d: "Presión arterial",
         },
         correctAnswer: "a",
-        explanation:
-          "Los niveles de ATP determinan si la célula progresa a muerte celular o mantiene lesión subletal.",
       },
     ],
     clinicalCases: [
@@ -929,7 +870,6 @@ export const exams = {
           d: "La hematuria microscópica sin dismorfismo siempre indica daño renal"
         },
         correctAnswer: "d",
-        explanation: "La hematuria microscópica debe ser dismórfica (con anisocitosis) para ser considerada marcador de daño renal."
       },
       {
         question: "Sobre la clasificación de la ERC según la TFG, señale la INCORRECTA:",
@@ -940,7 +880,6 @@ export const exams = {
           d: "G5: <30 ml/min/1.73m2"
         },
         correctAnswer: "d",
-        explanation: "G5 se define como TFG <15 ml/min/1.73m2, no <30."
       },
       {
         question: "Sobre la albuminuria en ERC, señale la INCORRECTA:",
@@ -951,7 +890,6 @@ export const exams = {
           d: "La albuminuria masiva se define como >1000 mg/g de ACR"
         },
         correctAnswer: "d",
-        explanation: "La albuminuria masiva (síndrome nefrótico) se define como >2200 mg/g de ACR."
       },
       {
         question: "Sobre el manejo del potasio en ERC, señale la INCORRECTA:",
@@ -962,7 +900,6 @@ export const exams = {
           d: "El catabolismo endógeno puede precipitar hipercalemia"
         },
         correctAnswer: "c",
-        explanation: "No todos los pacientes con ERC tienen aldosterona elevada; puede estar normal o baja."
       },
       {
         question: "Sobre las alteraciones hematológicas en ERC, señale la INCORRECTA:",
@@ -973,7 +910,6 @@ export const exams = {
           d: "Pueden tener mala respuesta a vacunas"
         },
         correctAnswer: "b",
-        explanation: "La anemia es típicamente normocítica normocrómica, aunque puede complicarse y volverse microcítica o megaloblástica."
       },
       {
         question: "Sobre las alteraciones endocrinas en ERC, señale la INCORRECTA:",
@@ -984,7 +920,6 @@ export const exams = {
           d: "La ACTH está elevada con cortisol normal"
         },
         correctAnswer: "c",
-        explanation: "El IGF libre está disminuido aunque el total esté elevado."
       },
       {
         question: "Sobre el manejo del calcio y fósforo en ERC, señale la INCORRECTA:",
@@ -995,7 +930,6 @@ export const exams = {
           d: "La hiperfosfatemia estimula la síntesis de PTH"
         },
         correctAnswer: "b",
-        explanation: "No todo paciente es hipocalcémico; en hiperparatiroidismo terciario pueden ser hipercalcémicos."
       },
       {
         question: "Sobre la osteodistrofia renal, señale la INCORRECTA:",
@@ -1006,7 +940,6 @@ export const exams = {
           d: "La matriz osteoide está bien formada en osteomalacia"
         },
         correctAnswer: "c",
-        explanation: "La intoxicación por aluminio causa osteomalacia, no enfermedad adinámica del hueso."
       },
       {
         question: "Sobre las calcificaciones vasculares en ERC, señale la INCORRECTA:",
@@ -1017,7 +950,6 @@ export const exams = {
           d: "La PTH alta siempre previene las calcificaciones extraóseas"
         },
         correctAnswer: "d",
-        explanation: "La PTH alta no siempre previene las calcificaciones extraóseas."
       },
       {
         question: "Sobre la acidosis metabólica en ERC, señale la INCORRECTA:",
@@ -1028,7 +960,6 @@ export const exams = {
           d: "La máxima compensación de amonio es 4 veces lo normal"
         },
         correctAnswer: "c",
-        explanation: "La acidez titulable está poco afectada, no aumenta como compensación."
       },
       {
         question: "Sobre la anemia en ERC, señale la INCORRECTA:",
@@ -1039,7 +970,6 @@ export const exams = {
           d: "Puede complicarse con deficiencia de B12 y ácido fólico"
         },
         correctAnswer: "b",
-        explanation: "La hepcidina alta puede indicar retención de hierro en macrófagos, no necesariamente deficiencia."
       },
       {
         question: "Sobre la diálisis peritoneal, señale la INCORRECTA:",
@@ -1050,7 +980,6 @@ export const exams = {
           d: "Se puede usar dextrosa al 2.5% para mayor ultrafiltración"
         },
         correctAnswer: "c",
-        explanation: "La diálisis peritoneal no corrige completamente la hiperfosfatemia."
       },
       {
         question: "Sobre las manifestaciones cardiovasculares en ERC, señale la INCORRECTA:",
@@ -1061,7 +990,6 @@ export const exams = {
           d: "Tienen mayor riesgo de enfermedad coronaria"
         },
         correctAnswer: "c",
-        explanation: "Pueden presentar edema pulmonar tanto cardiogénico como no cardiogénico."
       },
       {
         question: "Sobre los trastornos neurológicos en ERC, señale la INCORRECTA:",
@@ -1072,7 +1000,6 @@ export const exams = {
           d: "Los nervios mediano y ulnar son los más afectados en mononeuropatías"
         },
         correctAnswer: "c",
-        explanation: "El compromiso motor temprano es de mal pronóstico y puede requerir terapia de reemplazo renal."
       },
       {
         question: "Sobre el manejo del agua en ERC, señale la INCORRECTA:",
@@ -1083,7 +1010,6 @@ export const exams = {
           d: "Pueden retener agua con TFG muy baja"
         },
         correctAnswer: "b",
-        explanation: "La mayoría son hiponatrémicos debido a que ingieren más agua de la que necesitan."
       },
       {
         question: "Sobre la hemodialisis, señale la INCORRECTA:",
@@ -1094,7 +1020,6 @@ export const exams = {
           d: "Puede mejorar la HTA volumen dependiente"
         },
         correctAnswer: "c",
-        explanation: "La hemodiálisis no corrige los trastornos hormonales como deficiencia de EPO o vitamina D."
       },
       {
         question: "Sobre las alteraciones tiroideas en ERC, señale la INCORRECTA:",
@@ -1105,7 +1030,6 @@ export const exams = {
           d: "Es un hipotiroidismo periférico sin aumento de TSH"
         },
         correctAnswer: "c",
-        explanation: "La T3 reversa está disminuida, no aumentada."
       },
       {
         question: "Sobre la hormona de crecimiento en ERC, señale la INCORRECTA:",
@@ -1116,7 +1040,6 @@ export const exams = {
           d: "Hay respuestas paradójicas al glucagón"
         },
         correctAnswer: "c",
-        explanation: "Los efectos de GH están disminuidos a pesar de niveles elevados."
       },
       {
         question: "Sobre la progresión de ERC, señale la INCORRECTA:",
@@ -1127,7 +1050,6 @@ export const exams = {
           d: "Solo ocurre en estadios avanzados"
         },
         correctAnswer: "d",
-        explanation: "La progresión puede ocurrir en cualquier estadio de la enfermedad."
       },
       {
         question: "Sobre el manejo de presión arterial en ERC, señale la INCORRECTA:",
@@ -1138,7 +1060,6 @@ export const exams = {
           d: "No se recomiendan IECA/ARA2 en diabéticos"
         },
         correctAnswer: "d",
-        explanation: "Los IECA/ARA2 están recomendados en diabéticos con albuminuria."
       },
       {
         question: "Sobre el uso de medios de contraste en ERC, señale la INCORRECTA:",
@@ -1149,7 +1070,6 @@ export const exams = {
           d: "Se requiere hidratación antes, durante y después del procedimiento"
         },
         correctAnswer: "c",
-        explanation: "Se debe medir la TFG a las 48 y 96 horas después del contraste yodado."
       },
       {
         question: "Sobre el manejo del bicarbonato en ERC, señale la INCORRECTA:",
@@ -1160,7 +1080,6 @@ export const exams = {
           d: "Los huesos actúan como buffer"
         },
         correctAnswer: "c",
-        explanation: "La acidosis generalmente no es severa debido al buffering óseo."
       },
       {
         question: "Sobre las indicaciones de remisión a nefrología, señale la INCORRECTA:",
@@ -1171,7 +1090,6 @@ export const exams = {
           d: "Nefrolitiasis persistente"
         },
         correctAnswer: "c",
-        explanation: "La hipertensión refractaria requiere 4 medicamentos, no 3, para remisión."
       },
       {
         question: "Sobre la calcifilaxia en ERC, señale la INCORRECTA:",
@@ -1182,7 +1100,6 @@ export const exams = {
           d: "Produce piel dura con escaras"
         },
         correctAnswer: "b",
-        explanation: "Puede afectar también órganos internos como páncreas, pulmones e intestino."
       },
       {
         question: "Sobre la hemofiltración, señale la INCORRECTA:",
@@ -1193,7 +1110,6 @@ export const exams = {
           d: "Utiliza membranas de alta permeabilidad"
         },
         correctAnswer: "c",
-        explanation: "El transporte convectivo no afecta significativamente las concentraciones séricas."
       },
       {
         question: "Sobre las alteraciones del metabolismo óseo en ERC, señale la INCORRECTA:",
@@ -1204,7 +1120,6 @@ export const exams = {
           d: "La calcificación vascular siempre requiere PTH baja"
         },
         correctAnswer: "d",
-        explanation: "La calcificación vascular puede ocurrir con PTH alta, normal o baja."
       },
       {
         question: "Sobre los cambios vasculares en ERC, señale la INCORRECTA:",
@@ -1215,7 +1130,6 @@ export const exams = {
           d: "Pueden tener calcificación de placas ateroscleróticas"
         },
         correctAnswer: "b",
-        explanation: "La presión de pulso está aumentada por mayor PAS y menor PAD."
       },
       {
         question: "Sobre el metabolismo del hierro en ERC, señale la INCORRECTA:",
@@ -1226,7 +1140,6 @@ export const exams = {
           d: "Pueden requerir hierro aunque la ferritina esté normal"
         },
         correctAnswer: "a",
-        explanation: "La ferritina alta puede ocurrir en inflamación sin exceso de hierro."
       },
       {
         question: "Sobre las alteraciones inmunológicas en ERC, señale la INCORRECTA:",
@@ -1237,7 +1150,6 @@ export const exams = {
           d: "Las enfermedades autoinmunes tienden a disminuir"
         },
         correctAnswer: "b",
-        explanation: "No producen buena fiebre por déficit de pirógeno endógeno."
       },
       {
         question: "Sobre el tratamiento de ERC, señale la INCORRECTA:",
@@ -1248,7 +1160,6 @@ export const exams = {
           d: "La ingesta de sal debe ser <5g/día"
         },
         correctAnswer: "b",
-        explanation: "La meta de HbA1c <7% no aplica en pacientes con alto riesgo de hipoglicemia o comorbilidades severas."
       }
     ]
   },
