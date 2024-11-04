@@ -395,10 +395,10 @@ export const exams = {
     ],
   },
 
-  CDK: {
-    id: "InsuficienciaRenalCronica",
-    title: "Examen de Insuficiencia Renal Crónica",
-    description: "Cuestionario sobre Insuficiencia Renal Crónica",
+  EnfermedadRenalCronica: {
+    id: "EnfermedadRenalCronica",
+    title: "Examen de Enfermedad Renal Crónica",
+    description: "Cuestionario sobre Enfermedad Renal Crónica",
     questions: [
       {
         question:
@@ -856,10 +856,10 @@ export const exams = {
     ],
   },
 
-  Fisiopatologia2: {
-    id: "InsuficienciaRenalAguda",
-    title: "Examen de Insuficiencia Renal aguda",
-    description: "Cuestionario sobre Insuficiencia Renal aguda",
+  EnfermedadRenalAguda: {
+    id: "EnfermedadRenalAguda",
+    title: "Examen de Enfermedad Renal Aguda",
+    description: "Cuestionario sobre Enfermedad Renal Aguda",
     questions: [
       {
         question: "Sobre los criterios diagnósticos de enfermedad renal crónica, señale la INCORRECTA:",
@@ -1161,7 +1161,8 @@ export const exams = {
         },
         correctAnswer: "b",
       }
-    ]
+    ],
+    clinicalCases: []
   },
 
   microbiologia: {
