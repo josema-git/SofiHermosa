@@ -14,8 +14,8 @@ const ExamList = ({ onSelect }) => {
       </CardHeader>
       <CardContent>
         <ul className="space-y-4">
-          {Object.values(exams).map((exam) => (
-            <li key={exam.id}>
+          {exams && Object.values(exams).map((exam, index) => (
+            <li key={index}>
               <button
                 onClick={() => onSelect(exam.id)}
                 className="w-full py-3 px-6 text-lg bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200"
@@ -34,7 +34,7 @@ const ExamList = ({ onSelect }) => {
 const ExamPage = ({ examId, onBack }) => {
   const [userAnswers, setUserAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
-  const exam = exams[examId];
+  const exam = exams[examId] || {};
 
   const handleAnswerSelect = (questionIndex, answer) => {
     setUserAnswers(prev => ({
@@ -65,7 +65,7 @@ const ExamPage = ({ examId, onBack }) => {
           
           <div className="space-y-8">
             <h3 className="text-xl font-semibold">Preguntas</h3>
-            {exam.questions.map((question, index) => (
+            {exam.questions && exam.questions.map((question, index) => (
               <div key={index} className="space-y-4">
                 <p className="text-lg font-semibold">{question.question}</p>
                 <div className="space-y-2">
@@ -94,12 +94,18 @@ const ExamPage = ({ examId, onBack }) => {
                     </label>
                   ))}
                 </div>
+                {showResults && (
+                  <div className="mt-2 p-4 bg-blue-50 rounded">
+                    <p className="font-semibold">Explicación:</p>
+                    <p>{question.explanation}</p>
+                  </div>
+                )}
               </div>
             ))}
 
             <h3 className="text-xl font-semibold mt-8">Casos Clínicos</h3>
-            {exam.clinicalCases.map((case_, index) => (
-              <div key={index} className="space-y-4">
+            {exam.clinicalCases && exam.clinicalCases.map((case_, index) => (
+              <div key={`case-${index}`} className="space-y-4">
                 <h4 className="text-lg font-semibold">{case_.title}</h4>
                 <p className="text-gray-700">{case_.description}</p>
                 <div className="space-y-2">
