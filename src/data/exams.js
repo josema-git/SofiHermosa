@@ -1,442 +1,1131 @@
-// src/data/exams.js
-
 export const exams = {
-  microbiologia: {
-    id: "microbiologia",
-    title: "Examen de microbiologia",
-    description: "Evaluación sobre microbiologia",
+  acidobaseestella: {
+    id: "acidobaseestella",
+    title: "Examen de acido-base-estella",
+    description: "Cuestionario de acido-base-estella",
     questions: [
       {
-        question:
-          "¿Cuál de los siguientes NO es una característica general de los hongos?",
+        question: "¿Qué sucede cuando el CO2 entra en contacto con el agua?",
         answers: {
-          a: "Son organismos eucariotas",
-          b: "Son fotosintéticos",
-          c: "Son heterótrofos",
-          d: "Tienen pared celular con quitina",
-          e: "La mayoría son aerobios",
+          a: "Se forma directamente HCO3",
+          b: "Se forma H2CO3 que luego se disocia en HCO3 y H+",
+          c: "Se forma solo H+",
+          d: "No ocurre ninguna reacción",
+          e: "Se forma solo agua",
         },
         correctAnswer: "b",
         explanation:
-          "Los hongos NO son fotosintéticos, esta es una característica que los diferencia de las plantas.",
+          "El CO2 al entrar en contacto con el agua forma H2CO3 que posteriormente se disocia en HCO3 y H+",
       },
       {
-        question: "Sobre la estructura de los hongos, ¿cuál es FALSA?",
+        question: "¿Cuál es el valor del pKa del ácido carbónico?",
         answers: {
-          a: "La quitina da rigidez a la pared celular",
-          b: "El ergosterol da fluidez a la membrana citoplasmática",
-          c: "La quitina se encuentra en la membrana citoplasmática",
-          d: "El ergosterol es un blanco terapéutico farmacológico",
-          e: "La quitina garantiza la integridad de la célula micótica",
+          a: "7.4",
+          b: "5.1",
+          c: "6.1",
+          d: "8.1",
+          e: "4.1",
         },
         correctAnswer: "c",
-        explanation:
-          "La quitina se encuentra en la pared celular, no en la membrana citoplasmática.",
-      },
-      {
-        question: "Sobre los hongos dimórficos, ¿cuál es CORRECTA?",
-        answers: {
-          a: "Crecen como levaduras en el medio ambiente",
-          b: "Dentro del individuo crecen como mohos",
-          c: "A temperatura ambiente crecen como mohos",
-          d: "A 37°C crecen como mohos",
-          e: "No pueden cambiar su forma de crecimiento",
-        },
-        correctAnswer: "c",
-        explanation:
-          "Los hongos dimórficos crecen como mohos a temperatura ambiente y como levaduras a 37°C dentro del organismo.",
-      },
-      {
-        question: "¿Cuál NO es una vía de infección común para los hongos?",
-        answers: {
-          a: "Traumática",
-          b: "Inhalatoria",
-          c: "Deglución",
-          d: "Transmisión sexual",
-          e: "Transfusional",
-        },
-        correctAnswer: "e",
-        explanation:
-          "Las principales vías de infección son traumática, inhalatoria y deglución. La vía transfusional no es una vía común de infección fúngica.",
-      },
-      {
-        question: "Sobre el diagnóstico de las micosis, ¿cuál es INCORRECTA?",
-        answers: {
-          a: "El KOH es uno de los exámenes directos más comunes",
-          b: "Las IDRs confirman infección activa",
-          c: "Los cultivos se realizan en agar Sabouraud",
-          d: "La luz de Wood puede ayudar a identificar lesiones superficiales",
-          e: "La histopatología es útil en el diagnóstico",
-        },
-        correctAnswer: "b",
-        explanation:
-          "Las IDRs (Intradermoreacciones) solo determinan contacto previo con el hongo, NO confirman infección activa.",
-      },
-      {
-        question: "Sobre la tiña capitis, ¿cuál es CORRECTA?",
-        answers: {
-          a: "Es más común en adultos",
-          b: "La tiña microspórica es endotrix",
-          c: "La tiña tricofítica produce 'puntos negros'",
-          d: "La tiña inflamatoria siempre es reversible",
-          e: "Es causada principalmente por Candida",
-        },
-        correctAnswer: "c",
-        explanation:
-          "La tiña tricofítica produce 'puntos negros' característicos por ser endotrix, cortando el cabello más distal.",
+        explanation: "El pKa del ácido carbónico es 6.1",
       },
       {
         question:
-          "¿Cuál es la característica principal de la pitiriasis versicolor?",
+          "¿Qué representa un trastorno pulmonar en el equilibrio ácido-base?",
         answers: {
-          a: "Lesiones con borde activo eritematoso",
-          b: "Placas hipo o hipercrómicas de aspecto cartográfico",
-          c: "Lesiones nodulares dolorosas",
-          d: "Úlceras profundas",
-          e: "Lesiones vesiculares pruriginosas",
+          a: "Cambios en el HCO3",
+          b: "Cambios en el CO2",
+          c: "Cambios en el K+",
+          d: "Cambios en el Na+",
+          e: "Cambios en el Cl-",
         },
         correctAnswer: "b",
         explanation:
-          "La pitiriasis versicolor se caracteriza por placas hipo o hipercrómicas de aspecto cartográfico, dependiendo del tono de piel del paciente.",
+          "Lo que tenga que ver con CO2 es pulmonar en el equilibrio ácido-base",
       },
       {
         question:
-          "¿Cuál es el principal factor de riesgo para la mucormicosis?",
+          "¿Qué representa un trastorno metabólico en el equilibrio ácido-base?",
         answers: {
-          a: "VIH/SIDA",
-          b: "Diabetes descontrolada",
-          c: "Embarazo",
-          d: "Edad avanzada",
-          e: "Trauma cutáneo",
-        },
-        correctAnswer: "b",
-        explanation:
-          "La diabetes descontrolada, especialmente con cetoacidosis, es el principal factor de riesgo para mucormicosis, particularmente la forma rinocerebral.",
-      },
-      {
-        question: "Sobre la criptococosis, ¿cuál es FALSA?",
-        answers: {
-          a: "Es causada por un hongo capsulado",
-          b: "Se asocia con heces de palomas",
-          c: "El KOH es el mejor método diagnóstico",
-          d: "Afecta principalmente el SNC en pacientes con VIH",
-          e: "La tinta china es útil para su diagnóstico",
-        },
-        correctAnswer: "c",
-        explanation:
-          "El KOH NO es el método diagnóstico de elección para criptococosis; la tinta china es el método directo preferido para visualizar la cápsula característica.",
-      },
-      {
-        question: "¿Cuál es la presentación más común de la histoplasmosis?",
-        answers: {
-          a: "Infección pulmonar asintomática",
-          b: "Meningitis",
-          c: "Lesiones cutáneas",
-          d: "Artritis",
-          e: "Endocarditis",
+          a: "Cambios en el HCO3",
+          b: "Cambios en el CO2",
+          c: "Cambios en el K+",
+          d: "Cambios en el Na+",
+          e: "Cambios en el pH",
         },
         correctAnswer: "a",
         explanation:
-          "La forma más común de histoplasmosis es la infección pulmonar primaria asintomática o con síntomas leves tipo gripales.",
+          "Lo que tenga que ver con HCO3 es metabólico en el equilibrio ácido-base",
       },
       {
-        question:
-          "¿Cuál es el principal factor protector contra las micosis en mujeres?",
+        question: "¿Cuál es el pH normal de la sangre?",
         answers: {
-          a: "Mayor producción de melanina",
-          b: "Presencia de estrógenos",
-          c: "Mayor grosor de la piel",
-          d: "Sistema inmune más activo",
-          e: "Menor exposición a traumas",
+          a: "7.0",
+          b: "7.2",
+          c: "7.4",
+          d: "7.6",
+          e: "6.8",
         },
-        correctAnswer: "b",
-        explanation:
-          "Los estrógenos pueden crear protección contra algunos hongos, lo que explica la menor frecuencia de ciertas micosis en mujeres.",
+        correctAnswer: "c",
+        explanation: "El pH normal de la sangre es 7.4",
       },
       {
-        question: "Sobre la paracoccidioidomicosis, ¿cuál es FALSA?",
+        question: "En una compensación ácido-base, ¿qué sucede con el pH?",
         answers: {
-          a: "Es endémica de Suramérica",
-          b: "Afecta principalmente a mujeres",
-          c: "Se asocia con trabajo agrícola",
-          d: "Puede presentar el 'cuello de búfalo'",
-          e: "Afecta frecuentemente la mucosa orofaríngea",
-        },
-        correctAnswer: "b",
-        explanation:
-          "La paracoccidioidomicosis afecta principalmente a hombres en una proporción de 13:1 respecto a mujeres.",
-      },
-      {
-        question: "En la candidiasis, ¿cuál NO es un factor de riesgo?",
-        answers: {
-          a: "Uso prolongado de antibióticos",
-          b: "Diabetes mellitus",
-          c: "Uso de catéteres",
-          d: "Exposición a palomas",
-          e: "Embarazo",
-        },
-        correctAnswer: "d",
-        explanation:
-          "La exposición a palomas es un factor de riesgo para criptococosis, no para candidiasis.",
-      },
-      {
-        question:
-          "¿Cuál es la característica microscópica distintiva del Cryptococcus?",
-        answers: {
-          a: "Hifas septadas",
-          b: "Cápsula polisacárida",
-          c: "Pseudohifas",
-          d: "Esférulas con endosporas",
-          e: "Hifas cenocíticas",
-        },
-        correctAnswer: "b",
-        explanation:
-          "Cryptococcus es el único hongo patógeno que presenta una cápsula polisacárida característica, visible con tinta china.",
-      },
-      {
-        question: "Sobre la tiña pedis, ¿cuál es INCORRECTA?",
-        answers: {
-          a: "La forma interdigital es la más común",
-          b: "Puede complicarse con infección bacteriana",
-          c: "El calzado cerrado es un factor predisponente",
-          d: "Solo afecta a deportistas",
-          e: "Puede presentar forma vesiculosa",
-        },
-        correctAnswer: "d",
-        explanation:
-          "La tiña pedis puede afectar a cualquier persona, no solo a deportistas, aunque el uso de calzado cerrado es un factor predisponente.",
-      },
-      {
-        question:
-          "¿Cuál es la principal diferencia entre las tiñas antropofílicas y zoofílicas?",
-        answers: {
-          a: "Las antropofílicas son más inflamatorias",
-          b: "Las zoofílicas tienen menor contagiosidad",
-          c: "Las antropofílicas producen cuadros más severos",
-          d: "Las zoofílicas producen cuadros más inflamatorios",
-          e: "Las antropofílicas solo afectan el cuero cabelludo",
-        },
-        correctAnswer: "d",
-        explanation:
-          "Las especies zoofílicas tienden a producir cuadros más inflamatorios y severos que las antropofílicas.",
-      },
-      {
-        question:
-          "En la aspergilosis, ¿cuál manifestación NO requiere invasión tisular?",
-        answers: {
-          a: "Aspergilosis pulmonar invasiva",
-          b: "Aspergilosis broncopulmonar alérgica",
-          c: "Aspergilosis diseminada",
-          d: "Sinusitis invasiva",
-          e: "Endocarditis por Aspergillus",
-        },
-        correctAnswer: "b",
-        explanation:
-          "La aspergilosis broncopulmonar alérgica es una reacción de hipersensibilidad que no requiere invasión tisular por el hongo.",
-      },
-      {
-        question:
-          "¿Cuál es el hallazgo característico en el examen directo de mucormicosis?",
-        answers: {
-          a: "Hifas septadas en ángulo de 45°",
-          b: "Hifas cenocíticas en ángulo de 90°",
-          c: "Levaduras encapsuladas",
-          d: "Esférulas con endosporas",
-          e: "Pseudohifas",
-        },
-        correctAnswer: "b",
-        explanation:
-          "La mucormicosis se caracteriza por hifas cenocíticas (sin septos) que se ramifican en ángulo recto (90°).",
-      },
-      {
-        question: "Sobre la coccidioidomicosis, ¿cuál es CORRECTA?",
-        answers: {
-          a: "Es más común en zonas húmedas",
-          b: "El eritema nodoso indica mal pronóstico",
-          c: "Prefiere zonas áridas y desérticas",
-          d: "No afecta el sistema nervioso central",
-          e: "Es más grave en hombres que en embarazadas",
+          a: "Siempre vuelve a 7.4",
+          b: "Nunca cambia",
+          c: "Se acerca a 7.4 pero no llega",
+          d: "Siempre llega a 6.1",
+          e: "Se aleja más de 7.4",
         },
         correctAnswer: "c",
         explanation:
-          "La coccidioidomicosis es característica de zonas áridas y desérticas, como la Guajira.",
+          "La compensación evita cambios drásticos en el pH pero no lo lleva a 7.4",
       },
       {
-        question: "¿Cuál es la característica microscópica de la piedra negra?",
+        question:
+          "¿Cuánto debe caer el CO2 por cada mEq de HCO3 que cae en una compensación?",
         answers: {
-          a: "Levaduras gemantes",
-          b: "Hifas septadas pigmentadas",
-          c: "Nódulos duros adheridos al pelo",
-          d: "Artroconidias en cadena",
-          e: "Pseudohifas",
+          a: "0.5 mmHg",
+          b: "1 mmHg",
+          c: "1.25 mmHg",
+          d: "2 mmHg",
+          e: "2.5 mmHg",
+        },
+        correctAnswer: "c",
+        explanation: "Por cada mEq de HCO3 que cae, el CO2 debe caer 1.25mmHg",
+      },
+      {
+        question: "¿Cuál NO es un buffer temporal en sangre?",
+        answers: {
+          a: "Hemoglobina",
+          b: "Albúmina",
+          c: "Fosfatos",
+          d: "Amonio",
+          e: "Glucosa",
+        },
+        correctAnswer: "e",
+        explanation: "La glucosa no es un buffer temporal en sangre",
+      },
+      {
+        question: "¿Cómo se calcula el anión gap?",
+        answers: {
+          a: "(Na + K) - (Cl + HCO3)",
+          b: "(Na + Cl) - (K + HCO3)",
+          c: "(Na + HCO3) - (Cl + K)",
+          d: "(K + Cl) - (Na + HCO3)",
+          e: "Na - (Cl + HCO3)",
+        },
+        correctAnswer: "a",
+        explanation: "El anión gap se calcula como (Na + K) - (Cl + HCO3)",
+      },
+      {
+        question: "¿Cuál es el valor normal aproximado del anión gap?",
+        answers: {
+          a: "6",
+          b: "8",
+          c: "10",
+          d: "12",
+          e: "14",
+        },
+        correctAnswer: "d",
+        explanation: "El anión gap normal es aproximadamente 12",
+      },
+      {
+        question: "¿Qué representa principalmente el anión gap?",
+        answers: {
+          a: "Sodio y potasio",
+          b: "Cloro y bicarbonato",
+          c: "Albúmina y fosfatos",
+          d: "Calcio y magnesio",
+          e: "Urea y creatinina",
         },
         correctAnswer: "c",
         explanation:
-          "La piedra negra se caracteriza por nódulos duros adheridos al tallo del pelo, causados por Piedraia hortae.",
+          "El anión gap representa principalmente las cargas negativas de albúmina y fosfatos",
+      },
+      {
+        question: "¿Cuántas cargas negativas aporta 1g de albúmina?",
+        answers: {
+          a: "1",
+          b: "1.5",
+          c: "2",
+          d: "2.5",
+          e: "3",
+        },
+        correctAnswer: "d",
+        explanation: "1g de albúmina aporta 2.5 cargas negativas",
+      },
+      {
+        question: "¿Cuántas cargas negativas aporta 1mmol de fosfato?",
+        answers: {
+          a: "0.25",
+          b: "0.5",
+          c: "1",
+          d: "1.5",
+          e: "2",
+        },
+        correctAnswer: "b",
+        explanation: "1mmol de fosfato aporta 0.5 cargas negativas",
+      },
+      {
+        question:
+          "En una acidosis metabólica por diarrea, ¿cómo se comporta el anión gap?",
+        answers: {
+          a: "Aumenta",
+          b: "Disminuye",
+          c: "Permanece normal",
+          d: "Se vuelve negativo",
+          e: "No se puede calcular",
+        },
+        correctAnswer: "c",
+        explanation:
+          "La diarrea produce una acidosis metabólica con anión gap normal (hiperclorémica)",
+      },
+      {
+        question:
+          "¿Qué sucede con el cloro en una acidosis metabólica hiperclorémica?",
+        answers: {
+          a: "Disminuye",
+          b: "Permanece igual",
+          c: "Aumenta",
+          d: "Se vuelve negativo",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "c",
+        explanation:
+          "En una acidosis metabólica hiperclorémica, el cloro aumenta para mantener la electroneutralidad",
+      },
+      {
+        question:
+          "¿Cuál es el mecanismo más rápido para compensar una acidosis metabólica?",
+        answers: {
+          a: "Aumento de la excreción renal de H+",
+          b: "Disminución de la excreción renal de HCO3-",
+          c: "Hiperventilación",
+          d: "Aumento de la producción de amonio",
+          e: "Disminución de la producción de ácido láctico",
+        },
+        correctAnswer: "c",
+        explanation:
+          "La hiperventilación es el mecanismo más rápido para compensar una acidosis metabólica, eliminando CO2",
+      },
+      {
+        question:
+          "¿Qué sucede con el bicarbonato en una acidosis respiratoria crónica?",
+        answers: {
+          a: "Disminuye",
+          b: "Aumenta",
+          c: "Permanece igual",
+          d: "Se vuelve negativo",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "b",
+        explanation:
+          "En una acidosis respiratoria crónica, el bicarbonato aumenta como mecanismo de compensación",
+      },
+      {
+        question:
+          "¿Cuál NO es una causa común de acidosis metabólica con anión gap elevado?",
+        answers: {
+          a: "Cetoacidosis diabética",
+          b: "Acidosis láctica",
+          c: "Intoxicación por metanol",
+          d: "Diarrea",
+          e: "Insuficiencia renal",
+        },
+        correctAnswer: "d",
+        explanation:
+          "La diarrea causa acidosis metabólica con anión gap normal, no elevado",
+      },
+      {
+        question:
+          "¿Qué sucede con el potasio sérico en una acidosis metabólica aguda?",
+        answers: {
+          a: "Aumenta",
+          b: "Disminuye",
+          c: "Permanece igual",
+          d: "Se vuelve negativo",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "a",
+        explanation:
+          "En una acidosis metabólica aguda, el potasio sérico tiende a aumentar debido al intercambio con H+ intracelular",
+      },
+      {
+        question: "¿Cuál es el principal buffer intracelular?",
+        answers: {
+          a: "Bicarbonato",
+          b: "Fosfato",
+          c: "Proteínas",
+          d: "Amonio",
+          e: "Hemoglobina",
+        },
+        correctAnswer: "c",
+        explanation: "Las proteínas son el principal buffer intracelular",
+      },
+      {
+        question:
+          "¿Qué sucede con la producción de amonio en una acidosis metabólica crónica?",
+        answers: {
+          a: "Aumenta",
+          b: "Disminuye",
+          c: "Permanece igual",
+          d: "Se detiene completamente",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "a",
+        explanation:
+          "En una acidosis metabólica crónica, la producción de amonio aumenta como mecanismo de compensación renal",
+      },
+      {
+        question: "¿Cuál es el rango normal de bicarbonato en sangre?",
+        answers: {
+          a: "18-22 mEq/L",
+          b: "22-26 mEq/L",
+          c: "26-30 mEq/L",
+          d: "30-34 mEq/L",
+          e: "34-38 mEq/L",
+        },
+        correctAnswer: "b",
+        explanation:
+          "El rango normal de bicarbonato en sangre es de 22-26 mEq/L",
+      },
+      {
+        question: "¿Cuál es el rango normal de PaCO2?",
+        answers: {
+          a: "25-35 mmHg",
+          b: "35-45 mmHg",
+          c: "45-55 mmHg",
+          d: "55-65 mmHg",
+          e: "65-75 mmHg",
+        },
+        correctAnswer: "b",
+        explanation: "El rango normal de PaCO2 es de 35-45 mmHg",
+      },
+      {
+        question:
+          "¿Qué sucede con la excreción de H+ en orina en una acidosis metabólica?",
+        answers: {
+          a: "Aumenta",
+          b: "Disminuye",
+          c: "Permanece igual",
+          d: "Se vuelve negativa",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "a",
+        explanation:
+          "En una acidosis metabólica, la excreción de H+ en orina aumenta como mecanismo de compensación renal",
+      },
+      {
+        question:
+          "¿Cuál es el principal mecanismo de compensación en una alcalosis respiratoria aguda?",
+        answers: {
+          a: "Aumento de la excreción renal de HCO3-",
+          b: "Disminución de la excreción renal de H+",
+          c: "Hipoventilación",
+          d: "Aumento de la producción de ácidos orgánicos",
+          e: "Disminución de la producción de amonio",
+        },
+        correctAnswer: "a",
+        explanation:
+          "En una alcalosis respiratoria aguda, el principal mecanismo de compensación es el aumento de la excreción renal de HCO3-",
+      },
+      {
+        question:
+          "¿Qué sucede con el cloro sérico en una alcalosis metabólica?",
+        answers: {
+          a: "Aumenta",
+          b: "Disminuye",
+          c: "Permanece igual",
+          d: "Se vuelve negativo",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "b",
+        explanation:
+          "En una alcalosis metabólica, el cloro sérico tiende a disminuir",
+      },
+      {
+        question: "¿Cuál NO es una causa común de alcalosis metabólica?",
+        answers: {
+          a: "Vómitos prolongados",
+          b: "Uso excesivo de diuréticos",
+          c: "Hiperaldosteronismo",
+          d: "Ingesta excesiva de antiácidos",
+          e: "Diarrea crónica",
+        },
+        correctAnswer: "e",
+        explanation:
+          "La diarrea crónica causa acidosis metabólica, no alcalosis",
+      },
+      {
+        question:
+          "¿Qué sucede con la reabsorción de calcio en una acidosis metabólica crónica?",
+        answers: {
+          a: "Aumenta",
+          b: "Disminuye",
+          c: "Permanece igual",
+          d: "Se detiene completamente",
+          e: "No se puede determinar",
+        },
+        correctAnswer: "b",
+        explanation:
+          "En una acidosis metabólica crónica, la reabsorción de calcio disminuye, lo que puede llevar a hipercalciuria",
+      },
+      {
+        question:
+          "¿Cuál es el principal mecanismo de compensación en una acidosis respiratoria crónica?",
+        answers: {
+          a: "Aumento de la excreción renal de H+",
+          b: "Disminución de la excreción renal de HCO3-",
+          c: "Hiperventilación",
+          d: "Aumento de la reabsorción renal de HCO3-",
+          e: "Disminución de la producción de amonio",
+        },
+        correctAnswer: "d",
+        explanation:
+          "En una acidosis respiratoria crónica, el principal mecanismo de compensación es el aumento de la reabsorción renal de HCO3-",
+      },
+      {
+        question:
+          "¿Qué efecto tiene la hipopotasemia en el equilibrio ácido-base?",
+        answers: {
+          a: "Causa acidosis metabólica",
+          b: "Causa alcalosis metabólica",
+          c: "Causa acidosis respiratoria",
+          d: "Causa alcalosis respiratoria",
+          e: "No tiene efecto en el equilibrio ácido-base",
+        },
+        correctAnswer: "b",
+        explanation:
+          "La hipopotasemia tiende a causar alcalosis metabólica debido al intercambio de K+ por H+ en las células tubulares renales",
       },
     ],
     clinicalCases: [
       {
-        title: "Caso 1: Lesiones en Pliegues",
+        title: "Caso 1: Diarrea Aguda",
         description:
-          "Paciente masculino de 45 años, obeso, acude por presentar lesiones eritematosas y pruriginosas en pliegues submamarios y axilares. Las lesiones son descamativas y presentan pequeñas lesiones satélite. Refiere sudoración excesiva.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente presenta diarrea aguda con los siguientes valores:\nHCO3: 14 mEq/L (Normal: 24)\nCO2: 27.5 mmHg (Normal: 40)\npH: 7.32",
+        question: "¿Qué tipo de alteración ácido-base presenta el paciente?",
         answers: {
-          a: "Dermatofitosis",
-          b: "Candidiasis cutánea",
-          c: "Pitiriasis versicolor",
-          d: "Criptococosis cutánea",
-          e: "Blastomicosis",
+          a: "Acidosis metabólica compensada",
+          b: "Acidosis metabólica con compensación respiratoria parcial",
+          c: "Alcalosis respiratoria",
+          d: "Trastorno mixto",
+          e: "Acidosis respiratoria",
         },
         correctAnswer: "b",
         explanation:
-          "La presentación clínica es típica de candidiasis cutánea intertriginosa, favorecida por la humedad, obesidad y sudoración excesiva. Las lesiones satélite son características.",
+          "Es una acidosis metabólica (HCO3 bajo) con compensación respiratoria parcial (CO2 disminuido según la fórmula: por cada mEq de HCO3 que cae, el CO2 debe caer 1.25mmHg)",
       },
       {
-        title: "Caso 2: Lesión Pulmonar en Paciente VIH",
+        title: "Caso 2: Diarrea con Alteración Mixta",
         description:
-          "Paciente masculino de 35 años con VIH/SIDA (CD4 < 100), presenta tos seca, fiebre y disnea progresiva. La radiografía muestra infiltrados intersticiales bilaterales con patrón en vidrio despulido.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente con diarrea presenta:\nHCO3: 14 mEq/L\nCO2: 23 mmHg\npH: 7.40",
+        question: "¿Qué tipo de trastorno presenta el paciente?",
         answers: {
-          a: "Aspergilosis pulmonar",
-          b: "Histoplasmosis pulmonar",
-          c: "Neumocistosis",
-          d: "Criptococosis pulmonar",
-          e: "Mucormicosis",
+          a: "Acidosis metabólica pura",
+          b: "Alcalosis respiratoria pura",
+          c: "Trastorno mixto: acidosis metabólica + alcalosis respiratoria",
+          d: "Trastorno compensado",
+          e: "Ninguna alteración",
         },
         correctAnswer: "c",
         explanation:
-          "En pacientes con VIH/SIDA y CD4 < 100, la neumonía por Pneumocystis jirovecii es común, presentándose con infiltrados intersticiales y patrón en vidrio despulido característico.",
+          "El pH normal con valores alterados de HCO3 y CO2 indica un trastorno mixto: acidosis metabólica por la diarrea y alcalosis respiratoria",
       },
       {
-        title: "Caso 3: Lesiones en Cuero Cabelludo",
+        title: "Caso 3: Cetoacidosis Diabética",
         description:
-          "Niño de 8 años presenta múltiples áreas de alopecia en cuero cabelludo, con pequeños puntos negros visibles. Las lesiones son pequeñas y múltiples. No hay inflamación significativa.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente diabético con:\npH: 7.1\nHCO3: 8 mEq/L\nCO2: 20 mmHg\nNa: 135 mEq/L\nCl: 100 mEq/L\nK: 5 mEq/L",
+        question: "¿Cuál es el anión gap y qué indica?",
         answers: {
-          a: "Tiña microspórica",
-          b: "Tiña tricofítica",
-          c: "Tiña inflamatoria",
-          d: "Piedra negra",
-          e: "Alopecia areata",
+          a: "12, normal",
+          b: "22, elevado",
+          c: "32, elevado",
+          d: "42, elevado",
+          e: "52, elevado",
+        },
+        correctAnswer: "c",
+        explanation:
+          "Anión gap = (Na + K) - (Cl + HCO3) = (135 + 5) - (100 + 8) = 32. Está elevado, indicando una acidosis metabólica con anión gap elevado, típico de cetoacidosis diabética.",
+      },
+      {
+        title: "Caso 4: EPOC Descompensado",
+        description:
+          "Paciente con EPOC presenta:\npH: 7.30\nHCO3: 32 mEq/L\nCO2: 65 mmHg",
+        question: "¿Qué tipo de trastorno ácido-base presenta?",
+        answers: {
+          a: "Acidosis respiratoria aguda",
+          b: "Acidosis respiratoria crónica descompensada",
+          c: "Acidosis metabólica",
+          d: "Alcalosis metabólica",
+          e: "Trastorno mixto",
         },
         correctAnswer: "b",
         explanation:
-          "La presencia de múltiples lesiones pequeñas con puntos negros es característica de la tiña tricofítica, causada por Trichophyton, que produce una infección endotrix.",
+          "El CO2 elevado indica acidosis respiratoria, el HCO3 elevado sugiere cronicidad, pero el pH bajo indica descompensación aguda.",
       },
       {
-        title: "Caso 4: Paciente Diabético con Lesión Facial",
+        title: "Caso 5: Vómitos Prolongados",
         description:
-          "Paciente masculino de 55 años, diabético descompensado con cetoacidosis, presenta lesión necrótica de rápida progresión en región facial y orbital, con compromiso del seno maxilar. Tiene fiebre y mal estado general.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente con vómitos de 3 días presenta:\npH: 7.50\nHCO3: 35 mEq/L\nCO2: 42 mmHg\nCl: 90 mEq/L",
+        question: "¿Qué tipo de alteración ácido-base presenta?",
         answers: {
-          a: "Aspergilosis invasiva",
-          b: "Mucormicosis rinocerebral",
-          c: "Criptococosis diseminada",
-          d: "Histoplasmosis diseminada",
-          e: "Blastomicosis cutánea",
+          a: "Acidosis metabólica",
+          b: "Alcalosis metabólica",
+          c: "Acidosis respiratoria",
+          d: "Alcalosis respiratoria",
+          e: "Sin alteración",
         },
         correctAnswer: "b",
         explanation:
-          "La presentación aguda de lesión necrótica facial en un paciente diabético con cetoacidosis es altamente sugestiva de mucormicosis rinocerebral, una emergencia médica.",
+          "El pH elevado con HCO3 alto y Cl bajo indica una alcalosis metabólica, típica de pérdida de ácido por vómitos prolongados.",
       },
       {
-        title: "Caso 5: Lesiones Orales en VIH",
+        title: "Caso 6: Intoxicación por Salicilatos",
         description:
-          "Paciente con VIH/SIDA presenta placas blanquecinas en lengua y mucosa oral que pueden desprenderse dejando una superficie eritematosa. Refiere dificultad para tragar.",
+          "Paciente ingiere gran cantidad de aspirina. Presenta:\npH: 7.45\nHCO3: 18 mEq/L\nCO2: 25 mmHg",
+        question: "¿Qué trastorno ácido-base presenta?",
+        answers: {
+          a: "Acidosis metabólica pura",
+          b: "Alcalosis respiratoria pura",
+          c: "Acidosis metabólica y alcalosis respiratoria",
+          d: "Alcalosis metabólica",
+          e: "Sin alteración",
+        },
+        correctAnswer: "c",
+        explanation:
+          "La intoxicación por salicilatos produce un trastorno mixto: acidosis metabólica (HCO3 bajo) y alcalosis respiratoria (CO2 bajo con pH elevado).",
+      },
+      {
+        title: "Caso 7: Insuficiencia Renal Crónica",
+        description:
+          "Paciente con IRC presenta:\npH: 7.32\nHCO3: 16 mEq/L\nCO2: 32 mmHg\nK: 5.5 mEq/L",
         question:
-          "¿Cuál es el diagnóstico más probable y qué estudio confirmaría?",
+          "¿Qué alteración ácido-base presenta y cuál es su causa probable?",
         answers: {
-          a: "Histoplasmosis oral - cultivo",
-          b: "Candidiasis oral - KOH",
-          c: "Criptococosis oral - tinta china",
-          d: "Aspergilosis oral - cultivo",
-          e: "Mucormicosis oral - biopsia",
-        },
-        correctAnswer: "b",
-        explanation:
-          "Las placas blanquecinas desprendibles son características de candidiasis oral (muguet), común en VIH/SIDA. El KOH mostrará levaduras y pseudohifas características.",
-      },
-      {
-        title: "Caso 6: Lesiones Cutáneas Verrucosas",
-        description:
-          "Agricultor de 50 años presenta lesiones verrucosas en miembros inferiores de varios meses de evolución. Las lesiones son elevadas, de aspecto coliforme y algunas están ulceradas.",
-        question: "¿Cuál es el diagnóstico más probable?",
-        answers: {
-          a: "Esporotricosis",
-          b: "Cromoblastomicosis",
-          c: "Blastomicosis",
-          d: "Histoplasmosis cutánea",
-          e: "Coccidioidomicosis",
-        },
-        correctAnswer: "b",
-        explanation:
-          "Las lesiones verrucosas de aspecto coliforme en miembros inferiores, con historia de trauma por material vegetal, son típicas de cromoblastomicosis.",
-      },
-      {
-        title: "Caso 7: Lesión Lineal Ascendente",
-        description:
-          "Jardinero de 40 años presenta lesión nodular en mano con trayecto lineal ascendente por el brazo, siguiendo el drenaje linfático. Refiere trauma previo con espina de rosa.",
-        question: "¿Cuál es el diagnóstico más probable?",
-        answers: {
-          a: "Esporotricosis linfangítica",
-          b: "Leishmaniasis",
-          c: "Cromoblastomicosis",
-          d: "Micetoma",
-          e: "Nocardiosis",
+          a: "Acidosis metabólica por acumulación de ácidos",
+          b: "Acidosis respiratoria por hipoventilación",
+          c: "Alcalosis metabólica por vómitos",
+          d: "Alcalosis respiratoria por hipoxemia",
+          e: "Sin alteración significativa",
         },
         correctAnswer: "a",
         explanation:
-          "La historia de trauma con material vegetal seguido de lesión nodular con progresión linfangítica es característica de esporotricosis en su forma linfangítica.",
+          "Presenta acidosis metabólica (pH y HCO3 bajos) probablemente por acumulación de ácidos debido a la insuficiencia renal crónica.",
       },
       {
-        title: "Caso 8: Paciente con Neutropenia Febril",
+        title: "Caso 8: Uso Excesivo de Diuréticos",
         description:
-          "Paciente de 45 años en tratamiento por leucemia presenta fiebre, tos y dolor torácico. TAC muestra lesión pulmonar con signo del halo. Tiene neutropenia severa.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente usando furosemida presenta:\npH: 7.48\nHCO3: 30 mEq/L\nCO2: 40 mmHg\nK: 3.2 mEq/L\nCl: 95 mEq/L",
+        question: "¿Qué alteración ácido-base presenta y cuál es su mecanismo?",
         answers: {
-          a: "Mucormicosis pulmonar",
-          b: "Aspergilosis pulmonar invasiva",
-          c: "Criptococosis pulmonar",
-          d: "Histoplasmosis pulmonar",
-          e: "Neumocistosis",
+          a: "Acidosis metabólica por pérdida de bicarbonato",
+          b: "Alcalosis metabólica por pérdida de cloro e hipokalemia",
+          c: "Alcalosis respiratoria por hiperventilación",
+          d: "Acidosis respiratoria por hipoventilación",
+          e: "Sin alteración significativa",
         },
         correctAnswer: "b",
         explanation:
-          "El signo del halo en TAC pulmonar en un paciente neutropénico es altamente sugestivo de aspergilosis pulmonar invasiva.",
+          "Presenta alcalosis metabólica (pH y HCO3 elevados) por pérdida de cloro e hipokalemia secundaria al uso de diuréticos de asa.",
       },
       {
-        title: "Caso 9: Lesiones Hipopigmentadas",
+        title: "Caso 9: Sepsis",
         description:
-          "Adolescente de 16 años presenta manchas hipopigmentadas en tronco y brazos, levemente descamativas, no pruriginosas. Las lesiones aumentan con la exposición solar.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente con sepsis presenta:\npH: 7.30\nHCO3: 14 mEq/L\nCO2: 28 mmHg\nLactato: 4 mmol/L",
+        question: "¿Qué tipo de acidosis presenta y cuál es su causa probable?",
         answers: {
-          a: "Tiña corporis",
-          b: "Pitiriasis versicolor",
-          c: "Candidiasis cutánea",
-          d: "Dermatitis seborreica",
-          e: "Vitiligo",
+          a: "Acidosis metabólica con anión gap normal",
+          b: "Acidosis metabólica con anión gap elevado por lactato",
+          c: "Acidosis respiratoria",
+          d: "Alcalosis metabólica",
+          e: "Trastorno mixto",
         },
         correctAnswer: "b",
         explanation:
-          "Las manchas hipopigmentadas en tronco, más evidentes con el sol, son características de pitiriasis versicolor, causada por Malassezia.",
+          "Presenta acidosis metabólica (pH y HCO3 bajos) con anión gap elevado, probablemente debido a la acumulación de lactato en el contexto de sepsis.",
       },
       {
-        title: "Caso 10: Lesión en Pie",
+        title: "Caso 10: Alcalosis Respiratoria por Ansiedad",
         description:
-          "Paciente de 35 años presenta aumento de volumen en pie derecho con múltiples nódulos y fístulas que drenan material purulento con 'granos'. Tiene historia de trauma con espina hace 6 meses.",
-        question: "¿Cuál es el diagnóstico más probable?",
+          "Paciente con crisis de ansiedad presenta:\npH: 7.50\nHCO3: 22 mEq/L\nCO2: 28 mmHg",
+        question: "¿Qué alteración ácido-base presenta y cuál es su mecanismo?",
         answers: {
-          a: "Micetoma",
-          b: "Esporotricosis",
-          c: "Cromoblastomicosis",
-          d: "Actinomicosis",
-          e: "Botriomicosis",
+          a: "Acidosis metabólica por acumulación de ácidos",
+          b: "Alcalosis metabólica por pérdida de ácidos",
+          c: "Acidosis respiratoria por hipoventilación",
+          d: "Alcalosis respiratoria por hiperventilación",
+          e: "Sin alteración significativa",
         },
-        correctAnswer: "a",
+        correctAnswer: "d",
         explanation:
-          "La presencia de aumento de volumen con fístulas que drenan material con 'granos' es característico de micetoma o 'pie de Madura'.",
+          "Presenta alcalosis respiratoria (pH elevado y CO2 bajo) debido a hiperventilación causada por la crisis de ansiedad.",
       },
     ],
   },
-}; // src/data/exams.js
+  AlcalosisMetabolica: {
+    "id": "AlcalosisMetabolica",
+    "title": "Examen de Alcalosis Metabólica",
+    "description": "Seleccione la opción incorrecta en cada pregunta",
+    "questions": [
+      {
+        "question": "Respecto a la alcalosis metabólica:",
+        "answers": {
+          "a": "Se caracteriza por un aumento en el bicarbonato",
+          "b": "Puede ser causada por la secreción de H+ a la luz de sistemas tubulares",
+          "c": "Siempre indica un aumento primario del HCO3 en sangre",
+          "d": "Puede ser causada por pérdida de hidrogeniones",
+          "e": "El vómito es una causa común"
+        },
+        "correctAnswer": "c",
+        "explanation": "No siempre indica un aumento primario del HCO3 en sangre, ya que puede haber un aumento compensatorio en acidosis respiratoria crónica."
+      },
+      {
+        "question": "En relación a la diferenciación entre alcalosis metabólica y acidosis respiratoria crónica:",
+        "answers": {
+          "a": "La alcalosis metabólica primaria tiene pH alcalino",
+          "b": "La acidosis respiratoria crónica tiene pH ácido",
+          "c": "El HCO3 puede estar elevado en ambas condiciones",
+          "d": "La acidosis respiratoria crónica generalmente no tiene HCO3 por encima de 40",
+          "e": "La alcalosis metabólica siempre tiene HCO3 por debajo de 40"
+        },
+        "correctAnswer": "e",
+        "explanation": "En la alcalosis metabólica primaria, el HCO3 puede subir por encima de 40, a diferencia de la acidosis respiratoria crónica."
+      },
+      {
+        "question": "Sobre la fisiopatología de la alcalosis metabólica:",
+        "answers": {
+          "a": "Es importante identificar qué la genera",
+          "b": "Es crucial entender qué la perpetúa",
+          "c": "El riñón es muy eficiente en eliminar el exceso de HCO3",
+          "d": "Las enfermedades que causan alcalosis metabólica generalmente producen más de 1000mEq de HCO3 al día",
+          "e": "Debe haber un impedimento en la excreción renal de HCO3 para que se mantenga"
+        },
+        "correctAnswer": "d",
+        "explanation": "Las enfermedades que causan alcalosis metabólica generalmente producen menos de 1000mEq de HCO3 al día."
+      },
+      {
+        "question": "Los factores perpetuadores de la alcalosis metabólica incluyen:",
+        "answers": {
+          "a": "Hipovolemia",
+          "b": "Hipocalemia",
+          "c": "Hipocloremia",
+          "d": "Aldosterona elevada",
+          "e": "Hipercalcemia"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipercalcemia no es uno de los factores perpetuadores mencionados en el texto. Los cuatro factores son hipovolemia, hipocalemia, hipocloremia y aldosterona elevada."
+      },
+      {
+        "question": "En relación a la hipovolemia como perpetuador de la alcalosis metabólica:",
+        "answers": {
+          "a": "Puede ser causada por vómito",
+          "b": "Activa el sistema renina-angiotensina-aldosterona",
+          "c": "Puede incluir estados edematosos",
+          "d": "Aumenta la reabsorción neta de HCO3",
+          "e": "Disminuye la actividad del intercambiador Na/H+ en el túbulo proximal"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipovolemia aumenta la actividad del intercambiador Na/H+ en el túbulo proximal, no la disminuye."
+      },
+      {
+        "question": "Sobre el mecanismo de perpetuación de la alcalosis metabólica en el túbulo proximal:",
+        "answers": {
+          "a": "El intercambiador Na/H+ está estimulado por el sistema simpático",
+          "b": "La angiotensina II estimula el intercambiador Na/H+",
+          "c": "El objetivo principal es mantener la volemia",
+          "d": "La alcalosis intracelular estimula el intercambiador Na/H+",
+          "e": "Este mecanismo es cuantitativamente insuficiente para explicar todo el aumento de HCO3"
+        },
+        "correctAnswer": "d",
+        "explanation": "La alcalosis intracelular deprime el intercambiador Na/H+, no lo estimula."
+      },
+      {
+        "question": "En el túbulo distal, durante la alcalosis metabólica perpetuada por hipovolemia:",
+        "answers": {
+          "a": "El hiperaldosteronismo secundario estimula los ENaC",
+          "b": "Se activan los canales ROMK",
+          "c": "Aumenta la actividad de la bomba Na/K",
+          "d": "Se inhibe la SGK1",
+          "e": "Se crea un lumen negativo que favorece la secreción de H+ y K+"
+        },
+        "correctAnswer": "d",
+        "explanation": "La SGK1 se estimula, no se inhibe, en esta situación."
+      },
+      {
+        "question": "Respecto a la hipocloremia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Es uno de los factores perpetuadores más importantes",
+          "b": "Puede ser causada por vómito",
+          "c": "Puede ser causada por diuréticos",
+          "d": "Afecta el funcionamiento del cotransportador Na-K-2Cl en el asa de Henle",
+          "e": "Aumenta la reabsorción de Na y Cl en el asa de Henle"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocloremia disminuye la reabsorción de Na y Cl en el asa de Henle, no la aumenta."
+      },
+      {
+        "question": "En relación a los mecanismos de la hipocloremia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Afecta el cotransportador Na-K-2Cl en el asa de Henle",
+          "b": "Disminuye la reabsorción de Na y Cl en el asa de Henle",
+          "c": "Aumenta el flujo de Na y agua al nefrón distal",
+          "d": "Estimula la actividad de ENaC y ROMK en el túbulo distal",
+          "e": "Inhibe la secreción de aldosterona"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocloremia no inhibe la secreción de aldosterona; de hecho, puede aumentarla indirectamente al estimular el sistema renina-angiotensina-aldosterona."
+      },
+      {
+        "question": "Sobre la hipocalemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Es uno de los factores perpetuadores",
+          "b": "Puede ser causada por vómito",
+          "c": "Puede ser causada por diuréticos",
+          "d": "Aumenta la reabsorción de HCO3 en el túbulo proximal",
+          "e": "Disminuye la secreción de H+ en el túbulo distal"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocalemia aumenta la secreción de H+ en el túbulo distal, no la disminuye."
+      },
+      {
+        "question": "En relación al papel de la aldosterona en la alcalosis metabólica:",
+        "answers": {
+          "a": "Su aumento es uno de los factores perpetuadores",
+          "b": "Estimula los canales ENaC",
+          "c": "Activa la bomba Na/K",
+          "d": "Inhibe la secreción de H+ en las células intercaladas alfa",
+          "e": "Puede ser secundaria a la hipovolemia"
+        },
+        "correctAnswer": "d",
+        "explanation": "La aldosterona estimula la secreción de H+ en las células intercaladas alfa, no la inhibe."
+      },
+      {
+        "question": "Sobre los mecanismos de compensación en la alcalosis metabólica:",
+        "answers": {
+          "a": "El riñón es muy eficiente en eliminar el exceso de HCO3",
+          "b": "La hipovolemia impide la excreción renal de HCO3",
+          "c": "La hipocloremia favorece la reabsorción de HCO3",
+          "d": "La hipocalemia aumenta la secreción de H+",
+          "e": "La aldosterona disminuye la reabsorción de Na"
+        },
+        "correctAnswer": "e",
+        "explanation": "La aldosterona aumenta la reabsorción de Na, no la disminuye."
+      },
+      {
+        "question": "En relación a la fisiopatología de la alcalosis metabólica:",
+        "answers": {
+          "a": "El vómito puede ser una causa generadora",
+          "b": "Los diuréticos pueden ser una causa generadora",
+          "c": "La hipovolemia puede ser un factor perpetuador",
+          "d": "La hipercloremia es un factor perpetuador",
+          "e": "El hiperaldosteronismo puede ser un factor perpetuador"
+        },
+        "correctAnswer": "d",
+        "explanation": "La hipocloremia, no la hipercloremia, es un factor perpetuador de la alcalosis metabólica."
+      },
+      {
+        "question": "Sobre el papel del túbulo proximal en la alcalosis metabólica:",
+        "answers": {
+          "a": "El intercambiador Na/H+ está estimulado por el sistema simpático",
+          "b": "La angiotensina II estimula el intercambiador Na/H+",
+          "c": "La alcalosis intracelular estimula el intercambiador Na/H+",
+          "d": "Su función principal es mantener la volemia",
+          "e": "Su contribución a la reabsorción de HCO3 es debatida"
+        },
+        "correctAnswer": "c",
+        "explanation": "La alcalosis intracelular deprime el intercambiador Na/H+, no lo estimula."
+      },
+      {
+        "question": "En relación al túbulo distal en la alcalosis metabólica:",
+        "answers": {
+          "a": "El hiperaldosteronismo secundario estimula los ENaC",
+          "b": "Se activan los canales ROMK",
+          "c": "Aumenta la actividad de la bomba Na/K",
+          "d": "Se inhibe la SGK1",
+          "e": "La célula intercalada alfa aumenta la secreción de H+"
+        },
+        "correctAnswer": "d",
+        "explanation": "La SGK1 se estimula, no se inhibe, en esta situación."
+      },
+      {
+        "question": "Sobre los efectos de la hipocloremia en el asa de Henle:",
+        "answers": {
+          "a": "Afecta el cotransportador Na-K-2Cl",
+          "b": "Disminuye la reabsorción de Na y Cl",
+          "c": "Aumenta el flujo de Na y agua al nefrón distal",
+          "d": "Estimula la actividad de ENaC y ROMK en el túbulo distal",
+          "e": "Aumenta la reabsorción de K+"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocloremia disminuye la reabsorción de K+ en el asa de Henle, no la aumenta."
+      },
+      {
+        "question": "En relación a los factores perpetuadores de la alcalosis metabólica:",
+        "answers": {
+          "a": "La hipovolemia es uno de ellos",
+          "b": "La hipocalemia es otro factor",
+          "c": "La hipocloremia juega un papel importante",
+          "d": "El hiperaldosteronismo puede ser un factor",
+          "e": "La hipercalcemia es un factor clave"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipercalcemia no se menciona como un factor perpetuador de la alcalosis metabólica en el texto."
+      },
+      {
+        "question": "Sobre la hipovolemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Activa el sistema renina-angiotensina-aldosterona",
+          "b": "Puede ser causada por vómito",
+          "c": "Aumenta la reabsorción de HCO3 en el túbulo proximal",
+          "d": "Disminuye la actividad del intercambiador Na/H+",
+          "e": "Puede incluir estados edematosos"
+        },
+        "correctAnswer": "d",
+        "explanation": "La hipovolemia aumenta la actividad del intercambiador Na/H+, no la disminuye."
+      },
+      {
+        "question": "En relación a la hipocalemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Es uno de los factores perpetuadores",
+          "b": "Puede ser causada por vómito",
+          "c": "Puede ser causada por diuréticos",
+          "d": "Aumenta la reabsorción de HCO3 en el túbulo proximal",
+          "e": "Disminuye la secreción de H+ en el túbulo colector"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocalemia aumenta la secreción de H+ en el túbulo colector, no la disminuye."
+      },
+      {
+        "question": "Sobre el papel de la aldosterona en la alcalosis metabólica:",
+        "answers": {
+          "a": "Su aumento es uno de los factores perpetuadores",
+          "b": "Estimula los canales ENaC",
+          "c": "Activa la bomba Na/K",
+          "d": "Inhibe la secreción de H+ en las células intercaladas alfa",
+          "e": "Puede ser secundaria a la hipovolemia"
+        },
+        "correctAnswer": "d",
+        "explanation": "La aldosterona estimula la secreción de H+ en las células intercaladas alfa, no la inhibe."
+      },
+      {
+        "question": "En relación a los mecanismos de compensación en la alcalosis metabólica:",
+        "answers": {
+          "a": "El riñón es muy eficiente en eliminar el exceso de HCO3",
+          "b": "La hipovolemia impide la excreción renal de HCO3",
+          "c": "La hipocloremia favorece la reabsorción de HCO3",
+          "d": "La hipocalemia aumenta la secreción de H+",
+          "e": "La aldosterona disminuye la reabsorción de Na"
+        },
+        "correctAnswer": "e",
+        "explanation": "La aldosterona aumenta la reabsorción de Na, no la disminuye."
+      },
+      {
+        "question": "Sobre el cotransportador Na-K-2Cl en el asa de Henle:",
+        "answers": {
+          "a": "Es inhibido por el AMPc",
+          "b": "Es estimulado por el ácido araquidónico",
+          "c": "Requiere concentraciones adecuadas de Na, K y Cl para funcionar",
+          "d": "No se ve afectado por la hipocloremia",
+          "e": "Su función disminuye en la alcalosis metabólica"
+        },
+        "correctAnswer": "b",
+        "explanation": "El ácido araquidónico inhibe el cotransportador Na-K-2Cl, no lo estimula."
+      },
+      {
+        "question": "En relación a la célula principal del túbulo distal en la alcalosis metabólica:",
+        "answers": {
+          "a": "Aumenta la actividad de ENaC",
+          "b": "Aumenta la actividad de ROMK",
+          "c": "Aumenta la actividad de la bomba Na/K",
+          "d": "Disminuye la actividad de SGK1",
+          "e": "Crea un lumen negativo"
+        },
+        "correctAnswer": "d",
+        "explanation": "La actividad de SGK1 aumenta, no disminuye, en la alcalosis metabólica."
+      },
+      {
+        "question": "Sobre la célula intercalada alfa en la alcalosis metabólica:",
+        "answers": {
+          "a": "Aumenta la secreción de H+",
+          "b": "Disminuye la actividad de la ATPasa de H+",
+          "c": "Es estimulada por la aldosterona",
+          "d": "Aumenta la reabsorción de HCO3",
+          "e": "No se ve afectada por el lumen negativo"
+        },
+        "correctAnswer": "b",
+        "explanation": "La actividad de la ATPasa de H+ aumenta, no disminuye, en la alcalosis metabólica."
+      },
+      {
+        "question": "En relación a los efectos de la hipocloremia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Disminuye la función del cotransportador Na-K-2Cl",
+          "b": "Aumenta la reabsorción de Na en el asa de Henle",
+          "c": "Disminuye el flujo de Na al nefrón distal",
+          "d": "Estimula la actividad de ENaC y ROMK",
+          "e": "No afecta la secreción de K+"
+        },
+        "correctAnswer": "b",
+        "explanation": "La hipocloremia disminuye la reabsorción de Na en el asa de Henle, no la aumenta."
+      },
+      {
+        "question": "Sobre los efectos de la hipocalemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Aumenta la reabsorción de HCO3 en el túbulo proximal",
+          "b": "Disminuye la secreción de H+ en el túbulo distal",
+          "c": "No afecta la actividad de la bomba Na/K",
+          "d": "Estimula la actividad de ROMK",
+          "e": "Puede ser causada por diuréticos"
+        },
+        "correctAnswer": "b",
+        "explanation": "La hipocalemia aumenta la secreción de H+ en el túbulo distal, no la disminuye."
+      },
+      {
+        "question": "En relación a los efectos de la aldosterona en la alcalosis metabólica:",
+        "answers": {
+          "a": "Estimula la reabsorción de Na",
+          "b": "Aumenta la secreción de K+",
+          "c": "Estimula la secreción de H+",
+          "d": "Inhibe la actividad de SGK1",
+          "e": "No afecta la actividad de ENaC"
+        },
+        "correctAnswer": "d",
+        "explanation": "La aldosterona estimula la actividad de SGK1, no la inhibe."
+      },
+      {
+        "question": "Sobre los mecanismos de compensación renal en la alcalosis metabólica:",
+        "answers": {
+          "a": "El riñón es ineficiente en eliminar el exceso de HCO3",
+          "b": "La hipovolemia favorece la excreción renal de HCO3",
+          "c": "La hipocloremia disminuye la reabsorción de HCO3",
+          "d": "La hipocalemia disminuye la secreción de H+",
+          "e": "El hiperaldosteronismo secundario aumenta la reabsorción de Na"
+        },
+        "correctAnswer": "a",
+        "explanation": "El riñón es muy eficiente en eliminar el exceso de HCO3, no ineficiente."
+      },
+      {
+        "question": "En relación a la fisiopatología de la alcalosis metabólica:",
+        "answers": {
+          "a": "Siempre hay un aumento primario de HCO3",
+          "b": "Puede ser causada por pérdida de H+",
+          "c": "El vómito es una causa común",
+          "d": "Los diuréticos pueden causarla",
+          "e": "No requiere factores perpetuadores"
+        },
+        "correctAnswer": "e",
+        "explanation": "La alcalosis metabólica sí requiere factores perpetuadores para mantenerse."
+      },
+      {
+        "question": "Sobre el papel del túbulo proximal en la alcalosis metabólica:",
+        "answers": {
+          "a": "El intercambiador Na/H+ está inhibido por el sistema simpático",
+          "b": "La angiotensina II inhibe el intercambiador Na/H+",
+          "c": "La alcalosis intracelular estimula el intercambiador Na/H+",
+          "d": "Su función principal es mantener el equilibrio ácido-base",
+          "e": "Su contribución a la reabsorción de HCO3 es significativa"
+        },
+        "correctAnswer": "c",
+        "explanation": "La alcalosis intracelular inhibe el intercambiador Na/H+, no lo estimula."
+      },
+      {
+        "question": "En relación al túbulo distal en la alcalosis metabólica:",
+        "answers": {
+          "a": "El hiperaldosteronismo secundario inhibe los ENaC",
+          "b": "Se inactivan los canales ROMK",
+          "c": "Disminuye la actividad de la bomba Na/K",
+          "d": "Se estimula la SGK1",
+          "e": "La célula intercalada alfa disminuye la secreción de H+"
+        },
+        "correctAnswer": "e",
+        "explanation": "La célula intercalada alfa aumenta la secreción de H+, no la disminuye."
+      },
+      {
+        "question": "Sobre los efectos de la hipocloremia en el asa de Henle:",
+        "answers": {
+          "a": "No afecta el cotransportador Na-K-2Cl",
+          "b": "Aumenta la reabsorción de Na y Cl",
+          "c": "Disminuye el flujo de Na y agua al nefrón distal",
+          "d": "Inhibe la actividad de ENaC y ROMK en el túbulo distal",
+          "e": "Disminuye la reabsorción de K+"
+        },
+        "correctAnswer": "b",
+        "explanation": "La hipocloremia disminuye la reabsorción de Na y Cl en el asa de Henle, no la aumenta."
+      },
+      {
+        "question": "En relación a los factores perpetuadores de la alcalosis metabólica:",
+        "answers": {
+          "a": "La hipervolemia es uno de ellos",
+          "b": "La hipercalemia es otro factor",
+          "c": "La hipercloremia juega un papel importante",
+          "d": "El hipoaldosteronismo puede ser un factor",
+          "e": "La hipocalemia es un factor clave"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocalemia es un factor perpetuador de la alcalosis metabólica, las otras opciones son incorrectas."
+      },
+      {
+        "question": "Sobre la hipovolemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Inhibe el sistema renina-angiotensina-aldosterona",
+          "b": "No puede ser causada por vómito",
+          "c": "Disminuye la reabsorción de HCO3 en el túbulo proximal",
+          "d": "Aumenta la actividad del intercambiador Na/H+",
+          "e": "No incluye estados edematosos"
+        },
+        "correctAnswer": "c",
+        "explanation": "La hipovolemia aumenta la reabsorción de HCO3 en el túbulo proximal, no la disminuye."
+      },
+      {
+        "question": "En relación a la hipocalemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "No es un factor perpetuador",
+          "b": "No puede ser causada por vómito",
+          "c": "No puede ser causada por diuréticos",
+          "d": "Disminuye la reabsorción de HCO3 en el túbulo proximal",
+          "e": "Aumenta la secreción de H+ en el túbulo colector"
+        },
+        "correctAnswer": "d",
+        "explanation": "La hipocalemia aumenta la reabsorción de HCO3 en el túbulo proximal, no la disminuye."
+      },
+      {
+        "question": "Sobre el papel de la aldosterona en la alcalosis metabólica:",
+        "answers": {
+          "a": "Su disminución es uno de los factores perpetuadores",
+          "b": "Inhibe los canales ENaC",
+          "c": "Inactiva la bomba Na/K",
+          "d": "Estimula la secreción de H+ en las células intercaladas alfa",
+          "e": "No puede ser secundaria a la hipovolemia"
+        },
+        "correctAnswer": "a",
+        "explanation": "El aumento de aldosterona, no su disminución, es uno de los factores perpetuadores de la alcalosis metabólica."
+      },
+      {
+        "question": "En relación a los mecanismos de compensación en la alcalosis metabólica:",
+        "answers": {
+          "a": "El riñón es ineficiente en eliminar el exceso de HCO3",
+          "b": "La hipovolemia favorece la excreción renal de HCO3",
+          "c": "La hipocloremia disminuye la reabsorción de HCO3",
+          "d": "La hipocalemia disminuye la secreción de H+",
+          "e": "La aldosterona aumenta la reabsorción de Na"
+        },
+        "correctAnswer": "b",
+        "explanation": "La hipovolemia impide la excreción renal de HCO3, no la favorece."
+      },
+      {
+        "question": "Sobre el cotransportador Na-K-2Cl en el asa de Henle:",
+        "answers": {
+          "a": "Es estimulado por el AMPc",
+          "b": "Es inhibido por el ácido araquidónico",
+          "c": "No requiere concentraciones adecuadas de Na, K y Cl para funcionar",
+          "d": "Se ve afectado por la hipocloremia",
+          "e": "Su función aumenta en la alcalosis metabólica"
+        },
+        "correctAnswer": "e",
+        "explanation": "La función del cotransportador Na-K-2Cl disminuye en la alcalosis metabólica, no aumenta."
+      },
+      {
+        "question": "En relación a la célula principal del túbulo distal en la alcalosis metabólica:",
+        "answers": {
+          "a": "Disminuye la actividad de ENaC",
+          "b": "Disminuye la actividad de ROMK",
+          "c": "Disminuye la actividad de la bomba Na/K",
+          "d": "Aumenta la actividad de SGK1",
+          "e": "Crea un lumen positivo"
+        },
+        "correctAnswer": "e",
+        "explanation": "La célula principal crea un lumen negativo, no positivo, en la alcalosis metabólica."
+      },
+      {
+        "question": "Sobre la célula intercalada alfa en la alcalosis metabólica:",
+        "answers": {
+          "a": "Disminuye la secreción de H+",
+          "b": "Aumenta la actividad de la ATPasa de H+",
+          "c": "Es inhibida por la aldosterona",
+          "d": "Disminuye la reabsorción de HCO3",
+          "e": "No se ve afectada por el lumen negativo"
+        },
+        "correctAnswer": "c",
+        "explanation": "La célula intercalada alfa es estimulada, no inhibida, por la aldosterona en la alcalosis metabólica."
+      },
+      {
+        "question": "En relación a los efectos de la hipocloremia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Aumenta la función del cotransportador Na-K-2Cl",
+          "b": "Disminuye la reabsorción de Na en el asa de Henle",
+          "c": "Aumenta el flujo de Na al nefrón distal",
+          "d": "Inhibe la actividad de ENaC y ROMK",
+          "e": "No afecta la secreción de K+"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipocloremia sí afecta la secreción de K+, aumentándola indirectamente al estimular la actividad de ROMK."
+      },
+      {
+        "question": "Sobre los efectos de la hipocalemia en la alcalosis metabólica:",
+        "answers": {
+          "a": "Disminuye la reabsorción de HCO3 en el túbulo proximal",
+          "b": "Aumenta la secreción de H+ en el túbulo distal",
+          "c": "No afecta la actividad de la bomba Na/K",
+          "d": "Inhibe la actividad de ROMK",
+          "e": "Puede ser causada por diuréticos"
+        },
+        "correctAnswer": "d",
+        "explanation": "La hipocalemia estimula la actividad de ROMK, no la inhibe."
+      },
+      {
+        "question": "En relación a los mecanismos compensatorios renales:",
+        "answers": {
+          "a": "El riñón normalmente elimina el exceso de HCO3",
+          "b": "La compensación renal es independiente de la volemia",
+          "c": "Los perpetuadores no son necesarios para mantener la alcalosis",
+          "d": "La hipocloremia facilita la eliminación de HCO3",
+          "e": "La hipovolemia activa mecanismos de retención de HCO3"
+        },
+        "correctAnswer": "d",
+        "explanation": "La hipocloremia dificulta, no facilita, la eliminación de HCO3."
+      },
+      {
+        "question": "Sobre el sistema renina-angiotensina-aldosterona en la alcalosis metabólica:",
+        "answers": {
+          "a": "Se activa en respuesta a la hipovolemia",
+          "b": "La angiotensina II estimula el intercambiador Na/H+",
+          "c": "La aldosterona aumenta la secreción de H+",
+          "d": "Contribuye a la reabsorción de Na",
+          "e": "Disminuye la actividad del ENaC"
+        },
+        "correctAnswer": "e",
+        "explanation": "El sistema aumenta, no disminuye, la actividad del ENaC."
+      },
+      {
+        "question": "En relación al túbulo proximal en la alcalosis metabólica:",
+        "answers": {
+          "a": "El intercambiador Na/H+ está estimulado por el sistema simpático",
+          "b": "La alcalosis intracelular aumenta su actividad",
+          "c": "Su función principal es mantener la volemia",
+          "d": "La angiotensina II estimula su función",
+          "e": "Su contribución a la reabsorción de HCO3 es significativa"
+        },
+        "correctAnswer": "b",
+        "explanation": "La alcalosis intracelular disminuye, no aumenta, la actividad del intercambiador Na/H+."
+      },
+      {
+        "question": "Sobre los factores perpetuadores en la alcalosis metabólica:",
+        "answers": {
+          "a": "Son necesarios cuatro factores principales",
+          "b": "La hipovolemia es uno de ellos",
+          "c": "La hipocloremia contribuye significativamente",
+          "d": "La hipocalemia juega un papel importante",
+          "e": "La hipercalcemia es fundamental"
+        },
+        "correctAnswer": "e",
+        "explanation": "La hipercalcemia no es un factor perpetuador de la alcalosis metabólica."
+      }
+    ]
+  }
+};
+
+
+
+
