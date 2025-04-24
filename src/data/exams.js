@@ -2018,8 +2018,1037 @@ export const exams = {
         "correctAnswer": "c",
         "explanation": "En infecciones intraabdominales postquirúrgicas se requiere cobertura de amplio espectro, incluyendo bacilos Gram negativos y anaerobios[cite: 219]. Piperacilina-Tazobactam ofrece esta cobertura[cite: 220]. Otras opciones mencionadas incluyen Carbapenems, Metronidazol (combinado), Ampicilina/Sulbactam, Moxifloxacino o Tigeciclina[cite: 220]."
       }
-    ],    
-    },
+    ],
+  },
+  "examParasitologia1": {
+    "id": "examParasitologia1",
+    "title": "Examen de Microbiología - Parásitos",
+    "description": "Examen basado en el documento 'micro parasitos.pdf', cubriendo la clasificación general de parásitos, protozoos (intestinales, sanguíneos, tisulares), helmintos (nemátodos, céstodos, tremátodos) y ectoparásitos.",
+    "questions": [
+      {
+        "question": "1. Según la clasificación por forma, ¿a qué categoría pertenecen los gusanos macroscópicos y pluricelulares?",
+        "answers": {
+          "a": "Protozoos",
+          "b": "Artrópodos",
+          "c": "Helmintos",
+          "d": "Esporozoos",
+          "e": "Amibas"
+        },
+        "correctAnswer": "c",
+        "explanation": "El documento clasifica los parásitos por forma, indicando que los Helmintos son gusanos macroscópicos y pluricelulares[cite: 2]."
+      },
+      {
+        "question": "2. ¿Cuál es la forma resistente de los protozoos, responsable de la transmisión?",
+        "answers": {
+          "a": "Trofozoíto",
+          "b": "Esporozoíto",
+          "c": "Quiste / Ooquiste",
+          "d": "Merozoíto",
+          "e": "Gametocito"
+        },
+        "correctAnswer": "c",
+        "explanation": "Los protozoos tienen formas resistentes llamadas Quistes (o Ooquistes en esporozoos) que están rodeados por una pared y son responsables de la transmisión[cite: 11, 12, 44]."
+      },
+      {
+        "question": "3. ¿Qué estructura utilizan las amibas (Rizópodos) para la locomoción?",
+        "answers": {
+          "a": "Cilios",
+          "b": "Flagelos",
+          "c": "Seudópodos",
+          "d": "Complejo apical",
+          "e": "Ventosa"
+        },
+        "correctAnswer": "c",
+        "explanation": "Las amibas, clasificadas como Rizópodos, utilizan prolongaciones llamadas Seudópodos para moverse[cite: 16]."
+      },
+      {
+        "question": "4. ¿Cuál de los siguientes grupos de protozoos NO posee estructuras de locomoción propias?",
+        "answers": {
+          "a": "Rizópodos",
+          "b": "Ciliados",
+          "c": "Flagelados",
+          "d": "Esporozoos",
+          "e": "Ninguno de los anteriores"
+        },
+        "correctAnswer": "d",
+        "explanation": "Los Esporozoos se caracterizan por no tener estructuras de locomoción como cilios o flagelos[cite: 13]."
+      },
+      {
+        "question": "5. ¿Cuál es la importancia clínica principal de identificar amibas no patógenas como Entamoeba coli o Endolimax nana en un coprológico?",
+        "answers": {
+          "a": "Indican una infección grave que requiere tratamiento inmediato.",
+          "b": "Son precursoras de la forma patógena Entamoeba histolytica.",
+          "c": "Sugieren que el paciente está inmunosuprimido.",
+          "d": "Indican riesgo de infección por parásitos patógenos, ya que la vía de transmisión (fecal-oral) es la misma.",
+          "e": "Causan síntomas gastrointestinales leves."
+        },
+        "correctAnswer": "d",
+        "explanation": "La presencia de amibas no patógenas indica que el individuo ha estado expuesto a contaminación fecal-oral, la misma vía por la que se adquieren las amibas patógenas[cite: 16]."
+      },
+      {
+        "question": "6. ¿Qué forma parasitaria de Entamoeba histolytica es responsable de producir la enfermedad (amibiasis)?",
+        "answers": {
+          "a": "Quiste inmaduro",
+          "b": "Quiste maduro",
+          "c": "Trofozoíto",
+          "d": "Esporozoíto",
+          "e": "Ooquiste"
+        },
+        "correctAnswer": "c",
+        "explanation": "La enfermedad (amibiasis) es producida por el Trofozoíto, que es la forma activa que se adhiere, invade y daña la mucosa colónica[cite: 21, 27]."
+      },
+      {
+        "question": "7. En la amibiasis intestinal aguda (colitis amibiana disentérica), ¿qué característica suelen tener las heces?",
+        "answers": {
+          "a": "Heces acuosas abundantes",
+          "b": "Heces con moco y sangre",
+          "c": "Heces pálidas y grasosas (esteatorrea)",
+          "d": "Heces duras y secas",
+          "e": "Heces con gusanos visibles"
+        },
+        "correctAnswer": "b",
+        "explanation": "La colitis amibiana disentérica se caracteriza por diarrea con alta secreción de moco y presencia de sangre, debido a la inflamación y ulceración del colon[cite: 30]."
+      },
+      {
+        "question": "8. ¿Cuál es la localización extraintestinal MÁS frecuente de la amibiasis?",
+        "answers": {
+          "a": "Pulmón (absceso pulmonar)",
+          "b": "Cerebro (absceso cerebral)",
+          "c": "Piel (amibiasis cutánea)",
+          "d": "Hígado (absceso hepático amibiano)",
+          "e": "Riñón"
+        },
+        "correctAnswer": "d",
+        "explanation": "La localización extraintestinal más frecuente de la infección por E. histolytica es el hígado, donde puede formar un absceso hepático amibiano (AHA)[cite: 32]."
+      },
+      {
+        "question": "9. Balantidium coli es el único parásito ____________ que afecta a humanos.",
+        "answers": {
+          "a": "Flagelado",
+          "b": "Rizópodo",
+          "c": "Esporozoo",
+          "d": "Ciliado",
+          "e": "Helmintos"
+        },
+        "correctAnswer": "d",
+        "explanation": "Balantidium coli es el único parásito del grupo de los Ciliados que comúnmente afecta a los humanos[cite: 14, 36]."
+      },
+      {
+        "question": "10. ¿Cuál es el hospedador reservorio MÁS común de Balantidium coli?",
+        "answers": {
+          "a": "Humanos",
+          "b": "Perros",
+          "c": "Gatos",
+          "d": "Cerdos",
+          "e": "Vacas"
+        },
+        "correctAnswer": "d",
+        "explanation": "El hospedador más común de Balantidium coli son los cerdos, siendo el humano un hospedador accidental[cite: 36]."
+      },
+      {
+        "question": "11. ¿En qué parte del tracto gastrointestinal habita principalmente Giardia intestinalis?",
+        "answers": {
+          "a": "Estómago",
+          "b": "Intestino delgado",
+          "c": "Colon ascendente",
+          "d": "Recto",
+          "e": "Esófago"
+        },
+        "correctAnswer": "b",
+        "explanation": "Giardia intestinalis (lamblia) habita en el intestino delgado[cite: 36, 37]."
+      },
+      {
+        "question": "12. ¿Cuál es el principal mecanismo por el cual Giardia intestinalis causa enfermedad?",
+        "answers": {
+          "a": "Producción de toxinas potentes",
+          "b": "Invasión profunda de la mucosa intestinal",
+          "c": "Obstrucción mecánica por su gran tamaño",
+          "d": "Adherencia a la superficie de las microvellosidades, inflamación y atrofia, causando malabsorción",
+          "e": "Consumo directo de sangre del hospedador"
+        },
+        "correctAnswer": "d",
+        "explanation": "Giardia se adhiere fuertemente a la superficie del intestino delgado mediante su disco suctorio, actuando como un tapiz que previene la absorción, causa inflamación, atrofia de vellosidades y un síndrome de malabsorción[cite: 37, 40]."
+      },
+      {
+        "question": "13. ¿Qué manifestación clínica es característica de la giardiasis crónica, especialmente en niños?",
+        "answers": {
+          "a": "Diarrea disentérica",
+          "b": "Absceso hepático",
+          "c": "Síndrome de malabsorción (esteatorrea, pérdida de peso, retraso del crecimiento)",
+          "d": "Prurito anal intenso",
+          "e": "Obstrucción intestinal"
+        },
+        "correctAnswer": "c",
+        "explanation": "La forma crónica de la giardiasis se asocia típicamente con un síndrome de malabsorción, manifestado por heces grasosas (esteatorrea), pérdida de peso y, en niños, retraso del crecimiento y anemia[cite: 41, 42]."
+      },
+      {
+        "question": "14. Las coccidias intestinales como Cryptosporidium, Cystoisospora y Cyclospora pertenecen al grupo de los:",
+        "answers": {
+          "a": "Rizópodos",
+          "b": "Ciliados",
+          "c": "Flagelados",
+          "d": "Esporozoos",
+          "e": "Helmintos"
+        },
+        "correctAnswer": "d",
+        "explanation": "Cryptosporidium, Cystoisospora y Cyclospora son coccidias intestinales clasificadas dentro del grupo de los Esporozoos[cite: 44]."
+      },
+      {
+        "question": "15. ¿Qué tipo de diarrea producen característicamente las coccidias intestinales, especialmente en inmunosuprimidos?",
+        "answers": {
+          "a": "Diarrea disentérica (con moco y sangre)",
+          "b": "Diarrea acuosa crónica y severa",
+          "c": "Esteatorrea (heces grasosas)",
+          "d": "Estreñimiento",
+          "e": "Diarrea osmótica"
+        },
+        "correctAnswer": "b",
+        "explanation": "Las coccidias intestinales infectan el intestino delgado y causan destrucción celular e inflamación, resultando en diarrea acuosa. En inmunocompetentes es autolimitada, pero en inmunosuprimidos puede ser crónica y severa[cite: 49, 50, 51]."
+      },
+      {
+        "question": "16. ¿Cuál de las siguientes coccidias intestinales libera ooquistes ya esporulados (infectantes) directamente en las heces?",
+        "answers": {
+          "a": "Cyclospora cayetanensis",
+          "b": "Cystoisospora belli",
+          "c": "Cryptosporidium spp.",
+          "d": "Toxoplasma gondii",
+          "e": "Todas las anteriores"
+        },
+        "correctAnswer": "c",
+        "explanation": "Cryptosporidium spp. libera ooquistes esporulados y ya infectantes en las heces, mientras que Cyclospora y Cystoisospora liberan ooquistes no esporulados que requieren maduración en el ambiente[cite: 52, 55]."
+      },
+      {
+        "question": "17. ¿Qué técnica de tinción especial se utiliza en el coprológico para identificar los ooquistes de las coccidias intestinales?",
+        "answers": {
+          "a": "Tinción de Gram",
+          "b": "Tinción de Giemsa",
+          "c": "Tinción de Ziehl-Neelsen modificada (ácido-alcohol resistencia)",
+          "d": "Tinción con Tinta China",
+          "e": "Tinción con Azul de Metileno"
+        },
+        "correctAnswer": "c",
+        "explanation": "Los ooquistes de Cryptosporidium, Cyclospora y Cystoisospora son ácido-alcohol resistentes débiles y se visualizan mejor con tinciones como Ziehl-Neelsen modificada o Kinyoun en muestras fecales[cite: 44, 56]."
+      },
+      {
+        "question": "18. Los Microsporidios, aunque tradicionalmente estudiados en parasitología, actualmente se clasifican como:",
+        "answers": {
+          "a": "Bacterias intracelulares",
+          "b": "Protozoos esporozoos",
+          "c": "Hongos",
+          "d": "Arqueas",
+          "e": "Virus gigantes"
+        },
+        "correctAnswer": "c",
+        "explanation": "El documento indica que los Microsporidios, como Enterocytozoon y Encephalitozoon, ahora se consideran hongos debido a similitudes genómicas[cite: 58]."
+      },
+      {
+        "question": "19. ¿Cuál es la forma infectante de Blastocystis sp.?",
+        "answers": {
+          "a": "Forma ameboide",
+          "b": "Forma granular",
+          "c": "Forma vacuolar/vesicular",
+          "d": "Forma quística",
+          "e": "Trofozoíto"
+        },
+        "correctAnswer": "d",
+        "explanation": "La forma quística de Blastocystis sp. es la forma infectante que se transmite fecal-oral[cite: 61]."
+      },
+      {
+        "question": "20. ¿Cuándo se considera clínicamente significativa la presencia de Blastocystis sp. en un coprológico?",
+        "answers": {
+          "a": "Siempre que se detecte, independientemente del número.",
+          "b": "Solo si se observan más de 5 formas por campo (>5 F/C) en un paciente inmunosuprimido con diarrea sin otra causa.",
+          "c": "Solo si se acompaña de Entamoeba histolytica.",
+          "d": "Nunca, ya que siempre es un comensal.",
+          "e": "Solo si el paciente ha viajado recientemente."
+        },
+        "correctAnswer": "b",
+        "explanation": "El hallazgo de Blastocystis sp. es significativo principalmente en pacientes inmunosuprimidos con diarrea, cuando se observan más de 5 formas por campo y se han descartado otros patógenos[cite: 61, 64, 65]."
+      },
+      {
+        "question": "21. Ascaris lumbricoides es un helminto del grupo de los:",
+        "answers": {
+          "a": "Céstodos (planos)",
+          "b": "Tremátodos (hoja)",
+          "c": "Nemátodos (redondos)",
+          "d": "Acantocéfalos",
+          "e": "Anélidos"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ascaris lumbricoides pertenece al grupo de los Nemátodos, que son gusanos redondos[cite: 11, 66]."
+      },
+      {
+        "question": "22. ¿Cuál es la forma infectante de Ascaris lumbricoides para el humano?",
+        "answers": {
+          "a": "Huevo infértil",
+          "b": "Huevo fértil recién eliminado",
+          "c": "Huevo larvado (desarrollado en tierra)",
+          "d": "Larva Rabditiforme",
+          "e": "Adulto"
+        },
+        "correctAnswer": "c",
+        "explanation": "La forma infectante es el huevo fértil que ha madurado en la tierra (Geo-helminto) y contiene una larva en su interior (huevo larvado)[cite: 71, 72, 73]."
+      },
+      {
+        "question": "23. Durante su ciclo de vida, la larva de Ascaris lumbricoides realiza una migración que pasa por varios órganos antes de regresar al intestino. ¿Cuál es la secuencia correcta de esta migración?",
+        "answers": {
+          "a": "Intestino -> Cerebro -> Pulmón -> Intestino",
+          "b": "Intestino -> Hígado -> Corazón -> Pulmón -> Vía aérea -> Deglución -> Intestino",
+          "c": "Intestino -> Riñón -> Hígado -> Pulmón -> Intestino",
+          "d": "Piel -> Pulmón -> Corazón -> Intestino",
+          "e": "Intestino -> Pulmón -> Intestino (sin pasar por hígado ni corazón)"
+        },
+        "correctAnswer": "b",
+        "explanation": "Tras ingerir el huevo larvado, la larva eclosiona en el intestino, penetra la pared, va por circulación portal al hígado, luego al corazón derecho, pulmones, rompe alvéolos, asciende por vía aérea, es deglutida y regresa al intestino para madurar[cite: 78, 79, 80, 81]."
+      },
+      {
+        "question": "24. ¿Qué síndrome pulmonar inflamatorio, caracterizado por infiltrados eosinofílicos, puede producir la migración larvaria de Ascaris (y otros helmintos como Uncinarias y Strongyloides) a través de los pulmones?",
+        "answers": {
+          "a": "Síndrome de dificultad respiratoria aguda (SDRA)",
+          "b": "Síndrome de Loeffler",
+          "c": "Síndrome de Churg-Strauss",
+          "d": "Síndrome de Kartagener",
+          "e": "Síndrome de Hamman-Rich"
+        },
+        "correctAnswer": "b",
+        "explanation": "La migración de las larvas de Ascaris por el parénquima pulmonar genera una neumonitis eosinofílica conocida como Síndrome de Loeffler[cite: 84]."
+      },
+      {
+        "question": "25. ¿Cuál es la complicación MÁS grave asociada a infecciones INTENSAS (alto número de parásitos adultos) por Ascaris lumbricoides?",
+        "answers": {
+          "a": "Anemia ferropénica severa",
+          "b": "Síndrome de malabsorción",
+          "c": "Obstrucción intestinal mecánica",
+          "d": "Perforación intestinal",
+          "e": "Apendicitis aguda"
+        },
+        "correctAnswer": "c",
+        "explanation": "En infecciones intensas, la gran cantidad de gusanos adultos puede formar ovillos o nudos que causan una obstrucción mecánica del intestino[cite: 88, 91]."
+      },
+      {
+        "question": "26. ¿Qué condición requiere Ascaris lumbricoides para que sus huevos fértiles se vuelvan infectantes (huevos larvados)?",
+        "answers": {
+          "a": "Pasar por un hospedador intermediario (ej. caracol)",
+          "b": "Ser expuestos a la luz solar directa",
+          "c": "Estar en contacto con la tierra (ser un Geo-helminto)",
+          "d": "Ser ingeridos inmediatamente tras ser eliminados",
+          "e": "Madurar dentro del intestino del hospedador"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ascaris lumbricoides es un Geo-helminto, lo que significa que sus huevos fértiles necesitan estar en contacto con la tierra para desarrollar la larva en su interior y volverse infectantes."
+      },
+      {
+        "question": "27. ¿Qué es la 'migración larvaria visceral' causada por Toxocara canis/cati?",
+        "answers": {
+          "a": "La migración normal de las larvas de Toxocara al pulmón en perros/gatos.",
+          "b": "La migración errática de las larvas de Toxocara en humanos (hospedador accidental) a diversos órganos.",
+          "c": "La formación de quistes de Toxocara en el músculo humano.",
+          "d": "La obstrucción intestinal causada por adultos de Toxocara en humanos.",
+          "e": "Una reacción alérgica cutánea a los huevos de Toxocara."
+        },
+        "correctAnswer": "b",
+        "explanation": "Cuando los humanos ingieren huevos larvados de Toxocara (parásito de perros/gatos), las larvas no completan su ciclo normal y realizan una migración errática a través de varios órganos (hígado, pulmón, ojo, cerebro), causando la migración larvaria visceral."
+      },
+      {
+        "question": "28. Trichuris trichiura (Tricocéfalo) se caracteriza por tener una forma similar a un látigo. ¿Qué porción del parásito se inserta en la mucosa del intestino grueso?",
+        "answers": {
+          "a": "La porción posterior gruesa",
+          "b": "Todo el cuerpo del parásito",
+          "c": "La porción anterior delgada",
+          "d": "Los huevos",
+          "e": "No se inserta, vive libre en la luz intestinal"
+        },
+        "correctAnswer": "c",
+        "explanation": "Trichuris trichiura inserta su porción anterior, que es muy delgada (como un pelo o látigo), en la mucosa del intestino grueso (colon ascendente principalmente)."
+      },
+      {
+        "question": "29. ¿Qué complicación grave puede ocurrir en infecciones intensas y crónicas por Trichuris trichiura, especialmente en niños desnutridos?",
+        "answers": {
+          "a": "Obstrucción intestinal",
+          "b": "Prolapso rectal",
+          "c": "Apendicitis",
+          "d": "Absceso hepático",
+          "e": "Síndrome de Loeffler"
+        },
+        "correctAnswer": "b",
+        "explanation": "En infecciones graves y crónicas, el pujo y tenesmo constantes asociados a la disentería pueden llevar al prolapso rectal, una complicación característica asociada a desnutrición."
+      },
+      {
+        "question": "30. ¿Cuál es la manifestación clínica MÁS característica y a menudo única de la infección por Enterobius vermicularis (Oxiuros)?",
+        "answers": {
+          "a": "Diarrea acuosa",
+          "b": "Dolor abdominal tipo cólico",
+          "c": "Prurito anal (especialmente nocturno)",
+          "d": "Anemia ferropénica",
+          "e": "Obstrucción intestinal"
+        },
+        "correctAnswer": "c",
+        "explanation": "La migración de las hembras grávidas hacia la región perianal/perigenital para depositar huevos durante la noche causa un intenso prurito anal, que es el síntoma principal."
+      },
+      {
+        "question": "31. ¿Cuál es el método diagnóstico de elección para Enterobius vermicularis?",
+        "answers": {
+          "a": "Coprológico seriado",
+          "b": "Biopsia rectal",
+          "c": "Test de Graham (cinta adhesiva perianal)",
+          "d": "Cultivo de heces",
+          "e": "Serología (detección de anticuerpos)"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dado que los huevos no suelen eliminarse en las heces, el diagnóstico se realiza mediante el Test de Graham, que consiste en aplicar una cinta adhesiva transparente en la región perianal (preferiblemente por la mañana) para recoger los huevos y observarlos al microscopio."
+      },
+      {
+        "question": "32. Las uncinarias (Ancylostoma duodenale y Necator americanus) son helmintos hematófagos. ¿Cómo se fijan a la mucosa del intestino delgado para alimentarse?",
+        "answers": {
+          "a": "Usando ventosas",
+          "b": "Mediante ganchos en el escólex",
+          "c": "Insertando su porción anterior delgada",
+          "d": "Usando dientes (Ancylostoma) o placas cortantes (Necator)",
+          "e": "A través de un disco suctorio"
+        },
+        "correctAnswer": "d",
+        "explanation": "Las uncinarias poseen estructuras bucales especializadas para lacerar la mucosa y alimentarse de sangre: Ancylostoma tiene dientes y Necator tiene placas cortantes."
+      },
+      {
+        "question": "33. ¿Cuál es la forma larvaria de las uncinarias que penetra activamente la piel del hospedador humano?",
+        "answers": {
+          "a": "Huevo larvado",
+          "b": "Larva Rabditiforme",
+          "c": "Larva Filariforme",
+          "d": "Oncosfera",
+          "e": "Cisticerco"
+        },
+        "correctAnswer": "c",
+        "explanation": "Tras madurar en la tierra, la larva Rabditiforme muda a larva Filariforme, la cual tiene la capacidad de penetrar la piel intacta del hospedador."
+      },
+      {
+        "question": "34. ¿Qué manifestación cutánea se describe clásicamente en el sitio de penetración de las larvas de uncinarias?",
+        "answers": {
+          "a": "Úlcera necrótica profunda",
+          "b": "Lesiones vesiculares agrupadas",
+          "c": "Placas eritematosas descamativas",
+          "d": "Lesiones puntiformes con edema, eritema y prurito ('candelillas')",
+          "e": "Trayectos serpiginosos lineales"
+        },
+        "correctAnswer": "d",
+        "explanation": "La penetración cutánea de las larvas filariformes produce lesiones puntiformes, a menudo en espacios interdigitales, acompañadas de inflamación local y prurito intenso, descritas popularmente como 'candelillas' por la sensación de ardor."
+      },
+      {
+        "question": "35. ¿Qué tipo de anemia es una consecuencia característica de las infecciones crónicas y/o intensas por Uncinarias?",
+        "answers": {
+          "a": "Anemia megaloblástica (déficit B12/Folato)",
+          "b": "Anemia hemolítica autoinmune",
+          "c": "Anemia microcítica hipocrómica (ferropénica)",
+          "d": "Anemia aplásica",
+          "e": "Anemia normocítica normocrómica (de enfermedad crónica)"
+        },
+        "correctAnswer": "c",
+        "explanation": "Debido a que las uncinarias se alimentan de sangre y causan microsangrados crónicos en el intestino, las infecciones significativas llevan a una pérdida crónica de hierro, resultando en anemia microcítica hipocrómica (ferropénica)."
+      },
+      {
+        "question": "36. Strongyloides stercoralis tiene un ciclo de vida complejo que incluye una vía de:",
+        "answers": {
+          "a": "Reproducción sexual obligada en el humano",
+          "b": "Desarrollo exclusivo en el ambiente (vida libre)",
+          "c": "Auto-infección, donde las larvas maduran y reinfectan al mismo hospedador",
+          "d": "Transmisión únicamente por vectores artrópodos",
+          "e": "Necesidad de un hospedador intermediario (caracol)"
+        },
+        "correctAnswer": "c",
+        "explanation": "Una característica distintiva de Strongyloides es la capacidad de auto-infección: las larvas rabditiformes pueden transformarse en filariformes dentro del intestino, penetrar la mucosa o la piel perianal y completar el ciclo (incluyendo migración pulmonar) sin salir del hospedador."
+      },
+      {
+        "question": "37. ¿Qué condición puede desencadenar un síndrome de hiperinfección por Strongyloides stercoralis, con diseminación de larvas a múltiples órganos y alta mortalidad?",
+        "answers": {
+          "a": "Embarazo",
+          "b": "Desnutrición proteico-calórica",
+          "c": "Inmunosupresión celular (ej. uso de corticoides, VIH, HTLV-1)",
+          "d": "Diabetes mellitus tipo 2",
+          "e": "Anemia ferropénica"
+        },
+        "correctAnswer": "c",
+        "explanation": "La inmunosupresión celular, especialmente por corticoides, permite la multiplicación descontrolada del parásito y facilita la auto-infección masiva, llevando al síndrome de hiperinfección y diseminación."
+      },
+      {
+        "question": "38. ¿Qué estructura utilizan los Céstodos (Taenias) adultos para fijarse a la mucosa del intestino delgado?",
+        "answers": {
+          "a": "Disco suctorio",
+          "b": "Dientes o placas cortantes",
+          "c": "Escólex (con ventosas y/o ganchos)",
+          "d": "Flagelos",
+          "e": "Cilios"
+        },
+        "correctAnswer": "c",
+        "explanation": "Los céstodos adultos poseen una estructura anterior llamada Escólex, equipada con ventosas y/o una corona de ganchos, que les sirve para anclarse a la pared intestinal."
+      },
+      {
+        "question": "39. La Teniosis es la infección intestinal por la forma adulta de Taenia. ¿Cómo se adquiere la Teniosis por Taenia solium o Taenia saginata?",
+        "answers": {
+          "a": "Por ingestión de huevos larvados presentes en tierra.",
+          "b": "Por penetración activa de larvas a través de la piel.",
+          "c": "Por picadura de un insecto vector.",
+          "d": "Por ingestión de carne cruda o mal cocida (de cerdo para T. solium, de vaca para T. saginata) que contiene Cisticercos.",
+          "e": "Por inhalación de esporas."
+        },
+        "correctAnswer": "d",
+        "explanation": "La Teniosis se adquiere al consumir carne cruda o insuficientemente cocida que contiene la forma larvaria enquistada, el cisticerco. El humano es el hospedador definitivo donde se desarrolla el gusano adulto."
+      },
+      {
+        "question": "40. La Cisticercosis humana es causada ÚNICAMENTE por la forma larvaria de:",
+        "answers": {
+          "a": "Taenia saginata",
+          "b": "Taenia solium",
+          "c": "Hymenolepis nana",
+          "d": "Echinococcus granulosus",
+          "e": "Dipylidium caninum"
+        },
+        "correctAnswer": "b",
+        "explanation": "La Cisticercosis humana, la infección tisular por la larva (cisticerco), es causada exclusivamente por Taenia solium. Esto ocurre cuando el humano ingiere los huevos de T. solium, actuando accidentalmente como hospedador intermediario."
+      },
+      {
+        "question": "41. ¿Cuál es la manifestación clínica más común y grave de la Cisticercosis humana?",
+        "answers": {
+          "a": "Afectación hepática (quistes hepáticos)",
+          "b": "Afectación pulmonar (neumonitis)",
+          "c": "Afectación neurológica (Neurocisticercosis), causando epilepsia, cefalea, HTE.",
+          "d": "Afectación muscular (mialgias intensas)",
+          "e": "Afectación cutánea (nódulos subcutáneos dolorosos)"
+        },
+        "correctAnswer": "c",
+        "explanation": "El tropismo principal de los cisticercos de T. solium en humanos es el SNC, causando Neurocisticercosis. Es una causa importante de epilepsia de inicio tardío en zonas endémicas, además de cefalea e hipertensión intracraneana."
+      },
+      {
+        "question": "42. ¿Cuál es el hospedador definitivo de Echinococcus granulosus, agente causal de la Hidatidosis?",
+        "answers": {
+          "a": "Humanos",
+          "b": "Ovejas",
+          "c": "Perros (y otros cánidos)",
+          "d": "Roedores",
+          "e": "Vacas"
+        },
+        "correctAnswer": "c",
+        "explanation": "El hospedador definitivo, donde reside el gusano adulto en el intestino, es el perro (u otros cánidos). Las ovejas (y otros herbívoros) actúan como hospedadores intermediarios, y el humano es un hospedador intermediario accidental."
+      },
+      {
+        "question": "43. ¿Qué estructura característica forma la larva de Echinococcus granulosus en los órganos del hospedador intermediario (incluyendo humanos)?",
+        "answers": {
+          "a": "Cisticerco",
+          "b": "Quiste hidatídico",
+          "c": "Esporoquiste",
+          "d": "Oncosfera",
+          "e": "Metacercaria"
+        },
+        "correctAnswer": "b",
+        "explanation": "Tras la ingestión de huevos, la oncosfera liberada migra a órganos (principalmente hígado y pulmón) y se desarrolla lentamente formando una gran estructura quística llena de líquido y protoescólices, conocida como Quiste Hidatídico."
+      },
+      {
+        "question": "44. Hymenolepis nana es un céstodo particular porque:",
+        "answers": {
+          "a": "Requiere obligatoriamente un artrópodo como hospedador intermediario.",
+          "b": "Puede completar todo su ciclo de vida en un solo hospedador (humano o roedor), incluyendo auto-infección.",
+          "c": "Es el céstodo más grande que infecta a humanos.",
+          "d": "Solo infecta a humanos y no a otros animales.",
+          "e": "Su forma adulta vive en el hígado en lugar del intestino."
+        },
+        "correctAnswer": "b",
+        "explanation": "Hymenolepis nana puede tener un ciclo directo: la ingestión de huevos lleva directamente al desarrollo del adulto en el intestino. También puede darse auto-infección interna. Opcionalmente, puede usar un artrópodo como intermediario."
+      },
+      {
+        "question": "45. Paragonimus spp., causante de la paragonimiasis o distomatosis pulmonar, es un helminto del grupo de los:",
+        "answers": {
+          "a": "Nemátodos",
+          "b": "Céstodos",
+          "c": "Tremátodos",
+          "d": "Acantocéfalos",
+          "e": "Turbelarios"
+        },
+        "correctAnswer": "c",
+        "explanation": "Paragonimus spp. pertenece al grupo de los Tremátodos, que son gusanos planos, no segmentados, a menudo con forma de hoja."
+      },
+      {
+        "question": "46. ¿Cómo adquieren los humanos la infección por Paragonimus spp.?",
+        "answers": {
+          "a": "Por picadura de mosquito.",
+          "b": "Por contacto con tierra contaminada.",
+          "c": "Por ingestión de carne de cerdo cruda.",
+          "d": "Por ingestión de cangrejos o camarones de agua dulce crudos o mal cocidos que contienen Metacercarias.",
+          "e": "Por beber agua contaminada con huevos."
+        },
+        "correctAnswer": "d",
+        "explanation": "El ciclo de Paragonimus requiere dos hospedadores intermediarios (caracol y luego un crustáceo de agua dulce). El humano se infecta al consumir estos crustáceos (cangrejos, camarones) crudos o insuficientemente cocidos, ingiriendo la forma larvaria enquistada llamada Metacercaria."
+      },
+      {
+        "question": "47. Sarcoptes scabiei es el agente causal de:",
+        "answers": {
+          "a": "Pediculosis (piojos)",
+          "b": "Miasis",
+          "c": "Escabiosis (sarna)",
+          "d": "Filariasis",
+          "e": "Leishmaniasis cutánea"
+        },
+        "correctAnswer": "c",
+        "explanation": "Sarcoptes scabiei var. hominis es el ácaro que causa la escabiosis o sarna humana, una ectoparasitosis muy contagiosa."
+      },
+      {
+        "question": "48. La Miasis es la infestación de tejidos por:",
+        "answers": {
+          "a": "Ácaros adultos",
+          "b": "Larvas de moscas",
+          "c": "Piojos",
+          "d": "Pulgas",
+          "e": "Garrapatas"
+        },
+        "correctAnswer": "b",
+        "explanation": "La Miasis se define como la infestación de tejidos de animales o humanos por larvas de dípteros (moscas)."
+      },
+      {
+        "question": "49. ¿Cuál de las siguientes Amibas de Vida Libre (AVL) es responsable de la Meningoencefalitis Amebiana Primaria (MAP), un cuadro agudo y fulminante?",
+        "answers": {
+          "a": "Acanthamoeba castellani",
+          "b": "Balamuthia mandrillaris",
+          "c": "Naegleria fowleri",
+          "d": "Sappinia pedata",
+          "e": "Entamoeba histolytica"
+        },
+        "correctAnswer": "c",
+        "explanation": "Naegleria fowleri causa la Meningoencefalitis Amebiana Primaria (MAP), una infección del SNC adquirida por vía nasal (agua dulce tibia), de evolución muy rápida y casi siempre fatal."
+      },
+      {
+        "question": "50. Acanthamoeba castellani puede causar Encefalitis Amebiana Granulomatosa (EGA) y también es una causa importante de:",
+        "answers": {
+          "a": "Diarrea crónica",
+          "b": "Queratitis (infección corneal), especialmente en usuarios de lentes de contacto",
+          "c": "Miocarditis",
+          "d": "Hepatitis",
+          "e": "Leishmaniasis cutánea"
+        },
+        "correctAnswer": "b",
+        "explanation": "Además de la EGA (más crónica que la MAP), Acanthamoeba es una causa reconocida de Queratitis Amebiana, una infección corneal dolorosa y potencialmente cegadora, asociada a menudo con el uso de lentes de contacto y mala higiene o exposición a agua contaminada."
+      }
+    ],
+    "clinicalCases": [
+      {
+        "title": "Caso Clínico 1: Diarrea Disentérica Aguda",
+        "description": "Paciente de 30 años presenta cuadro agudo de 3 días de evolución con deposiciones diarreicas frecuentes, de bajo volumen, con presencia de moco y sangre, acompañadas de cólicos abdominales intensos, pujo y tenesmo.",
+        "question": "Considerando el cuadro clínico, ¿cuál de los siguientes protozoos intestinales es el agente causal MÁS probable?",
+        "answers": {
+          "a": "Giardia intestinalis",
+          "b": "Cryptosporidium spp.",
+          "c": "Entamoeba histolytica",
+          "d": "Blastocystis sp.",
+          "e": "Cyclospora cayetanensis"
+        },
+        "correctAnswer": "c",
+        "explanation": "La diarrea disentérica (moco y sangre), junto con pujo y tenesmo, es característica de la colitis invasiva causada por Entamoeba histolytica[cite: 30]."
+      },
+      {
+        "title": "Caso Clínico 2: Absceso Hepático",
+        "description": "Hombre de 45 años, alcohólico crónico, consulta por fiebre, malestar general y dolor en hipocondrio derecho que se irradia a región escapular, de 2 semanas de evolución. La ecografía muestra una lesión quística única de 8 cm en el lóbulo derecho del hígado.",
+        "question": "¿Cuál es el diagnóstico MÁS probable, considerando los antecedentes y hallazgos?",
+        "answers": {
+          "a": "Quiste hidatídico",
+          "b": "Absceso hepático piógeno",
+          "c": "Absceso hepático amebiano (AHA)",
+          "d": "Hepatocarcinoma",
+          "e": "Colangiocarcinoma"
+        },
+        "correctAnswer": "c",
+        "explanation": "El cuadro clínico (fiebre, dolor en HCD irradiado) y la imagen (lesión única en lóbulo derecho) son muy sugestivos de un Absceso Hepático Amebiano (AHA). El alcoholismo es un factor de riesgo[cite: 32, 34, 35]."
+      },
+      {
+        "title": "Caso Clínico 3: Diarrea del Viajero con Malabsorción",
+        "description": "Estudiante regresa de un viaje a una zona rural con saneamiento deficiente. Presenta diarrea acuosa persistente, distensión abdominal, flatulencia fétida y evidencia de esteatorrea.",
+        "question": "¿Qué parásito flagelado es una causa común de 'diarrea del viajero' y síndrome de malabsorción?",
+        "answers": {
+          "a": "Entamoeba histolytica",
+          "b": "Balantidium coli",
+          "c": "Trichomonas vaginalis",
+          "d": "Giardia intestinalis",
+          "e": "Cryptosporidium spp."
+        },
+        "correctAnswer": "d",
+        "explanation": "Giardia intestinalis es un agente frecuente de diarrea del viajero y su mecanismo patogénico principal es la malabsorción, explicando síntomas como la esteatorrea y la flatulencia fétida[cite: 37, 40, 41, 42]."
+      },
+      {
+        "title": "Caso Clínico 4: Diarrea Acuosa Prolongada en VIH",
+        "description": "Paciente con diagnóstico de VIH y recuento de CD4 de 150 células/mm³ presenta diarrea acuosa profusa, no sanguinolenta, de más de 4 semanas de evolución, asociada a deshidratación y pérdida de peso.",
+        "question": "¿Qué grupo de parásitos oportunistas debe sospecharse fuertemente como causa de este cuadro?",
+        "answers": {
+          "a": "Amibas (Entamoeba histolytica)",
+          "b": "Helmintos (Ascaris, Trichuris)",
+          "c": "Coccidias intestinales (Cryptosporidium, Cystoisospora, Cyclospora)",
+          "d": "Flagelados (Giardia)",
+          "e": "Céstodos (Taenia)"
+        },
+        "correctAnswer": "c",
+        "explanation": "En pacientes inmunosuprimidos, especialmente con VIH y bajo recuento de CD4, las coccidias intestinales son causas importantes de diarrea acuosa crónica y severa[cite: 44, 51, 52, 55]."
+      },
+      {
+        "title": "Caso Clínico 5: Diagnóstico Coprológico con Tinción Especial",
+        "description": "Se realiza un examen coprológico a un paciente inmunosuprimido con diarrea crónica. Se solicita una tinción especial para buscar coccidias.",
+        "question": "¿Qué tinción esperaría que revele ooquistes de color rojo/fucsia sobre un fondo azul/verde?",
+        "answers": {
+          "a": "Tinción de Gram",
+          "b": "Tinción de Giemsa",
+          "c": "Tinción de Ziehl-Neelsen modificada",
+          "d": "Tinción con Lugol",
+          "e": "Tinción con Azul de Metileno"
+        },
+        "correctAnswer": "c",
+        "explanation": "La tinción de Ziehl-Neelsen modificada (o Kinyoun) se usa para detectar ooquistes de coccidias, los cuales, al ser ácido-alcohol resistentes, retienen la fucsina y se tiñen de rojo/fucsia[cite: 55]."
+      },
+      {
+        "title": "Caso Clínico 6: Niño con Obstrucción Intestinal",
+        "description": "Niño de 5 años, procedente de zona rural con pobres condiciones sanitarias, presenta dolor abdominal tipo cólico, vómitos y distensión abdominal progresiva. En ocasiones, ha expulsado gusanos largos y redondos por boca o ano.",
+        "question": "¿Cuál es la causa MÁS probable de la obstrucción intestinal en este niño?",
+        "answers": {
+          "a": "Infección masiva por Giardia",
+          "b": "Formación de un ameboma por E. histolytica",
+          "c": "Ovillo de Ascaris lumbricoides adultos",
+          "d": "Infección intensa por Trichuris trichiura",
+          "e": "Presencia de Taenia saginata adulta"
+        },
+        "correctAnswer": "c",
+        "explanation": "La obstrucción intestinal en niños de zonas endémicas suele ser causada por una carga parasitaria muy alta de Ascaris lumbricoides adultos, que forman ovillos en la luz intestinal[cite: 88, 91]."
+      },
+      {
+        "title": "Caso Clínico 7: Niño con Síntomas Respiratorios y Eosinofilia",
+        "description": "Niño preescolar con antecedentes de geofagia presenta tos seca, sibilancias y dificultad respiratoria leve. La radiografía de tórax muestra infiltrados pulmonares migratorios y el hemograma revela eosinofilia marcada.",
+        "question": "¿Qué diagnóstico sindromático asociado a la migración larvaria de helmintos debe considerarse?",
+        "answers": {
+          "a": "Síndrome de Löffler",
+          "b": "Síndrome de Hiperinfección",
+          "c": "Síndrome de Malabsorción",
+          "d": "Síndrome Disentérico",
+          "e": "Síndrome de Obstrucción Biliar"
+        },
+        "correctAnswer": "a",
+        "explanation": "El Síndrome de Löffler es una neumonitis eosinofílica causada por la migración de larvas de helmintos (Ascaris, Uncinarias, Strongyloides) a través de los pulmones[cite: 84, 122, 132]."
+      },
+      {
+        "title": "Caso Clínico 8: Niño Desnutrido con Diarrea y Prolapso Rectal",
+        "description": "Niño de 4 años severamente desnutrido presenta diarrea crónica con moco y sangre, pujo, tenesmo y episodios de prolapso rectal.",
+        "question": "¿Qué helminto, cuya infección intensa se asocia a este cuadro en niños desnutridos, debe sospecharse?",
+        "answers": {
+          "a": "Ascaris lumbricoides",
+          "b": "Enterobius vermicularis",
+          "c": "Ancylostoma duodenale",
+          "d": "Trichuris trichiura",
+          "e": "Strongyloides stercoralis"
+        },
+        "correctAnswer": "d",
+        "explanation": "Las infecciones intensas por Trichuris trichiura en niños desnutridos pueden causar un cuadro disentérico crónico que lleva al prolapso rectal[cite: 103, 104]."
+      },
+      {
+        "title": "Caso Clínico 9: Prurito Anal Nocturno en Escolar",
+        "description": "Madre consulta porque su hijo de 7 años se queja de picazón intensa en la zona anal, principalmente durante la noche, lo que le dificulta dormir. No hay diarrea ni otros síntomas.",
+        "question": "¿Cuál es el parásito MÁS probable causante de este síntoma?",
+        "answers": {
+          "a": "Ascaris lumbricoides",
+          "b": "Trichuris trichiura",
+          "c": "Enterobius vermicularis",
+          "d": "Taenia solium",
+          "e": "Giardia intestinalis"
+        },
+        "correctAnswer": "c",
+        "explanation": "El prurito anal nocturno es el síntoma cardinal de la infección por Enterobius vermicularis (oxiuros), debido a la migración de las hembras a la región perianal para depositar huevos[cite: 110, 111]."
+      },
+      {
+        "title": "Caso Clínico 10: Agricultor con Anemia y Lesiones en Pies",
+        "description": "Agricultor de 50 años que trabaja descalzo consulta por fatiga progresiva. El hemograma muestra anemia microcítica hipocrómica. Refiere haber tenido lesiones pruriginosas y eritematosas entre los dedos de los pies hace unos meses.",
+        "question": "¿Qué parasitosis intestinal es la causa MÁS probable de la anemia en este paciente?",
+        "answers": {
+          "a": "Ascariasis",
+          "b": "Tricocefalosis",
+          "c": "Oxiuriasis",
+          "d": "Uncinariasis",
+          "e": "Estrongiloidiasis"
+        },
+        "correctAnswer": "d",
+        "explanation": "La combinación de anemia ferropénica (microcítica hipocrómica) y el antecedente de lesiones cutáneas pruriginosas ('candelillas') en pies, en un trabajador agrícola descalzo, es muy sugestiva de uncinariasis (Ancylostoma/Necator)[cite: 114, 121, 123]."
+      },
+      {
+        "title": "Caso Clínico 11: Lesiones Cutáneas Serpiginosas",
+        "description": "Turista regresa de una playa del Caribe y nota la aparición de trayectos lineales, elevados, eritematosos y muy pruriginosos en la piel de los pies, que avanzan lentamente.",
+        "question": "¿Qué condición, causada por larvas de uncinarias de animales, produce estas lesiones?",
+        "answers": {
+          "a": "Uncinariasis humana",
+          "b": "Migración larvaria visceral (Toxocara)",
+          "c": "Migración larvaria cutánea (larva migrans cutánea)",
+          "d": "Escabiosis",
+          "e": "Miasis migrante"
+        },
+        "correctAnswer": "c",
+        "explanation": "Las lesiones serpiginosas y reptantes en la piel son características de la migración larvaria cutánea, causada por larvas de uncinarias de perros o gatos (ej. Ancylostoma braziliense) que penetran la piel humana pero no pueden completar su ciclo y migran por la epidermis[cite: 125, 128]."
+      },
+      {
+        "title": "Caso Clínico 12: Paciente con Corticoides y Diarrea Persistente",
+        "description": "Paciente con enfermedad autoinmune en tratamiento crónico con altas dosis de prednisona desarrolla diarrea acuosa persistente, dolor abdominal y eosinofilia. El coprológico reporta la presencia de larvas.",
+        "question": "¿Qué parásito oportunista debe sospecharse fuertemente, considerando el uso de corticoides y el hallazgo de larvas en heces?",
+        "answers": {
+          "a": "Ascaris lumbricoides",
+          "b": "Trichuris trichiura",
+          "c": "Enterobius vermicularis",
+          "d": "Strongyloides stercoralis",
+          "e": "Taenia solium"
+        },
+        "correctAnswer": "d",
+        "explanation": "Strongyloides stercoralis es un parásito oportunista cuyo ciclo de auto-infección puede descontrolarse bajo inmunosupresión celular (como la inducida por corticoides), llevando a hiperinfección. El hallazgo de larvas (no huevos) en heces es diagnóstico[cite: 130, 135, 136, 137]."
+      },
+      {
+        "title": "Caso Clínico 13: Hallazgo Incidental en Coprológico",
+        "description": "En un examen coprológico de rutina de un paciente asintomático, se reporta la presencia de proglótides.",
+        "question": "¿La presencia de proglótides en heces es diagnóstica de qué tipo de parasitosis intestinal?",
+        "answers": {
+          "a": "Ascariasis",
+          "b": "Uncinariasis",
+          "c": "Teniosis",
+          "d": "Giardiasis",
+          "e": "Amibiasis"
+        },
+        "correctAnswer": "c",
+        "explanation": "Los proglótides son los segmentos que forman el cuerpo (estróbilo) de los céstodos adultos (Taenias). Su eliminación por las heces, a menudo notada por el paciente, es diagnóstica de Teniosis[cite: 140, 144, 149]."
+      },
+      {
+        "title": "Caso Clínico 14: Convulsiones de Inicio Tardío",
+        "description": "Mujer de 35 años, sin antecedentes médicos relevantes, procedente de una zona rural donde se crían cerdos, inicia con crisis convulsivas tónico-clónicas generalizadas.",
+        "question": "Considerando la epidemiología y la clínica, ¿qué causa infecciosa de epilepsia de inicio tardío debe descartarse prioritariamente?",
+        "answers": {
+          "a": "Meningitis bacteriana",
+          "b": "Tuberculosis meníngea",
+          "c": "Neurocisticercosis (larvas de Taenia solium)",
+          "d": "Toxoplasmosis cerebral",
+          "e": "Encefalitis herpética"
+        },
+        "correctAnswer": "c",
+        "explanation": "La Neurocisticercosis es una causa principal de epilepsia de inicio tardío (después de los 20 años) en personas de zonas endémicas para Taenia solium (donde hay cría de cerdos)[cite: 157, 161]."
+      },
+      {
+        "title": "Caso Clínico 15: Quiste Hepático Gigante",
+        "description": "Pastor de ovejas de 60 años, con contacto estrecho con perros, presenta masa palpable en hipocondrio derecho. Una tomografía revela una lesión quística unilocular de gran tamaño (15 cm) en hígado, con paredes calcificadas y vesículas hijas en su interior.",
+        "question": "¿Qué parasitosis es la causa más probable de esta lesión?",
+        "answers": {
+          "a": "Absceso hepático amebiano",
+          "b": "Cisticercosis hepática",
+          "c": "Hidatidosis (quiste hidatídico por Echinococcus granulosus)",
+          "d": "Fascioliasis hepática",
+          "e": "Metástasis quística"
+        },
+        "correctAnswer": "c",
+        "explanation": "Un quiste hepático de gran tamaño, a menudo con calcificaciones parietales y vesículas hijas internas, en un paciente con exposición a perros y ovejas (ciclo perro-oveja-perro), es altamente sugestivo de un Quiste Hidatídico causado por Echinococcus granulosus[cite: 164, 166, 167, 168]."
+      },
+      {
+        "title": "Caso Clínico 16: Infección por Céstodo Pequeño en Niños",
+        "description": "Niño de 4 años presenta diarrea intermitente y dolor abdominal leve. El coprológico reporta huevos característicos de Hymenolepis nana.",
+        "question": "Además de la ingestión de huevos directamente de heces humanas o de roedores, ¿cómo más puede adquirirse la infección por Hymenolepis nana?",
+        "answers": {
+          "a": "Por penetración de larvas a través de la piel.",
+          "b": "Por picadura de mosquito.",
+          "c": "Por ingestión de artrópodos (ej. gorgojos en cereales) infectados con la larva cisticercoide.",
+          "d": "Por consumir pescado crudo.",
+          "e": "Por inhalación de huevos."
+        },
+        "correctAnswer": "c",
+        "explanation": "Hymenolepis nana puede tener un ciclo indirecto donde un artrópodo (como gorgojos o pulgas de cereales) ingiere el huevo, desarrolla la larva cisticercoide, y el humano o roedor se infecta al ingerir accidentalmente el artrópodo contaminado[cite: 173]."
+      },
+      {
+        "title": "Caso Clínico 17: Tos Crónica y Hemoptisis",
+        "description": "Indígena de una comunidad amazónica que consume cangrejos de río crudos presenta tos crónica productiva, expectoración herrumbrosa y episodios de hemoptisis. La radiografía muestra infiltrados y cavidades pulmonares.",
+        "question": "¿Qué trematodo pulmonar debe sospecharse?",
+        "answers": {
+          "a": "Schistosoma mansoni",
+          "b": "Fasciola hepatica",
+          "c": "Paragonimus spp.",
+          "d": "Clonorchis sinensis",
+          "e": "Opisthorchis viverrini"
+        },
+        "correctAnswer": "c",
+        "explanation": "Paragonimus spp. es un trematodo que parasita los pulmones, formando cavidades. Se adquiere por comer crustáceos de agua dulce crudos. La clínica (tos crónica, expectoración herrumbrosa/hemoptoica) puede simular tuberculosis[cite: 176, 181, 182]."
+      },
+      {
+        "title": "Caso Clínico 18: Prurito Intenso y Lesiones en Pliegues",
+        "description": "Paciente consulta por prurito generalizado de predominio nocturno, que afecta principalmente pliegues interdigitales, muñecas, axilas y genitales. Se observan pequeños surcos lineales y pápulas eritematosas. Varios miembros de la familia están afectados.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Pediculosis corporis",
+          "b": "Dermatitis atópica",
+          "c": "Escabiosis (Sarna)",
+          "d": "Urticaria",
+          "e": "Miasis cutánea"
+        },
+        "correctAnswer": "c",
+        "explanation": "El prurito intenso de predominio nocturno, la distribución característica de las lesiones (surcos, pápulas) en pliegues y áreas intertriginosas, y la afectación de convivientes son claves para el diagnóstico de Escabiosis[cite: 183, 185]."
+      },
+      {
+        "title": "Caso Clínico 19: Lesión Nodular con Orificio Central",
+        "description": "Trabajador agrícola presenta una lesión nodular, eritematosa y dolorosa en el brazo, con un pequeño orificio central por donde ocasionalmente sale una secreción serosa y se percibe movimiento.",
+        "question": "¿Qué tipo de Miasis es esta presentación clínica?",
+        "answers": {
+          "a": "Miasis cavitaria",
+          "b": "Miasis migrante",
+          "c": "Miasis de heridas",
+          "d": "Miasis forunculosa",
+          "e": "Miasis intestinal"
+        },
+        "correctAnswer": "d",
+        "explanation": "La miasis forunculosa se caracteriza por una lesión similar a un forúnculo, nodular, con un orificio central que permite respirar a la larva que se encuentra en su interior. Es típica de moscas como Dermatobia hominis[cite: 185, 186]."
+      },
+      {
+        "title": "Caso Clínico 20: Pediculosis Pubis",
+        "description": "Adulto joven sexualmente activo consulta por prurito intenso en región púbica. Al examen se observan pequeños insectos adheridos a la base de los vellos y liendres.",
+        "question": "Además de tratar la pediculosis púbica (Pthirus pubis), ¿qué acción es fundamental realizar?",
+        "answers": {
+          "a": "Realizar examen coprológico.",
+          "b": "Administrar tratamiento antiparasitario oral.",
+          "c": "Descartar la presencia de otras Enfermedades de Transmisión Sexual (ETS).",
+          "d": "Realizar biopsia de piel.",
+          "e": "Medir niveles de IgE."
+        },
+        "correctAnswer": "c",
+        "explanation": "La pediculosis púbica se considera una ETS. Por lo tanto, es crucial investigar y descartar la presencia concomitante de otras ETS en el paciente y sus contactos sexuales[cite: 188]."
+      },
+      {
+        "title": "Caso Clínico 21: Meningoencefalitis Fulminante Post-Natación",
+        "description": "Adolescente previamente sano desarrolla cefalea intensa, fiebre alta, rigidez de nuca y alteración del estado de conciencia rápidamente progresiva a coma, 5 días después de nadar en un lago de agua dulce tibia. El LCR muestra pleocitosis neutrofílica, proteínas altas y glucosa normal/baja, sin bacterias.",
+        "question": "¿Qué Amiba de Vida Libre es la causa MÁS probable de este cuadro fulminante?",
+        "answers": {
+          "a": "Acanthamoeba castellani",
+          "b": "Balamuthia mandrillaris",
+          "c": "Naegleria fowleri",
+          "d": "Entamoeba histolytica",
+          "e": "Sappinia pedata"
+        },
+        "correctAnswer": "c",
+        "explanation": "La Meningoencefalitis Amebiana Primaria (MAP) causada por Naegleria fowleri se presenta como un cuadro agudo, fulminante y fatal, típicamente asociado a exposición reciente a agua dulce tibia por vía nasal[cite: 192, 195, 196, 201]."
+      },
+      {
+        "title": "Caso Clínico 22: Queratitis en Usuario de Lentes de Contacto",
+        "description": "Usuario de lentes de contacto blandos refiere dolor ocular intenso, fotofobia, lagrimeo y visión borrosa en un ojo. Admite lavar ocasionalmente sus lentes con agua del grifo. El examen oftalmológico revela un infiltrado corneal anular.",
+        "question": "¿Qué protozoo debe sospecharse como agente causal de la queratitis?",
+        "answers": {
+          "a": "Toxoplasma gondii",
+          "b": "Acanthamoeba castellani",
+          "c": "Naegleria fowleri",
+          "d": "Leishmania spp.",
+          "e": "Trypanosoma cruzi"
+        },
+        "correctAnswer": "b",
+        "explanation": "La Queratitis Amebiana es una infección corneal grave asociada al uso de lentes de contacto y exposición a agua contaminada (grifo, piscina, etc.). Acanthamoeba es el agente causal principal[cite: 196, 205]."
+      },
+      {
+        "title": "Caso Clínico 23: Vaginitis con Flujo Anormal",
+        "description": "Mujer sexualmente activa consulta por flujo vaginal abundante, amarillo-verdoso, espumoso y de mal olor, asociado a prurito y disuria.",
+        "question": "¿Qué protozoo flagelado es la causa más probable de esta vaginitis?",
+        "answers": {
+          "a": "Giardia intestinalis",
+          "b": "Entamoeba histolytica",
+          "c": "Trichomonas vaginalis",
+          "d": "Leishmania spp.",
+          "e": "Trypanosoma cruzi"
+        },
+        "correctAnswer": "c",
+        "explanation": "La vaginitis por Trichomonas vaginalis se caracteriza por una leucorrea abundante, espumosa, de coloración anormal (amarillo-verdosa) y mal olor, acompañada de irritación local[cite: 211, 212]."
+      },
+      {
+        "title": "Caso Clínico 24: Edema de Miembros Inferiores y Escroto",
+        "description": "Residente de una zona tropical endémica para filariasis linfática presenta edema masivo, crónico y endurecido de ambas piernas y escroto, con engrosamiento de la piel.",
+        "question": "¿Qué condición crónica es esta, causada por la obstrucción linfática por filarias adultas?",
+        "answers": {
+          "a": "Edemas de Calabar",
+          "b": "Oncocercomas",
+          "c": "Elefantiasis",
+          "d": "Sarna filariana",
+          "e": "Ingle colgante"
+        },
+        "correctAnswer": "c",
+        "explanation": "La obstrucción crónica de los vasos linfáticos por gusanos adultos de Wuchereria bancrofti o Brugia malayi conduce a linfedema masivo y fibrosis, resultando en Elefantiasis de las extremidades o genitales[cite: 218, 220]."
+      },
+      {
+        "title": "Caso Clínico 25: Fiebre Periódica Post-Viaje a Zona Tropical",
+        "description": "Viajero regresa de una zona endémica de malaria y presenta episodios de fiebre alta, escalofríos intensos y sudoración profusa que ocurren cada 48 horas.",
+        "question": "¿Qué diagnóstico es el más probable?",
+        "answers": {
+          "a": "Fiebre tifoidea",
+          "b": "Dengue",
+          "c": "Leishmaniasis visceral",
+          "d": "Malaria (Paludismo)",
+          "e": "Brucelosis"
+        },
+        "correctAnswer": "d",
+        "explanation": "La fiebre paroxística (fiebre alta, escalofríos, sudoración) con periodicidad definida (cada 48h sugiere P. vivax/ovale/falciparum; cada 72h sugiere P. malariae) es el sello distintivo de la malaria[cite: 221, 227, 230]."
+      },
+      {
+        "title": "Caso Clínico 26: Malaria con Anemia Severa y Complicaciones",
+        "description": "Niño de 4 años en África Subsahariana presenta fiebre alta, anemia severa (Hb < 5 g/dL), ictericia, dificultad respiratoria y alteración de conciencia. La gota gruesa confirma Plasmodium falciparum.",
+        "question": "¿Por qué P. falciparum causa la forma MÁS grave de malaria?",
+        "answers": {
+          "a": "Porque produce hipnozoítos que causan recaídas.",
+          "b": "Porque infecta únicamente a reticulocitos.",
+          "c": "Porque induce obstrucción microvascular (citoadherencia) e infecta eritrocitos de todas las edades.",
+          "d": "Porque su vector (Anopheles) es más eficiente.",
+          "e": "Porque es resistente a todos los antimaláricos."
+        },
+        "correctAnswer": "c",
+        "explanation": "P. falciparum causa malaria grave debido a su capacidad de infectar eritrocitos de todas las edades (alta parasitemia y hemólisis severa) y a inducir la citoadherencia de los eritrocitos parasitados al endotelio capilar, causando obstrucción microvascular y daño orgánico[cite: 241, 243, 244, 245]."
+      },
+      {
+        "title": "Caso Clínico 27: Paciente Esplenectomizado con Fiebre y Hemólisis",
+        "description": "Paciente esplenectomizado (sin bazo) por un traumatismo hace años, residente en zona rural con ganado, presenta fiebre alta, malestar general, ictericia y anemia hemolítica. La gota gruesa muestra múltiples anillos intraeritrocitarios, algunos en forma de 'cruz de Malta', sin esquizontes ni pigmento malárico.",
+        "question": "¿Qué protozoo transmitido por garrapatas debe sospecharse?",
+        "answers": {
+          "a": "Plasmodium falciparum",
+          "b": "Trypanosoma cruzi",
+          "c": "Babesia spp.",
+          "d": "Leishmania donovani",
+          "e": "Toxoplasma gondii"
+        },
+        "correctAnswer": "c",
+        "explanation": "Babesia es un parásito intraeritrocitario transmitido por garrapatas, que causa un cuadro similar a la malaria con fiebre y anemia hemolítica. Es particularmente grave en pacientes esplenectomizados. Morfológicamente, se diferencia de Plasmodium por la ausencia de esquizontes y pigmento, y la presencia ocasional de merozoítos en tétradas ('cruz de Malta')[cite: 259, 261, 262, 263]."
+      },
+      {
+        "title": "Caso Clínico 28: Linfadenopatía Cervical en Mujer Joven",
+        "description": "Mujer de 25 años presenta adenopatías cervicales posteriores, indoloras y móviles, de varias semanas de evolución, acompañadas de febrícula y malestar general. Refiere comer carne poco cocida ocasionalmente y tener un gato en casa.",
+        "question": "¿Qué infección parasitaria es una causa común de este cuadro ganglionar?",
+        "answers": {
+          "a": "Enfermedad de Chagas aguda",
+          "b": "Leishmaniasis visceral",
+          "c": "Filariasis linfática",
+          "d": "Toxoplasmosis ganglionar (adquirida)",
+          "e": "Mononucleosis infecciosa (VEB)"
+        },
+        "correctAnswer": "d",
+        "explanation": "La toxoplasmosis adquirida en inmunocompetentes suele ser asintomática o presentarse como un síndrome mononucleósico leve con linfadenopatía (especialmente cervical) indolora, siendo esta la forma clínica más común[cite: 279, 280, 284]."
+      },
+      {
+        "title": "Caso Clínico 29: Lesión Inflamatoria en Sitio de Picadura",
+        "description": "Niño residente en área endémica para Chagas presenta una lesión nodular, eritematosa e indurada (Chagoma) en la mejilla, sitio donde la madre refiere haber visto un chinche 'besucón' picándole hace 2 semanas. Además, presenta edema palpebral unilateral (Signo de Romaña).",
+        "question": "¿En qué fase de la Enfermedad de Chagas se observan estas manifestaciones?",
+        "answers": {
+          "a": "Fase crónica indeterminada",
+          "b": "Fase crónica con cardiopatía",
+          "c": "Fase aguda",
+          "d": "Fase congénita",
+          "e": "Reactivación en inmunosuprimidos"
+        },
+        "correctAnswer": "c",
+        "explanation": "El Chagoma (lesión en el sitio de inoculación) y el Signo de Romaña (edema palpebral unilateral por picadura cerca del ojo) son manifestaciones características de la fase aguda de la Enfermedad de Chagas[cite: 295, 296]."
+      },
+      {
+        "title": "Caso Clínico 30: Úlcera Cutánea Crónica Indolora",
+        "description": "Trabajador forestal presenta una úlcera redondeada, de bordes elevados e indurados, fondo limpio y no dolorosa, localizada en el antebrazo, de 3 meses de evolución, que apareció tras la picadura de un insecto pequeño ('manta blanca').",
+        "question": "¿Qué enfermedad parasitaria es la causa más probable de esta lesión cutánea crónica?",
+        "answers": {
+          "a": "Miasis cutánea",
+          "b": "Leishmaniasis cutánea",
+          "c": "Úlcera por Acanthamoeba",
+          "d": "Oncocercosis (nódulo)",
+          "e": "Tungiasis (nigua)"
+        },
+        "correctAnswer": "b",
+        "explanation": "Las úlceras crónicas, indoloras, de bordes elevados y fondo limpio ('úlcera en sacabocados'), que aparecen tras la picadura del vector (Lutzomyia/Phlebotomus) en zonas endémicas, son típicas de la Leishmaniasis cutánea[cite: 308, 309]."
+      }
+    ]
+  }
 };
 
 
