@@ -1,6 +1,6 @@
 export const exams = {
   antibioticsExam_partial1: {
-    "examId": "antibioticsExam_partial1",
+    "id": "antibioticsExam_partial1",
     "title": "Examen de Antibióticos (Muestra Parcial 1)",
     "description": "Primer bloque de 25 preguntas de selección múltiple sobre antibióticos basadas en las fuentes proporcionadas.",
     "questions": [
@@ -991,8 +991,8 @@ export const exams = {
       }
     ]
   },
-    antibioticosExamen3: {
-    "examId": "antibioticosExamen3",
+  antibioticosExamen3: {
+    "id": "antibioticosExamen3",
     "title": "Examen Parcial #3 - Antibióticos II",
     "description": "Examen basado en el documento 'PARCIAL #3 - Antibioticos II.pdf', cubriendo Oxazolidinonas, Macrólidos, Lincosamidas, Aminoglucósidos, Tetraciclinas, Sulfas, Quinolonas, Nitroimidazoles, Dicloroacetamidas y Rifamicinas[cite: 1, 5, 65, 98, 123, 162, 186, 195, 199].", // Descripción basada en el contenido del documento
     "questions": [
