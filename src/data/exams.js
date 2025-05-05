@@ -1,3053 +1,2062 @@
 export const exams = {
-  antibioticsExam_partial1: {
-    "id": "antibioticsExam_partial1",
-    "title": "Examen de Antibióticos (Muestra Parcial 1)",
-    "description": "Primer bloque de 25 preguntas de selección múltiple sobre antibióticos basadas en las fuentes proporcionadas.",
+    "examFarmacologiaII": {
+      "id": "examFarmacologiaII",
+      "title": "Farmacología II - Parcial #5",
+      "description": "Examen basado en el documento 'Farmacología II #5 parcial.pdf', cubriendo temas de hipertensión arterial, diuréticos, calcio antagonistas, bloqueadores adrenérgicos y manejo de falla cardíaca.",
+      "questions": [
+        {
+          "question": "1. Según la clasificación proporcionada, ¿qué cifras tensionales definen la Hipertensión Grado 1? [cite: 3]",
+          "answers": {
+            "a": "Sistólica <120 Y Diastólica < 80",
+            "b": "Sistólica 120-129 Y Diastólica 80-84",
+            "c": "Sistólica 130-139 Y/O Diastólica 85/89",
+            "d": "Sistólica 140-159 Y/O Diastólica 90-99",
+            "e": "Sistólica >= 180 Y/O Diastólica >= 110"
+          },
+          "correctAnswer": "d",
+          "explanation": "El documento define la Hipertensión Grado 1 como cifras de presión sistólica entre 140-159 mmHg Y/O diastólica entre 90-99 mmHg[cite: 3]."
+        },
+        {
+          "question": "2. ¿Cuál es el principal receptor por el cual la Angiotensina II ejerce sus efectos predominantes en humanos? [cite: 8, 9]",
+          "answers": {
+            "a": "AT2",
+            "b": "MasR",
+            "c": "AT1",
+            "d": "AT4",
+            "e": "PRR/ATP6AP2"
+          },
+          "correctAnswer": "c",
+          "explanation": "El documento indica que expresamos más el receptor AT1 y que nuestra respuesta fisiológica a la Angiotensina II es explicada principalmente por este receptor[cite: 9]."
+        },
+        {
+          "question": "3. ¿Qué efecto tiene la activación de los receptores AT1 en los vasos sanguíneos? [cite: 12]",
+          "answers": {
+            "a": "Vasodilatación",
+            "b": "Disminución de la actividad de PKC",
+            "c": "Vasoconstricción",
+            "d": "Aumento de la producción de Óxido Nítrico",
+            "e": "Inhibición de endotelina"
+          },
+          "correctAnswer": "c",
+          "explanation": "La activación de los receptores AT1 en los vasos sanguíneos produce vasoconstricción, asociada a receptores Gq y estímulo de la actividad de PKC[cite: 12]."
+        },
+        {
+          "question": "4. Además de convertir Angiotensina I en Angiotensina II, ¿qué otra función importante tiene la ECA (Enzima Convertidora de Angiotensina)? [cite: 23]",
+          "answers": {
+            "a": "Degradar aldosterona",
+            "b": "Activar la renina",
+            "c": "Degradar (inactivar) bradiquininas",
+            "d": "Sintetizar endotelina",
+            "e": "Liberar ADH"
+          },
+          "correctAnswer": "c",
+          "explanation": "La ECA también puede degradar (inactivar) bradiquininas, que son sustancias vasodilatadoras[cite: 23]."
+        },
+        {
+          "question": "5. ¿Cuál de los siguientes fármacos es un inhibidor de la ECA (IECA) del grupo sulfhidrilo, asociado a reacciones inmunológicas? [cite: 24]",
+          "answers": {
+            "a": "Enalapril",
+            "b": "Ramipril",
+            "c": "Lisinopril",
+            "d": "Captopril",
+            "e": "Fosinopril"
+          },
+          "correctAnswer": "d",
+          "explanation": "El Captopril pertenece al grupo sulfhidrilo y se menciona que este grupo puede causar reacciones inmunológicas[cite: 24]."
+        },
+         {
+          "question": "6. ¿Cuál es el efecto adverso más frecuente asociado a los IECA, relacionado con el metabolismo de las bradiquininas? [cite: 30, 31]",
+          "answers": {
+            "a": "Hipercalemia",
+            "b": "Disfunción renal",
+            "c": "Tos",
+            "d": "Angioedema",
+            "e": "Hipotensión"
+          },
+          "correctAnswer": "c",
+          "explanation": "La tos es el efecto adverso más frecuente de los IECA, causado por la acumulación de bradiquininas al no ser metabolizadas por la ECA, especialmente en el pulmón[cite: 30, 31]."
+        },
+        {
+          "question": "7. ¿En qué situación están contraindicados los IECA y los ARA II? [cite: 35]",
+          "answers": {
+            "a": "Pacientes con falla cardíaca",
+            "b": "Pacientes con diabetes",
+            "c": "Mujeres embarazadas o en edad fértil",
+            "d": "Pacientes con hipercolesterolemia",
+            "e": "Pacientes con enfermedad renal crónica leve"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los IECA y ARA II están contraindicados en mujeres embarazadas o en edad fértil debido al riesgo de complicaciones como oligohidramnios, anuria y retardo en el crecimiento intrauterino[cite: 35]."
+        },
+        {
+          "question": "8. ¿Cuál es el mecanismo de acción principal de los ARA II (Antagonistas de los Receptores de Angiotensina II) como el Losartán? [cite: 36]",
+          "answers": {
+            "a": "Inhibir la enzima ECA",
+            "b": "Bloquear los receptores AT2 únicamente",
+            "c": "Bloquear los receptores AT1",
+            "d": "Inhibir la liberación de renina",
+            "e": "Aumentar la degradación de bradiquininas"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los ARA II actúan como inhibidores del receptor AT1, aunque también pueden inhibir AT2, tienen mayor afinidad por AT1[cite: 36]."
+        },
+        {
+          "question": "9. ¿Por qué los ARA II tienen menor riesgo de producir tos en comparación con los IECA? [cite: 37]",
+          "answers": {
+            "a": "Porque inhiben la renina",
+            "b": "Porque bloquean los receptores AT2",
+            "c": "Porque no inhiben la ECA y no afectan el metabolismo de las bradiquininas",
+            "d": "Porque son profármacos",
+            "e": "Porque tienen mayor eliminación biliar"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los ARA II no inhiben la ECA, por lo tanto, no interfieren con la degradación de bradiquininas, que es la causa de la tos asociada a los IECA[cite: 37]."
+        },
+        {
+          "question": "10. ¿Qué combinación farmacológica, inhibidora del SRAA y de la neprilisina, ha demostrado mayor eficacia en la prevención de la falla cardíaca con fracción de eyección reducida? [cite: 47, 48]",
+          "answers": {
+            "a": "Enalapril + Hidroclorotiazida",
+            "b": "Losartán + Amlodipina",
+            "c": "Sacubitril + Valsartán",
+            "d": "Captopril + Furosemida",
+            "e": "Ramipril + Espironolactona"
+          },
+          "correctAnswer": "c",
+          "explanation": "La combinación Sacubitril (inhibidor de neprilisina) + Valsartán (ARA II) (ARNI) ha mostrado mayor eficacia en la prevención de la falla cardíaca con fracción de eyección reducida[cite: 47, 48]."
+        },
+        {
+          "question": "11. ¿En qué segmento de la nefrona actúan principalmente los diuréticos de ASA como la Furosemida? [cite: 58]",
+          "answers": {
+            "a": "Túbulo contorneado proximal",
+            "b": "Rama descendente del asa de Henle",
+            "c": "Porción ascendente gruesa del asa de Henle",
+            "d": "Túbulo contorneado distal",
+            "e": "Túbulo colector"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los diuréticos de ASA actúan inhibiendo el cotransportador Na+-K+-2Cl- en la porción ascendente gruesa del asa de Henle[cite: 58, 62]."
+        },
+        {
+          "question": "12. ¿Cuál de los siguientes desequilibrios electrolíticos NO es un efecto adverso característico de los diuréticos de ASA? [cite: 67]",
+          "answers": {
+            "a": "Hiponatremia",
+            "b": "Hipopotasemia",
+            "c": "Hipocalcemia",
+            "d": "Hipermagnesemia",
+            "e": "Hipomagnesemia"
+          },
+          "correctAnswer": "d",
+          "explanation": "Los diuréticos de ASA causan pérdida de Na+, K+, Ca++ y Mg++, por lo que pueden producir hiponatremia, hipopotasemia, hipocalcemia e hipomagnesemia, pero no hipermagnesemia[cite: 61, 67]."
+        },
+        {
+          "question": "13. ¿Qué tipo de diurético es considerado de primera línea para el manejo de la Hipertensión Arterial Sistólica Aislada? [cite: 74, 81, 83]",
+          "answers": {
+            "a": "Diuréticos de ASA",
+            "b": "Diuréticos Tiazídicos",
+            "c": "Ahorradores de potasio (Inhibidores de ENaC)",
+            "d": "Antagonistas de aldosterona",
+            "e": "Diuréticos osmóticos"
+          },
+          "correctAnswer": "b",
+          "explanation": "Los diuréticos tiazídicos son usados como antihipertensivos, especialmente en H.T.A. sistólica aislada, debido a su efecto vasodilatador que perdura en el tiempo[cite: 74, 81, 83]."
+        },
+         {
+          "question": "14. ¿Cuál es el mecanismo de acción de los diuréticos tiazídicos como la Hidroclorotiazida? [cite: 75]",
+          "answers": {
+            "a": "Inhibir el simporte Na+-K+-2Cl- en el asa de Henle",
+            "b": "Bloquear los canales de Na+ (ENaC) en el túbulo colector",
+            "c": "Inhibir el cotransportador Na+/Cl- en el túbulo contorneado distal",
+            "d": "Bloquear los receptores de aldosterona",
+            "e": "Inhibir la anhidrasa carbónica en el túbulo proximal"
+          },
+          "correctAnswer": "c",
+          "explanation": "Las tiazidas actúan inhibiendo el cotransportador Na+/Cl- localizado en la membrana luminal del túbulo contorneado distal[cite: 75]."
+        },
+        {
+          "question": "15. ¿Qué efecto sobre los niveles séricos de Calcio tienen característicamente los diuréticos tiazídicos? [cite: 77, 79]",
+          "answers": {
+            "a": "Disminuyen el Calcio sérico (Hipocalcemia)",
+            "b": "No afectan los niveles de Calcio",
+            "c": "Aumentan el Calcio sérico (Hipercalcemia)",
+            "d": "Aumentan la excreción urinaria de Calcio",
+            "e": "Disminuyen la reabsorción de Calcio"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los diuréticos tiazídicos aumentan la reabsorción de Calcio en el túbulo distal, lo que puede llevar a un aumento del Calcio sérico (Hipercalcemia)[cite: 77, 79]."
+        },
+        {
+          "question": "16. ¿Cuál es el principal uso clínico de los diuréticos ahorradores de potasio como Amilorida y Triamtereno? [cite: 92]",
+          "answers": {
+            "a": "Tratamiento de primera línea para HTA",
+            "b": "Manejo de edema severo",
+            "c": "Prevención de litiasis cálcica",
+            "d": "Combinados con otros diuréticos para contrarrestar la pérdida de K+",
+            "e": "Tratamiento de glaucoma"
+          },
+          "correctAnswer": "d",
+          "explanation": "Su principal utilidad es combinarse con otros diuréticos (como tiazidas o de ASA) para disminuir la pérdida de potasio que estos inducen[cite: 92, 93]."
+        },
+         {
+          "question": "17. ¿Qué fármaco es un antagonista del receptor mineralocorticoide con mayor afinidad por los receptores renales y menos efectos adversos hormonales que la Espironolactona? [cite: 94]",
+          "answers": {
+            "a": "Amilorida",
+            "b": "Furosemida",
+            "c": "Hidroclorotiazida",
+            "d": "Eplerenona",
+            "e": "Manitol"
+          },
+          "correctAnswer": "d",
+          "explanation": "La Eplerenona es un antagonista del receptor mineralocorticoide más selectivo que la Espironolactona, con menos afinidad por receptores de progesterona y andrógenos, disminuyendo así los efectos adversos hormonales[cite: 94]."
+        },
+        {
+          "question": "18. Además de su efecto diurético, ¿qué otro beneficio importante tienen los antagonistas del receptor mineralocorticoide en pacientes con falla cardíaca? [cite: 97, 99]",
+          "answers": {
+            "a": "Aumentar la frecuencia cardíaca",
+            "b": "Inducir vasoconstricción arterial",
+            "c": "Disminuir la fibrosis y remodelación cardíaca",
+            "d": "Aumentar la excreción de potasio",
+            "e": "Producir hiperglucemia"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los antagonistas de aldosterona disminuyen la fibrosis y la remodelación cardíaca, un efecto beneficioso en la falla cardíaca[cite: 97, 99]."
+        },
+        {
+          "question": "19. ¿Cuál es el mecanismo de acción principal del Manitol como diurético osmótico? [cite: 101]",
+          "answers": {
+            "a": "Bloquea canales iónicos específicos",
+            "b": "Inhibe la anhidrasa carbónica",
+            "c": "Actúa como soluto no reabsorbible, extrayendo agua por ósmosis",
+            "d": "Antagoniza receptores hormonales",
+            "e": "Abre canales de potasio"
+          },
+          "correctAnswer": "c",
+          "explanation": "El Manitol es un soluto que no se reabsorbe en los túbulos renales. Ejerce una fuerza osmótica que extrae agua y electrolitos del espacio intracelular y disminuye su reabsorción tubular[cite: 101]."
+        },
+        {
+          "question": "20. ¿En qué condición clínica se utiliza principalmente la Acetazolamida por su capacidad de inhibir la anhidrasa carbónica en el ojo? [cite: 102, 103, 107]",
+          "answers": {
+            "a": "Hipertensión arterial",
+            "b": "Falla cardíaca congestiva",
+            "c": "Glaucoma",
+            "d": "Edema pulmonar",
+            "e": "Cirrosis hepática"
+          },
+          "correctAnswer": "c",
+          "explanation": "La Acetazolamida inhibe la anhidrasa carbónica en el ojo, disminuyendo la producción de humor acuoso y, por ende, la presión intraocular, siendo útil en el tratamiento del glaucoma[cite: 102, 103, 107]."
+        },
+        {
+          "question": "21. ¿Qué tipo de canales de Calcio son el blanco principal de los calcio antagonistas utilizados en HTA, como Nifedipina y Verapamilo? [cite: 110, 111]",
+          "answers": {
+            "a": "Canales tipo T",
+            "b": "Canales tipo N",
+            "c": "Canales tipo L",
+            "d": "Canales tipo P/Q",
+            "e": "Canales tipo R"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los calcio antagonistas usados en HTA actúan principalmente sobre los canales de Calcio tipo L (lentos, de umbral alto), presentes en el corazón y músculo liso vascular[cite: 111]."
+        },
+        {
+          "question": "22. ¿Cuál es la principal diferencia farmacodinámica entre los calcio antagonistas dihidropiridínicos (DHP) como Amlodipina y los no-dihidropiridínicos (No-DHP) como Verapamilo y Diltiazem? [cite: 119, 141]",
+          "answers": {
+            "a": "Los DHP son más cardioselectivos que los No-DHP.",
+            "b": "Los No-DHP tienen mayor efecto vasodilatador periférico que los DHP.",
+            "c": "Los DHP tienen efectos inotrópicos y cronotrópicos negativos significativos, mientras que los No-DHP no.",
+            "d": "Los No-DHP (Verapamilo, Diltiazem) tienen mayor efecto sobre el nodo SA y AV (cardioselectividad) que los DHP.",
+            "e": "Los DHP inhiben la CYP3A4, mientras que los No-DHP no."
+          },
+          "correctAnswer": "d",
+          "explanation": "Los No-DHP (Verapamilo y Diltiazem) son más cardioselectivos, ejerciendo mayores efectos sobre la conducción cardíaca (cronotropismo y dromotropismo negativos) en comparación con los DHP, que son predominantemente vasodilatadores vasculares[cite: 137, 141, 143]."
+        },
+        {
+          "question": "23. ¿Cuál de los siguientes calcio antagonistas dihidropiridínicos tiene una vida media más larga y un inicio de acción más lento, lo que evita la activación simpática refleja? [cite: 120, 121]",
+          "answers": {
+            "a": "Nifedipina (liberación inmediata)",
+            "b": "Nicardipina",
+            "c": "Amlodipina",
+            "d": "Clevidipina",
+            "e": "Nimodipina"
+          },
+          "correctAnswer": "c",
+          "explanation": "La Amlodipina se caracteriza por tener una vida media más larga y un inicio de acción lento, lo que minimiza la taquicardia refleja asociada a otros DHP de acción rápida como la Nifedipina[cite: 121]."
+        },
+        {
+          "question": "24. ¿Qué efecto adverso común se asocia a los calcio antagonistas DHP debido a su potente efecto vasodilatador periférico? [cite: 132, 133]",
+          "answers": {
+            "a": "Bradicardia",
+            "b": "Constipación",
+            "c": "Edema de extremidades inferiores",
+            "d": "Hipertrofia ventricular",
+            "e": "Tos seca"
+          },
+          "correctAnswer": "c",
+          "explanation": "El edema de extremidades inferiores es un efecto adverso frecuente de los DHP, relacionado con la vasodilatación arteriolar preferencial que aumenta la presión hidrostática capilar[cite: 133]."
+        },
+        {
+          "question": "25. ¿En qué tipo de pacientes se debe administrar con precaución los calcio antagonistas No-DHP (Verapamilo, Diltiazem) debido a sus efectos cardíacos? [cite: 116, 138]",
+          "answers": {
+            "a": "Pacientes con migraña",
+            "b": "Pacientes con Enfermedad de Raynaud",
+            "c": "Pacientes con baja reserva cardíaca o trastornos de la conducción",
+            "d": "Pacientes con hipertrofia prostática",
+            "e": "Pacientes de raza negra"
+          },
+          "correctAnswer": "c",
+          "explanation": "Debido a sus efectos inotrópicos, cronotrópicos y dromotrópicos negativos, los No-DHP deben usarse con precaución en pacientes con disfunción sistólica (baja reserva cardíaca) o trastornos preexistentes de la conducción AV[cite: 116, 138]."
+        },
+        {
+          "question": "26. ¿Qué efecto principal tienen los beta-bloqueadores sobre la liberación de renina en el riñón?",
+          "answers": {
+            "a": "La aumentan significativamente",
+            "b": "No tienen efecto sobre la renina",
+            "c": "La disminuyen",
+            "d": "La aumentan solo si son no selectivos",
+            "e": "La disminuyen solo si son selectivos B1"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los beta-bloqueadores, especialmente al bloquear los receptores B1 en las células yuxtaglomerulares del riñón, disminuyen la liberación de renina."
+        },
+        {
+          "question": "27. ¿Cuál de los siguientes beta-bloqueadores es cardio selectivo (B1 selectivo) y además promueve la liberación de Óxido Nítrico?",
+          "answers": {
+            "a": "Propranolol",
+            "b": "Atenolol",
+            "c": "Metoprolol",
+            "d": "Carvedilol",
+            "e": "Nebivolol"
+          },
+          "correctAnswer": "e",
+          "explanation": "El Nebivolol es un beta-bloqueador cardio selectivo (B1) que adicionalmente tiene un efecto vasodilatador mediado por la liberación de Óxido Nítrico (ON)."
+        },
+        {
+          "question": "28. ¿Qué tipo de fármacos son Carvedilol y Labetalol?",
+          "answers": {
+            "a": "Beta-bloqueadores B1 selectivos",
+            "b": "Beta-bloqueadores no selectivos",
+            "c": "Bloqueadores Alfa-1 selectivos",
+            "d": "Bloqueadores Beta y Alfa-1",
+            "e": "Calcio antagonistas DHP"
+          },
+          "correctAnswer": "d",
+          "explanation": "Carvedilol y Labetalol son fármacos que bloquean tanto los receptores Beta (no selectivos o con cierta selectividad) como los receptores Alfa-1 adrenérgicos."
+        },
+        {
+          "question": "29. ¿Por qué no se recomienda suspender abruptamente el tratamiento con beta-bloqueadores?",
+          "answers": {
+            "a": "Por riesgo de hipotensión severa",
+            "b": "Porque causan daño renal agudo",
+            "c": "Por el riesgo de una respuesta simpática exagerada (regulación al alza de receptores)",
+            "d": "Porque inducen hiperglucemia",
+            "e": "Porque generan tolerancia rápidamente"
+          },
+          "correctAnswer": "c",
+          "explanation": "La suspensión abrupta puede desencadenar una respuesta simpática exagerada debido a la regulación al alza (aumento en el número) de los receptores beta durante el bloqueo crónico."
+        },
+        {
+          "question": "30. ¿Cuál de los siguientes beta-bloqueadores se prefiere en el embarazo para el manejo de la HTA?",
+          "answers": {
+            "a": "Propranolol",
+            "b": "Atenolol",
+            "c": "Labetalol",
+            "d": "Esmolol",
+            "e": "Nebivolol"
+          },
+          "correctAnswer": "c",
+          "explanation": "El Labetalol es uno de los beta-bloqueadores mencionados como opción para el manejo de la HTA durante el embarazo."
+        },
+        {
+          "question": "31. ¿Cuál es el mecanismo de acción de los bloqueadores alfa-1 adrenérgicos como Prazosina?",
+          "answers": {
+            "a": "Estimulan los receptores alfa-2 presinápticos",
+            "b": "Bloquean selectivamente los receptores beta-1",
+            "c": "Bloquean selectiva y competitivamente los receptores alfa-1 postsinápticos",
+            "d": "Inhiben la recaptación de norepinefrina",
+            "e": "Bloquean los canales de calcio tipo L"
+          },
+          "correctAnswer": "c",
+          "explanation": "Prazosina, Terazosina y Doxazosina son bloqueadores selectivos y competitivos de los receptores alfa-1 adrenérgicos postsinápticos."
+        },
+        {
+          "question": "32. ¿Qué efecto adverso importante requiere iniciar el tratamiento con bloqueadores alfa-1 a dosis bajas y preferiblemente en la noche?",
+          "answers": {
+            "a": "Taquicardia refleja",
+            "b": "Hiperglucemia",
+            "c": "Hipotensión postural / Síncope de primera dosis",
+            "d": "Tos seca",
+            "e": "Broncoespasmo"
+          },
+          "correctAnswer": "c",
+          "explanation": "Estos fármacos pueden causar hipotensión postural significativa (efecto de primera dosis) o síncope, por lo que se recomienda iniciar con dosis bajas por la noche."
+        },
+        {
+          "question": "33. ¿Cuál es el mecanismo de acción de la Clonidina como antihipertensivo?",
+          "answers": {
+            "a": "Bloqueo de receptores alfa-1 postsinápticos",
+            "b": "Estimulación de receptores alfa-2A adrenérgicos presinápticos y centrales",
+            "c": "Bloqueo de receptores beta no selectivo",
+            "d": "Inhibición directa de la renina",
+            "e": "Apertura de canales de potasio"
+          },
+          "correctAnswer": "b",
+          "explanation": "La Clonidina es un agonista (estimulante) de los receptores alfa-2A adrenérgicos a nivel presináptico y en el SNC, lo que disminuye el flujo simpático eferente."
+        },
+         {
+          "question": "34. ¿Qué fármaco antihipertensivo actúa como un 'falso neurotransmisor', disminuyendo la síntesis de catecolaminas?",
+          "answers": {
+            "a": "Clonidina",
+            "b": "Prazosina",
+            "c": "Hidralazina",
+            "d": "Alfa-metildopa",
+            "e": "Minoxidil"
+          },
+          "correctAnswer": "d",
+          "explanation": "La Alfa-metildopa actúa como un precursor que se convierte en un 'falso neurotransmisor' (alfa-metilnorepinefrina), que es menos potente que la norepinefrina y estimula los receptores alfa-2, disminuyendo el tono simpático."
+        },
+        {
+          "question": "35. ¿Cuál es el mecanismo de acción del Minoxidil como vasodilatador?",
+          "answers": {
+            "a": "Liberación de óxido nítrico",
+            "b": "Bloqueo de canales de calcio",
+            "c": "Apertura de canales de potasio dependientes de ATP",
+            "d": "Bloqueo de receptores alfa-1",
+            "e": "Inhibición de la fosfodiesterasa"
+          },
+          "correctAnswer": "c",
+          "explanation": "El Minoxidil actúa abriendo canales de potasio sensibles a ATP en las células del músculo liso vascular, causando hiperpolarización y relajación arterial."
+        },
+         {
+          "question": "36. ¿Qué efecto adverso característico, no relacionado con la presión arterial, se asocia al uso de Minoxidil, especialmente sistémico?",
+          "answers": {
+            "a": "Ginecomastia",
+            "b": "Hipertricosis",
+            "c": "Fotosensibilidad",
+            "d": "Ototoxicidad",
+            "e": "Hiperuricemia"
+          },
+          "correctAnswer": "b",
+          "explanation": "La hipertricosis (crecimiento excesivo de vello) es un efecto adverso conocido del Minoxidil."
+        },
+        {
+          "question": "37. ¿Cuál es el metabolito activo responsable del efecto vasodilatador del Nitroprusiato de Sodio?",
+          "answers": {
+            "a": "Cianuro",
+            "b": "Tiocianato",
+            "c": "Óxido Nítrico (NO)",
+            "d": "Nitrito",
+            "e": "Metahemoglobina"
+          },
+          "correctAnswer": "c",
+          "explanation": "El Nitroprusiato de Sodio es un profármaco que libera Óxido Nítrico (NO) in vivo, el cual es el responsable directo de la vasodilatación arterial y venosa."
+        },
+        {
+          "question": "38. ¿Qué toxicidad puede ocurrir con el uso prolongado (más de 72 horas) o en pacientes con insuficiencia renal tratados con Nitroprusiato de Sodio?",
+          "answers": {
+            "a": "Toxicidad por acumulación de potasio",
+            "b": "Toxicidad por cianuro y/o tiocianato",
+            "c": "Nefrotoxicidad directa",
+            "d": "Hepatotoxicidad severa",
+            "e": "Cardiotoxicidad"
+          },
+          "correctAnswer": "b",
+          "explanation": "El metabolismo del Nitroprusiato libera cianuro, que luego se metaboliza a tiocianato. El uso prolongado o la insuficiencia renal pueden llevar a la acumulación de estos compuestos y causar toxicidad."
+        },
+        {
+          "question": "39. ¿Cuál es el mecanismo principal por el cual los Nitratos orgánicos (Nitroglicerina, Dinitrato de Isosorbide) ejercen su efecto antianginoso?",
+          "answers": {
+            "a": "Aumentan la contractilidad cardíaca",
+            "b": "Producen vasodilatación arterial coronaria predominantemente",
+            "c": "Reducen la frecuencia cardíaca",
+            "d": "Producen venodilatación, reduciendo la precarga y el consumo de oxígeno miocárdico",
+            "e": "Bloquean los canales de sodio"
+          },
+          "correctAnswer": "d",
+          "explanation": "Los nitratos actúan principalmente sobre el lecho venoso, causando venodilatación. Esto reduce el retorno venoso (precarga) y la tensión de la pared ventricular, disminuyendo así el consumo de oxígeno del miocardio."
+        },
+        {
+          "question": "40. ¿Qué fenómeno limita la eficacia de los nitratos en el tratamiento crónico de la angina y requiere esquemas de dosificación con periodos libres del fármaco?",
+          "answers": {
+            "a": "Taquifilaxia",
+            "b": "Tolerancia",
+            "c": "Resistencia",
+            "d": "Hipersensibilidad",
+            "e": "Acumulación tóxica"
+          },
+          "correctAnswer": "b",
+          "explanation": "El desarrollo de tolerancia es un problema significativo con el uso continuo de nitratos, atribuido al agotamiento de grupos sulfhidrilo, generación de radicales libres y activación neurohormonal compensatoria. Se requieren intervalos libres de nitratos para restaurar la sensibilidad."
+        },
+        {
+          "question": "41. ¿Con qué clase de fármacos está contraindicado el uso concomitante de Nitratos debido al riesgo de hipotensión severa?",
+          "answers": {
+            "a": "Inhibidores de la ECA",
+            "b": "Beta-bloqueadores",
+            "c": "Diuréticos tiazídicos",
+            "d": "Inhibidores de la fosfodiesterasa tipo 5 (PDE5) (ej. Sildenafil)",
+            "e": "Calcio antagonistas"
+          },
+          "correctAnswer": "d",
+          "explanation": "La coadministración de nitratos con inhibidores de la PDE5 (usados para disfunción eréctil o hipertensión pulmonar) está contraindicada por el riesgo de una caída profunda y peligrosa de la presión arterial."
+        },
+        {
+          "question": "42. ¿Cuál es el mecanismo de acción propuesto para la Hidralazina como vasodilatador?",
+          "answers": {
+            "a": "Liberación directa de óxido nítrico",
+            "b": "Bloqueo de canales de calcio",
+            "c": "Apertura de canales de potasio",
+            "d": "Relajación del músculo liso arterial (mecanismo exacto no del todo claro, posible inhibición de oxidasa y reducción de ROS)",
+            "e": "Bloqueo de receptores alfa-1"
+          },
+          "correctAnswer": "d",
+          "explanation": "La Hidralazina reduce la resistencia vascular predominantemente en el lecho arterial. Aunque el mecanismo exacto no está completamente dilucidado, se sugiere que inhibe una oxidasa y reduce la producción de especies reactivas de oxígeno (ROS)."
+        },
+        {
+          "question": "43. ¿En qué grupo de pacientes con falla cardíaca sistólica (FEr) se recomienda específicamente la combinación de Hidralazina + Nitratos (Dinitrato de Isosorbide)?",
+          "answers": {
+            "a": "Todos los pacientes con FEr como primera línea",
+            "b": "Pacientes con intolerancia o contraindicación para IECA/ARA II",
+            "c": "Pacientes con FEr y enfermedad renal crónica avanzada",
+            "d": "Pacientes con FEr y diabetes mellitus",
+            "e": "Pacientes jóvenes sin comorbilidades"
+          },
+          "correctAnswer": "b",
+          "explanation": "La combinación Hidralazina + Nitratos se considera una alternativa, especialmente en pacientes con FEr que no toleran o tienen contraindicaciones para los inhibidores del SRAA (IECA/ARA II/ARNI), y también se menciona su beneficio en población afroamericana."
+        },
+        {
+          "question": "44. ¿Cuál es el mecanismo de acción de la Ivabradina, utilizada en algunos pacientes con falla cardíaca y angina?",
+          "answers": {
+            "a": "Bloqueo de receptores beta-1",
+            "b": "Inhibición de los canales If ('funny channels') en el nodo sinusal",
+            "c": "Bloqueo de canales de calcio tipo L",
+            "d": "Apertura de canales de potasio",
+            "e": "Estimulación de la guanilato ciclasa"
+          },
+          "correctAnswer": "b",
+          "explanation": "La Ivabradina inhibe selectivamente la corriente If en las células del nodo sinusal, lo que enlentece la despolarización diastólica y reduce la frecuencia cardíaca sin afectar la contractilidad."
+        },
+         {
+          "question": "45. ¿Qué clase de fármacos, como la Dapagliflozina, han demostrado reducir hospitalizaciones por falla cardíaca tanto en pacientes con FE reducida (FEr) como preservada (FEp)?",
+          "answers": {
+            "a": "Antagonistas de aldosterona",
+            "b": "ARNIs (Sacubitril/Valsartán)",
+            "c": "Inhibidores de SGLT2",
+            "d": "Beta-bloqueadores",
+            "e": "Diuréticos de ASA"
+          },
+          "correctAnswer": "c",
+          "explanation": "Los inhibidores del cotransportador sodio-glucosa tipo 2 (iSGLT2), como la Dapagliflozina, han demostrado beneficios cardiovasculares, incluyendo la reducción de hospitalizaciones por IC, en pacientes con y sin diabetes, y tanto en FEr como en FEp."
+        },
+        {
+          "question": "46. En un paciente con Falla Cardíaca Aguda Descompensada que se presenta 'Frío y Húmedo' (hipoperfusión y congestión), ¿cuál sería el manejo inicial más apropiado según el esquema presentado?",
+          "answers": {
+            "a": "Solo diuréticos",
+            "b": "Solo vasodilatadores",
+            "c": "Vasopresor, Inotrópico y Diuréticos (posiblemente asistencia ventricular)",
+            "d": "Líquidos intravenosos",
+            "e": "Ajustar terapia oral únicamente"
+          },
+          "correctAnswer": "c",
+          "explanation": "El perfil 'Frío y Húmedo' indica hipoperfusión tisular y congestión. El manejo requiere mejorar la perfusión (vasopresor/inotrópico) y aliviar la congestión (diuréticos), pudiendo requerir soporte avanzado."
+        },
+        {
+          "question": "47. ¿Cuál es el fármaco de primera línea para el tratamiento crónico de la angina estable?",
+          "answers": {
+            "a": "Nitratos de acción prolongada",
+            "b": "Beta-bloqueadores y/o Calcio antagonistas",
+            "c": "Ivabradina",
+            "d": "Ranolazina",
+            "e": "Trimetazidina"
+          },
+          "correctAnswer": "b",
+          "explanation": "La terapia de primera línea para el control de los síntomas en la angina crónica estable incluye beta-bloqueadores y/o calcio antagonistas."
+        },
+        {
+          "question": "48. ¿Cuál es el mecanismo de acción de la Ranolazina, utilizada como antianginoso de segunda línea?",
+          "answers": {
+            "a": "Abre canales de potasio",
+            "b": "Bloquea los canales If",
+            "c": "Inhibe la 3-cetoacil-CoA tiolasa",
+            "d": "Bloquea la corriente tardía de sodio (INa)",
+            "e": "Libera óxido nítrico"
+          },
+          "correctAnswer": "d",
+          "explanation": "La Ranolazina actúa bloqueando la corriente tardía de sodio en las células miocárdicas, lo que indirectamente reduce la sobrecarga de calcio intracelular durante la isquemia y mejora la relajación diastólica."
+        },
+        {
+          "question": "49. ¿Cuál de los siguientes fármacos NO es un beta-bloqueador utilizado comúnmente en el manejo de la falla cardíaca con fracción de eyección reducida (FEr)?",
+          "answers": {
+            "a": "Metoprolol (succinato)",
+            "b": "Carvedilol",
+            "c": "Bisoprolol",
+            "d": "Nebivolol",
+            "e": "Atenolol"
+          },
+          "correctAnswer": "e",
+          "explanation": "Mientras Metoprolol (succinato), Carvedilol, Bisoprolol y Nebivolol han demostrado beneficios en estudios clínicos en FEr, el Atenolol no es uno de los beta-bloqueadores preferidos o con evidencia robusta para esta indicación específica."
+        },
+        {
+          "question": "50. ¿Qué efecto adverso se asocia específicamente con la Espironolactona debido a su interacción con receptores hormonales no mineralocorticoides?",
+          "answers": {
+            "a": "Hiperpotasemia",
+            "b": "Hipotensión",
+            "c": "Ginecomastia",
+            "d": "Tos",
+            "e": "Acidosis metabólica"
+          },
+          "correctAnswer": "c",
+          "explanation": "La Espironolactona tiene similitud estructural con hormonas esteroideas y puede interactuar con receptores de progesterona y andrógenos, causando efectos adversos como ginecomastia, irregularidad menstrual e impotencia, a diferencia de la Eplerenona que es más selectiva."
+        }
+      ],
+      "clinicalCases": [
+            {
+              "title": "Caso Clínico 1: HTA Recién Diagnosticada",
+              "description": "Paciente masculino de 55 años, sin comorbilidades conocidas, acude a consulta y se le diagnostica Hipertensión Arterial Grado 1 (PA 148/94 mmHg).",
+              "question": "¿Cuál sería una opción farmacológica inicial apropiada según las guías generales mencionadas?",
+              "answers": {
+                "a": "Nitroprusiato de sodio IV",
+                "b": "Minoxidil oral",
+                "c": "Un IECA (ej. Enalapril) o un ARA II (ej. Losartán)",
+                "d": "Furosemida IV",
+                "e": "Propranolol"
+              },
+              "correctAnswer": "c",
+              "explanation": "En HTA Grado 1 sin comorbilidades significativas, los IECA o ARA II son considerados fármacos de primera línea, al igual que las tiazidas o calcio antagonistas DHP."
+            },
+            {
+              "title": "Caso Clínico 2: HTA y Diabetes",
+              "description": "Paciente femenina de 62 años con Diabetes Mellitus tipo 2 e Hipertensión Grado 2 (PA 165/102 mmHg). Presenta microalbuminuria.",
+              "question": "¿Qué grupo farmacológico antihipertensivo ofrece un beneficio adicional en la prevención de la nefropatía diabética?",
+              "answers": {
+                "a": "Beta-bloqueadores no selectivos",
+                "b": "Calcio antagonistas No-DHP (Verapamilo)",
+                "c": "Diuréticos de ASA (Furosemida)",
+                "d": "IECA o ARA II",
+                "e": "Bloqueadores alfa-1"
+              },
+              "correctAnswer": "d",
+              "explanation": "Los IECA y ARA II han demostrado reducir la progresión de la nefropatía diabética (reducción de microalbuminuria) además de controlar la PA."
+            },
+            {
+              "title": "Caso Clínico 3: Tos Persistente con IECA",
+              "description": "Paciente tratado con Enalapril por HTA desarrolla tos seca persistente que afecta su calidad de vida.",
+              "question": "¿Cuál es la conducta farmacológica más adecuada?",
+              "answers": {
+                "a": "Aumentar la dosis de Enalapril",
+                "b": "Añadir un antitusígeno como codeína",
+                "c": "Cambiar Enalapril por Captopril",
+                "d": "Suspender Enalapril y cambiar a un ARA II (ej. Valsartán)",
+                "e": "Añadir un diurético tiazídico"
+              },
+              "correctAnswer": "d",
+              "explanation": "La tos es un efecto adverso común de los IECA por acumulación de bradiquininas. Cambiar a un ARA II, que no inhibe la ECA, es la estrategia recomendada para resolver la tos."
+            },
+            {
+              "title": "Caso Clínico 4: Angioedema",
+              "description": "Paciente en tratamiento con Lisinopril presenta súbitamente edema facial y de vías respiratorias (angioedema).",
+              "question": "Además de suspender el Lisinopril inmediatamente, ¿qué implicación tiene este evento para el futuro tratamiento antihipertensivo?",
+              "answers": {
+                "a": "Puede volver a usar Lisinopril a dosis más bajas",
+                "b": "Debe evitarse el uso futuro de cualquier IECA y considerar los ARA II con precaución",
+                "c": "Puede cambiarse a cualquier otro IECA sin problema",
+                "d": "El angioedema no contraindica el uso futuro de IECA",
+                "e": "Debe tratarse únicamente con beta-bloqueadores"
+              },
+              "correctAnswer": "b",
+              "explanation": "El angioedema es una contraindicación absoluta para reintroducir cualquier IECA. Aunque el riesgo es menor con ARA II, se deben usar con precaución si hubo angioedema previo con IECA."
+            },
+            {
+              "title": "Caso Clínico 5: Falla Cardíaca con FE Reducida",
+              "description": "Paciente con Insuficiencia Cardíaca y Fracción de Eyección del 35% (FEr), ya en tratamiento con IECA y beta-bloqueador.",
+              "question": "¿Qué grupo de fármacos se añadiría para mejorar el pronóstico y reducir la mortalidad, según las guías?",
+              "answers": {
+                "a": "Un calcio antagonista DHP (Amlodipina)",
+                "b": "Un antagonista del receptor mineralocorticoide (Espironolactona o Eplerenona)",
+                "c": "Digoxina",
+                "d": "Un diurético de ASA a dosis altas",
+                "e": "Un bloqueador alfa-1"
+              },
+              "correctAnswer": "b",
+              "explanation": "Los antagonistas del receptor mineralocorticoide (ARM) son parte fundamental del tratamiento de la FEr, junto con IECA/ARAII/ARNI y beta-bloqueadores, para reducir mortalidad y hospitalizaciones."
+            },
+             {
+              "title": "Caso Clínico 6: Edema por Sobrecarga",
+              "description": "Paciente con Falla Cardíaca descompensada presenta edema importante en miembros inferiores, disnea y signos de congestión pulmonar.",
+              "question": "¿Qué tipo de diurético es el más apropiado para manejar la sobrecarga de volumen aguda?",
+              "answers": {
+                "a": "Hidroclorotiazida",
+                "b": "Espironolactona",
+                "c": "Amilorida",
+                "d": "Furosemida (Diurético de ASA)",
+                "e": "Acetazolamida"
+              },
+              "correctAnswer": "d",
+              "explanation": "Los diuréticos de ASA (como Furosemida) son los más potentes para eliminar volumen rápidamente y son de elección en estados de sobrecarga hídrica aguda como la IC descompensada."
+            },
+            {
+              "title": "Caso Clínico 7: Hipopotasemia con Diurético",
+              "description": "Paciente en tratamiento con Hidroclorotiazida por HTA presenta niveles bajos de potasio sérico (Hipopotasemia).",
+              "question": "¿Qué estrategia farmacológica podría considerarse para manejar la hipopotasemia inducida por tiazida?",
+              "answers": {
+                "a": "Aumentar la dosis de Hidroclorotiazida",
+                "b": "Añadir Furosemida",
+                "c": "Añadir un diurético ahorrador de potasio (ej. Amilorida o Espironolactona)",
+                "d": "Suspender todos los diuréticos",
+                "e": "Añadir un beta-bloqueador"
+              },
+              "correctAnswer": "c",
+              "explanation": "Los diuréticos ahorradores de potasio (inhibidores de ENaC o antagonistas de aldosterona) se usan frecuentemente en combinación con tiazidas o diuréticos de ASA para contrarrestar la pérdida de potasio."
+            },
+            {
+              "title": "Caso Clínico 8: HTA y Gota",
+              "description": "Paciente con antecedentes de Gota requiere tratamiento antihipertensivo.",
+              "question": "¿Qué grupo de diuréticos debería usarse con precaución o evitarse debido a su potencial para aumentar los niveles de ácido úrico?",
+              "answers": {
+                "a": "Diuréticos de ASA",
+                "b": "Diuréticos Tiazídicos",
+                "c": "Ahorradores de potasio",
+                "d": "Antagonistas de aldosterona",
+                "e": "Diuréticos osmóticos"
+              },
+              "correctAnswer": "b",
+              "explanation": "Los diuréticos tiazídicos pueden causar hiperuricemia al competir por la secreción tubular de ácido úrico y/o aumentar su reabsorción, lo que puede precipitar ataques de gota en pacientes susceptibles."
+            },
+            {
+              "title": "Caso Clínico 9: HTA en Paciente de Raza Negra",
+              "description": "Paciente afrodescendiente de 50 años es diagnosticado con HTA Grado 1.",
+              "question": "¿Qué clases de antihipertensivos suelen ser más eficaces como monoterapia inicial en esta población?",
+              "answers": {
+                "a": "IECA",
+                "b": "ARA II",
+                "c": "Beta-bloqueadores",
+                "d": "Diuréticos (Tiazidas) o Calcio antagonistas DHP",
+                "e": "Bloqueadores alfa-1"
+              },
+              "correctAnswer": "d",
+              "explanation": "El documento menciona que los pacientes de raza negra suelen responder mejor a diuréticos y calcio antagonistas, y pueden tener menor respuesta a IECA/ARA II como monoterapia (suelen ser hiporreninémicos)."
+            },
+             {
+              "title": "Caso Clínico 10: Edema de Tobillos con Amlodipina",
+              "description": "Paciente tratado con Amlodipina por HTA se queja de hinchazón en ambos tobillos que empeora al final del día.",
+              "question": "¿Cuál es la causa más probable de este edema y qué ajuste se podría considerar?",
+              "answers": {
+                "a": "Retención de sodio por el fármaco; añadir Furosemida.",
+                "b": "Vasodilatación arteriolar preferencial; considerar reducir dosis o añadir IECA/ARAII.",
+                "c": "Insuficiencia cardíaca inducida por Amlodipina; suspender inmediatamente.",
+                "d": "Reacción alérgica; administrar antihistamínicos.",
+                "e": "Trombosis venosa profunda; realizar ecografía Doppler."
+              },
+              "correctAnswer": "b",
+              "explanation": "El edema periférico es un efecto secundario común de los calcio antagonistas DHP, causado por vasodilatación arteriolar que aumenta la presión capilar. Reducir la dosis, cambiar a otra clase o añadir un IECA/ARAII (que causan venodilatación) puede ayudar."
+            },
+            {
+              "title": "Caso Clínico 11: HTA y Asma",
+              "description": "Paciente con Asma persistente requiere iniciar tratamiento antihipertensivo.",
+              "question": "¿Qué clase de antihipertensivo debería evitarse o usarse con extrema precaución?",
+              "answers": {
+                "a": "IECA",
+                "b": "Calcio antagonistas DHP",
+                "c": "Diuréticos tiazídicos",
+                "d": "Beta-bloqueadores (especialmente no selectivos)",
+                "e": "ARA II"
+              },
+              "correctAnswer": "d",
+              "explanation": "Los beta-bloqueadores, particularmente los no selectivos (que bloquean B2), pueden causar broncoconstricción y empeorar el asma. Incluso los B1 selectivos pueden perder selectividad a dosis altas."
+            },
+            {
+              "title": "Caso Clínico 12: Bradicardia Sintomática",
+              "description": "Paciente en tratamiento con Metoprolol y Verapamilo por HTA y Fibrilación Auricular presenta mareos y frecuencia cardíaca de 45 lpm.",
+              "question": "¿Cuál es la interacción farmacodinámica más probable responsable de la bradicardia?",
+              "answers": {
+                "a": "Sinergia en el bloqueo alfa-1",
+                "b": "Inhibición mutua del metabolismo CYP3A4",
+                "c": "Efectos aditivos depresores sobre el nodo sinusal y AV (cronotropismo y dromotropismo negativos)",
+                "d": "Competencia por la unión a proteínas plasmáticas",
+                "e": "Aumento de la absorción de Verapamilo"
+              },
+              "correctAnswer": "c",
+              "explanation": "Tanto los beta-bloqueadores (Metoprolol) como los calcio antagonistas No-DHP (Verapamilo) disminuyen la frecuencia cardíaca y la conducción AV. Su combinación puede causar bradicardia severa o bloqueo AV."
+            },
+            {
+              "title": "Caso Clínico 13: Hipertrofia Prostática Benigna (HPB) e HTA",
+              "description": "Paciente varón de 70 años con síntomas de HPB (dificultad miccional) e HTA.",
+              "question": "¿Qué clase de antihipertensivo podría ofrecer un beneficio adicional para los síntomas de la HPB?",
+              "answers": {
+                "a": "Diuréticos de ASA",
+                "b": "Beta-bloqueadores",
+                "c": "Bloqueadores alfa-1 (ej. Doxazosina, Terazosina)",
+                "d": "IECA",
+                "e": "Calcio antagonistas DHP"
+              },
+              "correctAnswer": "c",
+              "explanation": "Los bloqueadores alfa-1 relajan el músculo liso de la próstata y el cuello vesical (principalmente receptores alfa-1A), mejorando el flujo urinario y los síntomas de la HPB, además de bajar la PA."
+            },
+            {
+              "title": "Caso Clínico 14: Crisis Hipertensiva",
+              "description": "Paciente llega a urgencias con PA 220/130 mmHg, cefalea intensa y signos de daño orgánico agudo (encefalopatía).",
+              "question": "¿Qué fármaco intravenoso de acción rápida podría usarse para reducir la PA de forma controlada en esta emergencia hipertensiva?",
+              "answers": {
+                "a": "Hidroclorotiazida oral",
+                "b": "Amlodipina oral",
+                "c": "Labetalol IV o Nitroprusiato de sodio IV",
+                "d": "Enalapril oral",
+                "e": "Losartán oral"
+              },
+              "correctAnswer": "c",
+              "explanation": "En emergencias hipertensivas se requieren fármacos IV de acción rápida y titulable como Labetalol, Nitroprusiato, Nicardipina o Esmolol para bajar la PA de forma controlada y evitar mayor daño orgánico."
+            },
+            {
+              "title": "Caso Clínico 15: Intoxicación por Cianuro",
+              "description": "Paciente que ha recibido infusión de Nitroprusiato de sodio por 4 días desarrolla acidosis metabólica, confusión y convulsiones.",
+              "question": "Además de suspender el Nitroprusiato, ¿cuál es un antídoto que puede administrarse?",
+              "answers": {
+                "a": "Naloxona",
+                "b": "Flumazenil",
+                "c": "Hidroxicobalamina (Vitamina B12) o Nitrito de sodio/Tiosulfato de sodio",
+                "d": "Atropina",
+                "e": "Protamina"
+              },
+              "correctAnswer": "c",
+              "explanation": "La toxicidad por cianuro secundaria a Nitroprusiato se maneja con antídotos como la Hidroxicobalamina (forma cianocobalamina) o induciendo metahemoglobinemia con nitritos (que une cianuro) seguido de Tiosulfato de sodio (convierte cianuro en tiocianato)."
+            },
+            {
+              "title": "Caso Clínico 16: Angina de Esfuerzo Estable",
+              "description": "Paciente con enfermedad coronaria presenta dolor torácico predecible al caminar rápido, que cede con el reposo.",
+              "question": "¿Qué fármaco sublingual es de elección para el alivio rápido del episodio agudo de angina?",
+              "answers": {
+                "a": "Aspirina",
+                "b": "Metoprolol",
+                "c": "Nitroglicerina sublingual",
+                "d": "Amlodipina",
+                "e": "Clopidogrel"
+              },
+              "correctAnswer": "c",
+              "explanation": "La Nitroglicerina sublingual actúa rápidamente (en minutos) causando venodilatación, reduciendo la precarga y aliviando el dolor anginoso agudo. Es la primera opción para el manejo del episodio."
+            },
+             {
+              "title": "Caso Clínico 17: Desarrollo de Tolerancia a Nitratos",
+              "description": "Paciente con angina crónica en tratamiento con parches de Nitroglicerina 24 horas al día refiere que el fármaco ya no le alivia el dolor como antes.",
+              "question": "¿Cuál es la causa más probable y qué ajuste se requiere?",
+              "answers": {
+                "a": "Progresión de la enfermedad; aumentar la dosis del parche.",
+                "b": "Mala absorción del parche; cambiar a vía oral.",
+                "c": "Desarrollo de tolerancia; implementar un intervalo libre de nitratos (ej. retirar parche por la noche).",
+                "d": "Interacción con otro fármaco; suspender el otro fármaco.",
+                "e": "Efecto placebo inicial; cambiar a beta-bloqueador."
+              },
+              "correctAnswer": "c",
+              "explanation": "El uso continuo de nitratos lleva al desarrollo de tolerancia. Se necesita un período diario libre de nitratos (usualmente 8-12 horas, como retirar el parche durante la noche) para mantener su eficacia."
+            },
+            {
+              "title": "Caso Clínico 18: Falla Cardíaca en Paciente Afroamericano",
+              "description": "Paciente afroamericano con Falla Cardíaca clase funcional III-IV (NYHA) a pesar de tratamiento óptimo con IECA, beta-bloqueador y antagonista de aldosterona.",
+              "question": "¿Qué combinación farmacológica ha demostrado beneficio particular en este grupo de pacientes?",
+              "answers": {
+                "a": "Ivabradina + Digoxina",
+                "b": "Hidralazina + Dinitrato de Isosorbide",
+                "c": "Amlodipina + Hidroclorotiazida",
+                "d": "Sacubitril/Valsartán únicamente",
+                "e": "Furosemida a dosis altas + Metolazona"
+              },
+              "correctAnswer": "b",
+              "explanation": "La combinación de Hidralazina y Dinitrato de Isosorbide ha mostrado reducir la mortalidad y mejorar los resultados específicamente en pacientes afroamericanos con IC sistólica sintomática que ya reciben terapia estándar."
+            },
+            {
+              "title": "Caso Clínico 19: HTA y Embarazo",
+              "description": "Paciente embarazada de 28 semanas desarrolla HTA (PA 150/95 mmHg) sin proteinuria.",
+              "question": "¿Cuál de los siguientes antihipertensivos se considera seguro y es de uso común durante el embarazo?",
+              "answers": {
+                "a": "Enalapril",
+                "b": "Losartán",
+                "c": "Atenolol",
+                "d": "Labetalol o Alfa-metildopa",
+                "e": "Espironolactona"
+              },
+              "correctAnswer": "d",
+              "explanation": "Los IECA y ARA II están contraindicados en el embarazo. Labetalol y Alfa-metildopa son fármacos de elección para tratar la HTA gestacional. La Nifedipina de liberación prolongada también es una opción."
+            },
+            {
+              "title": "Caso Clínico 20: Profilaxis de Migraña",
+              "description": "Paciente sufre de episodios frecuentes de migraña y además tiene HTA leve.",
+              "question": "¿Qué clase de antihipertensivo también tiene indicación como profiláctico para la migraña?",
+              "answers": {
+                "a": "Diuréticos tiazídicos",
+                "b": "IECA",
+                "c": "Beta-bloqueadores (ej. Propranolol) o algunos Calcio Antagonistas (ej. Verapamilo)",
+                "d": "Bloqueadores alfa-1",
+                "e": "ARA II"
+              },
+              "correctAnswer": "c",
+              "explanation": "Algunos beta-bloqueadores como el Propranolol y calcio antagonistas como el Verapamilo (mencionado en el texto) son utilizados para la profilaxis de la migraña, además de su efecto antihipertensivo."
+            },
+            {
+              "title": "Caso Clínico 21: Manejo de FEr con Ritmo Sinusal y FC > 70 lpm",
+              "description": "Paciente con Falla Cardíaca con FE reducida, en ritmo sinusal, que persiste con FC en reposo > 70 lpm a pesar de dosis máximas toleradas de beta-bloqueador.",
+              "question": "¿Qué fármaco podría añadirse para reducir la frecuencia cardíaca sin afectar la contractilidad?",
+              "answers": {
+                "a": "Digoxina",
+                "b": "Amiodarona",
+                "c": "Ivabradina",
+                "d": "Diltiazem",
+                "e": "Aumentar dosis de beta-bloqueador"
+              },
+              "correctAnswer": "c",
+              "explanation": "La Ivabradina está indicada en pacientes con FEr sintomática, ritmo sinusal y FC ≥ 70 lpm en reposo que ya están con dosis óptimas de beta-bloqueador (o tienen contraindicación/intolerancia) para reducir hospitalizaciones."
+            },
+             {
+              "title": "Caso Clínico 22: Riesgo de Hipercalemia",
+              "description": "Paciente con Enfermedad Renal Crónica (TFG 40 ml/min) e Insuficiencia Cardíaca, tratado con Enalapril y Espironolactona.",
+              "question": "¿Qué efecto adverso electrolítico requiere monitorización estricta en este paciente?",
+              "answers": {
+                "a": "Hiponatremia",
+                "b": "Hipocalcemia",
+                "c": "Hipercalemia",
+                "d": "Hipomagnesemia",
+                "e": "Alcalosis metabólica"
+              },
+              "correctAnswer": "c",
+              "explanation": "La combinación de un IECA (o ARA II) con un antagonista de aldosterona (ahorrador de K+), especialmente en presencia de disfunción renal, aumenta significativamente el riesgo de hipercalemia."
+            },
+            {
+              "title": "Caso Clínico 23: Vasodilatador para Alopecia",
+              "description": "Paciente consulta por pérdida de cabello (alopecia androgénica).",
+              "question": "¿Qué fármaco vasodilatador, originalmente antihipertensivo, se utiliza tópicamente para tratar la alopecia?",
+              "answers": {
+                "a": "Hidralazina",
+                "b": "Nitroprusiato",
+                "c": "Minoxidil",
+                "d": "Nicorandil",
+                "e": "Prazosina"
+              },
+              "correctAnswer": "c",
+              "explanation": "El Minoxidil, un potente vasodilatador arterial que abre canales de K+, se utiliza ampliamente en solución tópica para estimular el crecimiento del cabello en la alopecia androgénica."
+            },
+            {
+              "title": "Caso Clínico 24: Selección de IECA en Urgencias",
+              "description": "Se necesita administrar un IECA de acción relativamente rápida y que no sea profármaco en un servicio de urgencias.",
+              "question": "¿Cuál de los siguientes IECA cumple estas características?",
+              "answers": {
+                "a": "Enalapril",
+                "b": "Ramipril",
+                "c": "Lisinopril",
+                "d": "Captopril",
+                "e": "Fosinopril"
+              },
+              "correctAnswer": "d",
+              "explanation": "El Captopril es un IECA activo (no profármaco) con una vida media corta, lo que lo hace útil en situaciones agudas o de urgencia donde se requiere un inicio de acción más rápido y menor duración."
+            },
+            {
+              "title": "Caso Clínico 25: Falla Cardíaca con FE Preservada (FEp)",
+              "description": "Paciente de 75 años con disnea de esfuerzo, signos de congestión y ecocardiograma que muestra FEVI del 55% con disfunción diastólica.",
+              "question": "¿Qué clase de fármacos ha demostrado recientemente reducir hospitalizaciones por IC en pacientes con FEp?",
+              "answers": {
+                "a": "Digoxina",
+                "b": "Sacubitril/Valsartán",
+                "c": "Inhibidores de SGLT2 (ej. Dapagliflozina, Empagliflozina)",
+                "d": "Nitratos de acción prolongada",
+                "e": "Beta-bloqueadores"
+              },
+              "correctAnswer": "c",
+              "explanation": "Estudios recientes (mencionados en la tabla de recomendaciones para HFpEF) han mostrado que los inhibidores de SGLT2 pueden ser beneficiosos para disminuir hospitalizaciones por IC y mortalidad cardiovascular en pacientes con FEp."
+            },
+             {
+              "title": "Caso Clínico 26: Contraindicación de Tiazidas",
+              "description": "Paciente con HTA y una Tasa de Filtración Glomerular (TFG) estimada de 25 ml/min/1.73m2.",
+              "question": "¿Por qué los diuréticos tiazídicos generalmente pierden eficacia en este paciente?",
+              "answers": {
+                "a": "Porque causan hipercalemia severa a este nivel de TFG.",
+                "b": "Porque requieren una función renal mínima (usualmente TFG > 30 ml/min) para alcanzar su sitio de acción tubular.",
+                "c": "Porque inducen alcalosis metabólica pronunciada.",
+                "d": "Porque aumentan el riesgo de ototoxicidad.",
+                "e": "Porque interactúan con los IECA a TFG bajas."
+              },
+              "correctAnswer": "b",
+              "explanation": "Los diuréticos tiazídicos son menos efectivos cuando la TFG cae por debajo de 30 ml/min, ya que su secreción al túbulo renal disminuye. En estos casos, se prefieren los diuréticos de ASA si se necesita diuresis potente."
+            },
+            {
+              "title": "Caso Clínico 27: Inicio de ARA II",
+              "description": "Se inicia tratamiento con Losartán a un paciente hipertenso.",
+              "question": "Comparado con un IECA, ¿qué efecto adverso es significativamente MENOS probable que ocurra con Losartán?",
+              "answers": {
+                "a": "Hipotensión",
+                "b": "Hipercalemia",
+                "c": "Disfunción renal",
+                "d": "Tos",
+                "e": "Mareo"
+              },
+              "correctAnswer": "d",
+              "explanation": "Debido a que los ARA II no inhiben la degradación de bradiquininas mediada por la ECA, la incidencia de tos es mucho menor en comparación con los IECA."
+            },
+            {
+              "title": "Caso Clínico 28: Uso de Diurético en Hipercalcemia",
+              "description": "Paciente presenta hipercalcemia sintomática.",
+              "question": "¿Qué tipo de diurético puede ser útil (junto con hidratación salina) para aumentar la excreción urinaria de calcio?",
+              "answers": {
+                "a": "Hidroclorotiazida",
+                "b": "Clortalidona",
+                "c": "Furosemida (Diurético de ASA)",
+                "d": "Espironolactona",
+                "e": "Amilorida"
+              },
+              "correctAnswer": "c",
+              "explanation": "Los diuréticos de ASA inhiben la reabsorción de calcio en el asa de Henle, aumentando su excreción urinaria. Se usan (tras asegurar una adecuada hidratación) en el manejo de la hipercalcemia."
+            },
+            {
+              "title": "Caso Clínico 29: Tratamiento Antihipertensivo y Función Sexual",
+              "description": "Paciente varón joven tratado por HTA refiere disminución de la líbido y disfunción eréctil desde que inició un nuevo fármaco.",
+              "question": "¿Qué clase de antihipertensivos (especialmente los más antiguos o no vasodilatadores) se asocia más frecuentemente con disfunción sexual?",
+              "answers": {
+                "a": "IECA",
+                "b": "ARA II",
+                "c": "Beta-bloqueadores (no vasodilatadores) y Diuréticos Tiazídicos",
+                "d": "Calcio antagonistas DHP",
+                "e": "Bloqueadores alfa-1"
+              },
+              "correctAnswer": "c",
+              "explanation": "La disfunción sexual (impotencia, disminución de líbido) es un efecto adverso reportado con mayor frecuencia con beta-bloqueadores (excepto los vasodilatadores como Nebivolol) y diuréticos tiazídicos."
+            },
+            {
+              "title": "Caso Clínico 30: Fármaco Antianginoso que Inhibe Metabolismo de Ácidos Grasos",
+              "description": "Paciente con angina crónica estable que no responde adecuadamente a beta-bloqueadores y calcio antagonistas.",
+              "question": "¿Qué fármaco antianginoso actúa inhibiendo la enzima 3-cetoacil-CoA tiolasa, optimizando el metabolismo energético del miocardio?",
+              "answers": {
+                "a": "Nicorandil",
+                "b": "Ivabradina",
+                "c": "Ranolazina",
+                "d": "Trimetazidina",
+                "e": "Nitroglicerina"
+              },
+              "correctAnswer": "d",
+              "explanation": "La Trimetazidina es un agente metabólico que inhibe la beta-oxidación de ácidos grasos (inhibiendo la 3-KAT), favoreciendo la oxidación de glucosa, que requiere menos oxígeno, mejorando así la eficiencia energética del miocardio isquémico."
+            }
+          ]
+    },
+
+    "examMicrobiologiaVirus": {
+    "id": "examMicrobiologiaVirus",
+    "title": "Microbiología - Parcial #5 Virus (Preguntas 1-50)",
+    "description": "Examen basado en 'MICRO 5 PARCIAL VIRUS 2.pdf', cubriendo Hepatitis, Retrovirus, Virus Respiratorios y Arbovirus.",
     "questions": [
       {
-        "question": "El mecanismo de acción del Linezolid se distingue de otros inhibidores de la síntesis proteica al unirse a la subunidad 50S y específicamente evitar:",
+        "question": "1. ¿Cuáles de los siguientes virus de la hepatitis son considerados oncogénicos y pueden causar estado de portador crónico?",
         "answers": {
-          "a": "La producción de proteínas incorrectas",
-          "b": "El ensamblaje de las subunidades ribosomales, alterando su inicio",
-          "c": "La translocación del peptidil-tRNA",
-          "d": "La unión del aminoacil-tRNA al sitio A",
-          "e": "La liberación de la cadena peptídica"
+          "a": "VHA y VHE",
+          "b": "VHB, VHC y VHD (cuando coexiste con VHB)",
+          "c": "VHA y VHB",
+          "d": "VHE y VHC",
+          "e": "VHG"
         },
         "correctAnswer": "b",
-        "explanation": "El Linezolid inhibe la síntesis proteica uniéndose a la subunidad 50s, evitando que se ensamblen las subunidades ribosomales y alterando su inicio [1]."
+        "explanation": "El documento indica que VHB, VHC y VHD (cuando se asocia con VHB) son crónicos, malignos, oncogénicos y pueden llevar a un estado de portador. VHA y VHE son agudos, benignos y no dejan cronicidad ni estado de portador."
       },
       {
-        "question": "Debido a su alta liposolubilidad, el Linezolid se distribuye muy bien en los tejidos. ¿Cuál es una implicación clínica de esta propiedad farmacocinética?",
+        "question": "2. En la hepatitis aguda, ¿cuál es el periodo que precede a la ictericia y se caracteriza por malestar general, mialgias, artralgias y aumento de AST/ALT?",
         "answers": {
-          "a": "Es el fármaco de elección para bacteriemias severas.",
-          "b": "Se retiene muy poco en la sangre.",
-          "c": "Requiere ajuste de dosis en pacientes obesos.",
-          "d": "Alcanza concentraciones subóptimas en el líquido cefalorraquídeo.",
-          "e": "Es propenso a interacciones medicamentosas a nivel de las glicoproteínas."
-        },
-        "correctAnswer": "b",
-        "explanation": "El Linezolid tiene una biodisponibilidad oral e IV del 100% y es muy liposoluble, lo que causa que se distribuya a todos los tejidos y se retenga muy poco en la sangre [2]. Esto lo hace útil en infecciones de tejidos, pero poco útil en bacteriemias [2]."
-      },
-      {
-        "question": "El Linezolid es conocido por algunos efectos secundarios relacionados con la duración del tratamiento. ¿Cuál de los siguientes efectos adversos se asocia principalmente con el uso de Linezolid por más de un mes?",
-        "answers": {
-          "a": "Trombocitopenia",
-          "b": "Dolor gastrointestinal",
-          "c": "Neuropatías sensitivas (extremidades u ojo)",
-          "d": "Hipertensión",
-          "e": "Acidosis láctica"
+          "a": "Periodo ictérico",
+          "b": "Periodo de recuperación",
+          "c": "Periodo prodrómico o preictérico",
+          "d": "Periodo de cronicidad",
+          "e": "Periodo fulminante"
         },
         "correctAnswer": "c",
-        "explanation": "La mielosupresión (principalmente trombocitopenia) por Linezolid se asocia con el uso mayor a 2 semanas [3]. Las neuropatías sensitivas en extremidades y ojo se asocian con el uso mayor a 1 mes [3]."
+        "explanation": "El periodo prodrómico o preictérico se describe con síntomas como malestar general, mialgias, fatiga, anorexia, náuseas, vómito y aumento de transaminasas, ocurriendo antes de la aparición de la ictericia."
       },
       {
-        "question": "El mecanismo de acción de los Macrólidos implica la inhibición de la síntesis proteica al unirse a la subunidad ribosomal 50S. Específicamente, este mecanismo bloquea el proceso de:",
+        "question": "3. ¿Qué característica distingue principalmente a la Hepatitis A (VHA) de la Hepatitis B (VHB)?",
         "answers": {
-          "a": "Ensamblaje ribosomal",
-          "b": "Terminación de la cadena peptídica",
-          "c": "Translocación del peptidil-tRNA",
-          "d": "Corte del DNA bacteriano",
-          "e": "Síntesis de la pared celular"
+          "a": "El VHA es un virus ADN y el VHB es ARN.",
+          "b": "El VHA se transmite principalmente por vía parenteral y el VHB por vía fecal-oral.",
+          "c": "El VHA causa infección aguda autolimitada sin cronicidad, mientras que el VHB puede cronificar.",
+          "d": "El VHA es envuelto y el VHB es desnudo.",
+          "e": "El VHA es frecuentemente oncogénico, a diferencia del VHB."
         },
         "correctAnswer": "c",
-        "explanation": "Los Macrólidos inhiben la síntesis proteica de la subunidad 50s, específicamente inhibiendo el proceso de translocación [4]."
+        "explanation": "El documento especifica que el VHA (Picornavirus, ARN desnudo) causa una enfermedad benigna, autolimitada, rara vez fulminante y no oncogénica ni crónica. El VHB (Hepadnavirus, ADN envuelto) puede cronificar y es oncogénico."
       },
       {
-        "question": "Para pacientes con infecciones por Haemophilus influenzae que presentan reacciones de hipersensibilidad a las penicilinas y cefalosporinas de primera/segunda generación, los Macrólidos (como Azitromicina o Claritromicina) pueden ser una alternativa. Sin embargo, el tratamiento de elección para H. influenzae, cuando es sensible, suele ser:",
+        "question": "4. Para el diagnóstico de Hepatitis A aguda, ¿qué marcador serológico es el más útil y persiste positivo hasta 4-6 meses después de la infección?",
         "answers": {
-          "a": "Vancomicina",
-          "b": "Trimetoprim-sulfametoxazol",
-          "c": "Cefalosporinas de tercera generación",
-          "d": "Ampicilina-sulbactam",
-          "e": "Gentamicina"
+          "a": "Ag Fecal VHA",
+          "b": "IgG anti-VHA",
+          "c": "IgM anti-VHA",
+          "d": "Ac totales (IgM + IgG) anti-VHA",
+          "e": "PCR para ARN de VHA"
+        },
+        "correctAnswer": "c",
+        "explanation": "La IgM anti-VHA es el marcador diagnóstico clave de la infección aguda por VHA, permaneciendo positiva hasta 4-6 meses después del inicio."
+      },
+      {
+        "question": "5. ¿En qué grupo de pacientes la Hepatitis E (VHE) tiene un riesgo significativamente mayor de evolucionar a una forma fulminante?",
+        "answers": {
+          "a": "Niños menores de 6 años",
+          "b": "Adultos mayores de 60 años",
+          "c": "Pacientes inmunosuprimidos",
+          "d": "Mujeres embarazadas",
+          "e": "Pacientes con Hepatitis B crónica"
         },
         "correctAnswer": "d",
-        "explanation": "Aunque los Macrólidos son una alternativa para H. influenzae, las fuentes mencionan que las opciones de elección suelen ser Cefalosporinas de 2ª generación o Ampicilina-sulbactam [5]."
+        "explanation": "El texto menciona que la Hepatitis E puede ser fulminante, y esta complicación es más frecuente en mujeres embarazadas."
       },
       {
-        "question": "Uno de los principales mecanismos de resistencia de los Macrólidos en bacterias Gram positivas y Gram negativas es la producción de enzimas que metilan el ribosoma en la posición 23S RNAr, afectando el sitio de unión del antibiótico. Este mecanismo está codificado principalmente por el gen:",
+        "question": "6. ¿Cuál es la vía de transmisión más común de la Hepatitis C (VHC)?",
         "answers": {
-          "a": "gyrA",
-          "b": "erm",
-          "c": "rpoB",
-          "d": "msrA",
-          "e": "parC"
-        },
-        "correctAnswer": "b",
-        "explanation": "La resistencia a Macrólidos por metilación ribosomal (afectando la unión del antibiótico) se asocia con el gen erm, común en bacterias Gram positivas y Gram negativas [6]."
-      },
-      {
-        "question": "Aunque la Clindamicina y los Macrólidos comparten el mismo sitio diana (subunidad ribosomal 50S), las fuentes desaconsejan su uso concomitante debido a:",
-        "answers": {
-          "a": "Un aumento del riesgo de nefrotoxicidad.",
-          "b": "Posible interferencia en sus mecanismos de acción.",
-          "c": "Un incremento significativo del riesgo de prolongación del QTc.",
-          "d": "Potenciación del bloqueo neuromuscular.",
-          "e": "Un aumento del metabolismo hepático de ambos fármacos."
-        },
-        "correctAnswer": "b",
-        "explanation": "La Clindamicina y los Macrólidos tienen diferentes sitios de unión en la subunidad 50S, pero NO se recomienda su uso concomitante ya que pueden tener interferencia en su mecanismo de acción [7]."
-      },
-      {
-        "question": "En el tratamiento de infecciones por Staphylococcus aureus resistente a Meticilina (SAMR), especialmente en entornos extrahospitalarios o como alternativa, la Clindamicina puede ser considerada. En el ámbito hospitalario, el fármaco de elección para SAMR suele ser:",
-        "answers": {
-          "a": "Penicilina G",
-          "b": "Ciprofloxacino",
-          "c": "Gentamicina",
-          "d": "Vancomicina",
-          "e": "Azitromicina"
+          "a": "Fecal-oral",
+          "b": "Contacto sexual",
+          "c": "Vertical (madre-hijo)",
+          "d": "Parenteral (ej. agujas contaminadas, transfusiones)",
+          "e": "Gotitas respiratorias"
         },
         "correctAnswer": "d",
-        "explanation": "La Clindamicina se usa usualmente para S. aureus MR [8]. Sin embargo, la Vancomicina es el uso de elección hospitalaria para S. aureus MR [8]."
+        "explanation": "La transmisión principal del VHC (Flavivirus, ARN envuelto) es parenteral, asociada a agujas, transfusiones, tatuajes y perforaciones. Las vías sexual y vertical son infrecuentes."
       },
       {
-        "question": "En la Prueba D (D-test), si hay crecimiento bacteriano a las 24 horas en presencia de Eritromicina y la Clindamicina muestra un halo de inhibición achatado ('aplanado'), ¿qué mecanismo de resistencia se sugiere en la bacteria?",
+        "question": "7. En la infección por Hepatitis B (VHB), ¿qué antígeno indica replicación viral activa y alta infectividad?",
         "answers": {
-          "a": "Resistencia constitutiva del gen erm.",
-          "b": "Presencia de bombas de eflujo (gen msrA).",
-          "c": "Inactivación enzimática del antibiótico.",
-          "d": "Resistencia inducible del gen erm.",
-          "e": "Alteración en la permeabilidad de la membrana."
-        },
-        "correctAnswer": "d",
-        "explanation": "Según la interpretación de la Prueba D, si la Clindamicina tiene un halo de inhibición achatado en presencia de Eritromicina, esto sugiere una resistencia inducible mediada por el gen erm [9]."
-      },
-      {
-        "question": "La Clindamicina se metaboliza principalmente en el hígado y se excreta por vía biliar, manteniendo actividad en las heces por varios días luego de suspender el medicamento. Esta propiedad farmacocinética explica su asociación con el sobrecrecimiento de:",
-        "answers": {
-          "a": "Escherichia coli",
-          "b": "Pseudomonas aeruginosa",
-          "c": "Clostridioides difficile",
-          "d": "Enterococcus faecium",
-          "e": "Staphylococcus aureus"
+          "a": "AgHBs (Antígeno de superficie)",
+          "b": "AgHBc (Antígeno del core)",
+          "c": "AgHBe (Antígeno e)",
+          "d": "Ac IgM anti-HBc",
+          "e": "Ac IgG anti-HBs"
         },
         "correctAnswer": "c",
-        "explanation": "La excreción biliar de la Clindamicina y su actividad prolongada en las heces propician el sobrecrecimiento de Clostridium difficile, causa de diarrea y colitis pseudomembranosa [10]."
+        "explanation": "La presencia del AgHBe en sangre indica que el virus se está replicando activamente y el paciente es altamente infeccioso, tanto en fase aguda como crónica."
       },
       {
-        "question": "¿Cuál de los siguientes Aminoglucósidos se menciona específicamente como de uso tópico debido a su alta toxicidad sistémica?",
+        "question": "8. ¿Qué significa la presencia del antígeno de superficie de la Hepatitis B (AgHBs) por más de 6 meses?",
         "answers": {
-          "a": "Gentamicina",
-          "b": "Amikacina",
-          "c": "Estreptomicina",
-          "d": "Tobramicina",
-          "e": "Paromomicina"
-        },
-        "correctAnswer": "d",
-        "explanation": "Las fuentes listan Tobramicina, Neomicina, y Netilmicina como Aminoglucósidos de uso tópico que son muy tóxicos sistémicamente [11]."
-      },
-      {
-        "question": "Los Aminoglucósidos cubren principalmente bacterias Gram negativas aerobias debido a su mecanismo de ingreso a través de la membrana celular, el cual es:",
-        "answers": {
-          "a": "Difusión pasiva",
-          "b": "Transportadores dependientes de ATP",
-          "c": "Bombas de eflujo",
-          "d": "Sistema de secreción tipo III",
-          "e": "Difusión facilitada por porinas"
-        },
-        "correctAnswer": "b",
-        "explanation": "En las bacterias Gram negativas, después de pasar por las porinas, la membrana celular es atravesada por medio de transportadores dependientes de ATP, lo que explica que cubran más a las aerobias [12]."
-      },
-      {
-        "question": "Aunque los Aminoglucósidos son primariamente activos contra Gram negativos aerobios, también pueden ser útiles contra algunos Gram positivos en terapia combinada. ¿Con qué tipo de antibióticos se suelen combinar los Aminoglucósidos para tratar ciertas infecciones por Gram positivos como S. aureus o Enterococos?",
-        "answers": {
-          "a": "Macrólidos",
-          "b": "Quinolonas",
-          "c": "Tetraciclinas",
-          "d": "Inhibidores de la pared celular (ej: Vancomicina)",
-          "e": "Nitroimidazoles"
-        },
-        "correctAnswer": "d",
-        "explanation": "Los Aminoglucósidos son útiles en Gram positivos en terapia combinada con inhibidores de la pared, como la Vancomicina, para tratar Staphylococcus aureus o Enterococos [13]."
-      },
-      {
-        "question": "¿Cuál de los siguientes sitios del cuerpo es mencionado en las fuentes como uno al que los Aminoglucósidos NO penetran fácilmente, aunque pueden ser aceptables en recién nacidos?",
-        "answers": {
-          "a": "Riñón",
-          "b": "Oído interno",
-          "c": "Líquido cefalorraquídeo (SNC)",
-          "d": "Sangre",
-          "e": "Hueso"
+          "a": "Infección aguda por VHB resuelta.",
+          "b": "Inmunidad por vacunación.",
+          "c": "Hepatitis crónica por VHB (estado de portador).",
+          "d": "Coinfección con VHD.",
+          "e": "Fase de ventana inmunológica."
         },
         "correctAnswer": "c",
-        "explanation": "Los Aminoglucósidos no penetran fácilmente tejidos como pulmón, ojo o SNC (aunque puede ser aceptable en recién nacidos) [14]. Se concentran en riñón y oído interno [15]."
+        "explanation": "La persistencia del AgHBs en sangre por más de 6 meses define la hepatitis crónica por VHB y el estado de portador (sea sano o enfermo crónico)."
       },
       {
-        "question": "Los Aminoglucósidos se concentran en el riñón y el oído interno debido a la presencia de transportadores y canales específicos. En el riñón, ¿a qué estructuras celulares se unen principalmente para ser filtrados e internalizados?",
+        "question": "9. ¿Cuál es la característica principal del Virus de la Hepatitis D (VHD)?",
         "answers": {
-          "a": "Glomérulos",
-          "b": "Podocitos",
-          "c": "Células tubulares proximales (vía receptores de megalina)",
-          "d": "Asa de Henle",
-          "e": "Conductos colectores"
+          "a": "Es un virus ADN.",
+          "b": "Se transmite principalmente por vía fecal-oral.",
+          "c": "Es un virus defectivo que requiere la presencia del VHB para replicarse.",
+          "d": "No causa enfermedad crónica.",
+          "e": "Existe una vacuna específica para VHD."
         },
         "correctAnswer": "c",
-        "explanation": "La nefrotoxicidad por Aminoglucósidos ocurre porque en las células tubulares (renales), el medicamento se filtra y entra por transportadores con receptores de megalina y cubulina [16]."
+        "explanation": "El VHD es descrito como un virus defectivo que necesita la co-infección o sobreinfección con VHB para poder completar su ciclo y causar enfermedad, a menudo empeorando el pronóstico del VHB."
       },
       {
-        "question": "¿Cuál Aminoglucósido es específicamente señalado en las fuentes como el más tóxico a nivel coclear (pérdida de audición, especialmente a altas frecuencias)?",
+        "question": "10. La detección de IgM anti-HBc positiva junto con AgHBs positivo indica:",
         "answers": {
-          "a": "Gentamicina",
-          "b": "Estreptomicina",
-          "c": "Amikacina",
-          "d": "Neomicina",
-          "e": "Tobramicina"
+          "a": "Infección crónica por VHB.",
+          "b": "Inmunidad por vacunación.",
+          "c": "Infección aguda por VHB.",
+          "d": "Infección pasada resuelta por VHB.",
+          "e": "Portador sano de VHB."
         },
         "correctAnswer": "c",
-        "explanation": "Respecto a la ototoxicidad coclear de los Aminoglucósidos, las fuentes indican que la Amikacina es la más tóxica [17]."
+        "explanation": "La presencia de IgM anti-HBc es el marcador serológico clave de la infección aguda por VHB. El AgHBs también está presente en la fase aguda."
       },
       {
-        "question": "El mecanismo de acción de las Tetraciclinas implica la unión a la subunidad ribosomal 30S. Además de esto, ¿qué otro proceso clave de la síntesis proteica bacteriana alteran?",
+        "question": "11. ¿A qué familia pertenece el VIH (Virus de la Inmunodeficiencia Humana)?",
         "answers": {
-          "a": "La formación de la cadena peptídica.",
-          "b": "La liberación de los factores de liberación.",
-          "c": "El sitio de reconocimiento de la ARN transferasa.",
-          "d": "El ensamblaje de las subunidades ribosomales 30S y 50S.",
-          "e": "La unión de los factores de inicio."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las Tetraciclinas se unen a la subunidad 30s y alteran el sitio de reconocimiento de la ARN transferasa [18]."
-      },
-      {
-        "question": "Las Tetraciclinas de segunda generación (Doxiciclina y Minociclina) son particularmente útiles contra gérmenes intracelulares. ¿Cuál de los siguientes patógenos intracelulares es un objetivo terapéutico común para estas tetraciclinas?",
-        "answers": {
-          "a": "Mycobacterium tuberculosis",
-          "b": "Plasmodium falciparum",
-          "c": "Legionella pneumophila",
-          "d": "Cryptococcus neoformans",
-          "e": "Pneumocystis jiroveci"
-        },
-        "correctAnswer": "c",
-        "explanation": "Las fuentes listan a Legionella, Chlamydia, Mycoplasma pneumoniae y Ureaplasma como gérmenes intracelulares cubiertos por las Tetraciclinas de segunda generación [19]."
-      },
-      {
-        "question": "La Tigeciclina (tercera generación de Tetraciclinas) tiene un espectro ampliado útil contra bacterias multirresistentes. ¿Contra cuál de los siguientes patógenos es activa la Tigeciclina, incluso cuando presenta resistencia a otros antibióticos?",
-        "answers": {
-          "a": "Pseudomonas aeruginosa",
-          "b": "Proteus mirabilis",
-          "c": "Acinetobacter",
-          "d": "Morganella morganii",
-          "e": "Stenotrophomonas maltophila"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Tigeciclina cubre Enterobacterias (excepto Proteus-Morganella-Prov), Acinetobacter, Aeromona e Burkholderia [20]. Las fuentes especifican que NO cubre Pseudomonas [21]."
-      },
-      {
-        "question": "Las Tetraciclinas orales tienen afinidad por cationes divalentes como el Calcio y el Magnesio. ¿Cuál es la principal recomendación al administrar Tetraciclinas orales para evitar una reducción significativa de su absorción?",
-        "answers": {
-          "a": "Administrar siempre con alimentos.",
-          "b": "Tomar con jugos cítricos.",
-          "c": "Evitar la ingesta concomitante de productos lácteos o antiácidos que contengan Calcio o Magnesio.",
-          "d": "Administrar sublingualmente.",
-          "e": "Tomar con bebidas carbonatadas."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las Tetraciclinas tienen afinidad por cargas positivas como el Ca o el Mg (presentes en lácteos o antiácidos), que pueden unirse a la tetraciclina y alterar su absorción. No se recomienda tomarlas con lácteos [22]."
-      },
-      {
-        "question": "El uso de Tetraciclinas, especialmente las vencidas, se ha asociado con un síndrome tubular renal adquirido conocido como Síndrome de Fanconi-Like. ¿Cuál de los siguientes es un hallazgo característico de este síndrome?",
-        "answers": {
-          "a": "Alcalosis metabólica",
-          "b": "Hiperpotasemia",
-          "c": "Hematuria macroscópica",
-          "d": "Glucosuria y aminoaciduria con normoglicemia",
-          "e": "Proteinuria masiva (rango nefrótico)"
-        },
-        "correctAnswer": "d",
-        "explanation": "Cuando se administra medicamento vencido (Tetraciclinas), puede producirse el Síndrome Fanconi Like, caracterizado por acidosis, glucosuria, aminoaciduria e hipofosfatemia [23]."
-      },
-      {
-        "question": "¿Cuál de los siguientes medicamentos pertenecientes al grupo de las Sulfas se utiliza comúnmente en formulaciones tópicas para el tratamiento de quemaduras, con el fin de evitar la colonización de infecciones?",
-        "answers": {
-          "a": "Sulfametoxazol",
-          "b": "Sulfadiazina de plata",
-          "c": "Sulfacetamida",
-          "d": "Sulfadoxina",
-          "e": "Sulfasalazina"
-        },
-        "correctAnswer": "b",
-        "explanation": "Entre los medicamentos del grupo Sulfa, la Sulfadiazina de plata se utiliza tópicamente para quemaduras, evitando la colonización de infecciones [24]."
-      },
-      {
-        "question": "El Trimetoprim-Sulfametoxazol (TSM) es una combinación bactericida. ¿Cómo se metabolizan principalmente los componentes de esta combinación, según las fuentes?",
-        "answers": {
-          "a": "Por hidrólisis enzimática.",
-          "b": "Por acetilación en el hígado.",
-          "c": "Por conjugación con ácido glucurónico.",
-          "d": "Principalmente sin cambios por vía renal.",
-          "e": "Por oxidación mediada por la enzima PFOR."
-        },
-        "correctAnswer": "b",
-        "explanation": "El metabolismo hepático del Sulfametoxazol y el Trimetoprim ocurre principalmente por acetilación (mediada por CYP2C9 y 3A4) [25, 26]."
-      },
-      {
-        "question": "El Trimetoprim y el Sulfametoxazol inhiben la enzima CYP2C9. Esta interacción farmacológica puede ser relevante en pacientes que reciben medicamentos metabolizados por esta vía. ¿Cuál de los siguientes medicamentos es mencionado como uno cuyo efecto hipoglucemiante puede verse aumentado por el TSM?",
-        "answers": {
-          "a": "Metadona",
-          "b": "Warfarina",
-          "c": "Clozapina",
-          "d": "Sulfonilureas",
-          "e": "Rifampicina"
-        },
-        "correctAnswer": "d",
-        "explanation": "Las fuentes mencionan que el TSM inhibe el CYP2C9 y que interacciones incluyen el aumento del efecto hipoglucemiante de las Sulfonilureas [27]."
-      },
-      {
-        "question": "Las Quinolonas de segunda generación, como la Ciprofloxacina, son activas contra varios patógenos. ¿Para cuál de los siguientes patógenos intracelulares se menciona la Ciprofloxacina como una opción de elección?",
-        "answers": {
-          "a": "Chlamydia trachomatis",
-          "b": "Mycoplasma pneumoniae",
-          "c": "Rickettsia rickettsii",
-          "d": "Legionella pneumophila",
-          "e": "Coxiella burnetii"
-        },
-        "correctAnswer": "d",
-        "explanation": "Las fuentes listan a Legionella como un patógeno para el cual las Quinolonas de segunda generación son una opción de elección [28]."
-      },
-      {
-        "question": "¿Cuál es la combinación medicamento-efecto adverso MENOS PROBABLE según las fuentes?",
-        "answers": {
-          "a": "Moxifloxacino y disfunción renal",
-          "b": "Metronidazol y efecto antabuse",
-          "c": "Estreptomicina y tinitus",
-          "d": "Clindamicina y colitis pseudomembranosa",
-          "e": "TSM y anemia por deficiencia de folatos"
-        },
-        "correctAnswer": "a",
-        "explanation": "Según las fuentes, la respuesta correcta identificada es Moxifloxacino y disfunción renal [1]. Otras combinaciones como Metronidazol y efecto antabuse [2], Estreptomicina y tinitus (ototoxicidad coclear) [3], Clindamicina y colitis pseudomembranosa [4], y TSM y anemia por deficiencia de folatos [5] son efectos adversos conocidos."
-      },
-      {
-        "question": "La presencia de cationes divalentes suelen disminuir la eficacia de los siguientes medicamentos, ya sea por alterar la absorción, la distribución o el espectro de actividad o incluso, en algunos casos podrían ser responsables de toxicidad. Se exceptúa UNO de ellos, ya que no se ve afectada la eficacia o la seguridad por la presencia de estos cationes. ¿Cuál es?",
-        "answers": {
-          "a": "Amikacina",
-          "b": "Trimetoprim sulfa-metoxazol",
-          "c": "Ciprofloxacino",
-          "d": "Doxiciclina",
-          "e": "Tigeciclina"
-        },
-        "correctAnswer": "b",
-        "explanation": "Según las fuentes, el Trimetoprim sulfa-metoxazol es la excepción; su eficacia o seguridad no se ve afectada por la presencia de cationes divalentes [1, 6]. Otros medicamentos como Ciprofloxacino [7], Doxiciclina [8], y Tigeciclina [8] (si se dieran por VO) pueden tener su absorción alterada por cargas positivas. La Amikacina es un aminoglucósido y su absorción oral es mala [9], aunque la interacción con cationes no se menciona explícitamente en este contexto."
-      },
-      {
-        "question": "Las sulfas tienen hoy día una alta probabilidad de resistencia debido a que, entre otras cosas, las bacterias suelen:",
-        "answers": {
-          "a": "Producir mutaciones de la tetrahidrofolato reductasa",
-          "b": "Aumentar la producción de ácido para-aminobenzoico",
-          "c": "Aumentar la síntesis de enzimas que degradan a las sulfas",
-          "d": "Disminuir la síntesis de purinas",
-          "e": "Oxidar al glutatión"
-        },
-        "correctAnswer": "b",
-        "explanation": "Según las fuentes, uno de los mecanismos de resistencia de las sulfas es la sobreproducción de PABA (ácido para-aminobenzoico) [10]. Las sulfas actúan como análogos del PABA inhibiendo la síntesis de ácido fólico [11]."
-      },
-      {
-        "question": "Ciertas interacciones medicamentosas son comunes cuando se prescriben antibióticos. Una de las siguientes relaciones antibiótico-mecanismo de interacción es CORRECTA:",
-        "answers": {
-          "a": "Trimetoprim-sulfametoxazol: interacción por competencia en la secreción tubular",
-          "b": "Rifampicina: interacción por inhibición de la CYP 1A2",
-          "c": "Ciprofloxacino: interacción por inducción de la CYP 1A2",
-          "d": "Metronidazol: interacción por inhibir la alcohol deshidrogenasa",
-          "e": "Minociclina: interacción por inhibir a la glicoproteína p"
-        },
-        "correctAnswer": "a",
-        "explanation": "Según las fuentes, la interacción correcta es Trimetoprim-sulfametoxazol por competencia en la secreción tubular [12, 13]. El Trimetoprim compite con la eliminación de K+ porque las sulfas se secretan [12]. El Metronidazol causa efecto antabuse por inhibir enzimas como la alcohol deshidrogenasa, pero la fuente indica 'Metronidazol: interacción por inhibir la alcohol deshidrogenasa' como incorrecta en el examen [13]. La Ciprofloxacino inhibe la CYP1A2, no la induce [7]. La Rifampicina induce CYP3A4, 1A2, 2C, 2D6, no inhibe la CYP1A2 [14]. La interacción de Minociclina con glicoproteína p no se menciona explícitamente en las fuentes."
-      },
-      {
-        "question": "Medicamento que tienen mayor capacidad de inducir reacciones tipo Lupus:",
-        "answers": {
-          "a": "Sulfa",
-          "b": "Gentamicina",
-          "c": "Metronidazol",
-          "d": "Moxifloxacino",
-          "e": "Minociclina"
-        },
-        "correctAnswer": "a",
-        "explanation": "Las fuentes indican que las sulfas pueden inducir LUPUS [5]. La Minociclina también puede causar reacciones inmunológicas como LES (Lupus Eritematoso Sistémico) [15, 16]. Sin embargo, la respuesta correcta identificada en el examen es Sulfa [17]."
-      },
-      {
-        "question": "Factor de riesgo para presentar lesiones tendinosas por quinolonas:",
-        "answers": {
-          "a": "Uso concomitante con esteroides",
-          "b": "Recibir concomitantemente clindamicina",
-          "c": "Tratamiento de pseudomona",
-          "d": "Uso concomitante con aminoglucósidos",
-          "e": "Uso intravenoso"
-        },
-        "correctAnswer": "a",
-        "explanation": "Los factores de riesgo para tendinitis y ruptura tendinosa por quinolonas incluyen ser mayor de 60 años, uso de esteroides y ser recipiente de trasplante [17-19]."
-      },
-      {
-        "question": "Una de las siguientes condiciones facilita la eficacia de los nitroimidazoles:",
-        "answers": {
-          "a": "Consumo de etanol",
-          "b": "Uso concomitantemente de vitamina B6",
-          "c": "Tener infección por gérmenes con baja oxigenación",
-          "d": "Que la bacteria tenga deficiencias en la nitro-reductasa NADPH",
-          "e": "El uso concomintante con aminoglucósidos"
-        },
-        "correctAnswer": "c",
-        "explanation": "El mecanismo de acción de los nitroimidazoles implica la reducción de sus grupos nitro por la enzima PFOR, que se activan en medios anaerobios (baja oxigenación) [19-21]."
-      },
-      {
-        "question": "Medicamento cuyo mecanismo de acción NO SE CARACTERIZA por interactuar con las subunidades ribosomales directamente:",
-        "answers": {
-          "a": "Doxiciclina",
-          "b": "Estreptomicina",
-          "c": "Claritromicina",
-          "d": "Ciprofloxacino",
-          "e": "Linezolid"
-        },
-        "correctAnswer": "d",
-        "explanation": "La Doxiciclina [22], Estreptomicina [23], Claritromicina (un macrólido) [24], y Linezolid [25] actúan inhibiendo la síntesis proteica al unirse directamente a subunidades ribosomales (30s o 50s). El Ciprofloxacino (una quinolona) inhibe la DNA girasa y la topoisomerasa IV, enzimas relacionadas con el ADN, no con los ribosomas [21, 26]."
-      },
-      {
-        "question": "En infecciones por Borrelia se prefiere el uso de:",
-        "answers": {
-          "a": "Clindamicina",
-          "b": "Trimetoprim sulfametoxazol",
-          "c": "Linezolid",
-          "d": "Doxiciclina",
-          "e": "Delafloxacina"
-        },
-        "correctAnswer": "d",
-        "explanation": "Según las fuentes, la Doxiciclina es una opción (casos leves) [27] y se identifica como la respuesta correcta preferida en el examen [21]."
-      },
-      {
-        "question": "Elija la combinación medicamento-efecto adverso MÁS PROBABLE",
-        "answers": {
-          "a": "Clindamicina--síndrome del hombre rojo",
-          "b": "Ciprofloxacino- ruptura del tendón de Aquiles",
-          "c": "Linezolid-Lupus inducido por fármacos",
-          "d": "Trimetoprim sulfametoxazol - inducción del SOME",
-          "e": "Minociclina - fibrosis pulmonar"
-        },
-        "correctAnswer": "b",
-        "explanation": "Según las fuentes, la ruptura del tendón de Aquiles es un efecto adverso conocido del Ciprofloxacino (una quinolona) [18, 28]. El síndrome del hombre rojo se asocia a Vancomicina (no cubierta en detalle en estas fuentes). El Linezolid puede causar mielosupresión o neuropatías, no se asocia a Lupus [25, 29]. El Trimetoprim sulfametoxazol se asocia a Lupus inducido por sulfas [5], no a inducción del SOME (Micobacterias oportunistas relacionadas con S. aureus, no un efecto adverso per se). La fibrosis pulmonar no se menciona como un efecto adverso principal de la Minociclina en estas fuentes."
-      },
-      {
-        "question": "Las tetraciclinas se parecen a los aminoglucósidos en que:",
-        "answers": {
-          "a": "Se unen irreversiblemente a la misma subunidad ribosomal",
-          "b": "Tienen efecto post-antibiótico",
-          "c": "Tienen mayor eliminación sin cambios por orina",
-          "d": "Producen bloqueo neuromuscular",
-          "e": "Tienen cobertura para anaerobios"
-        },
-        "correctAnswer": "b",
-        "explanation": "Tanto las Tetraciclinas [8] como los Aminoglucósidos [30] tienen efecto post-antibiótico. Las Tetraciclinas se unen a la subunidad 30s [22], los Aminoglucósidos se unen irreversiblemente a la subunidad 30s [23]; la unión irreversible es específica de Aminoglucósidos. Las Tetraciclinas tienen bajas concentraciones en orina [15], mientras que los Aminoglucósidos se eliminan principalmente sin cambios por vía renal [9]. El bloqueo neuromuscular es un efecto adverso raro de los Aminoglucósidos [31] y no se menciona para las Tetraciclinas. Las Tetraciclinas tienen cubrimiento variable para algunos anaerobios [32, 33], mientras que los Aminoglucósidos tienen actividad limitada o nula en medios anaerobios [23, 34]."
-      },
-      {
-        "question": "En el diagnóstico de neumonía por Streptococo pneumoniae resistente a penicilinas, tiene utilidad el uso de:",
-        "answers": {
-          "a": "Moxifloxacino",
-          "b": "Claritromicina",
-          "c": "Clindamicina",
-          "d": "Ciprofloxacino",
-          "e": "Doxiciclina"
-        },
-        "correctAnswer": "a",
-        "explanation": "Las fuentes indican que las quinolonas de tercera generación como Moxifloxacino tienen actividad contra neumococo penicilino resistente [35]. La Claritromicina (macrólido) se usa para neumococos sensibles a penicilinas [24] o como alternativa para Streptococcus [36]; la Clindamicina se usa para Estreptococos pero no mucho y no se menciona específicamente para resistentes [37]; la Doxiciclina es una alternativa para Streptococcus pneumoniae [22]; Ciprofloxacino tiene menos actividad sobre gram positivos que Moxifloxacino [26]."
-      },
-      {
-        "question": "La infusión rápida de aminoglucósidos suele producir mayor riesgo de:",
-        "answers": {
-          "a": "Sordera",
-          "b": "Nefrotoxicidad",
-          "c": "Bloqueo neuromuscular",
-          "d": "Compromiso vestibular",
-          "e": "Bradicardia"
-        },
-        "correctAnswer": "c",
-        "explanation": "El bloqueo neuromuscular, por inhibición de la liberación presináptica de acetilcolina, puede ocurrir con infusión rápida de aminoglucósidos, especialmente en niños [31, 38, 39]."
-      },
-      {
-        "question": "Con relación a los mecanismos de acción de los antibióticos es CIERTO que:",
-        "answers": {
-          "a": "Linezolid inhibe la transpeptidasa bacteriana",
-          "b": "Tigeciclina inhibe la transglicosidasa",
-          "c": "Metronidazol inhibe la RNA polimerasa",
-          "d": "Moxifloxacino inhibe la síntesis del DNA",
-          "e": "Rifampicina aumenta la síntesis de ROS",
-          "f": "Tobramicina inhibe la síntesis proteica al inhibir la subunidad ribosomal 50 S"
-        },
-        "correctAnswer": "d",
-        "explanation": "El Moxifloxacino (una quinolona) inhibe la síntesis del DNA al afectar la DNA girasa y la topoisomerasa IV [26, 39, 40]. Linezolid [25] y Tigeciclina [22] (una tetraciclina de 3ra gen) inhiben la síntesis proteica. El Metronidazol daña el DNA, pero no inhibe la RNA polimerasa [20]. La Rifampicina inhibe la RNA polimerasa [41], no aumenta la síntesis de ROS (radicales libres de oxígeno), aunque las quinolonas los generan [26]. Tobramicina (un aminoglucósido) inhibe la síntesis proteica al unirse a la subunidad 30S, no la 50S [23]."
-      },
-      {
-        "question": "Es CIERTO QUE:",
-        "answers": {
-          "a": "La amikacina está contraindicada en encefalopatía hepática",
-          "b": "Metronidazol se comporta como profármaco",
-          "c": "La claritromicina inhibe la CYP 2C9",
-          "d": "El principal mecanismo de resistencia de la clindamicina consiste en producir enzimas que degraden al fármaco",
-          "e": "El mecanismo de nefrotoxicidad por amikacina principal está explicado porque produce glomerulopatía"
-        },
-        "correctAnswer": "b",
-        "explanation": "Según las fuentes, el Metronidazol tiene grupos nitro que se reducen por enzimas bacterianas para activarse, comportándose como un profármaco [20, 40]. La Amikacina (un aminoglucósido) no se menciona como contraindicada en encefalopatía hepática; la Rifaximina se usa para la encefalopatía hepática [42]. La Claritromicina inhibe la CYP3A4, no la 2C9 (aunque el SMX/TMP sí inhibe la 2C9) [5, 10]. El principal mecanismo de resistencia de la clindamicina es la alteración del sitio de unión ribosomal (gen erm), no la degradación enzimática [43]. La nefrotoxicidad por amikacina se explica por toxicidad tubular, no por glomerulopatía [44]."
-      },
-      {
-        "question": "Uno de los siguientes enunciados es VERDADERO. Señálelo.",
-        "answers": {
-          "a": "La clindamicina cubre al Clostridium difficile",
-          "b": "El trimetoprim inhibe la dihidropteroato sintasa",
-          "c": "Los aminoglucósidos antagonizan a la acción de las penicilinas",
-          "d": "Los aminoglucósidos tienen penetrabilidad deficiente en medio ácido",
-          "e": "La rifaximina aumenta el riesgo de recurrencias en infecciones por C. difficile"
-        },
-        "correctAnswer": "d",
-        "explanation": "Según las fuentes, la acción de los aminoglucósidos se repela e inhibe en medios anaerobios que tienen muchas cargas positivas (H+), es decir, medios ácidos [23, 34, 45]. La Clindamicina puede causar sobrecrecimiento de C. difficile [4] y el C. difficile resistente está mencionado como una opción [37]; el tratamiento de C. difficile incluye Metronidazol, Vancomicina oral, Fidaxomicina y Rifaximina para recurrencias [33, 46]. El trimetoprim inhibe la folato reductasa (dihidrofolato reductasa), mientras que el sulfametoxazol inhibe la dihidropteroato sintasa [11, 47]. Los aminoglucósidos se usan en terapia combinada con inhibidores de la pared (como penicilinas/vancomicina) para algunos Gram +, no antagonizan [34]."
-      },
-      {
-        "question": "Pueden ser útiles en infecciones en piel por Staphylococcus aureus meticilino resistente (puede haber una o varias respuestas):",
-        "answers": {
-          "a": "Delafloxacina",
-          "b": "Trimetoprim sulfametoxazol",
-          "c": "Linezolid",
-          "d": "Eritromicina",
-          "e": "Ciprofloxacino",
-          "f": "Clindamicina"
-        },
-        "correctAnswer": ["a", "b", "c", "f"],
-        "explanation": "Las fuentes mencionan que Linezolid es útil para infecciones por SAMR, incluyendo infecciones de piel [25, 29]. Delafloxacina es útil en infecciones de piel [20]. Trimetoprim sulfametoxazol puede ser útil para S. aureus (sensibilidad variable) [48]. Clindamicina se usa para Staphylococcus aureus MS y MR (usualmente) [4, 37]. Eritromicina se usa para SAMS [24]. Ciprofloxacino no se usa para SAMS [49], y no se menciona específicamente para SAMR."
-      },
-      {
-        "question": "En una infección en la que se sospecha co-infección con Bacteroides fragilis y Fusobacterium puede ser útil uno de los siguientes fármacos:",
-        "answers": {
-          "a": "Amikacina",
-          "b": "Ampicilina-sulbactam",
-          "c": "Vancomicina",
-          "d": "Doxiciclina",
-          "e": "Trimetoprim sulfa-metoxazol"
-        },
-        "correctAnswer": "b",
-        "explanation": "Según las fuentes, para Bacteroides fragilis y Fusobacterium, que son anaerobios Gram negativos [43, 50, 51], las opciones de tratamiento incluyen Betalactámicos con IBL (como Ampicilina-sulbactam), Carbapenems, Clindamicina y Metronidazol [51]. La Amikacina es para aerobios Gram negativos [34]. La Vancomicina es para Gram positivos [25]. La Doxiciclina cubre algunos anaerobios como Cutibacterium acnes [22] pero no se menciona como de elección para B. fragilis o Fusobacterium. El TSM no tiene cobertura para anaerobios [52]."
-      },
-      {
-        "question": "Si un paciente tiene una neumonía por Mycoplasma pneumoniae, entre los siguientes medicamentos, ¿cuál es menos probable que sea útil?",
-        "answers": {
-          "a": "Linezolid",
-          "b": "Levofloxacino",
-          "c": "Doxiciclina",
-          "d": "Claritromicina",
-          "e": "Minociclina"
-        },
-        "correctAnswer": "a",
-        "explanation": "Mycoplasma pneumoniae es un germen intracelular/atípico [27, 53]. Los medicamentos útiles incluyen Macrólidos (Claritromicina [24, 36]), Tetraciclinas (Doxiciclina [27], Minociclina [27]) y Quinolonas (Levofloxacino [49]). Linezolid es útil para cocos gram positivos, incluyendo neumococos resistentes y micobacterias, Listeria y nocardia [25], pero no se menciona específicamente para Mycoplasma pneumoniae en las fuentes."
-      },
-      {
-        "question": "Paciente con infección por Listeria. El tratamiento de elección serían las penicilinas, sin embargo, en pacientes con alergias mediadas por IgE sería más recomendable usar:",
-        "answers": {
-          "a": "Trimetoprim sulfametoxazol",
-          "b": "Amikacina",
-          "c": "Minociclina",
-          "d": "Ciprofloxacino",
-          "e": "Clindamicina"
-        },
-        "correctAnswer": "a",
-        "explanation": "Para Listeria monocytogenes, las fuentes mencionan TSM como alternativa en alergias a penicilinas [48, 52, 54] y también se menciona como cubierta por Rifampicina [41]. Los Aminoglucósidos (Amikacina) se usan en terapia combinada para Listeria [34]. Minociclina es una tetraciclina de 2da generación que no se menciona específicamente para Listeria. Ciprofloxacino (quinolona) no se menciona para Listeria. Clindamicina es para gram positivos aerobios y anaerobios [37, 55], pero Listeria no se lista entre sus usos principales."
-      },
-      {
-        "question": "¿Cuál o cuáles de los siguientes medicamentos tiene o tienen cobertura para anaerobios? Puede haber más de una respuesta.",
-        "answers": {
-          "a": "TSM",
-          "b": "Ampicilina sulbactam",
-          "c": "Piptazo",
-          "d": "Amikacina",
-          "e": "Clindamicina"
-        },
-        "correctAnswer": ["b", "c", "e"],
-        "explanation": "Las fuentes indican que Clindamicina es la primera opción para anaerobios [37, 52]. Betalactámicos con IBL (como Ampicilina sulbactam y Piptazo/Carbapenem) se usan para anaerobios como Bacteroides fragilis [51, 56]. TSM no tiene cobertura para anaerobios [52]. Amikacina (un aminoglucósido) tiene acción limitada en medios anaerobios [23, 34, 52]."
-      },
-      {
-        "question": "Hombre de 25 años al que se le sospecha absceso cerebral por anaerobios gramnegativos. Entre los siguientes, el tratamiento que mejor cubriría estos gérmenes sería:",
-        "answers": {
-          "a": "Amikacina",
-          "b": "Clindamicina",
-          "c": "Trimetoprim sulfametoxazol",
-          "d": "Meropenem",
-          "e": "Vancomicina"
-        },
-        "correctAnswer": "d",
-        "explanation": "Los abscesos cerebrales por extensión de sinusitis, otitis o mastoiditis pueden ser por anaerobios Gram negativos como Fusobacterium y Prevotella [57, 58]. Las opciones para anaerobios incluyen Betalactámicos con IBL y Carbapenems [51]. Meropenem es un Carbapenem. La Clindamicina cubre anaerobios [37], pero puede tener penetración variable al SNC [59]. Amikacina es para aerobios [34]. TSM no cubre anaerobios [52]. Vancomicina es para Gram positivos [25]."
-      },
-      {
-        "question": "Uno de los siguientes medicamentos NO tiene actividad antipseudomona:",
-        "answers": {
-          "a": "Tigeciclina",
-          "b": "Ciprofloxacino",
-          "c": "Levofloxacino",
-          "d": "Amikacina"
-        },
-        "correctAnswer": "a",
-        "explanation": "Las fuentes indican que la Tigeciclina NO cubre Pseudomona [60, 61]. Ciprofloxacino [49], Levofloxacino [26], y Amikacina [34] sí tienen actividad contra Pseudomona aeruginosa (Amikacina y Ciprofloxacino se mencionan específicamente)."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es una característica distintiva de los antibióticos que inhiben la síntesis proteica en bacterias en comparación con las células humanas?",
-        "answers": {
-          "a": "Se unen a las subunidades ribosomales 80s humanas.",
-          "b": "Son afines a las subunidades ribosomales bacterianas 30s y 50s, que se ensamblan en ribosomas 70s.",
-          "c": "Inhiben la síntesis de peptidoglicano en la pared celular.",
-          "d": "Afectan la síntesis de ADN bacteriano.",
-          "e": "Se metabolizan rápidamente en el hígado humano."
-        },
-        "correctAnswer": "b",
-        "explanation": "La mayoría de los medicamentos que inhiben la síntesis proteica son afines a los ribosomas bacterianos, específicamente a las subunidades 30s y 50s que se ensamblan en un ribosoma 70s, que son diferentes de los ribosomas humanos [62]."
-      },
-      {
-        "question": "¿Cuál es el mecanismo de acción antibiótico del Linezolid, según las fuentes?",
-        "answers": {
-          "a": "Inhibe la síntesis de la pared celular bacteriana.",
-          "b": "Se une a la subunidad ribosomal 50s, evitando el ensamblaje de las subunidades y alterando el inicio de la síntesis proteica.",
-          "c": "Inhibe la DNA girasa y la topoisomerasa IV.",
-          "d": "Inhibe la RNA polimerasa dependiente de DNA.",
-          "e": "Altera la síntesis de ácido fólico."
-        },
-        "correctAnswer": "b",
-        "explanation": "El Linezolid inhibe la síntesis proteica uniéndose a la subunidad 50s, lo que evita que se ensamblen las subunidades ribosomales y altera su inicio [25]."
-      },
-      {
-        "question": "Según las fuentes, ¿en qué tipo de infección por Enterococcus es particularmente útil el Linezolid?",
-        "answers": {
-          "a": "Enterococcus faecalis sensible a penicilinas.",
-          "b": "Enterococcus faecium resistente a vancomicina.",
-          "c": "Cualquier infección por Enterococcus.",
-          "d": "Enterococcus resistente únicamente a fosfomicina.",
-          "e": "Enterococcus que afecta el tracto gastrointestinal."
-        },
-        "correctAnswer": "b",
-        "explanation": "El Linezolid es útil en infecciones por Enterococcus faecium resistentes a vancomicina [25]."
-      },
-      {
-        "question": "¿Cuál es un efecto secundario importante del Linezolid con el uso prolongado (mayor a 2 semanas) según las fuentes?",
-        "answers": {
-          "a": "Hepatitis colestásica.",
-          "b": "Bloqueo neuromuscular.",
-          "c": "Cristaluria.",
-          "d": "Mielosupresión, principalmente trombocitopenia.",
-          "e": "Ruptura tendinosa."
-        },
-        "correctAnswer": "d",
-        "explanation": "Uno de los efectos secundarios del Linezolid con el uso mayor a 2 semanas es la mielosupresión, principalmente trombocitopenia [29]."
-      },
-      {
-        "question": "Según las fuentes, ¿cómo es la distribución tisular del Linezolid?",
-        "answers": {
-          "a": "Se retiene principalmente en la sangre y tiene baja liposolubilidad.",
-          "b": "Tiene baja biodisponibilidad oral e intravenosa.",
-          "c": "Es muy liposoluble, se distribuye a todos los tejidos y se retiene poco en la sangre, siendo útil en infecciones de tejidos.",
-          "d": "Alcanza altas concentraciones en la orina, siendo útil en infecciones urinarias.",
-          "e": "Penetra fácilmente el SNC y es la primera opción para meningitis."
-        },
-        "correctAnswer": "c",
-        "explanation": "El Linezolid tiene biodisponibilidad oral e IV del 100%, es muy liposoluble y se distribuye a todos los tejidos, reteniéndose poco en la sangre, lo que lo hace útil en infecciones de tejidos [63]."
-      },
-      {
-        "question": "¿Cuál es el mecanismo de acción de los Macrólidos, como la Eritromicina, Claritromicina y Azitromicina, según las fuentes?",
-        "answers": {
-          "a": "Inhiben la síntesis de ácido fólico bacteriano.",
-          "b": "Inhiben la síntesis de la pared celular.",
-          "c": "Inhiben la subunidad ribosomal 50s, específicamente el proceso de translocación.",
-          "d": "Inhiben la subunidad ribosomal 30s, alterando el sitio de reconocimiento del ARNt.",
-          "e": "Dañan directamente el ADN bacteriano en medios anaerobios."
-        },
-        "correctAnswer": "c",
-        "explanation": "Los Macrólidos inhiben la síntesis proteica al unirse a la subunidad ribosomal 50s, inhibiendo específicamente el proceso de translocación [24]."
-      },
-      {
-        "question": "Las fuentes mencionan usos específicos de los Macrólidos en neumonías. ¿Para cuáles agentes etiológicos son de elección o tienen cubrimiento, especialmente en neumonías atípicas?",
-        "answers": {
-          "a": "Staphylococcus aureus meticilino sensible.",
-          "b": "Pseudomona aeruginosa.",
-          "c": "Enterococcus faecalis.",
-          "d": "Legionella, Mycoplasma, Chlamydophila.",
-          "e": "Bacteroides fragilis."
-        },
-        "correctAnswer": "d",
-        "explanation": "Los Macrólidos se usan para neumonías atípicas causadas por Legionella, Mycoplasma y Chlamydophila, donde los beta-lactámicos no son útiles [36, 53]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es un efecto adverso raro pero grave asociado al uso de Macrólidos?",
-        "answers": {
-          "a": "Diarrea y colitis pseudomembranosa.",
-          "b": "Nefrotoxicidad.",
-          "c": "Hepatotoxicidad colestásica.",
-          "d": "Reacciones tipo Lupus.",
-          "e": "Bloqueo neuromuscular."
-        },
-        "correctAnswer": "c",
-        "explanation": "Un efecto adverso raro pero más grave de los Macrólidos es la hepatitis colestásica, que implica la inflamación de las vías de drenaje de la bilirrubina conjugada [64, 65]."
-      },
-      {
-        "question": "¿Cuál es el mecanismo de acción de la Clindamicina según las fuentes?",
-        "answers": {
-          "a": "Inhibe la síntesis de ácido fólico.",
-          "b": "Daña el ADN bacteriano en condiciones anaerobias.",
-          "c": "Inhibe la subunidad ribosomal 50s, inhibiendo la translocación.",
-          "d": "Inhibe la DNA girasa.",
-          "e": "Inhibe la síntesis de la pared celular."
-        },
-        "correctAnswer": "c",
-        "explanation": "La Clindamicina inhibe la subunidad ribosomal 50s, inhibiendo la translocación [55]."
-      },
-      {
-        "question": "¿Para qué tipo de infecciones bacterianas son los Lincosamidas (Clindamicina) la primera opción en un tratamiento probabilístico, según las fuentes?",
-        "answers": {
-          "a": "Gérmenes gram + aerobios como Staphylococcus aureus meticilino sensible.",
-          "b": "Gérmenes gram - aerobios como E. coli.",
-          "c": "Gérmenes anaerobios.",
-          "d": "Micobacterias no tuberculosas.",
-          "e": "Gérmenes intracelulares como Chlamydia."
-        },
-        "correctAnswer": "c",
-        "explanation": "La Clindamicina es la primera opción cuando se habla de un tratamiento probabilístico para gérmenes anaerobios [37]."
-      },
-      {
-        "question": "Según las fuentes, ¿qué gen está implicado en el mecanismo de resistencia de la Clindamicina y los Macrólidos en gram positivos, que lleva a la metilación ribosomal?",
-        "answers": {
-          "a": "gyrA.",
-          "b": "parC.",
-          "c": "erm.",
-          "d": "msrA.",
-          "e": "rpoB."
-        },
-        "correctAnswer": "c",
-        "explanation": "El gen erm en los gram positivos es un mecanismo de resistencia que produce metilasa, la cual protege al ribosoma impidiendo la unión del antibiótico, un mecanismo compartido con otros antibióticos [43]."
-      },
-      {
-        "question": "¿Cuál es el efecto adverso más frecuente asociado al uso de Clindamicina según las fuentes?",
-        "answers": {
-          "a": "Nefrotoxicidad.",
-          "b": "Ototoxicidad.",
-          "c": "Diarrea, que puede progresar a colitis pseudomembranosa por C. difficile.",
-          "d": "Hepatitis.",
-          "e": "Neuropatías."
-        },
-        "correctAnswer": "c",
-        "explanation": "La diarrea es el efecto adverso más frecuente (20% de los pacientes), la cual puede progresar a colitis pseudomembranosa causada por la toxina de C. difficile [4]."
-      },
-      {
-        "question": "Según las fuentes, ¿cómo es la distribución de la Clindamicina a los tejidos?",
-        "answers": {
-          "a": "Mala distribución a todos los tejidos, incluyendo leucocitos, abscesos y hueso.",
-          "b": "Buena distribución a tejidos como leucocitos, abscesos y hueso, pero excepto al SNC.",
-          "c": "Alcanza altas concentraciones en la orina y el riñón.",
-          "d": "Se retiene principalmente en la sangre.",
-          "e": "Baja distribución, requiriendo administración tópica para la mayoría de las infecciones."
-        },
-        "correctAnswer": "b",
-        "explanation": "La Clindamicina tiene buena distribución a tejidos (leucocitos, abscesos, hueso) excepto al SNC (para tratar bacterias) [59]."
-      },
-      {
-        "question": "¿Cuál es el mecanismo de acción de los Aminoglucósidos según las fuentes?",
-        "answers": {
-          "a": "Inhiben la síntesis de la pared celular bacteriana.",
-          "b": "Inhiben la síntesis de ácido fólico bacteriano.",
-          "c": "Se unen irreversiblemente a la subunidad ribosomal 30s, bloqueando la síntesis proteica y produciendo proteínas incorrectas.",
-          "d": "Inhiben la RNA polimerasa bacteriana.",
-          "e": "Dañan el ADN bacteriano mediante radicales libres en medios anaerobios."
-        },
-        "correctAnswer": "c",
-        "explanation": "Los Aminoglucósidos inhiben la síntesis proteica mediante la unión irreversible a la subunidad 30s en el ribosoma, bloqueando la síntesis proteica y produciendo proteínas incorrectas [23]."
-      },
-      {
-        "question": "Según las fuentes, ¿por qué los Aminoglucósidos cubren más a las bacterias aerobias y tienen acción limitada en medios anaerobios o ácidos?",
-        "answers": {
-          "a": "Su ingreso a la bacteria a través de la membrana celular requiere transportadores dependientes de ATP, que funcionan mejor en condiciones aerobias, y en medios anaerobios hay cargas positivas (H+) que repelen su acción.",
-          "b": "Son inactivados por las porinas presentes en las bacterias anaerobias.",
-          "c": "Solo pueden unirse a ribosomas 70s que se forman en presencia de oxígeno.",
-          "d": "Requieren pH ácido para su acción, el cual se inhibe en medios neutros o alcalinos.",
-          "e": "Actúan principalmente sobre la síntesis de la pared celular, que es diferente en aerobios y anaerobios."
-        },
-        "correctAnswer": "a",
-        "explanation": "Los Aminoglucósidos atraviesan la membrana celular por transportadores dependientes de ATP, por eso cubren más a las aerobias. En medios anaerobios, las muchas cargas positivas (H+) repelen y inhiben su acción [23]. También penetran mejor en gram - aerobios por las porinas [23, 34]."
-      },
-      {
-        "question": "¿Cuáles son los dos efectos adversos sistémicos principales y potencialmente irreversibles de los Aminoglucósidos según las fuentes?",
-        "answers": {
-          "a": "Hepatotoxicidad y trastornos gastrointestinales.",
-          "b": "Mielosupresión y neuropatías.",
-          "c": "Nefrotoxicidad y ototoxicidad (vestibular y coclear).",
-          "d": "Síndrome de Stevens-Johnson y reacciones de hipersensibilidad.",
-          "e": "Falla hepática y colitis pseudomembranosa."
-        },
-        "correctAnswer": "c",
-        "explanation": "Los principales efectos adversos de los Aminoglucósidos son la nefrotoxicidad y la ototoxicidad (vestibular y coclear), los cuales pueden ser irreversibles, especialmente con la exposición a varias dosis [3, 44, 66]."
-      },
-      {
-        "question": "Según las fuentes, ¿cómo causan nefrotoxicidad los Aminoglucósidos a nivel celular en el riñón?",
-        "answers": {
-          "a": "Inhiben la síntesis de ADN en las células tubulares renales.",
-          "b": "Dañan directamente los glomérulos renales.",
-          "c": "Se filtran en las células tubulares a través de transportadores con receptores de megalina/cubulina, se concentran y producen disfunciones de proteínas, necrosis y apoptosis tubular.",
-          "d": "Precipitan en los túbulos renales causando cristaluria.",
-          "e": "Inhiben la reabsorción de agua en los conductos colectores."
-        },
-        "correctAnswer": "c",
-        "explanation": "En las células tubulares renales, el medicamento se filtra por transportadores con receptores de megalina y cubulina para entrar, se concentra tanto que produce disfunciones de proteínas a nivel tubular, llevando a disfunción tubular, necrosis y apoptosis [44]."
-      },
-      {
-        "question": "¿Cuál es el mecanismo de acción de las Tetraciclinas, como la Doxiciclina y Minociclina, según las fuentes?",
-        "answers": {
-          "a": "Inhiben la síntesis de ácido fólico.",
-          "b": "Se unen a la subunidad ribosomal 50s.",
-          "c": "Se unen a la subunidad ribosomal 30s, alterando el sitio de reconocimiento de la ARN transferasa.",
-          "d": "Inhiben la DNA girasa.",
-          "e": "Inhiben la RNA polimerasa bacteriana."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las Tetraciclinas se unen a la subunidad ribosomal 30s y alteran el sitio de reconocimiento de la ARN transferasa [22]."
-      },
-      {
-        "question": "Según las fuentes, ¿por qué están contraindicadas las Tetraciclinas durante el embarazo?",
-        "answers": {
-          "a": "Causan neurotoxicidad y pseudotumor.",
-          "b": "Inducen enzimas hepáticas que metabolizan hormonas.",
-          "c": "Cruzan la placenta y se pegan a los huesos por su afinidad a cargas +, causando alteraciones óseas y dientes malformados en los fetos.",
-          "d": "Aumentan el riesgo de colitis pseudomembranosa en la madre.",
-          "e": "Producen anemia megaloblástica por deficiencia de folatos."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las Tetraciclinas cruzan la placenta, se pegan a los huesos por su afinidad a las cargas positivas, y causan alteraciones óseas (huesos largos) y dientes malformados (forma y color) en los fetos [15, 16]. Por ello están contraindicadas en el embarazo [15]."
-      },
-      {
-        "question": "¿Qué tipo de sustancias, al ser ingeridas junto con Tetraciclinas por vía oral, pueden alterar su absorción según las fuentes?",
-        "answers": {
-          "a": "Sustancias ácidas.",
-          "b": "Alimentos ricos en grasas.",
-          "c": "Cargas positivas, como el Calcio de la leche o el Magnesio de los antiácidos.",
-          "d": "Carbohidratos complejos.",
-          "e": "Fibras dietéticas."
-        },
-        "correctAnswer": "c",
-        "explanation": "Cuando las Tetraciclinas se administran por vía oral, tienen atracción a las cargas positivas (cationes), como el Calcio de la leche o el Magnesio del sulfato de Mg (antiácido), lo que puede unirse a la tetraciclina y alterar su absorción. No se recomienda tomarlas con lácteos [8]."
-      },
-      {
-        "question": "¿Cuál es el mecanismo de acción de las Sulfas (Sulfametoxazol) según las fuentes?",
-        "answers": {
-          "a": "Inhiben la síntesis de la pared celular bacteriana.",
-          "b": "Son análogos del PABA e inhiben la enzima dihidropteroato sintasa, bloqueando la síntesis de ácido fólico bacteriano.",
-          "c": "Se unen a la subunidad ribosomal 30s.",
-          "d": "Inhiben la DNA girasa bacteriana.",
-          "e": "Dañan el ADN bacteriano."
-        },
-        "correctAnswer": "b",
-        "explanation": "Las Sulfas son análogos del PABA (precursor de la síntesis de ácido fólico en las bacterias) e inhiben la enzima dihidropteroato sintasa, evitando la síntesis del ácido fólico bacteriano [11]."
-      },
-      {
-        "question": "Según las fuentes, ¿para cuál de las siguientes infecciones es el Trimetoprim-Sulfametoxazol (TSM) el tratamiento de elección?",
-        "answers": {
-          "a": "Infecciones por Pseudomona aeruginosa.",
-          "b": "Toxoplasmosis (cuando no hay sulfadiazina).",
-          "c": "Infecciones por Nocardia.",
-          "d": "Infecciones por Staphylococcus aureus meticilino resistente.",
-          "e": "Neumonía por Mycoplasma pneumoniae."
-        },
-        "correctAnswer": "c",
-        "explanation": "El TSM es el tratamiento de elección para infecciones por Nocardia y Pneumocystis carinii (jirovecci) [48, 67]. También para Isospora belli [48, 67] y Stenotrophomona maltophila [67, 68]. Toxoplasmosis es una alternativa si no hay sulfadiazina [67]."
-      },
-      {
-        "question": "¿Cuál de los siguientes efectos adversos es un riesgo asociado al uso prolongado de Trimetoprim-Sulfametoxazol (TSM) debido a su interferencia con el metabolismo del ácido fólico?",
-        "answers": {
-          "a": "Nefrotoxicidad.",
-          "b": "Ototoxicidad.",
-          "c": "Mielosupresión, específicamente anemia megaloblástica por deficiencia de folatos.",
-          "d": "Ruptura tendinosa.",
-          "e": "Colitis pseudomembranosa."
-        },
-        "correctAnswer": "c",
-        "explanation": "El uso prolongado de TSM puede causar anemia megaloblástica por deficiencia de folatos, ya que afecta la síntesis de purinas (ADN), y se debe dar ácido folínico [5, 12, 47, 69]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es el mecanismo de acción principal de las Quinolonas, como la Ciprofloxacina y Levofloxacina, en bacterias Gram negativas y Gram positivas?",
-        "answers": {
-          "a": "Inhibición de la síntesis de la pared celular.",
-          "b": "Inhibición de la subunidad ribosomal 30s.",
-          "c": "Inhibición de la DNA girasa (en Gram -) y la topoisomerasa IV (en Gram +), ambas enzimas clave en la replicación del ADN.",
-          "d": "Inhibición de la RNA polimerasa.",
-          "e": "Daño directo al ADN sin necesidad de activación metabólica."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las Quinolonas inhiben la DNA girasa en bacterias Gram negativas y la topoisomerasa IV en bacterias Gram positivas. Ambas enzimas son análogas y cruciales para la replicación del ADN bacteriano, inhibiendo el corte de cadenas hijas y generando radicales libres [26]."
-      },
-      {
-        "question": "¿Cuál es un efecto adverso musculoesquelético importante asociado al uso de Quinolonas, especialmente en pacientes mayores, que usan esteroides o recipientes de trasplante?",
-        "answers": {
-          "a": "Artralgias.",
-          "b": "Miositis.",
-          "c": "Osteomielitis.",
-          "d": "Tendinitis y ruptura tendinosa.",
-          "e": "Debilidad muscular generalizada."
-        },
-        "correctAnswer": "d",
-        "explanation": "Las Quinolonas pueden causar tendinitis y ruptura tendinosa, especialmente en pacientes mayores de 60 años, con uso de esteroides o recipientes de trasplante. El tendón de Aquiles es comúnmente afectado [18]."
-      },
-      {
-        "question": "Según las fuentes, ¿qué enzima bacteriana es el blanco principal del mecanismo de acción de las Rifamicinas como la Rifampicina?",
-        "answers": {
-          "a": "DNA girasa.",
-          "b": "Dihidropteroato sintasa.",
-          "c": "RNA polimerasa dependiente de DNA (subunidad beta).",
-          "d": "Aminoacil-ARNt sintetasa.",
-          "e": "Transpeptidasa (PBPs)."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las Rifamicinas inhiben la subunidad beta de la RNA polimerasa (dependiente de DNA) de procariotas, impidiendo el inicio en la síntesis del RNA bacteriano [41]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es una indicación importante para el uso de Rifampicina en combinación con otros fármacos?",
-        "answers": {
-          "a": "Infecciones urinarias no complicadas.",
-          "b": "Infecciones por Clostridiosis difficile resistentes.",
-          "c": "Brucelosis.",
-          "d": "Neumonías atípicas por Mycoplasma.",
-          "e": "Infecciones por Bacteroides fragilis."
-        },
-        "correctAnswer": "c",
-        "explanation": "La Rifampicina se usa en tratamientos combinados para Brucella o Bartonella (combinado con tetraciclinas) [30] y Brucelosis (combinado con otros fármacos, ejemplo: doxiciclina más rifampicina) [70]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es un efecto adverso característico de la Rifampicina que afecta los fluidos corporales?",
-        "answers": {
-          "a": "Hepatitis colestásica.",
-          "b": "Coloración roja-naranja de la orina, saliva, esputo.",
-          "c": "Cristaluria.",
-          "d": "Ototoxicidad.",
-          "e": "Mielosupresión."
-        },
-        "correctAnswer": "b",
-        "explanation": "La Rifampicina produce coloración roja-naranja de los fluidos corporales como la orina, saliva y esputo [71]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es un uso principal de la Rifaximina, un tipo de Rifamicina con poca absorción oral?",
-        "answers": {
-          "a": "Meningitis por meningococo.",
-          "b": "Infecciones sistémicas por Staphylococcus aureus.",
-          "c": "Encefalopatía hepática y diarrea del viajero.",
-          "d": "Tuberculosis pulmonar.",
-          "e": "Infecciones óseas y articulares."
-        },
-        "correctAnswer": "c",
-        "explanation": "Debido a su absorción despreciable [14], la Rifaximina se usa principalmente para infecciones o condiciones localizadas en el tracto gastrointestinal, como la encefalopatía hepática, infecciones por Clostridium difficile recurrentes, diarrea del viajero (E coli) y síndrome de intestino irritable con diarrea [42]."
-      },
-      {
-        "question": "Según las fuentes, ¿para cuál de las siguientes bacterias anaerobias es el Metronidazol el tratamiento de elección o una opción preferida?",
-        "answers": {
-          "a": "Clostridium perfringens.",
-          "b": "Cutibacterium acnes (sistémico).",
-          "c": "Bacteroides fragilis.",
-          "d": "Clostridium tetani.",
-          "e": "Lactobacillus."
-        },
-        "correctAnswer": "d",
-        "explanation": "Las fuentes indican que se prefiere metronidazol para anaerobios como C. tetani en comparación con penicilinas G [42, 51]. Para C. perfringens, la elección es penicilina G [46]. Para Cutibacterium acnes sistémico, las opciones incluyen penicilina, clindamicina, moxifloxacino [32]. Para Bacteroides fragilis, las opciones incluyen Betalactámicos con IBL, Carbapenems, Clindamicina, Metronidazol [51]. Para Lactobacillus, la elección son penicilinas [46, 51]."
-      },
-      {
-        "question": "Según las fuentes, ¿en qué tipo de infecciones se suele considerar la presencia de gérmenes anaerobios?",
-        "answers": {
-          "a": "Infecciones urinarias no complicadas.",
-          "b": "Neumonía por neumococo sensible.",
-          "c": "Infecciones dentales, abscesos abdominales post-quirúrgicos, neumonía aspirativa.",
-          "d": "Infecciones de transmisión sexual por Neisseria gonorrhoeae.",
-          "e": "Infecciones por Yersinia pestis (Peste)."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las fuentes listan varias situaciones en las que se debe pensar en anaerobios, incluyendo infecciones dentales, peritonitis o infecciones post quirúrgicas abdominales, neumonía aspirativa, infecciones crónicas del oído o senos paranasales, infecciones de extremidades en diabéticos, infecciones ginecológicas, infecciones tras mordeduras de animales, abscesos cerebrales y abscesos pulmonares [32]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es un efecto adverso neurológico importante del Metronidazol con el uso prolongado (mayor a 1 mes)?",
-        "answers": {
-          "a": "Ruptura tendinosa.",
-          "b": "Ototoxicidad.",
-          "c": "Neuropatías sensitivas y ataxia.",
-          "d": "Pseudotumor cerebral.",
-          "e": "Bloqueo neuromuscular."
-        },
-        "correctAnswer": "c",
-        "explanation": "Cuando se usa Metronidazol más allá de 1 mes, puede causar neurotoxicidad manifestada como ataxia, encefalopatía, disartria, síndromes convulsivos, meningitis aséptica o neuropatías sensitivas [2]."
-      },
-      {
-        "question": "Los Dicloroacetamidas, como Teclozan y Etofamida, se mencionan en las fuentes para el tratamiento de:",
-        "answers": {
-          "a": "Infecciones sistémicas por Bacteroides fragilis.",
-          "b": "Infecciones por Clostridium difficile.",
-          "c": "Formas luminales de amibiasis.",
-          "d": "Infecciones por Toxoplasma gondii.",
-          "e": "Micobacterias no tuberculosas."
-        },
-        "correctAnswer": "c",
-        "explanation": "Los Dicloroacetamidas (Teclozan, Etofamida) se usan en el tratamiento de formas luminales de amibiasis [72]."
-      },
-      {
-        "question": "Según las fuentes, ¿cuál es la principal característica farmacocinética de los Dicloroacetamidas como Teclozan y Etofamida?",
-        "answers": {
-          "a": "Buena absorción oral y amplia distribución tisular, incluyendo acción tisular.",
-          "b": "Absorción oral despreciable y carece de acción tisular, excretándose principalmente por heces.",
-          "c": "Eliminación renal rápida y altas concentraciones en orina.",
-          "d": "Metabolismo hepático extenso con metabolitos activos sistémicos.",
-          "e": "Capacidad de cruzar la barrera hematoencefálica."
-        },
-        "correctAnswer": "b",
-        "explanation": "Los Dicloroacetamidas carecen de acción tisular y tienen poca absorción por vía oral, la mayor parte se excreta por las heces [72]."
-      }
-    ]
-  },
-  antibioticosExamen3: {
-    "id": "antibioticosExamen3",
-    "title": "Examen Parcial #3 - Antibióticos II",
-    "description": "Examen basado en el documento 'PARCIAL #3 - Antibioticos II.pdf', cubriendo Oxazolidinonas, Macrólidos, Lincosamidas, Aminoglucósidos, Tetraciclinas, Sulfas, Quinolonas, Nitroimidazoles, Dicloroacetamidas y Rifamicinas[cite: 1, 5, 65, 98, 123, 162, 186, 195, 199].", // Descripción basada en el contenido del documento
-    "questions": [
-      {
-        "question": "1. ¿Cuál es el mecanismo de acción antibiótico principal del Linezolid?",
-        "answers": {
-          "a": "Inhibición de la DNA girasa",
-          "b": "Unión a la subunidad 30s ribosomal",
-          "c": "Inhibición de la síntesis proteica uniéndose a la subunidad 50s y evitando el ensamblaje inicial",
-          "d": "Inhibición de la síntesis de la pared celular",
-          "e": "Inhibición de la MAO"
-        },
-        "correctAnswer": "c",
-        "explanation": "El Linezolid inhibe la síntesis proteica al unirse a la subunidad 50s, impidiendo el ensamblaje de las subunidades ribosomales y alterando el inicio de la traducción[cite: 7]."
-      },
-      {
-        "question": "2. ¿Para qué tipo de gérmenes es principalmente útil el Linezolid?",
-        "answers": {
-          "a": "Bacilos Gram negativos aerobios",
-          "b": "Cocos Gram positivos, incluyendo cepas resistentes",
-          "c": "Anaerobios estrictos",
-          "d": "Espiroquetas",
-          "e": "Hongos"
-        },
-        "correctAnswer": "b",
-        "explanation": "Linezolid tiene un espectro similar a la vancomicina, siendo útil contra cocos Gram +, incluyendo Enterococcus resistentes a vancomicina, SAMR y neumococos resistentes[cite: 8]."
-      },
-      {
-        "question": "3. ¿Cuál de las siguientes afirmaciones sobre la farmacocinética del Linezolid es CORRECTA?",
-        "answers": {
-          "a": "Tiene baja biodisponibilidad oral.",
-          "b": "Presenta alta unión a proteínas plasmáticas.",
-          "c": "Atraviesa mal la barrera hematoencefálica.",
-          "d": "Tiene eliminación exclusivamente renal.",
-          "e": "Posee excelente biodisponibilidad oral e IV (100%) y atraviesa bien el SNC."
+          "a": "Oncoviridae",
+          "b": "Spumavirinae",
+          "c": "Hepadnaviridae",
+          "d": "Flaviviridae",
+          "e": "Lentiviridae"
         },
         "correctAnswer": "e",
-        "explanation": "Linezolid tiene una biodisponibilidad oral e IV del 100%, baja unión a proteínas, y atraviesa bien el SNC y las secreciones pulmonares[cite: 15, 16]."
+        "explanation": "El VIH-1 y VIH-2 pertenecen a la familia Lentiviridae, dentro de los Retrovirus, asociados a enfermedades neurológicas e inmunosupresoras."
       },
       {
-        "question": "4. ¿Qué efecto adverso importante se asocia al uso prolongado (> 2 semanas) de Linezolid?",
+        "question": "12. ¿Qué enzima característica de los retrovirus, como el VIH, transcribe el genoma ARN viral en ADN?",
         "answers": {
-          "a": "Nefrotoxicidad",
-          "b": "Ototoxicidad",
-          "c": "Mielosupresión (principalmente trombocitopenia)",
-          "d": "Hepatotoxicidad",
-          "e": "Fotosensibilidad"
+          "a": "Proteasa",
+          "b": "Integrasa",
+          "c": "Polimerasa (Transcriptasa Inversa)",
+          "d": "Helicasa",
+          "e": "Neuraminidasa"
         },
         "correctAnswer": "c",
-        "explanation": "La mielosupresión, especialmente la trombocitopenia, es un efecto adverso significativo del Linezolid con el uso prolongado (> 2 semanas)[cite: 21]."
+        "explanation": "La Transcriptasa Inversa (TR), también llamada polimerasa de ADN dependiente de ARN, es la enzima distintiva de los retrovirus que realiza la transcripción inversa del ARN genómico a ADN proviral."
       },
       {
-        "question": "5. ¿Cuál es el mecanismo de acción de los macrólidos como la Azitromicina?",
+        "question": "13. ¿Qué proteína de la envoltura del VIH (gp120) es responsable de la unión inicial al receptor CD4 en las células T helper?",
         "answers": {
-          "a": "Inhibición de la subunidad 30s",
-          "b": "Inhibición de la translocación en la subunidad 50s",
-          "c": "Inhibición de la DNA girasa",
-          "d": "Inhibición de la síntesis de ácido fólico",
-          "e": "Alteración de la membrana celular"
+          "a": "gp41",
+          "b": "p24",
+          "c": "Integrasa",
+          "d": "Transcriptasa Inversa (p66/p51)",
+          "e": "gp120"
+        },
+        "correctAnswer": "e",
+        "explanation": "La glicoproteína de superficie gp120 del VIH es la que se une específicamente al receptor CD4 presente en linfocitos T helper, macrófagos, células dendríticas y microglía."
+      },
+      {
+        "question": "14. Además del receptor CD4, ¿qué correceptores (receptores de quimioquinas) utiliza el VIH para fusionarse con la membrana celular, siendo CCR5 importante en macrófagos?",
+        "answers": {
+          "a": "CXCR4 solamente",
+          "b": "CCR5 solamente",
+          "c": "CCR5 (en macrófagos) y CXCR4 (en linfocitos)",
+          "d": "CD8",
+          "e": "MHC-I"
+        },
+        "correctAnswer": "c",
+        "explanation": "El VIH necesita unirse a un correceptor de quimioquinas además del CD4 para la fusión. Los principales son CCR5 (predominante en macrófagos y en etapas tempranas) y CXCR4 (predominante en linfocitos T y en etapas tardías)."
+      },
+      {
+        "question": "15. ¿Qué gen regulador del VIH es esencial para transportar el ARNm viral desde el núcleo al citoplasma?",
+        "answers": {
+          "a": "TAT",
+          "b": "REV",
+          "c": "NEF",
+          "d": "Vpr",
+          "e": "Vpu"
         },
         "correctAnswer": "b",
-        "explanation": "Los macrólidos inhiben la síntesis proteica al unirse a la subunidad 50s e inhibir el proceso de translocación[cite: 23]."
+        "explanation": "El gen REV codifica una proteína que regula y facilita el transporte de los ARNm virales (especialmente los no completamente empalmados) desde el núcleo al citoplasma para su traducción."
       },
       {
-        "question": "6. ¿Cuál de los siguientes macrólidos tiene una vida media más larga, permitiendo esquemas de dosis única en algunas infecciones?",
+        "question": "16. ¿Qué es el 'provirus' en el ciclo de vida del VIH?",
         "answers": {
-          "a": "Eritromicina",
-          "b": "Claritromicina",
-          "c": "Azitromicina",
-          "d": "Fidaxomicina",
-          "e": "Lincomicina"
+          "a": "El virión maduro liberado de la célula.",
+          "b": "El ARN genómico dentro de la cápside viral.",
+          "c": "El ADN viral integrado en el genoma de la célula huésped.",
+          "d": "La proteína p24 de la cápside.",
+          "e": "El complejo de preintegración en el citoplasma."
         },
         "correctAnswer": "c",
-        "explanation": "La Azitromicina tiene una vida media larga (2-4 días), lo que permite su administración en dosis única para ciertas infecciones como la otitis media[cite: 36, 40]."
+        "explanation": "Después de la transcripción inversa, el ADN viral es transportado al núcleo e integrado en el ADN de la célula huésped por la enzima integrasa. Esta forma integrada se denomina provirus."
       },
       {
-        "question": "7. ¿Qué efecto adverso cardíaco pueden producir los macrólidos?",
+        "question": "17. Durante la infección primaria por VIH, ¿qué ocurre característicamente?",
         "answers": {
-          "a": "Acortamiento del intervalo QT",
-          "b": "Bradicardia sinusal",
-          "c": "Bloqueo auriculoventricular",
-          "d": "Prolongación del intervalo QTc",
-          "e": "Fibrilación auricular"
+          "a": "El recuento de CD4 aumenta significativamente.",
+          "b": "Hay una alta carga viral (viremia) y posible síndrome retroviral agudo.",
+          "c": "Los anticuerpos anti-VIH son detectables inmediatamente.",
+          "d": "El virus permanece exclusivamente en los ganglios linfáticos.",
+          "e": "El paciente desarrolla SIDA inmediatamente."
+        },
+        "correctAnswer": "b",
+        "explanation": "La fase aguda o infección primaria se caracteriza por una alta replicación viral (alta carga viral o viremia), diseminación del virus y, en muchos casos, un síndrome retroviral agudo similar a la mononucleosis. Los anticuerpos tardan semanas en aparecer (seroconversión)."
+      },
+      {
+        "question": "18. ¿Cuál es el principal mecanismo por el cual el gen NEF del VIH ayuda al virus a evadir la respuesta inmune?",
+        "answers": {
+          "a": "Aumenta la producción de CD4.",
+          "b": "Induce la producción de anticuerpos neutralizantes.",
+          "c": "Facilita la integración del provirus.",
+          "d": "Disminuye la expresión de CD4 y MHC-I en la superficie celular.",
+          "e": "Bloquea la acción de la transcriptasa inversa."
         },
         "correctAnswer": "d",
-        "explanation": "Los macrólidos pueden prolongar el intervalo QTc en el electrocardiograma, aumentando el riesgo de arritmias[cite: 42]."
+        "explanation": "La proteína Nef disminuye la expresión del receptor CD4 y de las moléculas MHC clase I en la superficie de la célula infectada, dificultando así el reconocimiento por los linfocitos T CD4 y CD8 respectivamente."
       },
       {
-        "question": "8. ¿Cuál de las siguientes infecciones NO suele ser una indicación principal para los macrólidos?",
+        "question": "19. ¿Qué define la categoría clínica C en la clasificación de la infección por VIH?",
         "answers": {
-          "a": "Neumonías atípicas (Legionella, Mycoplasma)",
-          "b": "Infecciones por Chlamydia trachomatis",
-          "c": "Tosferina (Bordetella pertussis)",
-          "d": "Infecciones urinarias por E. coli",
-          "e": "Erradicación de Helicobacter pylori (en combinación)"
+          "a": "Infección asintomática o linfadenopatía generalizada.",
+          "b": "Infecciones sintomáticas que no definen SIDA, como candidiasis orofaríngea.",
+          "c": "Presencia de enfermedades definitorias de SIDA, como neumonía por Pneumocystis jirovecii o Sarcoma de Kaposi.",
+          "d": "Recuento de CD4 entre 200-499 células/mm³.",
+          "e": "Seroconversión reciente."
+        },
+        "correctAnswer": "c",
+        "explanation": "La categoría C incluye condiciones clínicas graves que son definitorias de SIDA, indicando un defecto severo en la inmunidad celular. Ejemplos dados son Neumonía por P. jirovecii, Criptococosis, Sarcoma de Kaposi, etc."
+      },
+      {
+        "question": "20. ¿Qué prueba se utiliza comúnmente como cribado inicial para la detección de anticuerpos contra VIH-1/2 y el antígeno p24?",
+        "answers": {
+          "a": "Western Blot",
+          "b": "PCR para ARN viral (Carga Viral)",
+          "c": "Cultivo viral",
+          "d": "ELISA de 4ª o 5ª generación",
+          "e": "Recuento de Linfocitos T CD4"
         },
         "correctAnswer": "d",
-        "explanation": "Los macrólidos son clave en neumonías atípicas, ITS por Chlamydia, tosferina y H. pylori[cite: 25, 27, 29, 31], pero no son tratamiento de elección para ITU por E. coli."
+        "explanation": "Las pruebas ELISA de 4ª o 5ª generación son las recomendadas para el cribado inicial, ya que detectan tanto anticuerpos (IgM/IgG) contra VIH-1 y VIH-2 como el antígeno p24, acortando el periodo ventana."
       },
       {
-        "question": "9. ¿Cuál es el mecanismo de acción de la Clindamicina?",
+        "question": "21. ¿Qué mide la prueba de Carga Viral en un paciente con VIH?",
         "answers": {
-          "a": "Inhibición de la subunidad 30s",
-          "b": "Inhibición de la translocación en la subunidad 50s",
-          "c": "Inhibición de la DNA girasa",
-          "d": "Inhibición de la síntesis de la pared",
-          "e": "Inhibición de la RNA polimerasa"
-        },
-        "correctAnswer": "b",
-        "explanation": "La Clindamicina, una lincosamida, inhibe la subunidad 50s, interfiriendo con la translocación, aunque en un sitio diferente a los macrólidos[cite: 47]."
-      },
-      {
-        "question": "10. ¿Cuál es una indicación importante de la Clindamicina debido a su espectro?",
-        "answers": {
-          "a": "Infecciones urinarias complicadas",
-          "b": "Meningitis bacteriana",
-          "c": "Infecciones por anaerobios (ej. abscesos pulmonares, infecciones dentales)",
-          "d": "Neumonías por Pseudomonas aeruginosa",
-          "e": "Infecciones por enterococos resistentes a vancomicina"
+          "a": "La cantidad de anticuerpos anti-VIH.",
+          "b": "El número de linfocitos T CD4.",
+          "c": "La cantidad de genoma ARN viral en la sangre.",
+          "d": "La presencia del antígeno p24.",
+          "e": "La resistencia a los antirretrovirales."
         },
         "correctAnswer": "c",
-        "explanation": "La Clindamicina tiene excelente actividad contra muchos anaerobios Gram + y Gram -, siendo una opción clave para infecciones donde estos predominan[cite: 51, 62]."
+        "explanation": "La carga viral mide la cantidad de ARN del VIH presente en el plasma sanguíneo (usualmente en copias/mL) y sirve para monitorizar la progresión de la infección y la eficacia del tratamiento."
       },
       {
-        "question": "11. ¿Qué efecto adverso gastrointestinal grave se asocia con el uso de Clindamicina?",
+        "question": "22. ¿Cuál de los siguientes virus es la causa más común de resfriado común?",
         "answers": {
-          "a": "Estreñimiento severo",
-          "b": "Gastritis erosiva",
-          "c": "Colitis pseudomembranosa por Clostridioides difficile",
-          "d": "Pancreatitis aguda",
-          "e": "Íleo paralítico"
+          "a": "Adenovirus",
+          "b": "Virus Respiratorio Sincitial (VRS)",
+          "c": "Rinovirus",
+          "d": "Virus Influenza",
+          "e": "Coronavirus (no SARS-CoV-2)"
         },
         "correctAnswer": "c",
-        "explanation": "La Clindamicina es conocida por propiciar el sobrecrecimiento de C. difficile, pudiendo causar colitis pseudomembranosa[cite: 75, 76]."
+        "explanation": "El documento menciona que los Rinovirus (Picornavirus, ARN+) causan infecciones del tracto respiratorio superior no complicadas, como el resfriado común, siendo leves y autolimitadas."
       },
       {
-        "question": "12. La prueba D se realiza para detectar un tipo específico de resistencia a Clindamicina. ¿Qué mecanismo detecta una prueba D positiva?",
+        "question": "23. ¿Qué manifestación clínica es característica de algunos serotipos de Adenovirus, especialmente en preadolescentes y en forma de brotes?",
         "answers": {
-          "a": "Bombas de eflujo (msrA)",
-          "b": "Resistencia constitutiva por metilación ribosomal (gen erm)",
-          "c": "Resistencia inducible por metilación ribosomal (gen erm)",
-          "d": "Inactivación enzimática",
-          "e": "Alteración de porinas"
-        },
-        "correctAnswer": "c",
-        "explanation": "Una prueba D positiva (halo achatado alrededor de clindamicina cerca de eritromicina) sugiere resistencia inducible mediada por el gen erm[cite: 56, 59, 61]."
-      },
-      {
-        "question": "13. ¿Cuál es el mecanismo de acción principal de los aminoglucósidos como la Gentamicina y Amikacina?",
-        "answers": {
-          "a": "Unión irreversible a la subunidad 50s",
-          "b": "Unión irreversible a la subunidad 30s, causando lectura errónea del mRNA",
-          "c": "Inhibición de la DNA girasa",
-          "d": "Inhibición de la RNA polimerasa",
-          "e": "Inhibición de la síntesis de peptidoglicano"
-        },
-        "correctAnswer": "b",
-        "explanation": "Los aminoglucósidos se unen irreversiblemente a la subunidad 30s, bloqueando la síntesis proteica y produciendo proteínas incorrectas, lo que contribuye a su efecto bactericida[cite: 69, 70]."
-      },
-      {
-        "question": "14. ¿Por qué los aminoglucósidos son MENOS efectivos en ambientes anaerobios?",
-        "answers": {
-          "a": "Son rápidamente hidrolizados por enzimas anaerobias.",
-          "b": "Su transporte a través de la membrana celular depende de oxígeno y ATP.",
-          "c": "El pH ácido del medio anaerobio los inactiva.",
-          "d": "Las bacterias anaerobias carecen de ribosomas 30s.",
-          "e": "Se unen irreversiblemente a componentes de la pared celular anaerobia."
-        },
-        "correctAnswer": "b",
-        "explanation": "El paso de los aminoglucósidos a través de la membrana celular requiere un sistema de transporte dependiente de ATP y potencial de membrana, procesos inhibidos en anaerobiosis[cite: 67, 68]."
-      },
-      {
-        "question": "15. ¿Cuáles son las dos toxicidades MÁS importantes asociadas a los aminoglucósidos?",
-        "answers": {
-          "a": "Hepatotoxicidad y Cardiotoxicidad",
-          "b": "Nefrotoxicidad y Ototoxicidad",
-          "c": "Mielosupresión y Neurotoxicidad central",
-          "d": "Toxicidad pulmonar y Reacciones cutáneas graves",
-          "e": "Nefrotoxicidad y Mielosupresión"
-        },
-        "correctAnswer": "b",
-        "explanation": "La nefrotoxicidad (acumulación en túbulos renales) y la ototoxicidad (daño coclear y/o vestibular, a menudo irreversible) son las toxicidades limitantes de dosis más significativas de los aminoglucósidos[cite: 85, 86, 97, 98, 92]."
-      },
-      {
-        "question": "16. ¿En qué tipo de infecciones se usan principalmente los aminoglucósidos?",
-        "answers": {
-          "a": "Infecciones por cocos Gram positivos resistentes",
-          "b": "Infecciones por anaerobios",
-          "c": "Infecciones graves por bacilos Gram negativos aerobios",
-          "d": "Neumonías atípicas",
-          "e": "Infecciones de piel y tejidos blandos no complicadas"
-        },
-        "correctAnswer": "c",
-        "explanation": "Los aminoglucósidos son primordiales en el tratamiento de infecciones graves causadas por bacilos Gram negativos aerobios, como enterobacterias y Pseudomonas[cite: 71, 95]. También se usan en combinación para algunas infecciones por Gram positivos[cite: 78]."
-      },
-      {
-        "question": "17. ¿Cuál es el mecanismo de acción de las Tetraciclinas (ej. Doxiciclina)?",
-        "answers": {
-          "a": "Unión a la subunidad 50s inhibiendo la translocación",
-          "b": "Unión a la subunidad 30s alterando el sitio de reconocimiento del ARNt",
-          "c": "Inhibición de la DNA girasa",
-          "d": "Inhibición de la síntesis de ácido fólico",
-          "e": "Fragmentación del DNA bacteriano"
-        },
-        "correctAnswer": "b",
-        "explanation": "Las tetraciclinas se unen a la subunidad ribosomal 30s e interfieren con la unión del aminoacil-ARNt al sitio A del complejo ribosoma-ARNm, inhibiendo la adición de aminoácidos[cite: 101]."
-      },
-      {
-        "question": "18. ¿Por qué se debe evitar la administración de tetraciclinas con lácteos o antiácidos que contengan cationes multivalentes (Ca++, Mg++, Al++)?",
-        "answers": {
-          "a": "Aumentan el riesgo de nefrotoxicidad.",
-          "b": "Aceleran su metabolismo hepático.",
-          "c": "Forman quelatos insolubles que disminuyen su absorción oral.",
-          "d": "Incrementan el riesgo de fotosensibilidad.",
-          "e": "Potencian su efecto sobre la flora intestinal."
-        },
-        "correctAnswer": "c",
-        "explanation": "Las tetraciclinas tienen afinidad por cationes multivalentes como el calcio y magnesio, formando complejos (quelatos) que no se absorben bien en el tracto gastrointestinal[cite: 114]."
-      },
-      {
-        "question": "19. ¿Qué efecto adverso importante contraindica el uso de tetraciclinas en niños menores de 8 años y embarazadas?",
-        "answers": {
-          "a": "Ototoxicidad irreversible",
-          "b": "Mielosupresión severa",
-          "c": "Hepatitis fulminante",
-          "d": "Afectación del desarrollo óseo y dental (coloración, hipoplasia)",
-          "e": "Síndrome de Stevens-Johnson"
+          "a": "Bronquiolitis",
+          "b": "Cistitis hemorrágica",
+          "c": "Resfriado común simple",
+          "d": "Fiebre faringoconjuntival",
+          "e": "Gastroenteritis"
         },
         "correctAnswer": "d",
-        "explanation": "Las tetraciclinas se depositan en huesos y dientes en calcificación, pudiendo causar deformidades, inhibición del crecimiento óseo y coloración permanente de los dientes. Por ello, están contraindicadas en menores de 8 años y durante el embarazo[cite: 116, 118]."
+        "explanation": "La fiebre faringoconjuntival (conjuntivitis serosa, faringitis, fiebre) es una manifestación característica asociada a Adenovirus, particularmente en brotes y en preadolescentes."
       },
       {
-        "question": "20. ¿Cuál de las siguientes es una indicación característica para la Doxiciclina?",
+        "question": "24. ¿Cuál es la principal causa de enfermedad respiratoria grave (neumonía y bronquiolitis) en lactantes menores de 1 año?",
         "answers": {
-          "a": "Infección urinaria por Pseudomonas",
-          "b": "Meningitis por Neisseria meningitidis",
-          "c": "Tratamiento de enfermedades transmitidas por garrapatas (Rickettsia, Borrelia, Ehrlichia)",
-          "d": "Endocarditis por Enterococcus faecalis",
-          "e": "Infección por Clostridioides difficile"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Doxiciclina es de elección o una alternativa importante para varias zoonosis y enfermedades transmitidas por vectores, incluyendo rickettsiosis, enfermedad de Lyme (Borrelia), ehrlichiosis/anaplasmosis y también brucelosis o carbunco[cite: 106, 107, 108, 109]."
-      },
-      {
-        "question": "21. ¿Cuál es el mecanismo de acción de las Sulfonamidas (ej. Sulfametoxazol)?",
-        "answers": {
-          "a": "Inhibición de la DNA girasa",
-          "b": "Inhibición de la síntesis proteica (subunidad 30s)",
-          "c": "Inhibición competitiva de la dihidropteroato sintasa, bloqueando la síntesis de ácido fólico",
-          "d": "Inhibición de la RNA polimerasa",
-          "e": "Daño al DNA por radicales libres"
-        },
-        "correctAnswer": "c",
-        "explanation": "Las sulfonamidas son análogos estructurales del PABA y compiten por la enzima dihidropteroato sintasa, esencial para la síntesis de ácido fólico en bacterias[cite: 130, 131]."
-      },
-      {
-        "question": "22. ¿Cuál es el mecanismo de acción del Trimetoprim?",
-        "answers": {
-          "a": "Inhibición de la dihidropteroato sintasa",
-          "b": "Inhibición de la dihidrofolato reductasa",
-          "c": "Inhibición de la DNA girasa",
-          "d": "Inhibición de la subunidad 50s",
-          "e": "Inhibición de la translocación"
-        },
-        "correctAnswer": "b",
-        "explanation": "El Trimetoprim inhibe la dihidrofolato reductasa, el siguiente paso en la vía de activación del ácido fólico, actuando de forma sinérgica con las sulfonamidas[cite: 128, 131]."
-      },
-      {
-        "question": "23. ¿Para cuál de las siguientes infecciones el Trimetoprim-Sulfametoxazol (TSM) es considerado tratamiento de elección?",
-        "answers": {
-          "a": "Infección por Pseudomonas aeruginosa",
-          "b": "Neumonía por Streptococcus pneumoniae",
-          "c": "Neumonía por Pneumocystis jirovecii (PCP)",
-          "d": "Infección por Enterococcus faecium resistente a Vancomicina (ERV)",
-          "e": "Faringitis por Streptococcus pyogenes"
-        },
-        "correctAnswer": "c",
-        "explanation": "El TSM es el tratamiento de elección para la neumonía causada por el hongo oportunista Pneumocystis jirovecii, común en pacientes inmunocomprometidos (VIH)[cite: 135, 161]."
-      },
-      {
-        "question": "24. ¿Qué efecto adverso hematológico puede ocurrir con el uso prolongado de TSM, especialmente en pacientes con deficiencia de folato?",
-        "answers": {
-          "a": "Trombocitosis",
-          "b": "Policitemia",
-          "c": "Anemia megaloblástica",
-          "d": "Leucocitosis neutrofílica",
-          "e": "Anemia aplásica"
-        },
-        "correctAnswer": "c",
-        "explanation": "Debido a la inhibición de la vía del folato, el uso prolongado de TSM puede causar anemia megaloblástica, que se previene o trata con ácido folínico (no fólico)[cite: 149, 154]."
-      },
-      {
-        "question": "25. ¿Qué precaución importante se debe tener al administrar TSM a pacientes con deficiencia de G6PD?",
-        "answers": {
-          "a": "Riesgo aumentado de nefrotoxicidad",
-          "b": "Riesgo de hemólisis aguda",
-          "c": "Riesgo de hepatotoxicidad severa",
-          "d": "Riesgo de prolongación del QTc",
-          "e": "Riesgo de reacciones anafilácticas"
-        },
-        "correctAnswer": "b",
-        "explanation": "Las sulfonamidas pueden inducir estrés oxidativo en los eritrocitos. En pacientes con deficiencia de Glucosa-6-Fosfato Deshidrogenasa (G6PD), esto puede desencadenar hemólisis aguda[cite: 154, 155]."
-      },
-      {
-        "question": "26. ¿Cuál es el mecanismo de acción de las Quinolonas (ej. Ciprofloxacina, Levofloxacina)?",
-        "answers": {
-          "a": "Inhibición de la síntesis proteica (subunidad 50s)",
-          "b": "Inhibición de la síntesis de la pared celular",
-          "c": "Inhibición de las topoisomerasas bacterianas (DNA girasa y Topoisomerasa IV)",
-          "d": "Inhibición de la RNA polimerasa",
-          "e": "Inhibición de la vía del ácido fólico"
-        },
-        "correctAnswer": "c",
-        "explanation": "Las quinolonas inhiben la DNA girasa (principalmente en Gram -) y la topoisomerasa IV (principalmente en Gram +), enzimas esenciales para la replicación, transcripción y reparación del DNA bacteriano[cite: 166, 167]."
-      },
-      {
-        "question": "27. ¿Qué generación de quinolonas incluye a Ciprofloxacina y Norfloxacina, con buena actividad contra bacilos Gram negativos aerobios, incluyendo Pseudomonas?",
-        "answers": {
-          "a": "Primera generación (Ácido nalidíxico)",
-          "b": "Segunda generación",
-          "c": "Tercera generación (Levofloxacina, Moxifloxacina)",
-          "d": "Cuarta generación",
-          "e": "Generación 'respiratoria'"
-        },
-        "correctAnswer": "b",
-        "explanation": "La segunda generación, que incluye Norfloxacina y Ciprofloxacina, se caracteriza por su potente actividad contra bacilos Gram negativos aerobios, incluyendo P. aeruginosa[cite: 163, 164, 169]."
-      },
-      {
-        "question": "28. Las quinolonas de tercera generación (Levofloxacina, Moxifloxacina) se diferencian de la segunda generación principalmente por:",
-        "answers": {
-          "a": "Tener menor actividad contra Pseudomonas",
-          "b": "Tener mejor actividad contra cocos Gram positivos (incluyendo neumococo resistente) y algunos atípicos",
-          "c": "Ser exclusivamente de administración parenteral",
-          "d": "Tener un mecanismo de acción completamente diferente",
-          "e": "Carecer de efectos adversos sobre el tendón"
-        },
-        "correctAnswer": "b",
-        "explanation": "Las quinolonas de tercera generación (llamadas a veces 'respiratorias') mantienen actividad contra Gram negativos pero ganan potencia contra Gram positivos como S. pneumoniae (incluso resistente a penicilina) y patógenos atípicos[cite: 165, 173]."
-      },
-      {
-        "question": "29. ¿Qué efecto adverso grave, aunque raro, se asocia con el uso de quinolonas, especialmente en pacientes mayores, con uso de corticoides o trasplantados?",
-        "answers": {
-          "a": "Ototoxicidad",
-          "b": "Nefrotoxicidad tubular aguda",
-          "c": "Anemia aplásica",
-          "d": "Tendinitis y ruptura tendinosa (ej. tendón de Aquiles)",
-          "e": "Hepatitis colestásica"
+          "a": "Rinovirus",
+          "b": "Adenovirus",
+          "c": "Virus Parainfluenza",
+          "d": "Virus Respiratorio Sincitial (VRS)",
+          "e": "Virus Influenza A"
         },
         "correctAnswer": "d",
-        "explanation": "Las quinolonas tienen una advertencia sobre el riesgo de tendinitis y ruptura de tendón, particularmente el de Aquiles, siendo factores de riesgo la edad avanzada, el uso concomitante de esteroides y el estado post-trasplante[cite: 181]."
+        "explanation": "El VRS (Paramixoviridae) es descrito como la principal causa de enfermedad respiratoria grave, incluyendo neumonía y bronquiolitis, en lactantes <1 año, debido al pequeño calibre de sus vías aéreas."
       },
       {
-        "question": "30. ¿Cuál de las siguientes quinolonas tiene una eliminación predominantemente hepática, a diferencia de las otras que son mayoritariamente renales?",
+        "question": "25. ¿Qué proteínas del Virus Respiratorio Sincitial (VRS) son cruciales para la entrada (fusión) y anclaje a la célula huésped, respectivamente?",
         "answers": {
-          "a": "Ciprofloxacina",
-          "b": "Levofloxacina",
-          "c": "Norfloxacina",
-          "d": "Moxifloxacina",
-          "e": "Ácido nalidíxico"
+          "a": "H y N",
+          "b": "F (fusión) y G (anclaje)",
+          "c": "NS1 y NS2",
+          "d": "M1 y M2",
+          "e": "gp120 y gp41"
+        },
+        "correctAnswer": "b",
+        "explanation": "El texto indica que la proteína F (fusión) facilita la entrada, mientras que la proteína G (anclaje) une el virus a la célula huésped en el VRS."
+      },
+      {
+        "question": "26. ¿Qué enfermedad es característicamente producida con mayor frecuencia por el Virus Parainfluenza en niños menores de 5 años?",
+        "answers": {
+          "a": "Neumonía grave",
+          "b": "Resfriado común",
+          "c": "Crup (Laringotraqueítis)",
+          "d": "Fiebre faringoconjuntival",
+          "e": "Otitis media"
+        },
+        "correctAnswer": "c",
+        "explanation": "Se menciona que el Virus Parainfluenza es el que más produce Crup (laringotraqueítis aguda, con tos perruna) en niños menores de 5 años."
+      },
+      {
+        "question": "27. ¿Qué tipos de Virus Influenza afectan principalmente a los humanos y tienen reservorio humano, siendo el Tipo A el responsable de pandemias?",
+        "answers": {
+          "a": "Tipos A, B, C y D",
+          "b": "Solo Tipo A",
+          "c": "Solo Tipos A y B",
+          "d": "Tipos A, B y C",
+          "e": "Solo Tipo C y D"
+        },
+        "correctAnswer": "c",
+        "explanation": "El documento clasifica los tipos de Influenza. El A afecta humanos, aves y mamíferos, causa pandemias. El B afecta principalmente humanos (y focas), causa epidemias menos frecuentes. El C causa casos esporádicos. El D afecta solo animales (cerdos)."
+      },
+      {
+        "question": "28. ¿Qué proteínas de superficie del Virus Influenza Tipo A son altamente variables, determinan los subtipos (ej. H1N1, H3N2) y son el blanco principal de la respuesta inmune neutralizante?",
+        "answers": {
+          "a": "M1 y M2",
+          "b": "NS1 y NS2",
+          "c": "Hemaglutinina (H) y Neuraminidasa (N)",
+          "d": "Proteína F y Proteína G",
+          "e": "Proteína S y Proteína E"
+        },
+        "correctAnswer": "c",
+        "explanation": "Las proteínas de superficie Hemaglutinina (H) y Neuraminidasa (N) del Influenza A son inestables, mutan constantemente (deriva y cambio antigénico), definen los subtipos (HxNy) y son los principales blancos de los anticuerpos neutralizantes inducidos por infección o vacunación."
+      },
+      {
+        "question": "29. El fenómeno de 'deriva antigénica' (antigenic drift) en el Virus Influenza A, responsable de las epidemias anuales, se debe principalmente a:",
+        "answers": {
+          "a": "Recombinación genética entre virus humanos y animales.",
+          "b": "Cambios mayores en las proteínas H y N (cambio antigénico).",
+          "c": "Mutaciones puntuales acumuladas en los genes de H y N.",
+          "d": "Intercambio de segmentos genómicos completos.",
+          "e": "Latencia viral en las células huésped."
+        },
+        "correctAnswer": "c",
+        "explanation": "La deriva antigénica (variación antigénica menor) se explica por cambios puntuales en la secuencia de aminoácidos de H y N, lo que hace que los anticuerpos previos pierdan parcialmente su capacidad de reconocimiento y neutralización, causando epidemias anuales."
+      },
+      {
+        "question": "30. El 'cambio antigénico' (antigenic shift) en el Virus Influenza A, que puede causar pandemias, ocurre por:",
+        "answers": {
+          "a": "Mutaciones puntuales lentas.",
+          "b": "Errores de la transcriptasa inversa.",
+          "c": "Reasociación genética (intercambio de segmentos de ARN) entre virus de diferentes especies (ej. humano y aviar) en un huésped intermedio (ej. cerdo) o adaptación directa de un virus animal al humano.",
+          "d": "Activación de provirus latentes.",
+          "e": "Glucosilación de la proteína H."
+        },
+        "correctAnswer": "c",
+        "explanation": "El cambio antigénico (variación antigénica mayor) implica cambios drásticos en las proteínas H y/o N, generalmente por reasociación genética entre virus de distintas especies o por adaptación directa de un virus animal (ej. aviar) al humano, generando un virus nuevo frente al cual la población tiene poca o ninguna inmunidad."
+      },
+      {
+        "question": "31. ¿Cuál es la función principal de la proteína Neuraminidasa (N) en el ciclo de replicación del Virus Influenza?",
+        "answers": {
+          "a": "Unirse al receptor de ácido siálico para entrar a la célula.",
+          "b": "Facilitar el desnudamiento del virus dentro de la célula.",
+          "c": "Integrar el genoma viral al ADN celular.",
+          "d": "Facilitar la liberación de los nuevos viriones de la célula infectada.",
+          "e": "Transcribir el ARN viral a ADN."
         },
         "correctAnswer": "d",
-        "explanation": "Mientras que la mayoría de las fluoroquinolonas se eliminan principalmente por vía renal, la Moxifloxacina tiene un metabolismo hepático significativo y una menor excreción renal[cite: 177]."
+        "explanation": "La Neuraminidasa (N) es esencial para que los nuevos viriones puedan salir de la célula infectada, rompiendo la unión entre la Hemaglutinina viral y el ácido siálico celular, y evitando la autoagregación viral."
       },
       {
-        "question": "31. ¿Cuál es el mecanismo de acción del Metronidazol?",
+        "question": "32. ¿Qué tipo de complicación es frecuente después de una infección por Influenza, especialmente en pacientes con factores de riesgo, y a menudo es causada por bacterias como Streptococcus pneumoniae o Staphylococcus aureus?",
         "answers": {
-          "a": "Inhibición de la síntesis proteica",
-          "b": "Inhibición de la DNA girasa",
-          "c": "Generación de radicales libres y daño al DNA tras reducción del grupo nitro en anaerobiosis",
-          "d": "Inhibición de la síntesis de la pared celular",
-          "e": "Bloqueo de la RNA polimerasa"
+          "a": "Meningitis viral",
+          "b": "Miocarditis",
+          "c": "Neumonía bacteriana secundaria",
+          "d": "Hepatitis fulminante",
+          "e": "Síndrome de Guillain-Barré"
         },
         "correctAnswer": "c",
-        "explanation": "El Metronidazol es un profármaco que requiere la reducción de su grupo nitro en condiciones anaerobias (por enzimas como PFOR); la molécula activada daña el DNA bacteriano y de protozoos[cite: 187, 188, 189]."
+        "explanation": "La neumonía bacteriana secundaria es una complicación común de la influenza. El daño al epitelio respiratorio por el virus facilita la sobreinfección por bacterias como S. pneumoniae, S. aureus y S. pyogenes."
       },
       {
-        "question": "32. ¿Para qué tipo de microorganismos es principalmente activo el Metronidazol?",
+        "question": "33. ¿A qué familia pertenecen los Coronavirus, incluyendo el SARS-CoV-2?",
         "answers": {
-          "a": "Cocos Gram positivos aerobios",
-          "b": "Bacilos Gram negativos aerobios (ej. Pseudomonas)",
-          "c": "Bacterias anaerobias y algunos protozoos (ej. Trichomonas, Giardia, Entamoeba)",
-          "d": "Hongos levaduriformes",
-          "e": "Micobacterias"
+          "a": "Paramyxoviridae",
+          "b": "Orthomyxoviridae",
+          "c": "Coronaviridae",
+          "d": "Flaviviridae",
+          "e": "Retroviridae"
         },
         "correctAnswer": "c",
-        "explanation": "El Metronidazol es fundamental para tratar infecciones por bacterias anaerobias (Bacteroides, Clostridium, Fusobacterium, etc.) y ciertos protozoos parásitos[cite: 190, 191, 195]."
+        "explanation": "El documento indica que los Coronavirus pertenecen a la familia Coronaviridae."
       },
       {
-        "question": "33. ¿Qué interacción importante ocurre si un paciente consume alcohol mientras está en tratamiento con Metronidazol?",
+        "question": "34. ¿Cuál es el receptor celular principal al que se une la proteína S (espiga) del SARS-CoV-2 para ingresar a las células humanas?",
         "answers": {
-          "a": "Disminución del efecto del metronidazol",
-          "b": "Aumento del riesgo de nefrotoxicidad",
-          "c": "Reacción tipo disulfiram (efecto Antabuse)",
-          "d": "Aumento del riesgo de hepatotoxicidad",
-          "e": "Disminución de la absorción del metronidazol"
+          "a": "CD4",
+          "b": "CCR5",
+          "c": "ACE2 (Enzima Convertidora de Angiotensina 2)",
+          "d": "Ácido Siálico",
+          "e": "Receptor CAR"
         },
         "correctAnswer": "c",
-        "explanation": "El Metronidazol puede inhibir la aldehído deshidrogenasa, llevando a la acumulación de acetaldehído si se consume alcohol, causando una reacción desagradable conocida como efecto Antabuse (náuseas, vómito, flushing, taquicardia)[cite: 193]."
+        "explanation": "La proteína S (Spike o espiga) del SARS-CoV-2 se une principalmente al receptor ACE2, que se encuentra en la superficie de muchas células, especialmente en el tracto respiratorio."
       },
       {
-        "question": "34. ¿Cuál es una indicación común para el Metronidazol en infecciones ginecológicas?",
+        "question": "35. La fase hiperinflamatoria de la COVID-19, que ocurre unas 2-4 semanas después del inicio, se caracteriza principalmente por:",
         "answers": {
-          "a": "Candidiasis vulvovaginal",
-          "b": "Infección por Chlamydia trachomatis",
-          "c": "Vaginosis bacteriana (Gardnerella vaginalis)",
-          "d": "Herpes genital",
-          "e": "Sífilis primaria"
-        },
-        "correctAnswer": "c",
-        "explanation": "El Metronidazol es el tratamiento de elección para la vaginosis bacteriana, causada principalmente por Gardnerella vaginalis y otros anaerobios[cite: 191, 195]."
-      },
-      {
-        "question": "35. ¿Qué ventaja tiene la Clindamicina sobre el Metronidazol en el tratamiento de abscesos pulmonares por aspiración?",
-        "answers": {
-          "a": "Mejor cobertura de bacilos Gram negativos aerobios",
-          "b": "Mejor cobertura de cocos Gram positivos aerobios y anaerobios (Peptostreptococcus)",
-          "c": "Menor riesgo de colitis por C. difficile",
-          "d": "Administración una vez al día",
-          "e": "Menor costo"
+          "a": "Alta replicación viral como causa principal de los síntomas.",
+          "b": "Una respuesta inmune sistémica desmedida que causa daño orgánico.",
+          "c": "Latencia viral en los ganglios linfáticos.",
+          "d": "Síntomas leves y autolimitados.",
+          "e": "Seroconversión con producción de anticuerpos protectores."
         },
         "correctAnswer": "b",
-        "explanation": "Aunque ambos cubren anaerobios, la Clindamicina tiene mejor actividad contra cocos anaerobios Gram positivos (Peptostreptococcus) y aerobios Gram positivos (Staphylococcus, Streptococcus) que pueden estar implicados en infecciones pulmonares por aspiración, además de los anaerobios Gram negativos[cite: 49, 51, 216]."
+        "explanation": "La fase hiperinflamatoria se atribuye a una respuesta inmune exagerada y desregulada, con liberación masiva de citoquinas (tormenta de citoquinas), que conduce a complicaciones graves como neumonía severa, SDRA, trastornos tromboembólicos y daño multiorgánico."
       },
       {
-        "question": "36. ¿Cuál es el mecanismo de acción de las Rifamicinas (ej. Rifampicina)?",
+        "question": "36. Para el diagnóstico confirmatorio de COVID-19 en la fase activa (primeras 2 semanas), ¿cuál es la prueba de elección?",
         "answers": {
-          "a": "Inhibición de la DNA girasa",
-          "b": "Inhibición de la síntesis proteica (subunidad 30s)",
-          "c": "Inhibición de la subunidad beta de la RNA polimerasa dependiente de DNA",
-          "d": "Daño a la membrana celular",
-          "e": "Bloqueo de la síntesis de ácido fólico"
+          "a": "Detección de IgM",
+          "b": "Detección de IgG",
+          "c": "PCR (Reacción en Cadena de la Polimerasa) para ARN viral",
+          "d": "Prueba rápida de antígeno únicamente",
+          "e": "Cultivo viral"
         },
         "correctAnswer": "c",
-        "explanation": "Las rifamicinas inhiben la RNA polimerasa bacteriana dependiente de DNA, impidiendo el inicio de la transcripción[cite: 199]."
+        "explanation": "La PCR para detectar el ARN viral es la prueba confirmatoria estándar de oro durante la fase activa de la infección por SARS-CoV-2, especialmente en las primeras dos semanas."
       },
       {
-        "question": "37. ¿Cuál es una indicación fundamental de la Rifampicina, generalmente en terapia combinada?",
+        "question": "37. ¿Qué característica comparten los Arbovirus como el Zika, Dengue, Fiebre Amarilla y Chikungunya?",
         "answers": {
-          "a": "Infección urinaria no complicada",
-          "b": "Tratamiento de la tuberculosis",
-          "c": "Neumonía adquirida en la comunidad",
-          "d": "Infecciones por hongos",
-          "e": "Gastroenteritis viral"
-        },
-        "correctAnswer": "b",
-        "explanation": "La Rifampicina es un pilar en el tratamiento de la tuberculosis, siempre usada en combinación con otros fármacos antituberculosos para prevenir la resistencia[cite: 200, 205]."
-      },
-      {
-        "question": "38. ¿Qué efecto característico y benigno produce la Rifampicina en los fluidos corporales?",
-        "answers": {
-          "a": "Coloración azulada",
-          "b": "Coloración roja-naranja",
-          "c": "Olor a ajo",
-          "d": "Sabor metálico",
-          "e": "Espuma persistente"
-        },
-        "correctAnswer": "b",
-        "explanation": "La Rifampicina y sus metabolitos tiñen los fluidos corporales (orina, lágrimas, saliva, sudor) de un color rojo-anaranjado; es un efecto esperado y benigno sobre el que hay que advertir al paciente[cite: 201]."
-      },
-      {
-        "question": "39. ¿Cuál es una interacción farmacológica MUY importante de la Rifampicina debido a su efecto sobre el metabolismo hepático?",
-        "answers": {
-          "a": "Inhibición potente del CYP3A4",
-          "b": "Inducción potente de múltiples enzimas CYP (ej. CYP3A4) y P-glicoproteína",
-          "c": "Desplazamiento de fármacos unidos a albúmina",
-          "d": "Quelación de cationes divalentes en el intestino",
-          "e": "Bloqueo de la secreción tubular renal"
-        },
-        "correctAnswer": "b",
-        "explanation": "La Rifampicina es un potente inductor de varias isoenzimas del citocromo P450 (especialmente CYP3A4) y de transportadores como la P-glicoproteína. Esto acelera el metabolismo de muchos otros fármacos, disminuyendo su efectividad (ej. anticoagulantes, anticonceptivos orales, antirretrovirales, etc.)[cite: 201]."
-      },
-      {
-        "question": "40. ¿Para qué se utiliza principalmente la Rifaximina, una rifamicina no absorbible?",
-        "answers": {
-          "a": "Tratamiento de la tuberculosis pulmonar",
-          "b": "Profilaxis de meningitis meningocócica",
-          "c": "Infecciones osteoarticulares por Staphylococcus",
-          "d": "Tratamiento de infecciones gastrointestinales (diarrea del viajero, encefalopatía hepática, C. difficile recurrente)",
-          "e": "Infecciones urinarias complicadas"
-        },
-        "correctAnswer": "d",
-        "explanation": "Debido a su mínima absorción oral, la Rifaximina actúa localmente en el tracto gastrointestinal y se usa para tratar la diarrea del viajero (E. coli), reducir la producción de amonio en la encefalopatía hepática y como opción en C. difficile recurrente[cite: 201, 207, 208]."
-      },
-      {
-        "question": "41. ¿Cuál de los siguientes antibióticos es considerado de elección para el tratamiento de infecciones por Nocardia?",
-        "answers": {
-          "a": "Penicilina G",
-          "b": "Vancomicina",
-          "c": "Trimetoprim-Sulfametoxazol (TSM)",
-          "d": "Gentamicina",
-          "e": "Metronidazol"
+          "a": "Son todos virus ADN.",
+          "b": "Se transmiten principalmente por vía respiratoria.",
+          "c": "Son transmitidos por vectores artrópodos (mosquitos).",
+          "d": "Causan principalmente enfermedades gastrointestinales.",
+          "e": "Pertenecen todos a la familia Togaviridae."
         },
         "correctAnswer": "c",
-        "explanation": "El Trimetoprim-Sulfametoxazol es el tratamiento de elección para las infecciones causadas por Nocardia spp[cite: 133, 161]."
+        "explanation": "Arbovirus es un término ecológico para virus que son transmitidos por vectores artrópodos. Los ejemplos dados (Zika, Dengue, Fiebre Amarilla - Flavivirus; Chikungunya - Togavirus) son transmitidos por mosquitos."
       },
       {
-        "question": "42. ¿Cuál es el tratamiento de elección para Stenotrophomonas maltophilia?",
+        "question": "38. ¿Cuál es el vector principal del virus de la Fiebre Amarilla en el ciclo urbano?",
         "answers": {
-          "a": "Carbapenémicos (Imipenem, Meropenem)",
-          "b": "Aminoglucósidos (Amikacina)",
-          "c": "Cefalosporinas de tercera generación (Ceftriaxona)",
-          "d": "Trimetoprim-Sulfametoxazol (TSM)",
-          "e": "Vancomicina"
-        },
-        "correctAnswer": "d",
-        "explanation": "Stenotrophomonas maltophilia es intrínsecamente resistente a muchos antibióticos, incluyendo carbapenémicos. El tratamiento de elección es Trimetoprim-Sulfametoxazol[cite: 133, 223]."
-      },
-      {
-        "question": "43. En un paciente con una infección intraabdominal polimicrobiana (aerobios y anaerobios) secundaria a perforación de colon, ¿cuál de las siguientes opciones NO sería una monoterapia adecuada?",
-        "answers": {
-          "a": "Piperacilina-Tazobactam",
-          "b": "Meropenem",
-          "c": "Ceftriaxona",
-          "d": "Moxifloxacina",
-          "e": "Ampicilina-Sulbactam"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Ceftriaxona tiene excelente actividad contra muchos aerobios Gram negativos y algunos Gram positivos, pero carece de actividad fiable contra anaerobios importantes como Bacteroides fragilis. Las otras opciones (beta-lactámico/inhibidor, carbapenem, moxifloxacina) sí cubren ambos tipos de patógenos[cite: 218, 219, 220]."
-      },
-      {
-        "question": "44. ¿Qué antibiótico se utiliza tópicamente (Sulfadiazina de plata) para prevenir infecciones en quemaduras?",
-        "answers": {
-          "a": "Neomicina",
-          "b": "Mupirocina",
-          "c": "Sulfadiazina de plata",
-          "d": "Clindamicina tópica",
-          "e": "Eritromicina tópica"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Sulfadiazina de plata es una preparación tópica utilizada ampliamente para prevenir la colonización e infección de heridas por quemadura[cite: 123]."
-      },
-      {
-        "question": "45. ¿Cuál es el mecanismo de resistencia más común a las Tetraciclinas?",
-        "answers": {
-          "a": "Inactivación enzimática por beta-lactamasas",
-          "b": "Mutación de la DNA girasa",
-          "c": "Producción de bombas de eflujo y/o proteínas de protección ribosomal (PPR)",
-          "d": "Metilación del sitio de unión ribosomal (gen erm)",
-          "e": "Alteración de las porinas"
-        },
-        "correctAnswer": "c",
-        "explanation": "La resistencia a tetraciclinas se debe principalmente a la adquisición de genes que codifican bombas de eflujo (que expulsan el antibiótico) o proteínas que protegen al ribosoma impidiendo la unión del fármaco[cite: 111]."
-      },
-      {
-        "question": "46. ¿Qué grupo de antibióticos puede causar el 'Síndrome del hombre rojo' si se infunde rápidamente?",
-        "answers": {
-          "a": "Aminoglucósidos",
-          "b": "Vancomicina (Glicopéptido)",
-          "c": "Quinolonas",
-          "d": "Macrólidos",
-          "e": "Tetraciclinas"
-        },
-        "correctAnswer": "b",
-        "explanation": "Aunque la Vancomicina no se detalla extensamente en este documento específico, es conocimiento farmacológico general que su infusión rápida puede causar liberación de histamina, resultando en flushing, eritema y prurito, conocido como 'Síndrome del hombre rojo'. El documento la menciona como comparador o tratamiento para ciertas resistencias[cite: 8, 9, 11, 13, 50, 78, 210, 222]."
-      },
-      {
-        "question": "47. ¿Cuál de los siguientes antibióticos tiene actividad contra Clostridioides difficile y se administra por vía oral para tratar la colitis pseudomembranosa?",
-        "answers": {
-          "a": "Amoxicilina",
-          "b": "Ciprofloxacina",
-          "c": "Vancomicina oral",
-          "d": "Gentamicina",
-          "e": "Linezolid"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Vancomicina administrada por vía oral no se absorbe sistémicamente y alcanza altas concentraciones en el lumen intestinal, siendo un tratamiento de elección para la colitis por C. difficile (especialmente casos graves). Fidaxomicina es otra opción mencionada[cite: 44, 210, 212]."
-      },
-      {
-        "question": "48. La combinación Trimetoprim-Sulfametoxazol está contraindicada en el primer trimestre del embarazo debido al riesgo de:",
-        "answers": {
-          "a": "Ototoxicidad fetal",
-          "b": "Afectación del cartílago de crecimiento",
-          "c": "Defectos del tubo neural",
-          "d": "Coloración dental",
-          "e": "Nefrotoxicidad fetal"
-        },
-        "correctAnswer": "c",
-        "explanation": "Como antagonista del folato, el Trimetoprim (y por extensión la combinación TSM) interfiere con el desarrollo dependiente de folato, como el cierre del tubo neural, por lo que se evita en el primer trimestre[cite: 129, 159]."
-      },
-      {
-        "question": "49. ¿Qué significa el término 'efecto postantibiótico' (EPA)?",
-        "answers": {
-          "a": "El efecto adverso que ocurre después de suspender el antibiótico.",
-          "b": "La supresión persistente del crecimiento bacteriano después de que la concentración del antibiótico ha caído por debajo de la CIM.",
-          "c": "La necesidad de administrar una dosis de carga del antibiótico.",
-          "d": "La resistencia que aparece después de la exposición al antibiótico.",
-          "e": "El efecto sinérgico cuando se combina con otro antibiótico."
-        },
-        "correctAnswer": "b",
-        "explanation": "El efecto postantibiótico se refiere a la capacidad de algunos antibióticos (como aminoglucósidos, quinolonas, tetraciclinas[cite: 115], rifampicina [cite: 201]) de seguir inhibiendo el crecimiento bacteriano incluso cuando sus niveles séricos son indetectables o subinhibitorios."
-      },
-      {
-        "question": "50. En el tratamiento de infecciones por Bacteroides fragilis, ¿cuál de los siguientes antibióticos generalmente NO es una buena opción debido a la alta prevalencia de resistencia?",
-        "answers": {
-          "a": "Metronidazol",
-          "b": "Piperacilina-Tazobactam",
-          "c": "Meropenem",
-          "d": "Clindamicina",
-          "e": "Ampicilina-Sulbactam"
-        },
-        "correctAnswer": "d",
-        "explanation": "Aunque históricamente usada, la resistencia de Bacteroides fragilis a la Clindamicina ha aumentado significativamente en muchas áreas, haciendo que otras opciones como Metronidazol, beta-lactámicos/inhibidores o carbapenémicos sean preferibles para cobertura empírica fiable[cite: 212, 214, 221]."
-      }
-    ],
-    "clinicalCases": [
-      {
-        "title": "Caso Clínico 1: Neumonía Nosocomial por SAMR",
-        "description": "Paciente de 65 años en UCI con ventilación mecánica desarrolla neumonía. El cultivo de aspirado traqueal reporta Staphylococcus aureus resistente a meticilina (SAMR). El paciente tiene función renal normal.",
-        "question": "Considerando que la Vancomicina puede tener pobre penetración pulmonar por el surfactante[cite: 10], ¿cuál de las siguientes sería una alternativa terapéutica adecuada según el documento?",
-        "answers": {
-          "a": "Ciprofloxacina",
-          "b": "Amikacina",
-          "c": "Linezolid",
-          "d": "Clindamicina",
-          "e": "Penicilina G"
-        },
-        "correctAnswer": "c",
-        "explanation": "Linezolid es una alternativa a la vancomicina para infecciones por SAMR, incluyendo neumonías nosocomiales, y penetra bien en secreciones pulmonares[cite: 9, 10, 16]."
-      },
-      {
-        "title": "Caso Clínico 2: Infección por Enterococcus faecium VRE",
-        "description": "Paciente inmunosuprimido con bacteriemia por Enterococcus faecium resistente a Vancomicina (VRE). Se han descartado otras opciones como fosfomicina.",
-        "question": "¿Qué antibiótico del grupo de las Oxazolidinonas sería una opción terapéutica viable en este caso[cite: 8, 11]?",
-        "answers": {
-          "a": "Daptomicina",
-          "b": "Linezolid",
-          "c": "Ceftarolina",
-          "d": "Tigeciclina",
-          "e": "Clindamicina"
-        },
-        "correctAnswer": "b",
-        "explanation": "Linezolid es útil en infecciones por Enterococcus (faecium) resistentes a vancomicina[cite: 8, 11]."
-      },
-      {
-        "title": "Caso Clínico 3: Tratamiento Prolongado con Linezolid",
-        "description": "Paciente con osteomielitis por SAMR recibe tratamiento con Linezolid por 4 semanas.",
-        "question": "¿Qué efecto adverso hematológico es MÁS probable que presente este paciente debido al uso prolongado (>2 semanas) de Linezolid[cite: 21]?",
-        "answers": {
-          "a": "Anemia hemolítica",
-          "b": "Leucocitosis",
-          "c": "Trombocitopenia",
-          "d": "Policitemia",
-          "e": "Neutrofilia"
-        },
-        "correctAnswer": "c",
-        "explanation": "La mielosupresión, principalmente trombocitopenia (2.4%), es un efecto adverso asociado al uso de Linezolid por más de 2 semanas[cite: 21]."
-      },
-      {
-        "title": "Caso Clínico 4: Neumonía Atípica",
-        "description": "Paciente joven previamente sano presenta cuadro de tos seca, fiebre y mialgias. Radiografía de tórax muestra infiltrado intersticial difuso. Se sospecha neumonía atípica.",
-        "question": "¿Qué grupo de antibióticos es de elección para cubrir los agentes etiológicos más comunes (Mycoplasma, Chlamydophila, Legionella) de neumonía atípica[cite: 25, 26, 31]?",
-        "answers": {
-          "a": "Aminoglucósidos",
-          "b": "Cefalosporinas de 3ª generación",
-          "c": "Macrólidos (Azitromicina, Claritromicina)",
-          "d": "Penicilinas",
-          "e": "Sulfonamidas"
-        },
-        "correctAnswer": "c",
-        "explanation": "Los macrólidos son el tratamiento de elección para neumonías atípicas causadas por Mycoplasma, Chlamydophila y Legionella[cite: 25, 26, 31]."
-      },
-      {
-        "title": "Caso Clínico 5: Interacción Farmacológica con Macrólidos",
-        "description": "Paciente anticoagulado con Warfarina (INR estable en 2.5) inicia tratamiento con Claritromicina por una infección respiratoria.",
-        "question": "¿Qué efecto se esperaría sobre el INR del paciente debido a la interacción[cite: 38, 39]?",
-        "answers": {
-          "a": "Disminución significativa del INR",
-          "b": "Aumento significativo del INR",
-          "c": "Ningún cambio en el INR",
-          "d": "Fluctuación impredecible del INR",
-          "e": "Necesidad de suspender la Warfarina"
-        },
-        "correctAnswer": "b",
-        "explanation": "La Claritromicina es un inhibidor del CYP3A4[cite: 36], enzima que metaboliza la Warfarina. Su inhibición disminuye el metabolismo de la Warfarina, aumentando sus niveles y por ende el INR, incrementando el riesgo de sangrado[cite: 38, 39]."
-      },
-      {
-        "title": "Caso Clínico 6: Otitis Media Aguda en Niños",
-        "description": "Niño de 3 años con diagnóstico de Otitis Media Aguda. Se considera el uso de un macrólido.",
-        "question": "¿Cuál macrólido, por su larga vida media, permite a menudo una dosificación única o de corta duración en esta indicación[cite: 40]?",
-        "answers": {
-          "a": "Eritromicina",
-          "b": "Claritromicina",
-          "c": "Azitromicina",
-          "d": "Fidaxomicina",
-          "e": "Clindamicina"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Azitromicina tiene una vida media larga (2-4 días) y buena penetración en el oído medio, lo que permite pautas cortas o de dosis única en otitis media[cite: 36, 40]."
-      },
-      {
-        "title": "Caso Clínico 7: Infección de Piel y Tejidos Blandos Extrahospitalaria",
-        "description": "Paciente con celulitis en miembro inferior, sin criterios de hospitalización. Se sospecha infección por Streptococcus pyogenes o Staphylococcus aureus Meticilino-Sensible (SAMS). El paciente es alérgico a penicilinas.",
-        "question": "¿Qué Lincosamida sería una opción oral adecuada para esta infección[cite: 49, 50, 61]?",
-        "answers": {
-          "a": "Linezolid",
-          "b": "Vancomicina",
-          "c": "Clindamicina",
-          "d": "Gentamicina",
-          "e": "Azitromicina"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Clindamicina es una opción para infecciones de piel y tejidos blandos extrahospitalarias[cite: 61], cubriendo Streptococcus y Staphylococcus aureus sensible[cite: 49, 50]. Es una alternativa en alérgicos a beta-lactámicos."
-      },
-      {
-        "title": "Caso Clínico 8: Resistencia Inducible a Clindamicina",
-        "description": "Se aísla Staphylococcus aureus de una herida quirúrgica. El antibiograma reporta Resistencia a Eritromicina y Sensibilidad a Clindamicina, pero la Prueba D es Positiva.",
-        "question": "¿Qué implica una Prueba D Positiva respecto al uso de Clindamicina[cite: 56, 59, 61]?",
-        "answers": {
-          "a": "Se puede usar Clindamicina sin problemas.",
-          "b": "La resistencia es por bombas de eflujo y Clindamicina es segura.",
-          "c": "Existe riesgo de fallo terapéutico por resistencia inducible (gen erm) y NO se debe usar Clindamicina.",
-          "d": "Se debe combinar Clindamicina con Eritromicina.",
-          "e": "La prueba D no es relevante en este contexto."
-        },
-        "correctAnswer": "c",
-        "explanation": "Una Prueba D positiva indica la presencia del gen erm que confiere resistencia inducible a Clindamicina por metilación ribosomal[cite: 56, 61]. Aunque in vitro aparezca sensible, in vivo puede desarrollar resistencia rápidamente, por lo que no se recomienda su uso."
-      },
-      {
-        "title": "Caso Clínico 9: Colitis por Clostridioides difficile",
-        "description": "Paciente desarrolla diarrea severa, fiebre y dolor abdominal tras recibir Clindamicina por una infección dental. La prueba de toxina para C. difficile es positiva.",
-        "question": "¿Qué antibiótico es conocido por propiciar frecuentemente el sobrecrecimiento de C. difficile[cite: 75, 76]?",
-        "answers": {
-          "a": "Vancomicina",
-          "b": "Metronidazol",
-          "c": "Linezolid",
-          "d": "Clindamicina",
-          "e": "Gentamicina"
-        },
-        "correctAnswer": "d",
-        "explanation": "La Clindamicina altera significativamente la flora intestinal y tiene una fuerte asociación con el desarrollo de colitis pseudomembranosa por C. difficile[cite: 75, 76]."
-      },
-      {
-        "title": "Caso Clínico 10: Infección Urinaria Complicada por Gram Negativo",
-        "description": "Paciente hospitalizado con sonda vesical desarrolla fiebre y leucocitosis. Urocultivo reporta E. coli BLEE (productora de Beta-Lactamasas de Espectro Extendido). Se considera añadir un aminoglucósido al tratamiento.",
-        "question": "¿Cuál aminoglucósido de uso hospitalario común sería una opción, asumiendo sensibilidad[cite: 65, 66]?",
-        "answers": {
-          "a": "Estreptomicina",
-          "b": "Neomicina",
-          "c": "Amikacina",
-          "d": "Paromomicina",
-          "e": "Tobramicina oftálmica"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Amikacina es un aminoglucósido de amplio uso hospitalario para infecciones por Gram negativos, incluyendo cepas resistentes[cite: 65]. La Gentamicina [cite: 65] es otra opción, pero la Amikacina suele tener mejor perfil de sensibilidad frente a enzimas inactivadoras."
-      },
-      {
-        "title": "Caso Clínico 11: Monitorización de Aminoglucósidos",
-        "description": "Paciente de 70 años con función renal límite (Cr 1.5 mg/dL) inicia tratamiento con Gentamicina por una bacteriemia por Klebsiella.",
-        "question": "Dada la edad y función renal, ¿qué toxicidades principales deben monitorizarse estrechamente[cite: 86, 91, 97]?",
-        "answers": {
-          "a": "Hepatotoxicidad y Mielosupresión",
-          "b": "Nefrotoxicidad y Ototoxicidad",
-          "c": "Cardiotoxicidad y Neurotoxicidad",
-          "d": "Fotosensibilidad y Reacciones cutáneas",
-          "e": "Toxicidad pulmonar y Gastrointestinal"
-        },
-        "correctAnswer": "b",
-        "explanation": "La nefrotoxicidad y la ototoxicidad son las toxicidades más significativas y limitantes de los aminoglucósidos. La edad avanzada y la enfermedad renal preexistente son factores de riesgo[cite: 91, 97]."
-      },
-      {
-        "title": "Caso Clínico 12: Modo de Administración de Aminoglucósidos",
-        "description": "Se decide administrar Amikacina por vía intravenosa a un paciente pediátrico.",
-        "question": "¿Qué precaución debe tomarse durante la infusión IV para minimizar el riesgo de bloqueo neuromuscular, especialmente en niños[cite: 83, 95]?",
-        "answers": {
-          "a": "Administrar en bolo rápido (< 5 minutos)",
-          "b": "Diluir en solución salina hipertónica",
-          "c": "Administrar en infusión lenta (ej. 30 minutos)",
-          "d": "Administrar conjuntamente con calcio IV",
-          "e": "Monitorizar niveles de potasio"
-        },
-        "correctAnswer": "c",
-        "explanation": "La infusión intravenosa rápida de aminoglucósidos se asocia a un mayor riesgo de bloqueo neuromuscular (por inhibición de liberación presináptica de acetilcolina), especialmente en niños[cite: 83, 95]. Se recomienda una infusión lenta, típicamente en 30 minutos."
-      },
-      {
-        "title": "Caso Clínico 13: Enfermedad de Lyme",
-        "description": "Paciente excursionista presenta eritema migrans característico tras picadura de garrapata en zona endémica. Se diagnostica Enfermedad de Lyme en fase temprana.",
-        "question": "¿Qué Tetraciclina es tratamiento de elección para la Enfermedad de Lyme (Borrelia burgdorferi) en adultos[cite: 108]?",
-        "answers": {
-          "a": "Tetraciclina base",
-          "b": "Oxitetraciclina",
-          "c": "Minociclina",
-          "d": "Doxiciclina",
-          "e": "Tigeciclina"
-        },
-        "correctAnswer": "d",
-        "explanation": "La Doxiciclina es el tratamiento de elección para las fases tempranas de la enfermedad de Lyme en adultos y niños mayores de 8 años[cite: 108]."
-      },
-      {
-        "title": "Caso Clínico 14: Acné Moderado-Severo",
-        "description": "Adolescente de 16 años con acné inflamatorio que no responde a tratamientos tópicos.",
-        "question": "¿Qué Tetraciclina de segunda generación se utiliza frecuentemente por vía oral para el tratamiento del acné[cite: 107]?",
-        "answers": {
-          "a": "Doxiciclina",
-          "b": "Minociclina",
-          "c": "Tigeciclina",
-          "d": "Oxitetraciclina",
-          "e": "Tetraciclina base"
-        },
-        "correctAnswer": "b",
-        "explanation": "Aunque la Doxiciclina también se usa, la Minociclina es una tetraciclina de segunda generación comúnmente prescrita por vía oral para el acné moderado-severo, debido a su actividad antiinflamatoria y contra Cutibacterium acnes[cite: 107]."
-      },
-      {
-        "title": "Caso Clínico 15: Fotosensibilidad por Tetraciclinas",
-        "description": "Paciente en tratamiento con Doxiciclina por una infección de transmisión sexual presenta eritema y quemaduras solares exageradas tras breve exposición al sol.",
-        "question": "¿Qué efecto adverso común de las tetraciclinas explica este cuadro[cite: 119]?",
-        "answers": {
-          "a": "Reacción de Jarisch-Herxheimer",
-          "b": "Síndrome de Stevens-Johnson",
-          "c": "Fotosensibilidad",
-          "d": "Urticaria",
-          "e": "Dermatitis exfoliativa"
-        },
-        "correctAnswer": "c",
-        "explanation": "La fotosensibilidad es un efecto adverso relativamente frecuente de las tetraciclinas, especialmente la Doxiciclina[cite: 119]. Los pacientes deben ser advertidos de usar protección solar."
-      },
-      {
-        "title": "Caso Clínico 16: Uso de Tetraciclinas Vencidas",
-        "description": "Paciente ingiere accidentalmente cápsulas de Tetraciclina que llevaban varios años vencidas.",
-        "question": "¿Qué síndrome de disfunción tubular renal se asocia a la ingesta de tetraciclinas degradadas/vencidas[cite: 120]?",
-        "answers": {
-          "a": "Síndrome nefrótico",
-          "b": "Síndrome de Bartter",
-          "c": "Síndrome de Fanconi (o Fanconi-like)",
-          "d": "Síndrome de Liddle",
-          "e": "Acidosis tubular renal tipo IV"
-        },
-        "correctAnswer": "c",
-        "explanation": "La ingesta de tetraciclinas vencidas o degradadas puede causar un síndrome de Fanconi-like, caracterizado por disfunción tubular renal proximal (acidosis, glucosuria, aminoaciduria, hipofosfatemia)[cite: 120]."
-      },
-      {
-        "title": "Caso Clínico 17: ITU no complicada en mujer joven",
-        "description": "Mujer de 25 años, sexualmente activa, presenta disuria, polaquiuria y urgencia miccional. Uroanálisis compatible con ITU. No embarazo, no comorbilidades.",
-        "question": "Asumiendo sensibilidad local adecuada, ¿qué combinación es una opción de primera línea frecuente para ITU no complicada[cite: 128, 133, 171]?",
-        "answers": {
-          "a": "Amoxicilina-Clavulanato",
-          "b": "Cefalexina",
-          "c": "Trimetoprim-Sulfametoxazol",
-          "d": "Gentamicina",
-          "e": "Linezolid"
-        },
-        "correctAnswer": "c",
-        "explanation": "Trimetoprim-Sulfametoxazol (TSM) es una opción de primera línea para ITU no complicada por E. coli, siempre que la resistencia local no sea alta[cite: 128, 133]. Nitrofurantoína y Fosfomicina son otras opciones comunes. Cipro/Norfloxacina también son opciones mencionadas[cite: 171]."
-      },
-      {
-        "title": "Caso Clínico 18: Profilaxis para Pneumocystis jirovecii",
-        "description": "Paciente con VIH y recuento de CD4 < 200 células/mm³.",
-        "question": "¿Qué fármaco se utiliza como profilaxis primaria de elección para prevenir la neumonía por Pneumocystis jirovecii (PCP)[cite: 135, 161]?",
-        "answers": {
-          "a": "Azitromicina",
-          "b": "Trimetoprim-Sulfametoxazol",
-          "c": "Fluconazol",
-          "d": "Atovacuona",
-          "e": "Pentamidina inhalada"
-        },
-        "correctAnswer": "b",
-        "explanation": "Trimetoprim-Sulfametoxazol es el fármaco de elección para la profilaxis y tratamiento de la infección por P. jirovecii en pacientes inmunocomprometidos, como aquellos con VIH y bajo recuento de CD4[cite: 135, 161]."
-      },
-      {
-        "title": "Caso Clínico 19: Reacción Cutánea Grave a Sulfas",
-        "description": "Paciente inicia tratamiento con TSM por una ITU y a los 10 días desarrolla fiebre alta, lesiones mucosas dolorosas y un exantema maculopapular confluente con despegamiento epidérmico.",
-        "question": "¿Qué reacción de hipersensibilidad grave debe sospecharse[cite: 153]?",
-        "answers": {
-          "a": "Urticaria simple",
-          "b": "Eritema multiforme menor",
-          "c": "Síndrome de Stevens-Johnson (SSJ) / Necrólisis Epidérmica Tóxica (NET)",
-          "d": "Dermatitis de contacto",
-          "e": "Fotosensibilidad"
-        },
-        "correctAnswer": "c",
-        "explanation": "Las sulfonamidas son fármacos frecuentemente implicados en reacciones cutáneas graves como el SSJ y la NET, que son emergencias dermatológicas[cite: 153]."
-      },
-      {
-        "title": "Caso Clínico 20: ITU Complicada - Pielonefritis",
-        "description": "Paciente diabético de 55 años presenta fiebre, escalofríos, dolor en flanco y urocultivo positivo para E. coli. Se diagnostica Pielonefritis aguda.",
-        "question": "¿Qué Fluoroquinolona de administración oral y parenteral sería una opción adecuada para este tipo de ITU complicada, asumiendo sensibilidad[cite: 164, 183]?",
-        "answers": {
-          "a": "Norfloxacina",
-          "b": "Ácido Nalidíxico",
-          "c": "Ciprofloxacina",
-          "d": "Moxifloxacina",
-          "e": "Fidaxomicina"
-        },
-        "correctAnswer": "c",
-        "explanation": "Ciprofloxacina (y Levofloxacina [cite: 165]) alcanzan buenas concentraciones séricas y urinarias, cubren E. coli y están indicadas para ITU complicadas como la pielonefritis[cite: 164, 183]. Norfloxacina se concentra bien en orina pero no alcanza buenos niveles sistémicos[cite: 163]."
-      },
-      {
-        "title": "Caso Clínico 21: Gastroenteritis por Salmonella",
-        "description": "Paciente presenta diarrea acuosa abundante, fiebre y dolor abdominal tras consumir alimentos contaminados. Coprocultivo identifica Salmonella enteritidis.",
-        "question": "Además de Ceftriaxona o Ampicilina, ¿qué Fluoroquinolona es una alternativa de tratamiento mencionada en el documento[cite: 170]?",
-        "answers": {
-          "a": "Moxifloxacina",
-          "b": "Norfloxacina",
-          "c": "Levofloxacina",
-          "d": "Ciprofloxacina",
-          "e": "Ácido Nalidíxico"
-        },
-        "correctAnswer": "d",
-        "explanation": "Para Salmonella, el documento menciona como opciones Ampicilina, Ceftriaxona o Ciprofloxacino[cite: 170]."
-      },
-      {
-        "title": "Caso Clínico 22: Neurotoxicidad por Quinolonas",
-        "description": "Paciente anciano con historial de epilepsia controlada inicia tratamiento con Ciprofloxacina por una infección ósea. Presenta un aumento en la frecuencia de crisis convulsivas.",
-        "question": "¿Qué efecto adverso de las quinolonas podría explicar este cuadro[cite: 179]?",
-        "answers": {
-          "a": "Prolongación del QTc",
-          "b": "Neurotoxicidad (posiblemente por inhibición de GABA)",
-          "c": "Tendinitis",
-          "d": "Nefrotoxicidad",
-          "e": "Hepatotoxicidad"
-        },
-        "correctAnswer": "b",
-        "explanation": "Las quinolonas pueden causar neurotoxicidad, incluyendo confusión, mareo, y en pacientes susceptibles (como epilépticos o ancianos), pueden disminuir el umbral convulsivo, posiblemente por antagonismo del receptor GABA[cite: 179]. Están contraindicadas o deben usarse con precaución en epilepsia[cite: 185]."
-      },
-      {
-        "title": "Caso Clínico 23: Tratamiento de Giardiasis",
-        "description": "Viajero regresa de zona endémica con diarrea crónica, esteatorrea y dolor abdominal. Examen de heces identifica quistes de Giardia lamblia.",
-        "question": "¿Qué Nitroimidazol es el tratamiento de elección para la Giardiasis[cite: 190]?",
-        "answers": {
-          "a": "Secnidazol",
-          "b": "Tinidazol",
-          "c": "Metronidazol",
-          "d": "Ornidazol",
-          "e": "Nitazoxanida"
-        },
-        "correctAnswer": "c",
-        "explanation": "Metronidazol es un tratamiento de primera línea para la infección sintomática por Giardia lamblia[cite: 190]. Tinidazol es otra opción eficaz[cite: 186]."
-      },
-      {
-        "title": "Caso Clínico 24: Absceso Hepático Amebiano",
-        "description": "Paciente con fiebre, dolor en hipocondrio derecho y hepatomegalia. Ecografía muestra lesión quística compatible con absceso hepático. Serología para Entamoeba histolytica positiva.",
-        "question": "¿Qué fármaco es fundamental para tratar la forma invasiva (trofozoítos tisulares) de la amebiasis[cite: 191]?",
-        "answers": {
-          "a": "Paromomicina",
-          "b": "Metronidazol",
-          "c": "Yodoquinol",
-          "d": "Diloxanida",
-          "e": "Teclozan"
-        },
-        "correctAnswer": "b",
-        "explanation": "Metronidazol es altamente efectivo contra los trofozoítos invasores de E. histolytica en los tejidos (como el hígado)[cite: 191]. Usualmente se complementa con un amebicida luminal (como Paromomicina o Yodoquinol) para erradicar los quistes en el intestino."
-      },
-      {
-        "title": "Caso Clínico 25: Profilaxis Meningitis Meningocócica",
-        "description": "Estudiante universitario ha tenido contacto estrecho (conviviente) con un caso confirmado de meningitis por Neisseria meningitidis.",
-        "question": "¿Qué Rifamicina se utiliza como quimioprofilaxis de elección en esta situación[cite: 205]?",
-        "answers": {
-          "a": "Rifabutina",
-          "b": "Rifapentina",
-          "c": "Rifaximina",
-          "d": "Rifampicina",
-          "e": "Todas las anteriores son igualmente efectivas"
-        },
-        "correctAnswer": "d",
-        "explanation": "La Rifampicina es uno de los fármacos de elección para la quimioprofilaxis de contactos cercanos de pacientes con enfermedad meningocócica invasiva[cite: 205]."
-      },
-      {
-        "title": "Caso Clínico 26: Infección de Prótesis Articular",
-        "description": "Paciente con prótesis de cadera presenta dolor e inflamación local. Se aísla Staphylococcus epidermidis (coagulasa negativo) en el líquido sinovial. Se sospecha infección protésica asociada a biofilm.",
-        "question": "¿Qué antibiótico, añadido a otros como los beta-lactámicos, es útil en infecciones estafilocócicas asociadas a dispositivos por su capacidad de penetrar biofilms[cite: 204, 206]?",
-        "answers": {
-          "a": "Gentamicina",
-          "b": "Ciprofloxacina",
-          "c": "Rifampicina",
-          "d": "Clindamicina",
-          "e": "Linezolid"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Rifampicina tiene buena actividad contra estafilococos y es capaz de penetrar biopelículas[cite: 204], por lo que a menudo se añade al tratamiento (junto con otro fármaco para prevenir resistencia) de infecciones asociadas a dispositivos protésicos[cite: 206]."
-      },
-      {
-        "title": "Caso Clínico 27: Encefalopatía Hepática",
-        "description": "Paciente cirrótico descompensado presenta confusión, asterixis y niveles elevados de amonio en sangre.",
-        "question": "¿Qué Rifamicina no absorbible se utiliza para reducir la flora intestinal productora de amonio[cite: 207]?",
-        "answers": {
-          "a": "Rifampicina",
-          "b": "Rifabutina",
-          "c": "Rifaximina",
-          "d": "Rifapentina",
-          "e": "Ninguna"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Rifaximina, al no absorberse, actúa en el lumen intestinal disminuyendo las bacterias productoras de amoniaco, siendo un tratamiento para la encefalopatía hepática[cite: 207]."
-      },
-      {
-        "title": "Caso Clínico 28: Tratamiento Tétanos",
-        "description": "Paciente no vacunado sufre herida punzante contaminada y desarrolla rigidez muscular, trismus y espasmos.",
-        "question": "Además de la inmunoglobulina antitetánica y el manejo de soporte, ¿qué antibiótico se prefiere para erradicar Clostridium tetani[cite: 210, 212]?",
-        "answers": {
-          "a": "Penicilina G",
-          "b": "Clindamicina",
-          "c": "Metronidazol",
-          "d": "Vancomicina",
-          "e": "Cefazolina"
-        },
-        "correctAnswer": "c",
-        "explanation": "Aunque la Penicilina G es activa, se prefiere Metronidazol para tratar la infección por C. tetani, ya que la Penicilina G podría teóricamente exacerbar los espasmos al inhibir GABA[cite: 210, 212]."
-      },
-      {
-        "title": "Caso Clínico 29: Síndrome de Lemierre",
-        "description": "Adolescente con faringitis reciente presenta fiebre alta, dolor cervical unilateral y evidencia de tromboflebitis de la vena yugular interna. Se sospecha síndrome de Lemierre.",
-        "question": "¿Qué bacteria anaerobia es el agente causal clásico de este síndrome[cite: 211, 215]?",
-        "answers": {
-          "a": "Bacteroides fragilis",
-          "b": "Clostridium perfringens",
-          "c": "Fusobacterium necrophorum",
-          "d": "Peptostreptococcus spp.",
-          "e": "Actinomyces israelii"
-        },
-        "correctAnswer": "c",
-        "explanation": "El síndrome de Lemierre es una tromboflebitis séptica de la vena yugular interna, usualmente secundaria a una infección orofaríngea, causada clásicamente por Fusobacterium necrophorum[cite: 211, 215]."
-      },
-      {
-        "title": "Caso Clínico 30: Infección Polimicrobiana Postquirúrgica Abdominal",
-        "description": "Paciente sometido a cirugía de colon electiva presenta fiebre, dolor abdominal y drenaje purulento por la herida al 5º día postoperatorio.",
-        "question": "Considerando la alta probabilidad de infección polimicrobiana (aerobios Gram negativos y anaerobios), ¿cuál sería un régimen empírico inicial adecuado según las opciones mencionadas[cite: 218, 219, 220]?",
-        "answers": {
-          "a": "Vancomicina sola",
-          "b": "Ceftriaxona sola",
-          "c": "Piperacilina-Tazobactam",
-          "d": "Clindamicina sola",
-          "e": "Gentamicina sola"
-        },
-        "correctAnswer": "c",
-        "explanation": "En infecciones intraabdominales postquirúrgicas se requiere cobertura de amplio espectro, incluyendo bacilos Gram negativos y anaerobios[cite: 219]. Piperacilina-Tazobactam ofrece esta cobertura[cite: 220]. Otras opciones mencionadas incluyen Carbapenems, Metronidazol (combinado), Ampicilina/Sulbactam, Moxifloxacino o Tigeciclina[cite: 220]."
-      }
-    ],
-  },
-  "examParasitologia1": {
-    "id": "examParasitologia1",
-    "title": "Examen de Microbiología - Parásitos",
-    "description": "Examen basado en el documento 'micro parasitos.pdf', cubriendo la clasificación general de parásitos, protozoos (intestinales, sanguíneos, tisulares), helmintos (nemátodos, céstodos, tremátodos) y ectoparásitos.",
-    "questions": [
-      {
-        "question": "1. Según la clasificación por forma, ¿a qué categoría pertenecen los gusanos macroscópicos y pluricelulares?",
-        "answers": {
-          "a": "Protozoos",
-          "b": "Artrópodos",
-          "c": "Helmintos",
-          "d": "Esporozoos",
-          "e": "Amibas"
-        },
-        "correctAnswer": "c",
-        "explanation": "El documento clasifica los parásitos por forma, indicando que los Helmintos son gusanos macroscópicos y pluricelulares[cite: 2]."
-      },
-      {
-        "question": "2. ¿Cuál es la forma resistente de los protozoos, responsable de la transmisión?",
-        "answers": {
-          "a": "Trofozoíto",
-          "b": "Esporozoíto",
-          "c": "Quiste / Ooquiste",
-          "d": "Merozoíto",
-          "e": "Gametocito"
-        },
-        "correctAnswer": "c",
-        "explanation": "Los protozoos tienen formas resistentes llamadas Quistes (o Ooquistes en esporozoos) que están rodeados por una pared y son responsables de la transmisión[cite: 11, 12, 44]."
-      },
-      {
-        "question": "3. ¿Qué estructura utilizan las amibas (Rizópodos) para la locomoción?",
-        "answers": {
-          "a": "Cilios",
-          "b": "Flagelos",
-          "c": "Seudópodos",
-          "d": "Complejo apical",
-          "e": "Ventosa"
-        },
-        "correctAnswer": "c",
-        "explanation": "Las amibas, clasificadas como Rizópodos, utilizan prolongaciones llamadas Seudópodos para moverse[cite: 16]."
-      },
-      {
-        "question": "4. ¿Cuál de los siguientes grupos de protozoos NO posee estructuras de locomoción propias?",
-        "answers": {
-          "a": "Rizópodos",
-          "b": "Ciliados",
-          "c": "Flagelados",
-          "d": "Esporozoos",
-          "e": "Ninguno de los anteriores"
-        },
-        "correctAnswer": "d",
-        "explanation": "Los Esporozoos se caracterizan por no tener estructuras de locomoción como cilios o flagelos[cite: 13]."
-      },
-      {
-        "question": "5. ¿Cuál es la importancia clínica principal de identificar amibas no patógenas como Entamoeba coli o Endolimax nana en un coprológico?",
-        "answers": {
-          "a": "Indican una infección grave que requiere tratamiento inmediato.",
-          "b": "Son precursoras de la forma patógena Entamoeba histolytica.",
-          "c": "Sugieren que el paciente está inmunosuprimido.",
-          "d": "Indican riesgo de infección por parásitos patógenos, ya que la vía de transmisión (fecal-oral) es la misma.",
-          "e": "Causan síntomas gastrointestinales leves."
-        },
-        "correctAnswer": "d",
-        "explanation": "La presencia de amibas no patógenas indica que el individuo ha estado expuesto a contaminación fecal-oral, la misma vía por la que se adquieren las amibas patógenas[cite: 16]."
-      },
-      {
-        "question": "6. ¿Qué forma parasitaria de Entamoeba histolytica es responsable de producir la enfermedad (amibiasis)?",
-        "answers": {
-          "a": "Quiste inmaduro",
-          "b": "Quiste maduro",
-          "c": "Trofozoíto",
-          "d": "Esporozoíto",
-          "e": "Ooquiste"
-        },
-        "correctAnswer": "c",
-        "explanation": "La enfermedad (amibiasis) es producida por el Trofozoíto, que es la forma activa que se adhiere, invade y daña la mucosa colónica[cite: 21, 27]."
-      },
-      {
-        "question": "7. En la amibiasis intestinal aguda (colitis amibiana disentérica), ¿qué característica suelen tener las heces?",
-        "answers": {
-          "a": "Heces acuosas abundantes",
-          "b": "Heces con moco y sangre",
-          "c": "Heces pálidas y grasosas (esteatorrea)",
-          "d": "Heces duras y secas",
-          "e": "Heces con gusanos visibles"
-        },
-        "correctAnswer": "b",
-        "explanation": "La colitis amibiana disentérica se caracteriza por diarrea con alta secreción de moco y presencia de sangre, debido a la inflamación y ulceración del colon[cite: 30]."
-      },
-      {
-        "question": "8. ¿Cuál es la localización extraintestinal MÁS frecuente de la amibiasis?",
-        "answers": {
-          "a": "Pulmón (absceso pulmonar)",
-          "b": "Cerebro (absceso cerebral)",
-          "c": "Piel (amibiasis cutánea)",
-          "d": "Hígado (absceso hepático amibiano)",
-          "e": "Riñón"
-        },
-        "correctAnswer": "d",
-        "explanation": "La localización extraintestinal más frecuente de la infección por E. histolytica es el hígado, donde puede formar un absceso hepático amibiano (AHA)[cite: 32]."
-      },
-      {
-        "question": "9. Balantidium coli es el único parásito ____________ que afecta a humanos.",
-        "answers": {
-          "a": "Flagelado",
-          "b": "Rizópodo",
-          "c": "Esporozoo",
-          "d": "Ciliado",
-          "e": "Helmintos"
-        },
-        "correctAnswer": "d",
-        "explanation": "Balantidium coli es el único parásito del grupo de los Ciliados que comúnmente afecta a los humanos[cite: 14, 36]."
-      },
-      {
-        "question": "10. ¿Cuál es el hospedador reservorio MÁS común de Balantidium coli?",
-        "answers": {
-          "a": "Humanos",
-          "b": "Perros",
-          "c": "Gatos",
-          "d": "Cerdos",
-          "e": "Vacas"
-        },
-        "correctAnswer": "d",
-        "explanation": "El hospedador más común de Balantidium coli son los cerdos, siendo el humano un hospedador accidental[cite: 36]."
-      },
-      {
-        "question": "11. ¿En qué parte del tracto gastrointestinal habita principalmente Giardia intestinalis?",
-        "answers": {
-          "a": "Estómago",
-          "b": "Intestino delgado",
-          "c": "Colon ascendente",
-          "d": "Recto",
-          "e": "Esófago"
-        },
-        "correctAnswer": "b",
-        "explanation": "Giardia intestinalis (lamblia) habita en el intestino delgado[cite: 36, 37]."
-      },
-      {
-        "question": "12. ¿Cuál es el principal mecanismo por el cual Giardia intestinalis causa enfermedad?",
-        "answers": {
-          "a": "Producción de toxinas potentes",
-          "b": "Invasión profunda de la mucosa intestinal",
-          "c": "Obstrucción mecánica por su gran tamaño",
-          "d": "Adherencia a la superficie de las microvellosidades, inflamación y atrofia, causando malabsorción",
-          "e": "Consumo directo de sangre del hospedador"
-        },
-        "correctAnswer": "d",
-        "explanation": "Giardia se adhiere fuertemente a la superficie del intestino delgado mediante su disco suctorio, actuando como un tapiz que previene la absorción, causa inflamación, atrofia de vellosidades y un síndrome de malabsorción[cite: 37, 40]."
-      },
-      {
-        "question": "13. ¿Qué manifestación clínica es característica de la giardiasis crónica, especialmente en niños?",
-        "answers": {
-          "a": "Diarrea disentérica",
-          "b": "Absceso hepático",
-          "c": "Síndrome de malabsorción (esteatorrea, pérdida de peso, retraso del crecimiento)",
-          "d": "Prurito anal intenso",
-          "e": "Obstrucción intestinal"
-        },
-        "correctAnswer": "c",
-        "explanation": "La forma crónica de la giardiasis se asocia típicamente con un síndrome de malabsorción, manifestado por heces grasosas (esteatorrea), pérdida de peso y, en niños, retraso del crecimiento y anemia[cite: 41, 42]."
-      },
-      {
-        "question": "14. Las coccidias intestinales como Cryptosporidium, Cystoisospora y Cyclospora pertenecen al grupo de los:",
-        "answers": {
-          "a": "Rizópodos",
-          "b": "Ciliados",
-          "c": "Flagelados",
-          "d": "Esporozoos",
-          "e": "Helmintos"
-        },
-        "correctAnswer": "d",
-        "explanation": "Cryptosporidium, Cystoisospora y Cyclospora son coccidias intestinales clasificadas dentro del grupo de los Esporozoos[cite: 44]."
-      },
-      {
-        "question": "15. ¿Qué tipo de diarrea producen característicamente las coccidias intestinales, especialmente en inmunosuprimidos?",
-        "answers": {
-          "a": "Diarrea disentérica (con moco y sangre)",
-          "b": "Diarrea acuosa crónica y severa",
-          "c": "Esteatorrea (heces grasosas)",
-          "d": "Estreñimiento",
-          "e": "Diarrea osmótica"
-        },
-        "correctAnswer": "b",
-        "explanation": "Las coccidias intestinales infectan el intestino delgado y causan destrucción celular e inflamación, resultando en diarrea acuosa. En inmunocompetentes es autolimitada, pero en inmunosuprimidos puede ser crónica y severa[cite: 49, 50, 51]."
-      },
-      {
-        "question": "16. ¿Cuál de las siguientes coccidias intestinales libera ooquistes ya esporulados (infectantes) directamente en las heces?",
-        "answers": {
-          "a": "Cyclospora cayetanensis",
-          "b": "Cystoisospora belli",
-          "c": "Cryptosporidium spp.",
-          "d": "Toxoplasma gondii",
-          "e": "Todas las anteriores"
-        },
-        "correctAnswer": "c",
-        "explanation": "Cryptosporidium spp. libera ooquistes esporulados y ya infectantes en las heces, mientras que Cyclospora y Cystoisospora liberan ooquistes no esporulados que requieren maduración en el ambiente[cite: 52, 55]."
-      },
-      {
-        "question": "17. ¿Qué técnica de tinción especial se utiliza en el coprológico para identificar los ooquistes de las coccidias intestinales?",
-        "answers": {
-          "a": "Tinción de Gram",
-          "b": "Tinción de Giemsa",
-          "c": "Tinción de Ziehl-Neelsen modificada (ácido-alcohol resistencia)",
-          "d": "Tinción con Tinta China",
-          "e": "Tinción con Azul de Metileno"
-        },
-        "correctAnswer": "c",
-        "explanation": "Los ooquistes de Cryptosporidium, Cyclospora y Cystoisospora son ácido-alcohol resistentes débiles y se visualizan mejor con tinciones como Ziehl-Neelsen modificada o Kinyoun en muestras fecales[cite: 44, 56]."
-      },
-      {
-        "question": "18. Los Microsporidios, aunque tradicionalmente estudiados en parasitología, actualmente se clasifican como:",
-        "answers": {
-          "a": "Bacterias intracelulares",
-          "b": "Protozoos esporozoos",
-          "c": "Hongos",
-          "d": "Arqueas",
-          "e": "Virus gigantes"
-        },
-        "correctAnswer": "c",
-        "explanation": "El documento indica que los Microsporidios, como Enterocytozoon y Encephalitozoon, ahora se consideran hongos debido a similitudes genómicas[cite: 58]."
-      },
-      {
-        "question": "19. ¿Cuál es la forma infectante de Blastocystis sp.?",
-        "answers": {
-          "a": "Forma ameboide",
-          "b": "Forma granular",
-          "c": "Forma vacuolar/vesicular",
-          "d": "Forma quística",
-          "e": "Trofozoíto"
-        },
-        "correctAnswer": "d",
-        "explanation": "La forma quística de Blastocystis sp. es la forma infectante que se transmite fecal-oral[cite: 61]."
-      },
-      {
-        "question": "20. ¿Cuándo se considera clínicamente significativa la presencia de Blastocystis sp. en un coprológico?",
-        "answers": {
-          "a": "Siempre que se detecte, independientemente del número.",
-          "b": "Solo si se observan más de 5 formas por campo (>5 F/C) en un paciente inmunosuprimido con diarrea sin otra causa.",
-          "c": "Solo si se acompaña de Entamoeba histolytica.",
-          "d": "Nunca, ya que siempre es un comensal.",
-          "e": "Solo si el paciente ha viajado recientemente."
-        },
-        "correctAnswer": "b",
-        "explanation": "El hallazgo de Blastocystis sp. es significativo principalmente en pacientes inmunosuprimidos con diarrea, cuando se observan más de 5 formas por campo y se han descartado otros patógenos[cite: 61, 64, 65]."
-      },
-      {
-        "question": "21. Ascaris lumbricoides es un helminto del grupo de los:",
-        "answers": {
-          "a": "Céstodos (planos)",
-          "b": "Tremátodos (hoja)",
-          "c": "Nemátodos (redondos)",
-          "d": "Acantocéfalos",
-          "e": "Anélidos"
-        },
-        "correctAnswer": "c",
-        "explanation": "Ascaris lumbricoides pertenece al grupo de los Nemátodos, que son gusanos redondos[cite: 11, 66]."
-      },
-      {
-        "question": "22. ¿Cuál es la forma infectante de Ascaris lumbricoides para el humano?",
-        "answers": {
-          "a": "Huevo infértil",
-          "b": "Huevo fértil recién eliminado",
-          "c": "Huevo larvado (desarrollado en tierra)",
-          "d": "Larva Rabditiforme",
-          "e": "Adulto"
-        },
-        "correctAnswer": "c",
-        "explanation": "La forma infectante es el huevo fértil que ha madurado en la tierra (Geo-helminto) y contiene una larva en su interior (huevo larvado)[cite: 71, 72, 73]."
-      },
-      {
-        "question": "23. Durante su ciclo de vida, la larva de Ascaris lumbricoides realiza una migración que pasa por varios órganos antes de regresar al intestino. ¿Cuál es la secuencia correcta de esta migración?",
-        "answers": {
-          "a": "Intestino -> Cerebro -> Pulmón -> Intestino",
-          "b": "Intestino -> Hígado -> Corazón -> Pulmón -> Vía aérea -> Deglución -> Intestino",
-          "c": "Intestino -> Riñón -> Hígado -> Pulmón -> Intestino",
-          "d": "Piel -> Pulmón -> Corazón -> Intestino",
-          "e": "Intestino -> Pulmón -> Intestino (sin pasar por hígado ni corazón)"
-        },
-        "correctAnswer": "b",
-        "explanation": "Tras ingerir el huevo larvado, la larva eclosiona en el intestino, penetra la pared, va por circulación portal al hígado, luego al corazón derecho, pulmones, rompe alvéolos, asciende por vía aérea, es deglutida y regresa al intestino para madurar[cite: 78, 79, 80, 81]."
-      },
-      {
-        "question": "24. ¿Qué síndrome pulmonar inflamatorio, caracterizado por infiltrados eosinofílicos, puede producir la migración larvaria de Ascaris (y otros helmintos como Uncinarias y Strongyloides) a través de los pulmones?",
-        "answers": {
-          "a": "Síndrome de dificultad respiratoria aguda (SDRA)",
-          "b": "Síndrome de Loeffler",
-          "c": "Síndrome de Churg-Strauss",
-          "d": "Síndrome de Kartagener",
-          "e": "Síndrome de Hamman-Rich"
-        },
-        "correctAnswer": "b",
-        "explanation": "La migración de las larvas de Ascaris por el parénquima pulmonar genera una neumonitis eosinofílica conocida como Síndrome de Loeffler[cite: 84]."
-      },
-      {
-        "question": "25. ¿Cuál es la complicación MÁS grave asociada a infecciones INTENSAS (alto número de parásitos adultos) por Ascaris lumbricoides?",
-        "answers": {
-          "a": "Anemia ferropénica severa",
-          "b": "Síndrome de malabsorción",
-          "c": "Obstrucción intestinal mecánica",
-          "d": "Perforación intestinal",
-          "e": "Apendicitis aguda"
-        },
-        "correctAnswer": "c",
-        "explanation": "En infecciones intensas, la gran cantidad de gusanos adultos puede formar ovillos o nudos que causan una obstrucción mecánica del intestino[cite: 88, 91]."
-      },
-      {
-        "question": "26. ¿Qué condición requiere Ascaris lumbricoides para que sus huevos fértiles se vuelvan infectantes (huevos larvados)?",
-        "answers": {
-          "a": "Pasar por un hospedador intermediario (ej. caracol)",
-          "b": "Ser expuestos a la luz solar directa",
-          "c": "Estar en contacto con la tierra (ser un Geo-helminto)",
-          "d": "Ser ingeridos inmediatamente tras ser eliminados",
-          "e": "Madurar dentro del intestino del hospedador"
-        },
-        "correctAnswer": "c",
-        "explanation": "Ascaris lumbricoides es un Geo-helminto, lo que significa que sus huevos fértiles necesitan estar en contacto con la tierra para desarrollar la larva en su interior y volverse infectantes."
-      },
-      {
-        "question": "27. ¿Qué es la 'migración larvaria visceral' causada por Toxocara canis/cati?",
-        "answers": {
-          "a": "La migración normal de las larvas de Toxocara al pulmón en perros/gatos.",
-          "b": "La migración errática de las larvas de Toxocara en humanos (hospedador accidental) a diversos órganos.",
-          "c": "La formación de quistes de Toxocara en el músculo humano.",
-          "d": "La obstrucción intestinal causada por adultos de Toxocara en humanos.",
-          "e": "Una reacción alérgica cutánea a los huevos de Toxocara."
-        },
-        "correctAnswer": "b",
-        "explanation": "Cuando los humanos ingieren huevos larvados de Toxocara (parásito de perros/gatos), las larvas no completan su ciclo normal y realizan una migración errática a través de varios órganos (hígado, pulmón, ojo, cerebro), causando la migración larvaria visceral."
-      },
-      {
-        "question": "28. Trichuris trichiura (Tricocéfalo) se caracteriza por tener una forma similar a un látigo. ¿Qué porción del parásito se inserta en la mucosa del intestino grueso?",
-        "answers": {
-          "a": "La porción posterior gruesa",
-          "b": "Todo el cuerpo del parásito",
-          "c": "La porción anterior delgada",
-          "d": "Los huevos",
-          "e": "No se inserta, vive libre en la luz intestinal"
-        },
-        "correctAnswer": "c",
-        "explanation": "Trichuris trichiura inserta su porción anterior, que es muy delgada (como un pelo o látigo), en la mucosa del intestino grueso (colon ascendente principalmente)."
-      },
-      {
-        "question": "29. ¿Qué complicación grave puede ocurrir en infecciones intensas y crónicas por Trichuris trichiura, especialmente en niños desnutridos?",
-        "answers": {
-          "a": "Obstrucción intestinal",
-          "b": "Prolapso rectal",
-          "c": "Apendicitis",
-          "d": "Absceso hepático",
-          "e": "Síndrome de Loeffler"
-        },
-        "correctAnswer": "b",
-        "explanation": "En infecciones graves y crónicas, el pujo y tenesmo constantes asociados a la disentería pueden llevar al prolapso rectal, una complicación característica asociada a desnutrición."
-      },
-      {
-        "question": "30. ¿Cuál es la manifestación clínica MÁS característica y a menudo única de la infección por Enterobius vermicularis (Oxiuros)?",
-        "answers": {
-          "a": "Diarrea acuosa",
-          "b": "Dolor abdominal tipo cólico",
-          "c": "Prurito anal (especialmente nocturno)",
-          "d": "Anemia ferropénica",
-          "e": "Obstrucción intestinal"
-        },
-        "correctAnswer": "c",
-        "explanation": "La migración de las hembras grávidas hacia la región perianal/perigenital para depositar huevos durante la noche causa un intenso prurito anal, que es el síntoma principal."
-      },
-      {
-        "question": "31. ¿Cuál es el método diagnóstico de elección para Enterobius vermicularis?",
-        "answers": {
-          "a": "Coprológico seriado",
-          "b": "Biopsia rectal",
-          "c": "Test de Graham (cinta adhesiva perianal)",
-          "d": "Cultivo de heces",
-          "e": "Serología (detección de anticuerpos)"
-        },
-        "correctAnswer": "c",
-        "explanation": "Dado que los huevos no suelen eliminarse en las heces, el diagnóstico se realiza mediante el Test de Graham, que consiste en aplicar una cinta adhesiva transparente en la región perianal (preferiblemente por la mañana) para recoger los huevos y observarlos al microscopio."
-      },
-      {
-        "question": "32. Las uncinarias (Ancylostoma duodenale y Necator americanus) son helmintos hematófagos. ¿Cómo se fijan a la mucosa del intestino delgado para alimentarse?",
-        "answers": {
-          "a": "Usando ventosas",
-          "b": "Mediante ganchos en el escólex",
-          "c": "Insertando su porción anterior delgada",
-          "d": "Usando dientes (Ancylostoma) o placas cortantes (Necator)",
-          "e": "A través de un disco suctorio"
-        },
-        "correctAnswer": "d",
-        "explanation": "Las uncinarias poseen estructuras bucales especializadas para lacerar la mucosa y alimentarse de sangre: Ancylostoma tiene dientes y Necator tiene placas cortantes."
-      },
-      {
-        "question": "33. ¿Cuál es la forma larvaria de las uncinarias que penetra activamente la piel del hospedador humano?",
-        "answers": {
-          "a": "Huevo larvado",
-          "b": "Larva Rabditiforme",
-          "c": "Larva Filariforme",
-          "d": "Oncosfera",
-          "e": "Cisticerco"
-        },
-        "correctAnswer": "c",
-        "explanation": "Tras madurar en la tierra, la larva Rabditiforme muda a larva Filariforme, la cual tiene la capacidad de penetrar la piel intacta del hospedador."
-      },
-      {
-        "question": "34. ¿Qué manifestación cutánea se describe clásicamente en el sitio de penetración de las larvas de uncinarias?",
-        "answers": {
-          "a": "Úlcera necrótica profunda",
-          "b": "Lesiones vesiculares agrupadas",
-          "c": "Placas eritematosas descamativas",
-          "d": "Lesiones puntiformes con edema, eritema y prurito ('candelillas')",
-          "e": "Trayectos serpiginosos lineales"
-        },
-        "correctAnswer": "d",
-        "explanation": "La penetración cutánea de las larvas filariformes produce lesiones puntiformes, a menudo en espacios interdigitales, acompañadas de inflamación local y prurito intenso, descritas popularmente como 'candelillas' por la sensación de ardor."
-      },
-      {
-        "question": "35. ¿Qué tipo de anemia es una consecuencia característica de las infecciones crónicas y/o intensas por Uncinarias?",
-        "answers": {
-          "a": "Anemia megaloblástica (déficit B12/Folato)",
-          "b": "Anemia hemolítica autoinmune",
-          "c": "Anemia microcítica hipocrómica (ferropénica)",
-          "d": "Anemia aplásica",
-          "e": "Anemia normocítica normocrómica (de enfermedad crónica)"
-        },
-        "correctAnswer": "c",
-        "explanation": "Debido a que las uncinarias se alimentan de sangre y causan microsangrados crónicos en el intestino, las infecciones significativas llevan a una pérdida crónica de hierro, resultando en anemia microcítica hipocrómica (ferropénica)."
-      },
-      {
-        "question": "36. Strongyloides stercoralis tiene un ciclo de vida complejo que incluye una vía de:",
-        "answers": {
-          "a": "Reproducción sexual obligada en el humano",
-          "b": "Desarrollo exclusivo en el ambiente (vida libre)",
-          "c": "Auto-infección, donde las larvas maduran y reinfectan al mismo hospedador",
-          "d": "Transmisión únicamente por vectores artrópodos",
-          "e": "Necesidad de un hospedador intermediario (caracol)"
-        },
-        "correctAnswer": "c",
-        "explanation": "Una característica distintiva de Strongyloides es la capacidad de auto-infección: las larvas rabditiformes pueden transformarse en filariformes dentro del intestino, penetrar la mucosa o la piel perianal y completar el ciclo (incluyendo migración pulmonar) sin salir del hospedador."
-      },
-      {
-        "question": "37. ¿Qué condición puede desencadenar un síndrome de hiperinfección por Strongyloides stercoralis, con diseminación de larvas a múltiples órganos y alta mortalidad?",
-        "answers": {
-          "a": "Embarazo",
-          "b": "Desnutrición proteico-calórica",
-          "c": "Inmunosupresión celular (ej. uso de corticoides, VIH, HTLV-1)",
-          "d": "Diabetes mellitus tipo 2",
-          "e": "Anemia ferropénica"
-        },
-        "correctAnswer": "c",
-        "explanation": "La inmunosupresión celular, especialmente por corticoides, permite la multiplicación descontrolada del parásito y facilita la auto-infección masiva, llevando al síndrome de hiperinfección y diseminación."
-      },
-      {
-        "question": "38. ¿Qué estructura utilizan los Céstodos (Taenias) adultos para fijarse a la mucosa del intestino delgado?",
-        "answers": {
-          "a": "Disco suctorio",
-          "b": "Dientes o placas cortantes",
-          "c": "Escólex (con ventosas y/o ganchos)",
-          "d": "Flagelos",
-          "e": "Cilios"
-        },
-        "correctAnswer": "c",
-        "explanation": "Los céstodos adultos poseen una estructura anterior llamada Escólex, equipada con ventosas y/o una corona de ganchos, que les sirve para anclarse a la pared intestinal."
-      },
-      {
-        "question": "39. La Teniosis es la infección intestinal por la forma adulta de Taenia. ¿Cómo se adquiere la Teniosis por Taenia solium o Taenia saginata?",
-        "answers": {
-          "a": "Por ingestión de huevos larvados presentes en tierra.",
-          "b": "Por penetración activa de larvas a través de la piel.",
-          "c": "Por picadura de un insecto vector.",
-          "d": "Por ingestión de carne cruda o mal cocida (de cerdo para T. solium, de vaca para T. saginata) que contiene Cisticercos.",
-          "e": "Por inhalación de esporas."
-        },
-        "correctAnswer": "d",
-        "explanation": "La Teniosis se adquiere al consumir carne cruda o insuficientemente cocida que contiene la forma larvaria enquistada, el cisticerco. El humano es el hospedador definitivo donde se desarrolla el gusano adulto."
-      },
-      {
-        "question": "40. La Cisticercosis humana es causada ÚNICAMENTE por la forma larvaria de:",
-        "answers": {
-          "a": "Taenia saginata",
-          "b": "Taenia solium",
-          "c": "Hymenolepis nana",
-          "d": "Echinococcus granulosus",
-          "e": "Dipylidium caninum"
-        },
-        "correctAnswer": "b",
-        "explanation": "La Cisticercosis humana, la infección tisular por la larva (cisticerco), es causada exclusivamente por Taenia solium. Esto ocurre cuando el humano ingiere los huevos de T. solium, actuando accidentalmente como hospedador intermediario."
-      },
-      {
-        "question": "41. ¿Cuál es la manifestación clínica más común y grave de la Cisticercosis humana?",
-        "answers": {
-          "a": "Afectación hepática (quistes hepáticos)",
-          "b": "Afectación pulmonar (neumonitis)",
-          "c": "Afectación neurológica (Neurocisticercosis), causando epilepsia, cefalea, HTE.",
-          "d": "Afectación muscular (mialgias intensas)",
-          "e": "Afectación cutánea (nódulos subcutáneos dolorosos)"
-        },
-        "correctAnswer": "c",
-        "explanation": "El tropismo principal de los cisticercos de T. solium en humanos es el SNC, causando Neurocisticercosis. Es una causa importante de epilepsia de inicio tardío en zonas endémicas, además de cefalea e hipertensión intracraneana."
-      },
-      {
-        "question": "42. ¿Cuál es el hospedador definitivo de Echinococcus granulosus, agente causal de la Hidatidosis?",
-        "answers": {
-          "a": "Humanos",
-          "b": "Ovejas",
-          "c": "Perros (y otros cánidos)",
-          "d": "Roedores",
-          "e": "Vacas"
-        },
-        "correctAnswer": "c",
-        "explanation": "El hospedador definitivo, donde reside el gusano adulto en el intestino, es el perro (u otros cánidos). Las ovejas (y otros herbívoros) actúan como hospedadores intermediarios, y el humano es un hospedador intermediario accidental."
-      },
-      {
-        "question": "43. ¿Qué estructura característica forma la larva de Echinococcus granulosus en los órganos del hospedador intermediario (incluyendo humanos)?",
-        "answers": {
-          "a": "Cisticerco",
-          "b": "Quiste hidatídico",
-          "c": "Esporoquiste",
-          "d": "Oncosfera",
-          "e": "Metacercaria"
-        },
-        "correctAnswer": "b",
-        "explanation": "Tras la ingestión de huevos, la oncosfera liberada migra a órganos (principalmente hígado y pulmón) y se desarrolla lentamente formando una gran estructura quística llena de líquido y protoescólices, conocida como Quiste Hidatídico."
-      },
-      {
-        "question": "44. Hymenolepis nana es un céstodo particular porque:",
-        "answers": {
-          "a": "Requiere obligatoriamente un artrópodo como hospedador intermediario.",
-          "b": "Puede completar todo su ciclo de vida en un solo hospedador (humano o roedor), incluyendo auto-infección.",
-          "c": "Es el céstodo más grande que infecta a humanos.",
-          "d": "Solo infecta a humanos y no a otros animales.",
-          "e": "Su forma adulta vive en el hígado en lugar del intestino."
-        },
-        "correctAnswer": "b",
-        "explanation": "Hymenolepis nana puede tener un ciclo directo: la ingestión de huevos lleva directamente al desarrollo del adulto en el intestino. También puede darse auto-infección interna. Opcionalmente, puede usar un artrópodo como intermediario."
-      },
-      {
-        "question": "45. Paragonimus spp., causante de la paragonimiasis o distomatosis pulmonar, es un helminto del grupo de los:",
-        "answers": {
-          "a": "Nemátodos",
-          "b": "Céstodos",
-          "c": "Tremátodos",
-          "d": "Acantocéfalos",
-          "e": "Turbelarios"
-        },
-        "correctAnswer": "c",
-        "explanation": "Paragonimus spp. pertenece al grupo de los Tremátodos, que son gusanos planos, no segmentados, a menudo con forma de hoja."
-      },
-      {
-        "question": "46. ¿Cómo adquieren los humanos la infección por Paragonimus spp.?",
-        "answers": {
-          "a": "Por picadura de mosquito.",
-          "b": "Por contacto con tierra contaminada.",
-          "c": "Por ingestión de carne de cerdo cruda.",
-          "d": "Por ingestión de cangrejos o camarones de agua dulce crudos o mal cocidos que contienen Metacercarias.",
-          "e": "Por beber agua contaminada con huevos."
-        },
-        "correctAnswer": "d",
-        "explanation": "El ciclo de Paragonimus requiere dos hospedadores intermediarios (caracol y luego un crustáceo de agua dulce). El humano se infecta al consumir estos crustáceos (cangrejos, camarones) crudos o insuficientemente cocidos, ingiriendo la forma larvaria enquistada llamada Metacercaria."
-      },
-      {
-        "question": "47. Sarcoptes scabiei es el agente causal de:",
-        "answers": {
-          "a": "Pediculosis (piojos)",
-          "b": "Miasis",
-          "c": "Escabiosis (sarna)",
-          "d": "Filariasis",
-          "e": "Leishmaniasis cutánea"
-        },
-        "correctAnswer": "c",
-        "explanation": "Sarcoptes scabiei var. hominis es el ácaro que causa la escabiosis o sarna humana, una ectoparasitosis muy contagiosa."
-      },
-      {
-        "question": "48. La Miasis es la infestación de tejidos por:",
-        "answers": {
-          "a": "Ácaros adultos",
-          "b": "Larvas de moscas",
-          "c": "Piojos",
-          "d": "Pulgas",
+          "a": "Mosquito Haemagogus",
+          "b": "Mosquito Anopheles",
+          "c": "Mosquito Culex",
+          "d": "Mosquito Aedes aegypti",
           "e": "Garrapatas"
         },
-        "correctAnswer": "b",
-        "explanation": "La Miasis se define como la infestación de tejidos de animales o humanos por larvas de dípteros (moscas)."
+        "correctAnswer": "d",
+        "explanation": "Mientras que Haemagogus es el vector en el ciclo selvático, Aedes aegypti es el vector responsable del ciclo urbano de la Fiebre Amarilla, transmitiendo el virus entre humanos."
       },
       {
-        "question": "49. ¿Cuál de las siguientes Amibas de Vida Libre (AVL) es responsable de la Meningoencefalitis Amebiana Primaria (MAP), un cuadro agudo y fulminante?",
+        "question": "39. La forma grave de la Fiebre Amarilla se caracteriza por la fase de intoxicación o icterohemorrágica. ¿Qué hallazgo histopatológico es mencionado como característico en el hígado?",
         "answers": {
-          "a": "Acanthamoeba castellani",
-          "b": "Balamuthia mandrillaris",
-          "c": "Naegleria fowleri",
-          "d": "Sappinia pedata",
-          "e": "Entamoeba histolytica"
+          "a": "Cuerpos de Negri",
+          "b": "Cuerpos de Cowdry tipo A",
+          "c": "Cuerpos de Councilman (o Kotschnigov)",
+          "d": "Células de Reed-Sternberg",
+          "e": "Placas seniles"
         },
         "correctAnswer": "c",
-        "explanation": "Naegleria fowleri causa la Meningoencefalitis Amebiana Primaria (MAP), una infección del SNC adquirida por vía nasal (agua dulce tibia), de evolución muy rápida y casi siempre fatal."
+        "explanation": "El texto menciona los 'Cuerpos de kolsiman' (probablemente refiriéndose a los Cuerpos de Councilman, que son hepatocitos apoptóticos eosinofílicos) como un hallazgo histopatológico en la infección hepática por Fiebre Amarilla."
       },
       {
-        "question": "50. Acanthamoeba castellani puede causar Encefalitis Amebiana Granulomatosa (EGA) y también es una causa importante de:",
+        "question": "40. ¿Qué es el signo de Faget, mencionado como una posible manifestación en la fase de infección de la Fiebre Amarilla?",
         "answers": {
-          "a": "Diarrea crónica",
-          "b": "Queratitis (infección corneal), especialmente en usuarios de lentes de contacto",
-          "c": "Miocarditis",
-          "d": "Hepatitis",
-          "e": "Leishmaniasis cutánea"
+          "a": "Ictericia intensa.",
+          "b": "Hemorragia gingival.",
+          "c": "Pulso lento (bradicardia relativa) a pesar de la fiebre alta.",
+          "d": "Rigidez de nuca.",
+          "e": "Rash cutáneo macular."
+        },
+        "correctAnswer": "c",
+        "explanation": "El signo de Faget se refiere a la disociación entre el pulso y la temperatura, donde el pulso es relativamente lento (bradicardia) para el grado de fiebre que presenta el paciente."
+      },
+      {
+        "question": "41. ¿Cuántos serotipos conocidos tiene el virus del Dengue?",
+        "answers": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4 (DEN-1, DEN-2, DEN-3, DEN-4)",
+          "e": "5"
+        },
+        "correctAnswer": "d",
+        "explanation": "Existen cuatro serotipos del virus del Dengue: DEN-1, DEN-2, DEN-3 y DEN-4."
+      },
+      {
+        "question": "42. ¿Por qué una reinfección con un serotipo diferente del virus del Dengue suele ser más grave?",
+        "answers": {
+          "a": "Porque el segundo serotipo siempre es más virulento.",
+          "b": "Debido a la falta de inmunidad cruzada completa y a la posible amplificación dependiente de anticuerpos (ADE).",
+          "c": "Porque el sistema inmune no reconoce el segundo serotipo.",
+          "d": "Debido a la coinfección con otros virus.",
+          "e": "Porque el vector es diferente en la segunda infección."
         },
         "correctAnswer": "b",
-        "explanation": "Además de la EGA (más crónica que la MAP), Acanthamoeba es una causa reconocida de Queratitis Amebiana, una infección corneal dolorosa y potencialmente cegadora, asociada a menudo con el uso de lentes de contacto y mala higiene o exposición a agua contaminada."
+        "explanation": "La inmunidad contra un serotipo de Dengue no protege completamente contra los otros. Se cree que los anticuerpos preexistentes de la primera infección, al unirse al nuevo serotipo sin neutralizarlo completamente, pueden facilitar la entrada del virus a las células (ADE) y amplificar la respuesta inflamatoria, llevando a formas más graves."
+      },
+      {
+        "question": "43. Según la clasificación del Dengue, ¿cuál de los siguientes NO es un signo de alarma?",
+        "answers": {
+          "a": "Dolor abdominal intenso y continuo.",
+          "b": "Vómito persistente.",
+          "c": "Sangrado de mucosas (ej. gingivorragia).",
+          "d": "Fiebre alta (39-40°C).",
+          "e": "Aumento del hematocrito con caída rápida de plaquetas."
+        },
+        "correctAnswer": "d",
+        "explanation": "La fiebre alta es parte de la definición de caso probable y del dengue sin signos de alarma. Los signos de alarma incluyen dolor abdominal, vómito persistente, acumulación de líquidos (ascitis, derrame pleural), sangrado de mucosas, letargo, hipotensión postural, hepatomegalia y cambios hematológicos específicos (aumento Hto, caída plaquetas)."
+      },
+      {
+        "question": "44. ¿En qué fase de la enfermedad del Dengue ocurre la caída abrupta de la temperatura y es más probable la extravasación severa de plasma y el shock?",
+        "answers": {
+          "a": "Fase febril (primeros 3 días)",
+          "b": "Fase crítica (alrededor del día 5-6, tras la defervescencia)",
+          "c": "Fase de recuperación",
+          "d": "Periodo de incubación",
+          "e": "Fase de convalecencia tardía"
+        },
+        "correctAnswer": "b",
+        "explanation": "La fase crítica del dengue coincide con la caída de la fiebre (defervescencia) y es cuando ocurre el aumento máximo de la permeabilidad vascular, la extravasación de plasma, el riesgo de shock y hemorragias severas."
+      },
+      {
+        "question": "45. ¿Qué prueba diagnóstica es útil para confirmar el Dengue en los primeros 5 días de la enfermedad?",
+        "answers": {
+          "a": "Detección de anticuerpos IgM anti-Dengue.",
+          "b": "Detección de anticuerpos IgG anti-Dengue.",
+          "c": "Hemograma completo únicamente.",
+          "d": "Detección del antígeno NS1 o PCR para ARN viral.",
+          "e": "Biopsia de ganglio linfático."
+        },
+        "correctAnswer": "d",
+        "explanation": "En los primeros 5 días (fase virémica), las pruebas directas como la detección del antígeno NS1 (una proteína no estructural del virus) o la RT-PCR para el ARN viral son las más útiles para el diagnóstico."
+      },
+      {
+        "question": "46. ¿Cuál es el síntoma más característico y a menudo debilitante del Chikungunya, que puede persistir por meses o años?",
+        "answers": {
+          "a": "Fiebre alta",
+          "b": "Rash cutáneo",
+          "c": "Conjuntivitis",
+          "d": "Artralgia severa (dolor articular)",
+          "e": "Linfadenopatía"
+        },
+        "correctAnswer": "d",
+        "explanation": "Aunque comparte síntomas iniciales con Dengue y Zika, el Chikungunya (Togavirus) se caracteriza por artralgias muy intensas, que pueden volverse crónicas y persistir mucho tiempo después de la fase aguda."
+      },
+      {
+        "question": "47. ¿Cuál es una complicación neurológica importante asociada a la infección por el virus Zika, tanto en adultos como resultado de la infección congénita?",
+        "answers": {
+          "a": "Meningitis bacteriana",
+          "b": "Encefalitis por Herpes",
+          "c": "Síndrome de Guillain-Barré (adultos) y Microcefalia (congénita)",
+          "d": "Enfermedad de Creutzfeldt-Jakob",
+          "e": "Esclerosis múltiple"
+        },
+        "correctAnswer": "c",
+        "explanation": "El virus Zika se ha asociado con un aumento de casos de Síndrome de Guillain-Barré en adultos tras la infección, y con microcefalia y otros defectos congénitos en bebés nacidos de madres infectadas durante el embarazo."
+      },
+      {
+        "question": "48. ¿Cuál es la principal vía de transmisión del Rinovirus?",
+        "answers": {
+          "a": "Fecal-oral",
+          "b": "Parenteral",
+          "c": "Contacto directo con secreciones nasofaríngeas y fómites",
+          "d": "Vector (mosquitos)",
+          "e": "Vertical (madre-hijo)"
+        },
+        "correctAnswer": "c",
+        "explanation": "El resfriado común causado por Rinovirus se transmite eficientemente por contacto directo con secreciones respiratorias (gotitas, manos contaminadas) o superficies (fómites)."
+      },
+      {
+        "question": "49. La vacuna contra la Fiebre Amarilla es de tipo:",
+        "answers": {
+          "a": "Virus inactivado (muerto)",
+          "b": "Virus atenuado (vivo debilitado)",
+          "c": "Subunidades proteicas",
+          "d": "ARN mensajero",
+          "e": "Vector viral (Adenovirus)"
+        },
+        "correctAnswer": "b",
+        "explanation": "La vacuna contra la Fiebre Amarilla (cepa 17D) es una vacuna de virus vivos atenuados, altamente eficaz y que generalmente confiere inmunidad de por vida con una sola dosis."
+      },
+      {
+        "question": "50. ¿Qué consideración importante se menciona sobre la vacunación contra el Dengue con la vacuna tetravalente atenuada (QDENGA)?",
+        "answers": {
+          "a": "Solo se administra a mayores de 60 años.",
+          "b": "Requiere 5 dosis para ser efectiva.",
+          "c": "Está contraindicada en áreas endémicas.",
+          "d": "Se recomienda un cribado previo de anticuerpos, ya que vacunar a seronegativos podría inducir cuadros graves en la primoinfección.",
+          "e": "Solo protege contra el serotipo DEN-2."
+        },
+        "correctAnswer": "d",
+        "explanation": "Debido al riesgo potencial de enfermedad más grave en la primera infección natural después de la vacunación en personas seronegativas (similar al riesgo en infecciones secundarias), se menciona la necesidad de un cribado previo para detectar anticuerpos contra el dengue antes de administrar la vacuna QDENGA."
       }
     ],
     "clinicalCases": [
       {
-        "title": "Caso Clínico 1: Diarrea Disentérica Aguda",
-        "description": "Paciente de 30 años presenta cuadro agudo de 3 días de evolución con deposiciones diarreicas frecuentes, de bajo volumen, con presencia de moco y sangre, acompañadas de cólicos abdominales intensos, pujo y tenesmo.",
-        "question": "Considerando el cuadro clínico, ¿cuál de los siguientes protozoos intestinales es el agente causal MÁS probable?",
-        "answers": {
-          "a": "Giardia intestinalis",
-          "b": "Cryptosporidium spp.",
-          "c": "Entamoeba histolytica",
-          "d": "Blastocystis sp.",
-          "e": "Cyclospora cayetanensis"
-        },
-        "correctAnswer": "c",
-        "explanation": "La diarrea disentérica (moco y sangre), junto con pujo y tenesmo, es característica de la colitis invasiva causada por Entamoeba histolytica[cite: 30]."
-      },
-      {
-        "title": "Caso Clínico 2: Absceso Hepático",
-        "description": "Hombre de 45 años, alcohólico crónico, consulta por fiebre, malestar general y dolor en hipocondrio derecho que se irradia a región escapular, de 2 semanas de evolución. La ecografía muestra una lesión quística única de 8 cm en el lóbulo derecho del hígado.",
-        "question": "¿Cuál es el diagnóstico MÁS probable, considerando los antecedentes y hallazgos?",
-        "answers": {
-          "a": "Quiste hidatídico",
-          "b": "Absceso hepático piógeno",
-          "c": "Absceso hepático amebiano (AHA)",
-          "d": "Hepatocarcinoma",
-          "e": "Colangiocarcinoma"
-        },
-        "correctAnswer": "c",
-        "explanation": "El cuadro clínico (fiebre, dolor en HCD irradiado) y la imagen (lesión única en lóbulo derecho) son muy sugestivos de un Absceso Hepático Amebiano (AHA). El alcoholismo es un factor de riesgo[cite: 32, 34, 35]."
-      },
-      {
-        "title": "Caso Clínico 3: Diarrea del Viajero con Malabsorción",
-        "description": "Estudiante regresa de un viaje a una zona rural con saneamiento deficiente. Presenta diarrea acuosa persistente, distensión abdominal, flatulencia fétida y evidencia de esteatorrea.",
-        "question": "¿Qué parásito flagelado es una causa común de 'diarrea del viajero' y síndrome de malabsorción?",
-        "answers": {
-          "a": "Entamoeba histolytica",
-          "b": "Balantidium coli",
-          "c": "Trichomonas vaginalis",
-          "d": "Giardia intestinalis",
-          "e": "Cryptosporidium spp."
-        },
-        "correctAnswer": "d",
-        "explanation": "Giardia intestinalis es un agente frecuente de diarrea del viajero y su mecanismo patogénico principal es la malabsorción, explicando síntomas como la esteatorrea y la flatulencia fétida[cite: 37, 40, 41, 42]."
-      },
-      {
-        "title": "Caso Clínico 4: Diarrea Acuosa Prolongada en VIH",
-        "description": "Paciente con diagnóstico de VIH y recuento de CD4 de 150 células/mm³ presenta diarrea acuosa profusa, no sanguinolenta, de más de 4 semanas de evolución, asociada a deshidratación y pérdida de peso.",
-        "question": "¿Qué grupo de parásitos oportunistas debe sospecharse fuertemente como causa de este cuadro?",
-        "answers": {
-          "a": "Amibas (Entamoeba histolytica)",
-          "b": "Helmintos (Ascaris, Trichuris)",
-          "c": "Coccidias intestinales (Cryptosporidium, Cystoisospora, Cyclospora)",
-          "d": "Flagelados (Giardia)",
-          "e": "Céstodos (Taenia)"
-        },
-        "correctAnswer": "c",
-        "explanation": "En pacientes inmunosuprimidos, especialmente con VIH y bajo recuento de CD4, las coccidias intestinales son causas importantes de diarrea acuosa crónica y severa[cite: 44, 51, 52, 55]."
-      },
-      {
-        "title": "Caso Clínico 5: Diagnóstico Coprológico con Tinción Especial",
-        "description": "Se realiza un examen coprológico a un paciente inmunosuprimido con diarrea crónica. Se solicita una tinción especial para buscar coccidias.",
-        "question": "¿Qué tinción esperaría que revele ooquistes de color rojo/fucsia sobre un fondo azul/verde?",
-        "answers": {
-          "a": "Tinción de Gram",
-          "b": "Tinción de Giemsa",
-          "c": "Tinción de Ziehl-Neelsen modificada",
-          "d": "Tinción con Lugol",
-          "e": "Tinción con Azul de Metileno"
-        },
-        "correctAnswer": "c",
-        "explanation": "La tinción de Ziehl-Neelsen modificada (o Kinyoun) se usa para detectar ooquistes de coccidias, los cuales, al ser ácido-alcohol resistentes, retienen la fucsina y se tiñen de rojo/fucsia[cite: 55]."
-      },
-      {
-        "title": "Caso Clínico 6: Niño con Obstrucción Intestinal",
-        "description": "Niño de 5 años, procedente de zona rural con pobres condiciones sanitarias, presenta dolor abdominal tipo cólico, vómitos y distensión abdominal progresiva. En ocasiones, ha expulsado gusanos largos y redondos por boca o ano.",
-        "question": "¿Cuál es la causa MÁS probable de la obstrucción intestinal en este niño?",
-        "answers": {
-          "a": "Infección masiva por Giardia",
-          "b": "Formación de un ameboma por E. histolytica",
-          "c": "Ovillo de Ascaris lumbricoides adultos",
-          "d": "Infección intensa por Trichuris trichiura",
-          "e": "Presencia de Taenia saginata adulta"
-        },
-        "correctAnswer": "c",
-        "explanation": "La obstrucción intestinal en niños de zonas endémicas suele ser causada por una carga parasitaria muy alta de Ascaris lumbricoides adultos, que forman ovillos en la luz intestinal[cite: 88, 91]."
-      },
-      {
-        "title": "Caso Clínico 7: Niño con Síntomas Respiratorios y Eosinofilia",
-        "description": "Niño preescolar con antecedentes de geofagia presenta tos seca, sibilancias y dificultad respiratoria leve. La radiografía de tórax muestra infiltrados pulmonares migratorios y el hemograma revela eosinofilia marcada.",
-        "question": "¿Qué diagnóstico sindromático asociado a la migración larvaria de helmintos debe considerarse?",
-        "answers": {
-          "a": "Síndrome de Löffler",
-          "b": "Síndrome de Hiperinfección",
-          "c": "Síndrome de Malabsorción",
-          "d": "Síndrome Disentérico",
-          "e": "Síndrome de Obstrucción Biliar"
-        },
-        "correctAnswer": "a",
-        "explanation": "El Síndrome de Löffler es una neumonitis eosinofílica causada por la migración de larvas de helmintos (Ascaris, Uncinarias, Strongyloides) a través de los pulmones[cite: 84, 122, 132]."
-      },
-      {
-        "title": "Caso Clínico 8: Niño Desnutrido con Diarrea y Prolapso Rectal",
-        "description": "Niño de 4 años severamente desnutrido presenta diarrea crónica con moco y sangre, pujo, tenesmo y episodios de prolapso rectal.",
-        "question": "¿Qué helminto, cuya infección intensa se asocia a este cuadro en niños desnutridos, debe sospecharse?",
-        "answers": {
-          "a": "Ascaris lumbricoides",
-          "b": "Enterobius vermicularis",
-          "c": "Ancylostoma duodenale",
-          "d": "Trichuris trichiura",
-          "e": "Strongyloides stercoralis"
-        },
-        "correctAnswer": "d",
-        "explanation": "Las infecciones intensas por Trichuris trichiura en niños desnutridos pueden causar un cuadro disentérico crónico que lleva al prolapso rectal[cite: 103, 104]."
-      },
-      {
-        "title": "Caso Clínico 9: Prurito Anal Nocturno en Escolar",
-        "description": "Madre consulta porque su hijo de 7 años se queja de picazón intensa en la zona anal, principalmente durante la noche, lo que le dificulta dormir. No hay diarrea ni otros síntomas.",
-        "question": "¿Cuál es el parásito MÁS probable causante de este síntoma?",
-        "answers": {
-          "a": "Ascaris lumbricoides",
-          "b": "Trichuris trichiura",
-          "c": "Enterobius vermicularis",
-          "d": "Taenia solium",
-          "e": "Giardia intestinalis"
-        },
-        "correctAnswer": "c",
-        "explanation": "El prurito anal nocturno es el síntoma cardinal de la infección por Enterobius vermicularis (oxiuros), debido a la migración de las hembras a la región perianal para depositar huevos[cite: 110, 111]."
-      },
-      {
-        "title": "Caso Clínico 10: Agricultor con Anemia y Lesiones en Pies",
-        "description": "Agricultor de 50 años que trabaja descalzo consulta por fatiga progresiva. El hemograma muestra anemia microcítica hipocrómica. Refiere haber tenido lesiones pruriginosas y eritematosas entre los dedos de los pies hace unos meses.",
-        "question": "¿Qué parasitosis intestinal es la causa MÁS probable de la anemia en este paciente?",
-        "answers": {
-          "a": "Ascariasis",
-          "b": "Tricocefalosis",
-          "c": "Oxiuriasis",
-          "d": "Uncinariasis",
-          "e": "Estrongiloidiasis"
-        },
-        "correctAnswer": "d",
-        "explanation": "La combinación de anemia ferropénica (microcítica hipocrómica) y el antecedente de lesiones cutáneas pruriginosas ('candelillas') en pies, en un trabajador agrícola descalzo, es muy sugestiva de uncinariasis (Ancylostoma/Necator)[cite: 114, 121, 123]."
-      },
-      {
-        "title": "Caso Clínico 11: Lesiones Cutáneas Serpiginosas",
-        "description": "Turista regresa de una playa del Caribe y nota la aparición de trayectos lineales, elevados, eritematosos y muy pruriginosos en la piel de los pies, que avanzan lentamente.",
-        "question": "¿Qué condición, causada por larvas de uncinarias de animales, produce estas lesiones?",
-        "answers": {
-          "a": "Uncinariasis humana",
-          "b": "Migración larvaria visceral (Toxocara)",
-          "c": "Migración larvaria cutánea (larva migrans cutánea)",
-          "d": "Escabiosis",
-          "e": "Miasis migrante"
-        },
-        "correctAnswer": "c",
-        "explanation": "Las lesiones serpiginosas y reptantes en la piel son características de la migración larvaria cutánea, causada por larvas de uncinarias de perros o gatos (ej. Ancylostoma braziliense) que penetran la piel humana pero no pueden completar su ciclo y migran por la epidermis[cite: 125, 128]."
-      },
-      {
-        "title": "Caso Clínico 12: Paciente con Corticoides y Diarrea Persistente",
-        "description": "Paciente con enfermedad autoinmune en tratamiento crónico con altas dosis de prednisona desarrolla diarrea acuosa persistente, dolor abdominal y eosinofilia. El coprológico reporta la presencia de larvas.",
-        "question": "¿Qué parásito oportunista debe sospecharse fuertemente, considerando el uso de corticoides y el hallazgo de larvas en heces?",
-        "answers": {
-          "a": "Ascaris lumbricoides",
-          "b": "Trichuris trichiura",
-          "c": "Enterobius vermicularis",
-          "d": "Strongyloides stercoralis",
-          "e": "Taenia solium"
-        },
-        "correctAnswer": "d",
-        "explanation": "Strongyloides stercoralis es un parásito oportunista cuyo ciclo de auto-infección puede descontrolarse bajo inmunosupresión celular (como la inducida por corticoides), llevando a hiperinfección. El hallazgo de larvas (no huevos) en heces es diagnóstico[cite: 130, 135, 136, 137]."
-      },
-      {
-        "title": "Caso Clínico 13: Hallazgo Incidental en Coprológico",
-        "description": "En un examen coprológico de rutina de un paciente asintomático, se reporta la presencia de proglótides.",
-        "question": "¿La presencia de proglótides en heces es diagnóstica de qué tipo de parasitosis intestinal?",
-        "answers": {
-          "a": "Ascariasis",
-          "b": "Uncinariasis",
-          "c": "Teniosis",
-          "d": "Giardiasis",
-          "e": "Amibiasis"
-        },
-        "correctAnswer": "c",
-        "explanation": "Los proglótides son los segmentos que forman el cuerpo (estróbilo) de los céstodos adultos (Taenias). Su eliminación por las heces, a menudo notada por el paciente, es diagnóstica de Teniosis[cite: 140, 144, 149]."
-      },
-      {
-        "title": "Caso Clínico 14: Convulsiones de Inicio Tardío",
-        "description": "Mujer de 35 años, sin antecedentes médicos relevantes, procedente de una zona rural donde se crían cerdos, inicia con crisis convulsivas tónico-clónicas generalizadas.",
-        "question": "Considerando la epidemiología y la clínica, ¿qué causa infecciosa de epilepsia de inicio tardío debe descartarse prioritariamente?",
-        "answers": {
-          "a": "Meningitis bacteriana",
-          "b": "Tuberculosis meníngea",
-          "c": "Neurocisticercosis (larvas de Taenia solium)",
-          "d": "Toxoplasmosis cerebral",
-          "e": "Encefalitis herpética"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Neurocisticercosis es una causa principal de epilepsia de inicio tardío (después de los 20 años) en personas de zonas endémicas para Taenia solium (donde hay cría de cerdos)[cite: 157, 161]."
-      },
-      {
-        "title": "Caso Clínico 15: Quiste Hepático Gigante",
-        "description": "Pastor de ovejas de 60 años, con contacto estrecho con perros, presenta masa palpable en hipocondrio derecho. Una tomografía revela una lesión quística unilocular de gran tamaño (15 cm) en hígado, con paredes calcificadas y vesículas hijas en su interior.",
-        "question": "¿Qué parasitosis es la causa más probable de esta lesión?",
-        "answers": {
-          "a": "Absceso hepático amebiano",
-          "b": "Cisticercosis hepática",
-          "c": "Hidatidosis (quiste hidatídico por Echinococcus granulosus)",
-          "d": "Fascioliasis hepática",
-          "e": "Metástasis quística"
-        },
-        "correctAnswer": "c",
-        "explanation": "Un quiste hepático de gran tamaño, a menudo con calcificaciones parietales y vesículas hijas internas, en un paciente con exposición a perros y ovejas (ciclo perro-oveja-perro), es altamente sugestivo de un Quiste Hidatídico causado por Echinococcus granulosus[cite: 164, 166, 167, 168]."
-      },
-      {
-        "title": "Caso Clínico 16: Infección por Céstodo Pequeño en Niños",
-        "description": "Niño de 4 años presenta diarrea intermitente y dolor abdominal leve. El coprológico reporta huevos característicos de Hymenolepis nana.",
-        "question": "Además de la ingestión de huevos directamente de heces humanas o de roedores, ¿cómo más puede adquirirse la infección por Hymenolepis nana?",
-        "answers": {
-          "a": "Por penetración de larvas a través de la piel.",
-          "b": "Por picadura de mosquito.",
-          "c": "Por ingestión de artrópodos (ej. gorgojos en cereales) infectados con la larva cisticercoide.",
-          "d": "Por consumir pescado crudo.",
-          "e": "Por inhalación de huevos."
-        },
-        "correctAnswer": "c",
-        "explanation": "Hymenolepis nana puede tener un ciclo indirecto donde un artrópodo (como gorgojos o pulgas de cereales) ingiere el huevo, desarrolla la larva cisticercoide, y el humano o roedor se infecta al ingerir accidentalmente el artrópodo contaminado[cite: 173]."
-      },
-      {
-        "title": "Caso Clínico 17: Tos Crónica y Hemoptisis",
-        "description": "Indígena de una comunidad amazónica que consume cangrejos de río crudos presenta tos crónica productiva, expectoración herrumbrosa y episodios de hemoptisis. La radiografía muestra infiltrados y cavidades pulmonares.",
-        "question": "¿Qué trematodo pulmonar debe sospecharse?",
-        "answers": {
-          "a": "Schistosoma mansoni",
-          "b": "Fasciola hepatica",
-          "c": "Paragonimus spp.",
-          "d": "Clonorchis sinensis",
-          "e": "Opisthorchis viverrini"
-        },
-        "correctAnswer": "c",
-        "explanation": "Paragonimus spp. es un trematodo que parasita los pulmones, formando cavidades. Se adquiere por comer crustáceos de agua dulce crudos. La clínica (tos crónica, expectoración herrumbrosa/hemoptoica) puede simular tuberculosis[cite: 176, 181, 182]."
-      },
-      {
-        "title": "Caso Clínico 18: Prurito Intenso y Lesiones en Pliegues",
-        "description": "Paciente consulta por prurito generalizado de predominio nocturno, que afecta principalmente pliegues interdigitales, muñecas, axilas y genitales. Se observan pequeños surcos lineales y pápulas eritematosas. Varios miembros de la familia están afectados.",
+        "title": "Caso Clínico 1: Hepatitis Aguda Ictérica",
+        "description": "Mujer de 25 años con ictericia, coluria, acolia y síntomas generales tras comer mariscos crudos hace 3 semanas.",
         "question": "¿Cuál es el diagnóstico más probable?",
         "answers": {
-          "a": "Pediculosis corporis",
-          "b": "Dermatitis atópica",
-          "c": "Escabiosis (Sarna)",
-          "d": "Urticaria",
-          "e": "Miasis cutánea"
-        },
-        "correctAnswer": "c",
-        "explanation": "El prurito intenso de predominio nocturno, la distribución característica de las lesiones (surcos, pápulas) en pliegues y áreas intertriginosas, y la afectación de convivientes son claves para el diagnóstico de Escabiosis[cite: 183, 185]."
-      },
-      {
-        "title": "Caso Clínico 19: Lesión Nodular con Orificio Central",
-        "description": "Trabajador agrícola presenta una lesión nodular, eritematosa y dolorosa en el brazo, con un pequeño orificio central por donde ocasionalmente sale una secreción serosa y se percibe movimiento.",
-        "question": "¿Qué tipo de Miasis es esta presentación clínica?",
-        "answers": {
-          "a": "Miasis cavitaria",
-          "b": "Miasis migrante",
-          "c": "Miasis de heridas",
-          "d": "Miasis forunculosa",
-          "e": "Miasis intestinal"
-        },
-        "correctAnswer": "d",
-        "explanation": "La miasis forunculosa se caracteriza por una lesión similar a un forúnculo, nodular, con un orificio central que permite respirar a la larva que se encuentra en su interior. Es típica de moscas como Dermatobia hominis[cite: 185, 186]."
-      },
-      {
-        "title": "Caso Clínico 20: Pediculosis Pubis",
-        "description": "Adulto joven sexualmente activo consulta por prurito intenso en región púbica. Al examen se observan pequeños insectos adheridos a la base de los vellos y liendres.",
-        "question": "Además de tratar la pediculosis púbica (Pthirus pubis), ¿qué acción es fundamental realizar?",
-        "answers": {
-          "a": "Realizar examen coprológico.",
-          "b": "Administrar tratamiento antiparasitario oral.",
-          "c": "Descartar la presencia de otras Enfermedades de Transmisión Sexual (ETS).",
-          "d": "Realizar biopsia de piel.",
-          "e": "Medir niveles de IgE."
-        },
-        "correctAnswer": "c",
-        "explanation": "La pediculosis púbica se considera una ETS. Por lo tanto, es crucial investigar y descartar la presencia concomitante de otras ETS en el paciente y sus contactos sexuales[cite: 188]."
-      },
-      {
-        "title": "Caso Clínico 21: Meningoencefalitis Fulminante Post-Natación",
-        "description": "Adolescente previamente sano desarrolla cefalea intensa, fiebre alta, rigidez de nuca y alteración del estado de conciencia rápidamente progresiva a coma, 5 días después de nadar en un lago de agua dulce tibia. El LCR muestra pleocitosis neutrofílica, proteínas altas y glucosa normal/baja, sin bacterias.",
-        "question": "¿Qué Amiba de Vida Libre es la causa MÁS probable de este cuadro fulminante?",
-        "answers": {
-          "a": "Acanthamoeba castellani",
-          "b": "Balamuthia mandrillaris",
-          "c": "Naegleria fowleri",
-          "d": "Entamoeba histolytica",
-          "e": "Sappinia pedata"
-        },
-        "correctAnswer": "c",
-        "explanation": "La Meningoencefalitis Amebiana Primaria (MAP) causada por Naegleria fowleri se presenta como un cuadro agudo, fulminante y fatal, típicamente asociado a exposición reciente a agua dulce tibia por vía nasal[cite: 192, 195, 196, 201]."
-      },
-      {
-        "title": "Caso Clínico 22: Queratitis en Usuario de Lentes de Contacto",
-        "description": "Usuario de lentes de contacto blandos refiere dolor ocular intenso, fotofobia, lagrimeo y visión borrosa en un ojo. Admite lavar ocasionalmente sus lentes con agua del grifo. El examen oftalmológico revela un infiltrado corneal anular.",
-        "question": "¿Qué protozoo debe sospecharse como agente causal de la queratitis?",
-        "answers": {
-          "a": "Toxoplasma gondii",
-          "b": "Acanthamoeba castellani",
-          "c": "Naegleria fowleri",
-          "d": "Leishmania spp.",
-          "e": "Trypanosoma cruzi"
+          "a": "Hepatitis B aguda",
+          "b": "Hepatitis A aguda",
+          "c": "Dengue con compromiso hepático",
+          "d": "Hepatitis E aguda",
+          "e": "Intoxicación alimentaria bacteriana"
         },
         "correctAnswer": "b",
-        "explanation": "La Queratitis Amebiana es una infección corneal grave asociada al uso de lentes de contacto y exposición a agua contaminada (grifo, piscina, etc.). Acanthamoeba es el agente causal principal[cite: 196, 205]."
+        "explanation": "La presentación aguda con ictericia y el antecedente de consumo de mariscos crudos (transmisión feco-oral) son característicos de la Hepatitis A."
       },
       {
-        "title": "Caso Clínico 23: Vaginitis con Flujo Anormal",
-        "description": "Mujer sexualmente activa consulta por flujo vaginal abundante, amarillo-verdoso, espumoso y de mal olor, asociado a prurito y disuria.",
-        "question": "¿Qué protozoo flagelado es la causa más probable de esta vaginitis?",
+        "title": "Caso Clínico 2: Hepatitis Aguda en UDVP",
+        "description": "Hombre de 30 años, usuario de drogas IV, con síntomas de hepatitis aguda. Serología: HBsAg (+), Anti-HBc IgM (+).",
+        "question": "¿Cuál es el diagnóstico más probable?",
         "answers": {
-          "a": "Giardia intestinalis",
-          "b": "Entamoeba histolytica",
-          "c": "Trichomonas vaginalis",
-          "d": "Leishmania spp.",
-          "e": "Trypanosoma cruzi"
+          "a": "Hepatitis A aguda",
+          "b": "Hepatitis C aguda",
+          "c": "Hepatitis B aguda",
+          "d": "Hepatitis D aguda",
+          "e": "Hepatitis E aguda"
         },
         "correctAnswer": "c",
-        "explanation": "La vaginitis por Trichomonas vaginalis se caracteriza por una leucorrea abundante, espumosa, de coloración anormal (amarillo-verdosa) y mal olor, acompañada de irritación local[cite: 211, 212]."
+        "explanation": "La presencia de HBsAg y Anti-HBc IgM confirma una infección aguda por Hepatitis B, concordante con el factor de riesgo (uso de drogas IV)."
       },
       {
-        "title": "Caso Clínico 24: Edema de Miembros Inferiores y Escroto",
-        "description": "Residente de una zona tropical endémica para filariasis linfática presenta edema masivo, crónico y endurecido de ambas piernas y escroto, con engrosamiento de la piel.",
-        "question": "¿Qué condición crónica es esta, causada por la obstrucción linfática por filarias adultas?",
+        "title": "Caso Clínico 3: Hallazgo Incidental de Hepatitis",
+        "description": "Hombre de 45 años, asintomático, con Anti-VHC (+) y ARN de VHC detectable en screening de donación. Antecedente de transfusión pre-1992.",
+        "question": "¿Cuál es el diagnóstico más probable?",
         "answers": {
-          "a": "Edemas de Calabar",
-          "b": "Oncocercomas",
-          "c": "Elefantiasis",
-          "d": "Sarna filariana",
-          "e": "Ingle colgante"
+          "a": "Hepatitis B crónica",
+          "b": "Portador inactivo de Hepatitis B",
+          "c": "Hepatitis C crónica",
+          "d": "Hepatitis A resuelta",
+          "e": "Hepatitis E crónica"
         },
         "correctAnswer": "c",
-        "explanation": "La obstrucción crónica de los vasos linfáticos por gusanos adultos de Wuchereria bancrofti o Brugia malayi conduce a linfedema masivo y fibrosis, resultando en Elefantiasis de las extremidades o genitales[cite: 218, 220]."
+        "explanation": "La positividad de Anti-VHC y ARN de VHC en un paciente asintomático, con antecedente de transfusión antigua, es típica de Hepatitis C crónica."
       },
       {
-        "title": "Caso Clínico 25: Fiebre Periódica Post-Viaje a Zona Tropical",
-        "description": "Viajero regresa de una zona endémica de malaria y presenta episodios de fiebre alta, escalofríos intensos y sudoración profusa que ocurren cada 48 horas.",
-        "question": "¿Qué diagnóstico es el más probable?",
+        "title": "Caso Clínico 4: Falla Hepática Aguda sobre Crónica",
+        "description": "Hombre de 38 años con Hepatitis B crónica conocida presenta deterioro súbito con ictericia, ascitis y encefalopatía. Anti-VHD (+).",
+        "question": "¿Cuál es el diagnóstico más probable?",
         "answers": {
-          "a": "Fiebre tifoidea",
-          "b": "Dengue",
-          "c": "Leishmaniasis visceral",
-          "d": "Malaria (Paludismo)",
-          "e": "Brucelosis"
+          "a": "Hepatitis D (sobreinfección) resultando en hepatitis fulminante",
+          "b": "Reactivación de Hepatitis B crónica",
+          "c": "Hepatitis A aguda sobreimpuesta",
+          "d": "Carcinoma hepatocelular",
+          "e": "Hepatitis E aguda"
+        },
+        "correctAnswer": "a",
+        "explanation": "La sobreinfección por Hepatitis D en un paciente con Hepatitis B crónica puede causar un deterioro agudo y falla hepática fulminante."
+      },
+      {
+        "title": "Caso Clínico 5: Hepatitis Fulminante en Embarazada",
+        "description": "Mujer embarazada de 30 semanas, residente en zona rural, con falla hepática aguda. Serologías VHA, VHB, VHC negativas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis A aguda fulminante",
+          "b": "Preeclampsia severa con síndrome HELLP",
+          "c": "Hepatitis B aguda fulminante",
+          "d": "Hepatitis E aguda fulminante",
+          "e": "Hígado graso agudo del embarazo"
         },
         "correctAnswer": "d",
-        "explanation": "La fiebre paroxística (fiebre alta, escalofríos, sudoración) con periodicidad definida (cada 48h sugiere P. vivax/ovale/falciparum; cada 72h sugiere P. malariae) es el sello distintivo de la malaria[cite: 221, 227, 230]."
+        "explanation": "La Hepatitis E puede causar hepatitis fulminante, siendo una complicación especialmente frecuente y grave durante el embarazo."
       },
       {
-        "title": "Caso Clínico 26: Malaria con Anemia Severa y Complicaciones",
-        "description": "Niño de 4 años en África Subsahariana presenta fiebre alta, anemia severa (Hb < 5 g/dL), ictericia, dificultad respiratoria y alteración de conciencia. La gota gruesa confirma Plasmodium falciparum.",
-        "question": "¿Por qué P. falciparum causa la forma MÁS grave de malaria?",
+        "title": "Caso Clínico 6: Complicación Tardía de Hepatitis C",
+        "description": "Hombre de 55 años con VHC crónica sin seguimiento presenta pérdida de peso, fatiga, hepatomegalia nodular y lesión hepática en ecografía.",
+        "question": "¿Cuál es la complicación más probable?",
         "answers": {
-          "a": "Porque produce hipnozoítos que causan recaídas.",
-          "b": "Porque infecta únicamente a reticulocitos.",
-          "c": "Porque induce obstrucción microvascular (citoadherencia) e infecta eritrocitos de todas las edades.",
-          "d": "Porque su vector (Anopheles) es más eficiente.",
-          "e": "Porque es resistente a todos los antimaláricos."
-        },
-        "correctAnswer": "c",
-        "explanation": "P. falciparum causa malaria grave debido a su capacidad de infectar eritrocitos de todas las edades (alta parasitemia y hemólisis severa) y a inducir la citoadherencia de los eritrocitos parasitados al endotelio capilar, causando obstrucción microvascular y daño orgánico[cite: 241, 243, 244, 245]."
-      },
-      {
-        "title": "Caso Clínico 27: Paciente Esplenectomizado con Fiebre y Hemólisis",
-        "description": "Paciente esplenectomizado (sin bazo) por un traumatismo hace años, residente en zona rural con ganado, presenta fiebre alta, malestar general, ictericia y anemia hemolítica. La gota gruesa muestra múltiples anillos intraeritrocitarios, algunos en forma de 'cruz de Malta', sin esquizontes ni pigmento malárico.",
-        "question": "¿Qué protozoo transmitido por garrapatas debe sospecharse?",
-        "answers": {
-          "a": "Plasmodium falciparum",
-          "b": "Trypanosoma cruzi",
-          "c": "Babesia spp.",
-          "d": "Leishmania donovani",
-          "e": "Toxoplasma gondii"
-        },
-        "correctAnswer": "c",
-        "explanation": "Babesia es un parásito intraeritrocitario transmitido por garrapatas, que causa un cuadro similar a la malaria con fiebre y anemia hemolítica. Es particularmente grave en pacientes esplenectomizados. Morfológicamente, se diferencia de Plasmodium por la ausencia de esquizontes y pigmento, y la presencia ocasional de merozoítos en tétradas ('cruz de Malta')[cite: 259, 261, 262, 263]."
-      },
-      {
-        "title": "Caso Clínico 28: Linfadenopatía Cervical en Mujer Joven",
-        "description": "Mujer de 25 años presenta adenopatías cervicales posteriores, indoloras y móviles, de varias semanas de evolución, acompañadas de febrícula y malestar general. Refiere comer carne poco cocida ocasionalmente y tener un gato en casa.",
-        "question": "¿Qué infección parasitaria es una causa común de este cuadro ganglionar?",
-        "answers": {
-          "a": "Enfermedad de Chagas aguda",
-          "b": "Leishmaniasis visceral",
-          "c": "Filariasis linfática",
-          "d": "Toxoplasmosis ganglionar (adquirida)",
-          "e": "Mononucleosis infecciosa (VEB)"
-        },
-        "correctAnswer": "d",
-        "explanation": "La toxoplasmosis adquirida en inmunocompetentes suele ser asintomática o presentarse como un síndrome mononucleósico leve con linfadenopatía (especialmente cervical) indolora, siendo esta la forma clínica más común[cite: 279, 280, 284]."
-      },
-      {
-        "title": "Caso Clínico 29: Lesión Inflamatoria en Sitio de Picadura",
-        "description": "Niño residente en área endémica para Chagas presenta una lesión nodular, eritematosa e indurada (Chagoma) en la mejilla, sitio donde la madre refiere haber visto un chinche 'besucón' picándole hace 2 semanas. Además, presenta edema palpebral unilateral (Signo de Romaña).",
-        "question": "¿En qué fase de la Enfermedad de Chagas se observan estas manifestaciones?",
-        "answers": {
-          "a": "Fase crónica indeterminada",
-          "b": "Fase crónica con cardiopatía",
-          "c": "Fase aguda",
-          "d": "Fase congénita",
-          "e": "Reactivación en inmunosuprimidos"
-        },
-        "correctAnswer": "c",
-        "explanation": "El Chagoma (lesión en el sitio de inoculación) y el Signo de Romaña (edema palpebral unilateral por picadura cerca del ojo) son manifestaciones características de la fase aguda de la Enfermedad de Chagas[cite: 295, 296]."
-      },
-      {
-        "title": "Caso Clínico 30: Úlcera Cutánea Crónica Indolora",
-        "description": "Trabajador forestal presenta una úlcera redondeada, de bordes elevados e indurados, fondo limpio y no dolorosa, localizada en el antebrazo, de 3 meses de evolución, que apareció tras la picadura de un insecto pequeño ('manta blanca').",
-        "question": "¿Qué enfermedad parasitaria es la causa más probable de esta lesión cutánea crónica?",
-        "answers": {
-          "a": "Miasis cutánea",
-          "b": "Leishmaniasis cutánea",
-          "c": "Úlcera por Acanthamoeba",
-          "d": "Oncocercosis (nódulo)",
-          "e": "Tungiasis (nigua)"
+          "a": "Hepatitis A aguda",
+          "b": "Cirrosis y sospecha de carcinoma hepatocelular",
+          "c": "Hepatitis B aguda",
+          "d": "Absceso hepático",
+          "e": "Dengue"
         },
         "correctAnswer": "b",
-        "explanation": "Las úlceras crónicas, indoloras, de bordes elevados y fondo limpio ('úlcera en sacabocados'), que aparecen tras la picadura del vector (Lutzomyia/Phlebotomus) en zonas endémicas, son típicas de la Leishmaniasis cutánea[cite: 308, 309]."
+        "explanation": "La Hepatitis C crónica es una causa principal de cirrosis y carcinoma hepatocelular, como sugiere la presentación clínica y ecográfica."
+      },
+      {
+        "title": "Caso Clínico 7: Hepatitis en Niño de Guardería",
+        "description": "Niño de 8 años con fiebre baja, anorexia, dolor abdominal e ictericia leve. Hubo brote de hepatitis en su guardería. Anti-VHA IgM (+).",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis A aguda",
+          "b": "Hepatitis B aguda",
+          "c": "Mononucleosis infecciosa",
+          "d": "Hepatitis C aguda",
+          "e": "Gastroenteritis viral"
+        },
+        "correctAnswer": "a",
+        "explanation": "El cuadro clínico leve/ictérico en un niño, el contexto epidemiológico (brote en guardería) y la serología (Anti-VHA IgM +) confirman Hepatitis A."
+      },
+      {
+        "title": "Caso Clínico 8: Portador Inactivo de Hepatitis B",
+        "description": "Hombre de 40 años, asintomático, con HBsAg (+), Anti-HBc IgG (+), HBeAg (-), Anti-HBe (+) y ADN de VHB bajo en chequeo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis B aguda",
+          "b": "Hepatitis B crónica activa (HBeAg positivo)",
+          "c": "Infección crónica por VHB, HBeAg negativo (Portador inactivo)",
+          "d": "Hepatitis B resuelta (curada)",
+          "e": "Vacunación previa contra Hepatitis B"
+        },
+        "correctAnswer": "c",
+        "explanation": "Este perfil serológico (HBsAg+, HBeAg-, Anti-HBe+, ADN VHB bajo) en un paciente asintomático corresponde a una infección crónica por VHB en fase inactiva (portador)."
+      },
+      {
+        "title": "Caso Clínico 9: Hepatitis B Crónica Activa",
+        "description": "Mujer de 32 años con fatiga persistente, múltiples parejas sexuales. Serología: HBsAg (+), Anti-HBc IgG (+), HBeAg (+), ADN de VHB elevado.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis C crónica",
+          "b": "Hepatitis A aguda",
+          "c": "Infección crónica por VHB, HBeAg negativo (Portador inactivo)",
+          "d": "Hepatitis B crónica activa (HBeAg positivo)",
+          "e": "Hepatitis autoinmune"
+        },
+        "correctAnswer": "d",
+        "explanation": "La presencia de HBsAg, HBeAg y ADN viral elevado indica una infección crónica por Hepatitis B en fase activa (replicativa)."
+      },
+      {
+        "title": "Caso Clínico 10: Hepatitis del Viajero",
+        "description": "Hombre de 28 años con hepatitis aguda ictérica tras viajar a Asia Central y consumir agua no embotellada. VHA y VHB negativas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis A aguda",
+          "b": "Hepatitis B aguda",
+          "c": "Malaria con ictericia",
+          "d": "Leptospirosis",
+          "e": "Hepatitis E aguda"
+        },
+        "correctAnswer": "e",
+        "explanation": "La Hepatitis E es endémica en Asia Central y se transmite por agua contaminada. Es una causa importante de hepatitis aguda en viajeros a zonas endémicas, especialmente si VHA/VHB son negativas."
+      },
+      {
+        "title": "Caso Clínico 11: Fiebre Quebrantahuesos",
+        "description": "Mujer de 22 años en zona endémica con fiebre alta, cefalea intensa, dolor retroocular, mialgias/artralgias severas y rash. PCR Dengue (+) día 3.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Dengue clásico (sin signos de alarma)",
+          "b": "Chikungunya agudo",
+          "c": "Zika",
+          "d": "Influenza",
+          "e": "Leptospirosis"
+        },
+        "correctAnswer": "a",
+        "explanation": "La combinación de fiebre alta, cefalea, dolor retroocular y mialgias/artralgias intensas ('quebrantahuesos') es característica del Dengue clásico. La PCR confirma el diagnóstico en fase temprana."
+      },
+      {
+        "title": "Caso Clínico 12: Dengue con Signos de Peligro",
+        "description": "Niño de 10 años con fiebre por 4 días, al ceder presenta dolor abdominal intenso, vómitos, letargia, sangrado de encías, plaquetopenia y hemoconcentración.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Dengue clásico",
+          "b": "Dengue con signos de alarma",
+          "c": "Chikungunya severo",
+          "d": "Fiebre tifoidea",
+          "e": "Hepatitis A fulminante"
+        },
+        "correctAnswer": "b",
+        "explanation": "La aparición de dolor abdominal intenso, vómitos persistentes, letargia, sangrado y signos de extravasación plasmática (hemoconcentración) tras la defervescencia indican Dengue con signos de alarma."
+      },
+      {
+        "title": "Caso Clínico 13: Artralgia Incapacitante Aguda",
+        "description": "Hombre de 40 años con fiebre súbita y artralgias incapacitantes (manos/muñecas/tobillos) con hinchazón marcada, cefalea y rash. PCR Chikungunya (+) día 4.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Dengue clásico",
+          "b": "Zika",
+          "c": "Infección aguda por Chikungunya",
+          "d": "Artritis reactiva",
+          "e": "Artritis reumatoide de inicio agudo"
+        },
+        "correctAnswer": "c",
+        "explanation": "La artralgia severa, a menudo incapacitante y con edema articular, es el síntoma más distintivo de la infección aguda por Chikungunya."
+      },
+      {
+        "title": "Caso Clínico 14: Dolor Articular Persistente Post-Viaje",
+        "description": "Mujer de 50 años con dolores articulares en manos/rodillas desde hace 6 meses, iniciado tras cuadro febril agudo con artralgias intensas en viaje al Caribe.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Artritis reumatoide",
+          "b": "Artrosis",
+          "c": "Fibromialgia",
+          "d": "Artralgia crónica post-Chikungunya",
+          "e": "Dengue crónico"
+        },
+        "correctAnswer": "d",
+        "explanation": "Las artralgias crónicas, que pueden persistir meses o años, son una complicación frecuente y característica de la infección por Chikungunya."
+      },
+      {
+        "title": "Caso Clínico 15: Fiebre, Rash y Conjuntivitis",
+        "description": "Mujer de 28 años con fiebre baja, rash maculopapular pruriginoso y conjuntivitis no purulenta. Pareja tuvo síntomas similares tras viaje a Brasil. PCR Zika (+) día 3.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Infección aguda por Zika",
+          "b": "Dengue leve",
+          "c": "Chikungunya leve",
+          "d": "Rubeola",
+          "e": "Sarampión"
+        },
+        "correctAnswer": "a",
+        "explanation": "La tríada de fiebre leve, rash maculopapular y conjuntivitis no purulenta es muy sugestiva de infección por Zika, confirmada por PCR en fase temprana."
+      },
+      {
+        "title": "Caso Clínico 16: Debilidad Ascendente Post-Febril",
+        "description": "Hombre de 60 años con debilidad muscular ascendente y arreflexia 3 semanas después de cuadro febril con rash. LCR con disociación albuminocitológica. IgM Zika (+).",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Mielitis transversa",
+          "b": "Síndrome de Guillain-Barré post-infección por Zika",
+          "c": "Poliomielitis",
+          "d": "Miastenia gravis",
+          "e": "Encefalitis por Dengue"
+        },
+        "correctAnswer": "b",
+        "explanation": "El Síndrome de Guillain-Barré (debilidad ascendente, arreflexia, disociación albuminocitológica en LCR) es una complicación neurológica conocida asociada a la infección previa por Zika."
+      },
+      {
+        "title": "Caso Clínico 17: Exposición a Zika en Embarazo",
+        "description": "Mujer embarazada de 12 semanas, asintomática, con serología IgM e IgG positivas para Zika tras viajar a zona endémica.",
+        "question": "¿Cuál es el diagnóstico y principal preocupación?",
+        "answers": {
+          "a": "Dengue en el embarazo, riesgo de parto prematuro",
+          "b": "Chikungunya en el embarazo, riesgo de artritis neonatal",
+          "c": "Infección por Zika durante el embarazo, riesgo de microcefalia fetal",
+          "d": "Hepatitis E en el embarazo, riesgo de falla hepática materna",
+          "e": "Infección pasada por Zika sin riesgo actual"
+        },
+        "correctAnswer": "c",
+        "explanation": "La infección por Zika durante el embarazo, especialmente en el primer trimestre, se asocia a un riesgo significativo de microcefalia y otras malformaciones congénitas en el feto."
+      },
+      {
+        "title": "Caso Clínico 18: Dengue con Sangrado Leve",
+        "description": "Hombre de 35 años con fiebre, cefalea, mialgias. Día 5 presenta epistaxis, petequias, prueba del torniquete (+). Plaquetas 80,000/mm³. Sin shock.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Dengue con manifestaciones hemorrágicas",
+          "b": "Dengue grave (shock)",
+          "c": "Chikungunya con trombocitopenia",
+          "d": "Púrpura trombocitopénica idiopática (PTI)",
+          "e": "Leucemia aguda"
+        },
+        "correctAnswer": "a",
+        "explanation": "La presencia de manifestaciones hemorrágicas (epistaxis, petequias, torniquete +) junto con trombocitopenia, sin signos de shock, clasifica el caso como Dengue con manifestaciones hemorrágicas."
+      },
+      {
+        "title": "Caso Clínico 19: Shock en Adolescente con Dengue",
+        "description": "Adolescente de 16 años en shock, tras 4 días de fiebre que cedió hoy. Equimosis, hematemesis, plaquetopenia severa, hemoconcentración.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Dengue con signos de alarma",
+          "b": "Dengue grave (Síndrome de Shock por Dengue)",
+          "c": "Shock séptico",
+          "d": "Hepatitis fulminante",
+          "e": "Chikungunya con complicaciones"
+        },
+        "correctAnswer": "b",
+        "explanation": "El cuadro de shock (hipotensión, pulso débil, piel fría) asociado a extravasación severa de plasma (hemoconcentración) y trombocitopenia profunda define el Síndrome de Shock por Dengue, la forma más grave de la enfermedad."
+      },
+      {
+        "title": "Caso Clínico 20: Diagnóstico Serológico Tardío de Dengue",
+        "description": "Turista de 30 años con fiebre, rash, conjuntivitis tras viaje. PCR Dengue/Zika (día 3) negativa. IgM Dengue (día 7) positiva.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Zika",
+          "b": "Chikungunya",
+          "c": "Dengue",
+          "d": "Malaria",
+          "e": "Rickettsiosis"
+        },
+        "correctAnswer": "c",
+        "explanation": "La PCR puede ser negativa si se toma después de los primeros días de fiebre. La serología (detección de IgM) se positiviza después del día 5-7 y es útil para confirmar el diagnóstico de Dengue en esta etapa."
+      },
+      {
+        "title": "Caso Clínico 21: Descompensación de Cirrosis por VHC",
+        "description": "Hombre de 50 años con cirrosis conocida por VHC presenta ascitis, edema e ictericia leve.",
+        "question": "¿Cuál es el estado actual del paciente?",
+        "answers": {
+          "a": "Cirrosis hepática descompensada secundaria a Hepatitis C crónica",
+          "b": "Hepatitis A aguda sobreimpuesta",
+          "c": "Hepatitis B crónica activa",
+          "d": "Dengue con compromiso hepático",
+          "e": "Carcinoma hepatocelular"
+        },
+        "correctAnswer": "a",
+        "explanation": "La aparición de ascitis, edema o ictericia en un paciente con cirrosis indica una descompensación de la enfermedad hepática crónica (en este caso, por VHC)."
+      },
+      {
+        "title": "Caso Clínico 22: Accidente Ocupacional con Riesgo Biológico",
+        "description": "Trabajadora de salud sufre pinchazo con aguja usada en paciente HBsAg (+). Recibe HBIG y vacuna VHB.",
+        "question": "¿Qué situación describe este caso?",
+        "answers": {
+          "a": "Hepatitis B aguda confirmada",
+          "b": "Manejo post-exposición ocupacional a Hepatitis B",
+          "c": "Hepatitis C aguda por pinchazo",
+          "d": "Reacción alérgica a la aguja",
+          "e": "Profilaxis pre-exposición para Hepatitis B"
+        },
+        "correctAnswer": "b",
+        "explanation": "El pinchazo con material contaminado con VHB requiere profilaxis post-exposición inmediata con inmunoglobulina específica (HBIG) y vacunación para prevenir la infección."
+      },
+      {
+        "title": "Caso Clínico 23: Prevención Transmisión Vertical VHB",
+        "description": "Bebé nacido de madre HBsAg (+) y HBeAg (+) recibe HBIG y vacuna VHB al nacer.",
+        "question": "¿Qué describe esta intervención?",
+        "answers": {
+          "a": "Tratamiento de Hepatitis B neonatal",
+          "b": "Diagnóstico de Hepatitis B congénita",
+          "c": "Profilaxis para prevenir transmisión vertical de Hepatitis B",
+          "d": "Vacunación de rutina sin relación con el estado materno",
+          "e": "Tratamiento para Hepatitis C materna"
+        },
+        "correctAnswer": "c",
+        "explanation": "La administración de HBIG y la primera dosis de vacuna VHB en las primeras 12 horas de vida es la medida estándar para prevenir la transmisión de Hepatitis B de madre a hijo (transmisión vertical)."
+      },
+      {
+        "title": "Caso Clínico 24: Artritis Crónica Post-Infección",
+        "description": "Hombre de 48 años con poliartritis simétrica persistente 1 año después de cuadro agudo de fiebre y artralgias intensas. IgG Chikungunya (+).",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Artritis reumatoide",
+          "b": "Dengue crónico",
+          "c": "Artrosis generalizada",
+          "d": "Artritis crónica post-Chikungunya",
+          "e": "Fibromialgia"
+        },
+        "correctAnswer": "d",
+        "explanation": "La persistencia de síntomas articulares inflamatorios (artritis) meses o años después de la fase aguda es una secuela reconocida de la infección por Chikungunya."
+      },
+      {
+        "title": "Caso Clínico 25: Síndrome Febril en Zona Endémica",
+        "description": "Mujer de 31 años en área con Aedes aegypti presenta fiebre, rash, conjuntivitis y artralgias leves autolimitadas.",
+        "question": "¿Cuál es el diagnóstico más probable (clínico/epidemiológico)?",
+        "answers": {
+          "a": "Gripe común",
+          "b": "Faringoamigdalitis viral",
+          "c": "Hepatitis A",
+          "d": "Infección urinaria",
+          "e": "Síndrome febril indiferenciado (Probable arbovirosis)"
+        },
+        "correctAnswer": "e",
+        "explanation": "En zonas endémicas, un cuadro febril agudo con rash y/o artralgias/mialgias, sin un foco claro, es a menudo clasificado clínicamente como una probable arbovirosis (Dengue, Zika o Chikungunya) pendiente de confirmación."
+      },
+      {
+        "title": "Caso Clínico 26: Seguimiento Hepatitis B Crónica",
+        "description": "Hombre de 65 años con Hepatitis B crónica bajo tratamiento antiviral. Asintomático, ADN de VHB indetectable, ALT normal.",
+        "question": "¿Cuál es el estado del paciente?",
+        "answers": {
+          "a": "Hepatitis B crónica controlada bajo tratamiento",
+          "b": "Curación de Hepatitis B",
+          "c": "Reactivación de Hepatitis B",
+          "d": "Sobreinfección por Hepatitis D",
+          "e": "Hepatitis C crónica"
+        },
+        "correctAnswer": "a",
+        "explanation": "El objetivo del tratamiento antiviral en Hepatitis B crónica es suprimir la replicación viral (ADN indetectable) y normalizar las transaminasas, logrando un control de la enfermedad."
+      },
+      {
+        "title": "Caso Clínico 27: Hepatitis Aguda Post-Fiesta",
+        "description": "Joven de 19 años con cuadro ictérico agudo 4 semanas después de consumir alimentos de preparación dudosa en una fiesta. Anti-VHA IgM (+).",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis B aguda",
+          "b": "Hepatitis A aguda",
+          "c": "Hepatitis C aguda",
+          "d": "Hepatitis E aguda",
+          "e": "Gastroenteritis por Salmonella"
+        },
+        "correctAnswer": "b",
+        "explanation": "El cuadro clínico, el antecedente epidemiológico (consumo de alimentos potencialmente contaminados) y la serología (Anti-VHA IgM +) son consistentes con Hepatitis A aguda."
+      },
+      {
+        "title": "Caso Clínico 28: Hallazgo Incidental Hepatitis C",
+        "description": "Hombre de 42 años con fatiga vaga. Anti-VHC (+) y PCR VHC (+) descubiertos en chequeo laboral. Niega factores de riesgo claros.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "answers": {
+          "a": "Hepatitis A crónica",
+          "b": "Hepatitis B crónica",
+          "c": "Hepatitis C crónica",
+          "d": "Falso positivo para VHC",
+          "e": "Hepatitis autoinmune"
+        },
+        "correctAnswer": "c",
+        "explanation": "La Hepatitis C a menudo cursa de forma asintomática o con síntomas leves durante años, siendo frecuente su diagnóstico incidental. La positividad de Anti-VHC y PCR confirma la infección crónica."
+      },
+      {
+        "title": "Caso Clínico 29: Polineuropatía Aguda",
+        "description": "Mujer de 58 años con debilidad muscular simétrica y parestesias 1 semana después de cuadro gripal. Sospecha de Guillain-Barré.",
+        "question": "¿Qué infección viral previa es una causa reconocida de este síndrome?",
+        "answers": {
+          "a": "Hepatitis A",
+          "b": "Hepatitis B",
+          "c": "Chikungunya",
+          "d": "Zika",
+          "e": "Hepatitis E"
+        },
+        "correctAnswer": "d",
+        "explanation": "La infección por Zika (así como Dengue y otros virus) se ha asociado como desencadenante del Síndrome de Guillain-Barré."
+      },
+      {
+        "title": "Caso Clínico 30: Arbovirosis con Síntomas Solapados",
+        "description": "Hombre de 27 años regresando de zona endémica con fiebre alta, cefalea intensa, dolor retroocular, mialgias y artralgias moderadas. Rash. PCR Dengue (+).",
+        "question": "¿Cuál es el diagnóstico confirmado?",
+        "answers": {
+          "a": "Dengue clásico",
+          "b": "Chikungunya",
+          "c": "Zika",
+          "d": "Coinfección Dengue/Chikungunya",
+          "e": "Malaria"
+        },
+        "correctAnswer": "a",
+        "explanation": "Aunque los síntomas de Dengue, Chikungunya y Zika pueden solaparse (fiebre, rash, artralgias), la PCR positiva para Dengue confirma este diagnóstico. El dolor retroocular es más típico de Dengue."
       }
-    ]
+    ]    
   }
 };
 
